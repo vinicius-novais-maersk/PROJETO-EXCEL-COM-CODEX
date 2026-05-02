@@ -1,0 +1,28 @@
+Backup created at: C:\Users\VNO024\Downloads\Github\PROJETO EXCEL COM CODEX\backups\Base_DSU2026 - TbM - WK18_backup_20260430_122701.xlsm
+Starting Excel COM
+Opening workbook - pass 1
+Workbook opened - pass 1
+Loading active week and slicer selections
+Checking legacy pivot position
+Legacy pivot already offscreen
+Reusing existing helper pivot
+Hiding field Provedor
+Hiding field Justificativa
+Ensuring row field Cliente Proposta
+Ensuring page field Volume=Ok
+Ensuring page field OTO Out=N
+Ensuring page field Weeknum=18
+Ensuring page field Porto=Salvador
+Ensuring multi page field OTD ajustado with 2 visible items
+Ensuring multi page field Especiais with 1 visible items
+Ensuring data field Count of OS
+Ensuring data field Sum of Atrasado?
+Refreshing helper pivot
+Recalculating and saving workbook - pass 1
+Reopening workbook - pass 2
+Refreshing helper pivot - pass 2
+Locating helper header row
+Writing visible summary from helper header row 20
+Recalculating and saving workbook - pass 2
+Applied active_week=18, helper_top_row=13, helper_header_row=20
+Visible block preview: [['Volume', 'Ok', None, None], ['OTO Out', 'N', None, None], ['Weeknum', 18.0, None, None], [None, None, None, None], ['Rótulos de Linha', 'Count of OS', 'OTO WK', 'Sum of Atrasado?'], ['ATACADAO DO PAPEL LTDA', 1.0, 1.0, 0.0], ['BRACELL BAHIA SPECIALTY CELLULOSE SA', 21.0, 1.0, 0.0], ['BRASKEM S.A', 26.0, 1.0, 0.0], ['COOPERATIVA CENTRAL AURORA ALIMENTOS', 10.0, 0.7, 3.0], ['DEXCO SA', 1.0, 1.0, 0.0], ['DUAS RODAS NORDESTE INDUSTRIA DEALIMENTO', 2.0, 1.0, 0.0], ['E P A EMPRESA DE PLASTICO DA AMAZONIA LT', 1.0, 1.0, 0.0], ['ENGEPACK EMBALAGENS SAO PAULO SA', 9.0, 1.0, 0.0]]
