@@ -139,7 +139,8 @@ def update_special_formula(roe_ws) -> None:
         E(NÃO(ÉERROS(PROCURAR("SUMITOMO RUBBER DO BRASIL LTDA";textoRegra)));ehFrotaMaersk);
         E(NÃO(ÉERROS(PROCURAR("BMW DO BRASIL LTDA";textoRegra)));ehFrotaMaersk);
         E(NÃO(ÉERROS(PROCURAR("WESTROCK";textoRegra)));ehCabotagem);
-        E(NÃO(ÉERROS(PROCURAR("MARIO JOSE WERNER & CIA LTDA";textoRegra)));porto="Itajai")
+        E(NÃO(ÉERROS(PROCURAR("MARIO JOSE WERNER & CIA LTDA";textoRegra)));porto="Itajai");
+        E(cliente="VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER";provedor="IRB LOGISTICA S.A.";porto="Rio")
     );
     especialLegado;OU(
         cliente="SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG";
@@ -243,6 +244,7 @@ def main() -> int:
             "VOLVO_SANTOS_ROW_2154": call_with_retry(lambda: roe_ws.Range("BO2154").Value),
             "VALGROUP_MASTERBATCH_RIO_ROW_1784": call_with_retry(lambda: roe_ws.Range("BO1784").Value),
             "VALGROUP_FLEX_RIO_NON_IRB_ROW_507": call_with_retry(lambda: roe_ws.Range("BO507").Value),
+            "VOLKSWAGEN_IRB_RIO_ROW_2508": call_with_retry(lambda: roe_ws.Range("BO2508").Value),
             "FORMULA_SAMPLE": call_with_retry(lambda: roe_ws.Range("BO2").FormulaLocal),
         }
         log(f"Validation: {added_or_updated}")
