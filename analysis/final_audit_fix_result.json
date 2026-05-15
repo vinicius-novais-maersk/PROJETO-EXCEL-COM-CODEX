@@ -1,0 +1,251 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK19.xlsm",
+  "formula_updates": [
+    {
+      "sheet": "Volume_DS",
+      "cell": "M11",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Aliança\")"
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "M12",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Alian?a\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Aliança\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M12",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\",'ROE_wk'!$BO:$BO,\"<>Especial\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BO:$BO,\"<>Especial\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M13",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\",'ROE_wk'!$BO:$BO,\"Especial\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BO:$BO,\"Especial\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M14",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Alian?a\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Aliança\")"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "M12",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Aliança\")"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "M13",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Alian?a\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Aliança\")"
+    }
+  ],
+  "pivot_updates": [
+    {
+      "name": "PivotTable1",
+      "role": "VIS?O GERAL",
+      "initial_address": "$A$2:$D$8",
+      "top_col": 1,
+      "status": "updated"
+    },
+    {
+      "name": "PivotTable4",
+      "role": "JUSTIFICATIVAS",
+      "initial_address": "$O$2:$P$8",
+      "top_col": 15,
+      "status": "updated"
+    },
+    {
+      "name": "PivotTable2",
+      "role": "JUSTIFICATIVAS",
+      "initial_address": "$R$2:$S$8",
+      "top_col": 18,
+      "status": "updated"
+    },
+    {
+      "name": "PivotTable3",
+      "role": "ATRASOS",
+      "initial_address": "$L$2:$M$8",
+      "top_col": 12,
+      "status": "updated"
+    }
+  ],
+  "validation": {
+    "Volume_DS!M11": {
+      "formula": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Aliança\")",
+      "value": 474.0
+    },
+    "Volume_DS!M12": {
+      "formula": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Aliança\")",
+      "value": 0.0
+    },
+    "Volume_MAO!M12": {
+      "formula": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BO:$BO,\"<>Especial\")",
+      "value": 458.0
+    },
+    "Volume_MAO!M13": {
+      "formula": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BO:$BO,\"Especial\")",
+      "value": 16.0
+    },
+    "Volume_MAO!M14": {
+      "formula": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Aliança\")",
+      "value": 0.0
+    },
+    "Volume_Graph!M12": {
+      "formula": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Aliança\")",
+      "value": 474.0
+    },
+    "Volume_Graph!M13": {
+      "formula": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Aliança\")",
+      "value": 0.0
+    },
+    "Top_Offenders_Vendors_filters": {
+      "B2": "Ok",
+      "B3": "(Tudo)",
+      "B4": "(Tudo)",
+      "B5": "(Tudo)",
+      "M2": "Ok",
+      "M3": "(Tudo)",
+      "M4": 1.0,
+      "M5": "(Tudo)",
+      "P2": "Ok",
+      "P3": "(Tudo)",
+      "P4": 1.0,
+      "P5": "(Tudo)"
+    },
+    "Top_Offenders_Vendors_rows": {
+      "A8:E15": [
+        [
+          "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+          581.0,
+          37.0,
+          0.9204301075268846,
+          0.9363166953528399
+        ],
+        [
+          "MAERSK LNS SAO BERNARDO DO CAMPO",
+          563.0,
+          22.0,
+          0.957528957528955,
+          0.9609236234458259
+        ],
+        [
+          "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+          282.0,
+          8.0,
+          0.970956262197221,
+          0.9716312056737588
+        ],
+        [
+          "MAERSK LNS ITAPOA",
+          278.0,
+          14.0,
+          0.9426189817376919,
+          0.9496402877697842
+        ],
+        [
+          "COOPERCARGA S A",
+          168.0,
+          6.0,
+          0.9642857142857151,
+          0.9642857142857143
+        ],
+        [
+          "COOPERCARGA S/A",
+          161.0,
+          19.0,
+          0.8665946529840675,
+          0.8819875776397516
+        ],
+        [
+          "MAFRO TRANSPORTES LTDA",
+          147.0,
+          6.0,
+          0.9325842696629226,
+          0.9591836734693877
+        ],
+        [
+          "T S SERVICOS TRANSPORTE E LOGISTICALTDA",
+          135.0,
+          0.0,
+          1.0,
+          1.0
+        ]
+      ],
+      "L8:M15": [
+        [
+          "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+          37.0
+        ],
+        [
+          "MAERSK LNS SAO BERNARDO DO CAMPO",
+          22.0
+        ],
+        [
+          "COOPERCARGA S/A",
+          19.0
+        ],
+        [
+          "J RIVELINO MOREIRA LTDA",
+          16.0
+        ],
+        [
+          "POLO NORTE TRANSPORTES LTDA EPP",
+          16.0
+        ],
+        [
+          "MAERSK LNS ITAPOA",
+          14.0
+        ],
+        [
+          "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+          14.0
+        ],
+        [
+          "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+          14.0
+        ]
+      ],
+      "O8:P15": [
+        [
+          "Problemas no porto",
+          62.0
+        ],
+        [
+          "Problemas na via (trânsito/acidente/obras)",
+          62.0
+        ],
+        [
+          "Problemas no veículo (mecânico/elétrico)",
+          29.0
+        ],
+        [
+          "Atraso do motorista",
+          24.0
+        ],
+        [
+          "Mau tempo",
+          22.0
+        ],
+        [
+          "Morosidade no carregamento",
+          21.0
+        ],
+        [
+          "Erro operacional do provedor",
+          14.0
+        ],
+        [
+          "Problemas no depot",
+          14.0
+        ]
+      ]
+    }
+  },
+  "errors": [],
+  "saved": true
+}

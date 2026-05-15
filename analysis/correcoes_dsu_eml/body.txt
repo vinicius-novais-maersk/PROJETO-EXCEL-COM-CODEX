@@ -1,0 +1,68 @@
+Olá, Vini! Tudo bem?
+
+Por gentileza, gostaríamos do seu apoio para solucionarmos as divergências abaixo da DSU:
+
+
+  1.  Divergência de OTO entre as abas da DSU. Todas as abas devem exibir o mesmo OTO.
+
+Ex.: No IOA, no Top Offender - Customers, o OTO WK é de 94%, enquanto em Vendors está em 91%. Já o OTO Total na Week Overview é de 95%.
+
+
+     *   IOA (Top_Offenders_Customers)
+
+[cid:image001.png@01DCDEF9.FEEEFB50]
+
+
+     *   IOA (Top_Offenders_Vendors)
+
+[cid:image002.png@01DCDEFA.7B12EB60]
+
+
+     *   IOA (Week Overview)
+
+[cid:image003.png@01DCDEFA.7B12EB60]
+
+
+
+  1.  Aba Top_offenders_customers - seção Hyper Care desconfigurada
+
+[cid:image004.png@01DCDEFB.10D69C50]
+
+
+  1.  Vários clientes e transportadoreas com o erro DIVO
+
+[cid:image005.png@01DCDEFB.10D69C50]
+
+
+[cid:image006.png@01DCDEFB.64DBDB80]
+
+
+
+
+
+  1.  Qual a lógica do casos sem preenchimento ? Aba Volume graph nao está refletindo as OS que constam sem preenchimento na coluna BB?
+
+Conforme o gui pontuou no grupo: O que está gerando esse cenário é um filtro aplicado no SIL, que considera apenas OS que terminam com "A", uma vez que também existem OS dos tipos B e C no sistema.
+O problema é que esse filtro está excluindo registros indevidamente.
+Esta OS é um exemplo: no SIL, ela consta como "6AIT159602A " (com um espaço no final). Por esse motivo, acaba sendo filtrada, embora não devesse.
+
+Aba ROE_WK (Coluna BB)
+
+[cid:image007.png@01DCDEFC.22ECA050]
+
+
+Desde já agradeço seu apoio e ajuda.
+
+Atenciosamente,
+
+Daniela Marques
+ECSA CI
+Maersk
+________________________________________________________________
+Endereço: Av. Ana Costa, 230 - 14º andar - Santos/ SP - Brasil
+CEP: 11060-000
+E-mail: daniela.marques@maersk.com<mailto:lucas.arias@maersk.com>
+
+
+
+Classification: Internal

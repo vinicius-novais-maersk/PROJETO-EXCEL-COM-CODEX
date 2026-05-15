@@ -1,0 +1,5241 @@
+{
+  "summary": {
+    "official": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK19.xlsm",
+    "fixed": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+    "sheet_count_official": 38,
+    "sheet_count_fixed": 38,
+    "diff_count": 27,
+    "diffs_by_kind": {
+      "diff": 26,
+      "pivot_layout": 1
+    }
+  },
+  "diffs": [
+    {
+      "path": "vba_project_hash",
+      "official": "0dc403885453236e697c0dda24f448e77c50729685d8c26c3da0be52219871ff",
+      "fixed": "0643190370ccbd90de47f8a46791c6f0c42b8642a9ee42247f45f19da0943590",
+      "kind": "diff"
+    },
+    {
+      "path": "Volume_Graph.cell_style_digest",
+      "official": {
+        "count": 364,
+        "sha256": "22ec50eb4510c4b1c1f086a3ce22e91ae1eb998fda0d12c9249845319e27482d"
+      },
+      "fixed": {
+        "count": 364,
+        "sha256": "fb3dc777dd1e96f9277c3890e60361233e5b39fb2916934ccb26853fbc7e24a6"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Query1.cell_style_digest",
+      "official": {
+        "count": 41888,
+        "sha256": "b5244b2efcefb3223014fd69619d8cb4ac931ef046fb1d6aeea3b1defcff60e4"
+      },
+      "fixed": {
+        "count": 41887,
+        "sha256": "5e4509312ae4bb730688f1538a69407fd6bcbcf03e8335b2b5690d106c2af806"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Week_Overview.cols",
+      "official": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "9",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "7.6640625",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "8.21875",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "6",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "9.21875",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "9.109375",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "7",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "8",
+          "max": "8",
+          "width": "8.88671875",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "9",
+          "max": "9",
+          "width": "10",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "10",
+          "max": "10",
+          "width": "7.33203125",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "12",
+          "width": "8.88671875",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "7.6640625",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "10.44140625",
+          "style": "438",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "12.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "9.21875",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "9.44140625",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "11.33203125",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "13.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "12.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "13.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "22",
+          "max": "22",
+          "width": "16.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "9.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1",
+          "collapsed": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "12.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "15.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "21",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "28",
+          "max": "28",
+          "width": "18",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "29",
+          "max": "29",
+          "width": "13.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "30",
+          "max": "30",
+          "width": "6.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "31",
+          "max": "31",
+          "width": "10",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "16.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "12",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "10.21875",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "5",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "36",
+          "max": "36",
+          "width": "10.21875",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "37",
+          "max": "37",
+          "width": "4",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "5",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "33.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "17.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "41",
+          "max": "41",
+          "width": "5.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "42",
+          "max": "42",
+          "width": "5.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "43",
+          "max": "43",
+          "width": "7.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "44",
+          "max": "44",
+          "width": "39.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "45",
+          "max": "45",
+          "width": "16.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "46",
+          "max": "46",
+          "width": "6.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "47",
+          "max": "47",
+          "width": "11.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "48",
+          "max": "48",
+          "width": "11.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "49",
+          "max": "49",
+          "width": "9.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "50",
+          "max": "50",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "51",
+          "max": "51",
+          "width": "11.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "52",
+          "max": "52",
+          "width": "9.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "53",
+          "max": "53",
+          "width": "17.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "54",
+          "max": "54",
+          "width": "22.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "55",
+          "max": "55",
+          "width": "9.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "56",
+          "max": "56",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "57",
+          "max": "57",
+          "width": "11.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "58",
+          "max": "58",
+          "width": "9.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "59",
+          "max": "59",
+          "width": "39.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "60",
+          "max": "60",
+          "width": "16.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "61",
+          "max": "61",
+          "width": "6.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "62",
+          "max": "62",
+          "width": "8.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "63",
+          "max": "63",
+          "width": "6.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "64",
+          "max": "64",
+          "width": "6.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "65",
+          "max": "65",
+          "width": "13.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "66",
+          "max": "66",
+          "width": "3.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "67",
+          "max": "67",
+          "width": "5.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "68",
+          "max": "68",
+          "width": "6.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "69",
+          "max": "69",
+          "width": "10.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "70",
+          "max": "70",
+          "width": "9",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "71",
+          "max": "71",
+          "width": "11.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "72",
+          "max": "72",
+          "width": "9.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "73",
+          "max": "16384",
+          "width": "9.109375",
+          "style": "432"
+        }
+      ],
+      "fixed": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "9",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "7.6640625",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "8.21875",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "6",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "9.21875",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "9.109375",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "7",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "8",
+          "max": "8",
+          "width": "8.88671875",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "9",
+          "max": "9",
+          "width": "10",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "10",
+          "max": "10",
+          "width": "7.33203125",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "12",
+          "width": "8.88671875",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "7.6640625",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "10.44140625",
+          "style": "438",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "12.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "9.21875",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "9.44140625",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "11.33203125",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "13.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "12.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "13.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "22",
+          "max": "22",
+          "width": "16.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "9.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1",
+          "collapsed": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "12.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "15.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "21",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "28",
+          "max": "28",
+          "width": "18",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "29",
+          "max": "29",
+          "width": "13.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "30",
+          "max": "30",
+          "width": "6.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "31",
+          "max": "31",
+          "width": "10",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "16.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "12",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "10.21875",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "5",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "36",
+          "max": "36",
+          "width": "10.21875",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "37",
+          "max": "37",
+          "width": "4",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "5",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "33.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "17.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "41",
+          "max": "41",
+          "width": "5.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "42",
+          "max": "42",
+          "width": "5.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "43",
+          "max": "43",
+          "width": "7.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "44",
+          "max": "44",
+          "width": "35.5546875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "45",
+          "max": "45",
+          "width": "21",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "46",
+          "max": "46",
+          "width": "7.5546875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "47",
+          "max": "48",
+          "width": "11.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "49",
+          "max": "49",
+          "width": "9.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "50",
+          "max": "50",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "51",
+          "max": "51",
+          "width": "11.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "52",
+          "max": "52",
+          "width": "9.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "53",
+          "max": "53",
+          "width": "19.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "54",
+          "max": "54",
+          "width": "23",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "55",
+          "max": "55",
+          "width": "9.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "56",
+          "max": "56",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "57",
+          "max": "57",
+          "width": "11.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "58",
+          "max": "58",
+          "width": "9.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "59",
+          "max": "59",
+          "width": "35.5546875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "60",
+          "max": "60",
+          "width": "21",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "61",
+          "max": "61",
+          "width": "7.5546875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "62",
+          "max": "62",
+          "width": "9.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "63",
+          "max": "63",
+          "width": "7.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "64",
+          "max": "64",
+          "width": "6.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "65",
+          "max": "65",
+          "width": "14",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "66",
+          "max": "66",
+          "width": "4.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "67",
+          "max": "67",
+          "width": "5.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "68",
+          "max": "68",
+          "width": "7.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "69",
+          "max": "69",
+          "width": "11.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "70",
+          "max": "70",
+          "width": "9",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "71",
+          "max": "71",
+          "width": "11.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "72",
+          "max": "72",
+          "width": "9.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "73",
+          "max": "16384",
+          "width": "9.109375",
+          "style": "432"
+        }
+      ],
+      "kind": "diff"
+    },
+    {
+      "path": "Week_Overview.cell_style_digest",
+      "official": {
+        "count": 2665,
+        "sha256": "de0a1e688639960d1023e28e5308888f32c36d68f24ede3406a3f32981244ff9"
+      },
+      "fixed": {
+        "count": 2665,
+        "sha256": "be45052a83d76ad609f841e3af7f6af7f947c0937bb63b264d09c6ae7b89d0df"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Top_Offenders_Customers.cols",
+      "official": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "47.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "16.77734375",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "17",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "8.44140625",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "13.21875",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "16.6640625",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "10.88671875",
+          "style": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "12",
+          "max": "12",
+          "width": "5.88671875",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "4.88671875",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "45.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "11.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "8.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "13.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "16.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "4",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "22.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "10.109375",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "22",
+          "max": "22",
+          "width": "7.109375",
+          "style": "386",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "14.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "2.6640625",
+          "customWidth": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "39.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "11.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "8.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "43.33203125",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "12.44140625",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "14.6640625",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "0",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "37",
+          "max": "37",
+          "width": "22.33203125",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "10.109375",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "7.109375",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "14.6640625",
+          "hidden": "1",
+          "customWidth": "1"
+        }
+      ],
+      "fixed": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "42.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "12.5546875",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "14.88671875",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "7.109375",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "11.33203125",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "13.77734375",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "10.88671875",
+          "style": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "12",
+          "max": "12",
+          "width": "5.88671875",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "4.88671875",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "41",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "10.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "7.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "11.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "13.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "4",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "22.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "10.109375",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "22",
+          "max": "22",
+          "width": "7.109375",
+          "style": "386",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "14.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "2.6640625",
+          "customWidth": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "37",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "10.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "7.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "43.33203125",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "12.44140625",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "14.6640625",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "0",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "37",
+          "max": "37",
+          "width": "22.33203125",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "10.109375",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "7.109375",
+          "hidden": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "14.6640625",
+          "hidden": "1",
+          "customWidth": "1"
+        }
+      ],
+      "kind": "diff"
+    },
+    {
+      "path": "Top_Offenders_Customers.drawings",
+      "official": [
+        {
+          "anchor_count": 3,
+          "anchors": [
+            {
+              "type": "twoCellAnchor",
+              "from": {
+                "col": "7",
+                "colOff": "182563",
+                "row": "6",
+                "rowOff": "55561"
+              },
+              "to": {
+                "col": "9",
+                "colOff": "93657",
+                "row": "27",
+                "rowOff": "55561"
+              },
+              "graphicFrames": 0,
+              "pics": 0,
+              "shapes": 0,
+              "names": [
+                "Porto 2",
+                ""
+              ]
+            },
+            {
+              "type": "twoCellAnchor",
+              "from": {
+                "col": "9",
+                "colOff": "130175",
+                "row": "6",
+                "rowOff": "42863"
+              },
+              "to": {
+                "col": "12",
+                "colOff": "74609",
+                "row": "13",
+                "rowOff": "93"
+              },
+              "graphicFrames": 0,
+              "pics": 0,
+              "shapes": 0,
+              "names": [
+                "Data Prog. 1",
+                ""
+              ]
+            },
+            {
+              "type": "twoCellAnchor",
+              "from": {
+                "col": "9",
+                "colOff": "156883",
+                "row": "0",
+                "rowOff": "0"
+              },
+              "to": {
+                "col": "10",
+                "colOff": "264453",
+                "row": "4",
+                "rowOff": "50053"
+              },
+              "graphicFrames": 0,
+              "pics": 1,
+              "shapes": 0,
+              "names": [
+                "Graphic 3"
+              ]
+            }
+          ],
+          "charts": []
+        }
+      ],
+      "fixed": [
+        {
+          "anchor_count": 3,
+          "anchors": [
+            {
+              "type": "twoCellAnchor",
+              "from": {
+                "col": "7",
+                "colOff": "182563",
+                "row": "6",
+                "rowOff": "55561"
+              },
+              "to": {
+                "col": "9",
+                "colOff": "93657",
+                "row": "27",
+                "rowOff": "55561"
+              },
+              "graphicFrames": 0,
+              "pics": 0,
+              "shapes": 0,
+              "names": [
+                "Porto 2",
+                ""
+              ]
+            },
+            {
+              "type": "twoCellAnchor",
+              "from": {
+                "col": "9",
+                "colOff": "130175",
+                "row": "6",
+                "rowOff": "42863"
+              },
+              "to": {
+                "col": "12",
+                "colOff": "74610",
+                "row": "13",
+                "rowOff": "93"
+              },
+              "graphicFrames": 0,
+              "pics": 0,
+              "shapes": 0,
+              "names": [
+                "Data Prog. 1",
+                ""
+              ]
+            },
+            {
+              "type": "twoCellAnchor",
+              "from": {
+                "col": "9",
+                "colOff": "156883",
+                "row": "0",
+                "rowOff": "0"
+              },
+              "to": {
+                "col": "10",
+                "colOff": "264453",
+                "row": "4",
+                "rowOff": "50053"
+              },
+              "graphicFrames": 0,
+              "pics": 1,
+              "shapes": 0,
+              "names": [
+                "Graphic 3"
+              ]
+            }
+          ],
+          "charts": []
+        }
+      ],
+      "kind": "diff"
+    },
+    {
+      "path": "Top_Offenders_Customers.cell_style_digest",
+      "official": {
+        "count": 11763,
+        "sha256": "d2c47357cc48a519d4692d828ea396986ee9d28f38ccf107edd5f7445185e772"
+      },
+      "fixed": {
+        "count": 11763,
+        "sha256": "2afc4046aa5985ec97c530ea83e340ce5763e9aeba528379ab93cd73b6a4fb88"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Top_Offenders_Vendors.cols",
+      "official": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "13.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "11.6640625",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "17",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "8.44140625",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "13.6640625",
+          "style": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "11",
+          "width": "3.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "12",
+          "max": "12",
+          "width": "13.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "11.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "2.6640625",
+          "style": "11",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "13.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "11.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "2.88671875",
+          "style": "11",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "13.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "11.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "9.109375",
+          "style": "11"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "35.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        }
+      ],
+      "fixed": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "18.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "12",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "17.21875",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "8.6640625",
+          "style": "1",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "13.6640625",
+          "style": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "11",
+          "width": "3.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "12",
+          "max": "12",
+          "width": "18.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "12",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "2.6640625",
+          "style": "11",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "18.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "12",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "2.88671875",
+          "style": "11",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "18.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "12",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "9.109375",
+          "style": "11"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "35.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        }
+      ],
+      "kind": "diff"
+    },
+    {
+      "path": "Top_Offenders_Vendors.cell_style_digest",
+      "official": {
+        "count": 675,
+        "sha256": "b356de73a0065fad445fbfb72471deb8bd58fb2df063691b7e69a5bf3bf32538"
+      },
+      "fixed": {
+        "count": 677,
+        "sha256": "3ea83a4653b1758bc0111c901979931dd92d398b5069c9eb1b274229e5e1c821"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Din.cols",
+      "official": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "34.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "43.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "4",
+          "width": "16.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "19.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "8",
+          "max": "8",
+          "width": "22.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "9",
+          "max": "9",
+          "width": "10.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "10",
+          "max": "10",
+          "width": "19.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "11",
+          "width": "16.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "12",
+          "max": "12",
+          "width": "19.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "31.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "46.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "16",
+          "max": "17",
+          "width": "16.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "14.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "16.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "22",
+          "max": "22",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "15.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "18.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "36.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "16.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "28",
+          "max": "28",
+          "width": "7.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "29",
+          "max": "29",
+          "width": "1.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "30",
+          "max": "30",
+          "width": "9.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "31",
+          "max": "31",
+          "width": "19.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "8.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "18.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "43.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "19.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "36",
+          "max": "36",
+          "width": "14.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "43.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "19.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "14.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "46",
+          "max": "46",
+          "width": "14.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "47",
+          "max": "47",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "48",
+          "max": "48",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "49",
+          "max": "49",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "50",
+          "max": "50",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "51",
+          "max": "51",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "52",
+          "max": "52",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "53",
+          "max": "53",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "54",
+          "max": "54",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "55",
+          "max": "55",
+          "width": "24.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "56",
+          "max": "56",
+          "width": "14.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "57",
+          "max": "57",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "58",
+          "max": "58",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "59",
+          "max": "59",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "60",
+          "max": "60",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "61",
+          "max": "61",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "62",
+          "max": "62",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "63",
+          "max": "63",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "64",
+          "max": "64",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "68",
+          "max": "68",
+          "width": "14.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "69",
+          "max": "69",
+          "width": "16.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "76",
+          "max": "76",
+          "width": "24",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "77",
+          "max": "77",
+          "width": "32",
+          "bestFit": "1",
+          "customWidth": "1"
+        }
+      ],
+      "fixed": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "34.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "41.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "20.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "17.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "19.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "22.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "19.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "8",
+          "max": "8",
+          "width": "22.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "9",
+          "max": "9",
+          "width": "10.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "10",
+          "max": "10",
+          "width": "19.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "11",
+          "width": "16.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "12",
+          "max": "12",
+          "width": "19.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "31.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "42.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "20.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "17.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "14.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "17.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "19.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "22.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "22",
+          "max": "22",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "15.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "18.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "34.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "17.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "28",
+          "max": "28",
+          "width": "7.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "29",
+          "max": "29",
+          "width": "1.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "30",
+          "max": "30",
+          "width": "9.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "31",
+          "max": "31",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "8.5546875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "18.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "40.5546875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "36",
+          "max": "36",
+          "width": "14.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "40.5546875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "14.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "46",
+          "max": "46",
+          "width": "18.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "47",
+          "max": "47",
+          "width": "20.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "48",
+          "max": "48",
+          "width": "22.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "49",
+          "max": "49",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "50",
+          "max": "50",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "51",
+          "max": "51",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "52",
+          "max": "52",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "53",
+          "max": "53",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "54",
+          "max": "54",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "55",
+          "max": "55",
+          "width": "24.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "56",
+          "max": "56",
+          "width": "18.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "57",
+          "max": "57",
+          "width": "20.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "58",
+          "max": "58",
+          "width": "22.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "59",
+          "max": "59",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "60",
+          "max": "60",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "61",
+          "max": "61",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "62",
+          "max": "62",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "63",
+          "max": "63",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "64",
+          "max": "64",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "68",
+          "max": "68",
+          "width": "18.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "69",
+          "max": "69",
+          "width": "17.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "76",
+          "max": "76",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "77",
+          "max": "77",
+          "width": "31.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        }
+      ],
+      "kind": "diff"
+    },
+    {
+      "path": "Din.cell_style_digest",
+      "official": {
+        "count": 783,
+        "sha256": "394c6e8c56714b2158e889fd8cefb363346fd09018fd703abfc59dde58f35166"
+      },
+      "fixed": {
+        "count": 933,
+        "sha256": "b4d2e4ad04d0ff2acfaf427bc3ae7428be907bd0f25ae67620773ae606394a07"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Din.pivots",
+      "official": [
+        {
+          "name": "PivotTable2",
+          "location": {
+            "ref": "B4:F15",
+            "firstHeaderRow": "1",
+            "firstDataRow": "3",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable5",
+          "location": {
+            "ref": "AE4:AE5",
+            "firstHeaderRow": "1",
+            "firstDataRow": "1",
+            "firstDataCol": "0",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable10",
+          "location": {
+            "ref": "BX3:BY4",
+            "firstHeaderRow": "1",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "1",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable9",
+          "location": {
+            "ref": "BP5:BQ6",
+            "firstHeaderRow": "1",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "3",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable6",
+          "location": {
+            "ref": "AL4:AN18",
+            "firstHeaderRow": "0",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable3",
+          "location": {
+            "ref": "O4:U101",
+            "firstHeaderRow": "1",
+            "firstDataRow": "3",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable7",
+          "location": {
+            "ref": "AT5:AV8",
+            "firstHeaderRow": "1",
+            "firstDataRow": "3",
+            "firstDataCol": "1",
+            "rowPageCount": "3",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable8",
+          "location": {
+            "ref": "BD5:BF8",
+            "firstHeaderRow": "1",
+            "firstDataRow": "3",
+            "firstDataCol": "1",
+            "rowPageCount": "3",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable4",
+          "location": {
+            "ref": "Z4:AA13",
+            "firstHeaderRow": "1",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable1",
+          "location": {
+            "ref": "AH4:AJ18",
+            "firstHeaderRow": "0",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        }
+      ],
+      "fixed": [
+        {
+          "name": "PivotTable6",
+          "location": {
+            "ref": "AL4:AN18",
+            "firstHeaderRow": "0",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable4",
+          "location": {
+            "ref": "Z4:AA13",
+            "firstHeaderRow": "1",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable5",
+          "location": {
+            "ref": "AE4:AE5",
+            "firstHeaderRow": "1",
+            "firstDataRow": "1",
+            "firstDataCol": "0",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable2",
+          "location": {
+            "ref": "B4:F15",
+            "firstHeaderRow": "1",
+            "firstDataRow": "3",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable9",
+          "location": {
+            "ref": "BP5:BQ6",
+            "firstHeaderRow": "1",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "3",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable1",
+          "location": {
+            "ref": "AH4:AJ18",
+            "firstHeaderRow": "0",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable3",
+          "location": {
+            "ref": "O4:U101",
+            "firstHeaderRow": "1",
+            "firstDataRow": "3",
+            "firstDataCol": "1",
+            "rowPageCount": "2",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable8",
+          "location": {
+            "ref": "BD5:BF8",
+            "firstHeaderRow": "1",
+            "firstDataRow": "3",
+            "firstDataCol": "1",
+            "rowPageCount": "3",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable10",
+          "location": {
+            "ref": "BX3:BY4",
+            "firstHeaderRow": "1",
+            "firstDataRow": "1",
+            "firstDataCol": "1",
+            "rowPageCount": "1",
+            "colPageCount": "1"
+          }
+        },
+        {
+          "name": "PivotTable7",
+          "location": {
+            "ref": "AT5:AV8",
+            "firstHeaderRow": "1",
+            "firstDataRow": "3",
+            "firstDataCol": "1",
+            "rowPageCount": "3",
+            "colPageCount": "1"
+          }
+        }
+      ],
+      "kind": "pivot_layout"
+    },
+    {
+      "path": "Month2date.cell_style_digest",
+      "official": {
+        "count": 434,
+        "sha256": "fc73cc34dd99b517b968a87a2b260b7861c502ee56c2dabf1399fe6d2433a98a"
+      },
+      "fixed": {
+        "count": 434,
+        "sha256": "e3101fad8f0c1a39cdc27382f19390327f4e361e52ada0cc4974f3d2b35c7aaa"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "LastMonth_Overview.cell_style_digest",
+      "official": {
+        "count": 408,
+        "sha256": "b3b813488143b9f7ee761e29507a9bb3d3b731b8755d343b8b714a38dab115d5"
+      },
+      "fixed": {
+        "count": 408,
+        "sha256": "594709df7d9df4dc76830a96a775e2ad9dd87e4b2ddcdb83855276f6d92268e2"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "ROE_wk.cell_style_digest",
+      "official": {
+        "count": 720264,
+        "sha256": "24507349b4b7da05b74bf7621888d2e9eaabb5b0df39a8d03fd25663361e492e"
+      },
+      "fixed": {
+        "count": 726360,
+        "sha256": "2697ac1db4f99b96ed17f2f79d738bba5cc5c0d954467fe1d3ae3db0ba9b1f49"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Weekly_DS.cell_style_digest",
+      "official": {
+        "count": 2239,
+        "sha256": "3ce7ba51f56a357fda8d8db5dac45ed0e254ff33e4ee940aaffd496f23602271"
+      },
+      "fixed": {
+        "count": 2239,
+        "sha256": "9fbd113e3021c2d12d03b350d511cd672e6119ae2a031e4bedaff59b1272c71d"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "SIL_wk.cell_style_digest",
+      "official": {
+        "count": 166254,
+        "sha256": "ad2a626c2aef0f0bf7010ce3d5f13f526767b04d76494036a0d715298b00b487"
+      },
+      "fixed": {
+        "count": 166254,
+        "sha256": "78ce7ac51b8be69306620d15a6dc9dc994dd6aa886f64b469d8cf8f91ad1ac67"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Sem_Preenchimento_Regiao.cols",
+      "official": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "16.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "25.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        }
+      ],
+      "fixed": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "14.77734375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "22.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        }
+      ],
+      "kind": "diff"
+    },
+    {
+      "path": "Sem_Preenchimento_Regiao.cell_style_digest",
+      "official": {
+        "count": 22,
+        "sha256": "f593899bae3831abb1a2ce9121dc43e185b98abf65d52fd99167761314356b48"
+      },
+      "fixed": {
+        "count": 22,
+        "sha256": "a47b917b5b8473a4edeb4b0b842221d82737e71094d3b7428c81bcc46674a22e"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "ROE_wk_cancel.cols",
+      "official": [
+        {
+          "min": "2",
+          "max": "2",
+          "width": "3.6640625",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "6.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "26.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "17.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "6.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "5",
+          "customWidth": "1"
+        },
+        {
+          "min": "8",
+          "max": "8",
+          "width": "12",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "9",
+          "max": "9",
+          "width": "13.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "10",
+          "max": "10",
+          "width": "14.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "11",
+          "width": "33",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "12",
+          "max": "12",
+          "width": "26.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "27.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "14.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "255.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "16.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "18.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "5",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "5.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "10.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "8.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "9.109375",
+          "customWidth": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "15.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "11.21875",
+          "customWidth": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "8.6640625",
+          "customWidth": "1"
+        },
+        {
+          "min": "28",
+          "max": "28",
+          "width": "21.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "29",
+          "max": "29",
+          "width": "255.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "30",
+          "max": "30",
+          "width": "10.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "31",
+          "max": "31",
+          "width": "36.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "10",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "12.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "8.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "11",
+          "customWidth": "1"
+        },
+        {
+          "min": "36",
+          "max": "36",
+          "width": "60.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "37",
+          "max": "37",
+          "width": "27.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "36.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "50.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "9.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "41",
+          "max": "41",
+          "width": "9.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "42",
+          "max": "43",
+          "width": "7.109375",
+          "customWidth": "1"
+        },
+        {
+          "min": "44",
+          "max": "44",
+          "width": "7.6640625",
+          "customWidth": "1"
+        },
+        {
+          "min": "45",
+          "max": "45",
+          "width": "10.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "46",
+          "max": "46",
+          "width": "7.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "47",
+          "max": "47",
+          "width": "6.21875",
+          "customWidth": "1"
+        },
+        {
+          "min": "48",
+          "max": "48",
+          "width": "6.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "49",
+          "max": "51",
+          "width": "11.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "52",
+          "max": "52",
+          "width": "7.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "53",
+          "max": "53",
+          "width": "38.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "54",
+          "max": "54",
+          "width": "7.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "55",
+          "max": "55",
+          "width": "5.88671875",
+          "customWidth": "1"
+        },
+        {
+          "min": "56",
+          "max": "56",
+          "width": "12",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "57",
+          "max": "57",
+          "width": "7.88671875",
+          "customWidth": "1"
+        },
+        {
+          "min": "58",
+          "max": "58",
+          "width": "9",
+          "customWidth": "1"
+        },
+        {
+          "min": "59",
+          "max": "59",
+          "width": "9.109375",
+          "style": "1"
+        },
+        {
+          "min": "62",
+          "max": "62",
+          "width": "45.44140625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "63",
+          "max": "63",
+          "width": "22",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "64",
+          "max": "64",
+          "width": "9.109375",
+          "style": "1"
+        }
+      ],
+      "fixed": [
+        {
+          "min": "2",
+          "max": "2",
+          "width": "3.6640625",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "6.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "26.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "17.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "6.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "5",
+          "customWidth": "1"
+        },
+        {
+          "min": "8",
+          "max": "8",
+          "width": "12",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "9",
+          "max": "9",
+          "width": "13.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "10",
+          "max": "10",
+          "width": "14.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "11",
+          "width": "33",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "12",
+          "max": "12",
+          "width": "26.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "27.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "14.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "255.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "16.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "18.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "5",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "5.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "10.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "8.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "9.109375",
+          "customWidth": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "15.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "11.21875",
+          "customWidth": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "8.6640625",
+          "customWidth": "1"
+        },
+        {
+          "min": "28",
+          "max": "28",
+          "width": "21.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "29",
+          "max": "29",
+          "width": "255.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "30",
+          "max": "30",
+          "width": "10.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "31",
+          "max": "31",
+          "width": "36.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "10",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "12.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "8.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "11",
+          "customWidth": "1"
+        },
+        {
+          "min": "36",
+          "max": "36",
+          "width": "60.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "37",
+          "max": "37",
+          "width": "27.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "36.33203125",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "50.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "9.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "41",
+          "max": "41",
+          "width": "9.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "42",
+          "max": "43",
+          "width": "7.109375",
+          "customWidth": "1"
+        },
+        {
+          "min": "44",
+          "max": "44",
+          "width": "7.6640625",
+          "customWidth": "1"
+        },
+        {
+          "min": "45",
+          "max": "45",
+          "width": "10.109375",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "46",
+          "max": "46",
+          "width": "7.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "47",
+          "max": "47",
+          "width": "6.21875",
+          "customWidth": "1"
+        },
+        {
+          "min": "48",
+          "max": "48",
+          "width": "6.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "49",
+          "max": "51",
+          "width": "11.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "52",
+          "max": "52",
+          "width": "7.88671875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "53",
+          "max": "53",
+          "width": "38.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "54",
+          "max": "54",
+          "width": "7.33203125",
+          "customWidth": "1"
+        },
+        {
+          "min": "55",
+          "max": "55",
+          "width": "5.88671875",
+          "customWidth": "1"
+        },
+        {
+          "min": "56",
+          "max": "56",
+          "width": "12",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "57",
+          "max": "57",
+          "width": "7.88671875",
+          "customWidth": "1"
+        },
+        {
+          "min": "58",
+          "max": "58",
+          "width": "9",
+          "customWidth": "1"
+        },
+        {
+          "min": "59",
+          "max": "59",
+          "width": "9.109375",
+          "style": "1"
+        },
+        {
+          "min": "62",
+          "max": "62",
+          "width": "40.21875",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "63",
+          "max": "63",
+          "width": "19.6640625",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "64",
+          "max": "64",
+          "width": "9.109375",
+          "style": "1"
+        }
+      ],
+      "kind": "diff"
+    },
+    {
+      "path": "ROE_wk_cancel.cell_style_digest",
+      "official": {
+        "count": 129667,
+        "sha256": "b2779e97c561b7115cc1fbb65b1513d2a26236fd7cbe133ffda0fc7341731b8b"
+      },
+      "fixed": {
+        "count": 130570,
+        "sha256": "d463fd915dfe437b0c22a00672d7af16aabed92b8f785d1670922ef6d17709e8"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Reagendas.cell_style_digest",
+      "official": {
+        "count": 8130,
+        "sha256": "a70ce306db93e995022d79d653f32998fa5e774356e6b7c839f0dd7741ba7596"
+      },
+      "fixed": {
+        "count": 8130,
+        "sha256": "afbf61e5b1493e5276472ca7f522e71d533253e5d6bf2233f0f9f1782a0cc88f"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "ROE_wk_monthly.cell_style_digest",
+      "official": {
+        "count": 2660316,
+        "sha256": "92a3fcdcaf5992d34dc2b83f3a844b0d8c5ada2616d9989da53926f762c9fc04"
+      },
+      "fixed": {
+        "count": 2660316,
+        "sha256": "b67e08cae388da8276ebcc5486af2537992f8b959b77fac6cf2cc6a73ad6a358"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Week_18.cols",
+      "official": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "9",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "7.6640625",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "8.21875",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "6",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "9.21875",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "9.109375",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "7",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "8",
+          "max": "8",
+          "width": "8.88671875",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "9",
+          "max": "9",
+          "width": "10",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "10",
+          "max": "10",
+          "width": "7.33203125",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "12",
+          "width": "8.88671875",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "7.6640625",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "10.44140625",
+          "style": "438",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "12.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "9.21875",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "9.44140625",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "11.33203125",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "13.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "12.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "13.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "22",
+          "max": "22",
+          "width": "16.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "9.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1",
+          "collapsed": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "12.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "15.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "21",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "28",
+          "max": "28",
+          "width": "18",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "29",
+          "max": "29",
+          "width": "13.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "30",
+          "max": "30",
+          "width": "6.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "31",
+          "max": "31",
+          "width": "10",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "16.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "12",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "10.21875",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "5",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "36",
+          "max": "36",
+          "width": "10.21875",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "37",
+          "max": "37",
+          "width": "4",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "5",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "33.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "17.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "41",
+          "max": "41",
+          "width": "5.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "42",
+          "max": "42",
+          "width": "5.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "43",
+          "max": "43",
+          "width": "7.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "44",
+          "max": "44",
+          "width": "39.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "45",
+          "max": "45",
+          "width": "16.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "46",
+          "max": "46",
+          "width": "6.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "47",
+          "max": "47",
+          "width": "11.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "48",
+          "max": "48",
+          "width": "11.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "49",
+          "max": "49",
+          "width": "9.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "50",
+          "max": "50",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "51",
+          "max": "51",
+          "width": "11.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "52",
+          "max": "52",
+          "width": "9.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "53",
+          "max": "53",
+          "width": "17.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "54",
+          "max": "54",
+          "width": "22.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "55",
+          "max": "55",
+          "width": "9.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "56",
+          "max": "56",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "57",
+          "max": "57",
+          "width": "11.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "58",
+          "max": "58",
+          "width": "9.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "59",
+          "max": "59",
+          "width": "39.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "60",
+          "max": "60",
+          "width": "16.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "61",
+          "max": "61",
+          "width": "6.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "62",
+          "max": "62",
+          "width": "8.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "63",
+          "max": "63",
+          "width": "6.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "64",
+          "max": "64",
+          "width": "6.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "65",
+          "max": "65",
+          "width": "13.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "66",
+          "max": "66",
+          "width": "3.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "67",
+          "max": "67",
+          "width": "5.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "68",
+          "max": "68",
+          "width": "6.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "69",
+          "max": "69",
+          "width": "10.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "70",
+          "max": "70",
+          "width": "9",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "71",
+          "max": "71",
+          "width": "11.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "72",
+          "max": "72",
+          "width": "9.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "73",
+          "max": "16384",
+          "width": "9.109375",
+          "style": "432"
+        }
+      ],
+      "fixed": [
+        {
+          "min": "1",
+          "max": "1",
+          "width": "9",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "2",
+          "max": "2",
+          "width": "7.6640625",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "3",
+          "max": "3",
+          "width": "8.21875",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "4",
+          "max": "4",
+          "width": "6",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "5",
+          "max": "5",
+          "width": "9.21875",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "6",
+          "max": "6",
+          "width": "9.109375",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "7",
+          "max": "7",
+          "width": "7",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "8",
+          "max": "8",
+          "width": "8.88671875",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "9",
+          "max": "9",
+          "width": "10",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "10",
+          "max": "10",
+          "width": "7.33203125",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "11",
+          "max": "12",
+          "width": "8.88671875",
+          "style": "437",
+          "customWidth": "1"
+        },
+        {
+          "min": "13",
+          "max": "13",
+          "width": "7.6640625",
+          "style": "437",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "14",
+          "max": "14",
+          "width": "10.44140625",
+          "style": "438",
+          "customWidth": "1"
+        },
+        {
+          "min": "15",
+          "max": "15",
+          "width": "12.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "16",
+          "max": "16",
+          "width": "9.21875",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "17",
+          "max": "17",
+          "width": "9.44140625",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "18",
+          "max": "18",
+          "width": "11.33203125",
+          "style": "438",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "19",
+          "max": "19",
+          "width": "13.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "20",
+          "max": "20",
+          "width": "12.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "21",
+          "max": "21",
+          "width": "13.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "22",
+          "max": "22",
+          "width": "16.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "23",
+          "max": "23",
+          "width": "9.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1",
+          "collapsed": "1"
+        },
+        {
+          "min": "24",
+          "max": "24",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "25",
+          "max": "25",
+          "width": "12.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "26",
+          "max": "26",
+          "width": "15.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "27",
+          "max": "27",
+          "width": "21",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "28",
+          "max": "28",
+          "width": "18",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "29",
+          "max": "29",
+          "width": "13.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "30",
+          "max": "30",
+          "width": "6.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "31",
+          "max": "31",
+          "width": "10",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "32",
+          "max": "32",
+          "width": "16.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1",
+          "outlineLevel": "1"
+        },
+        {
+          "min": "33",
+          "max": "33",
+          "width": "12",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "34",
+          "max": "34",
+          "width": "10.21875",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "35",
+          "max": "35",
+          "width": "5",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "36",
+          "max": "36",
+          "width": "10.21875",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "37",
+          "max": "37",
+          "width": "4",
+          "style": "322",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "38",
+          "max": "38",
+          "width": "5",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "39",
+          "max": "39",
+          "width": "33.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "40",
+          "max": "40",
+          "width": "17.33203125",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "41",
+          "max": "41",
+          "width": "5.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "42",
+          "max": "42",
+          "width": "5.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "43",
+          "max": "43",
+          "width": "7.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "44",
+          "max": "44",
+          "width": "35.5546875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "45",
+          "max": "45",
+          "width": "20.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "46",
+          "max": "46",
+          "width": "7.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "47",
+          "max": "48",
+          "width": "11.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "49",
+          "max": "49",
+          "width": "9.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "50",
+          "max": "50",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "51",
+          "max": "51",
+          "width": "11.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "52",
+          "max": "52",
+          "width": "9.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "53",
+          "max": "53",
+          "width": "18.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "54",
+          "max": "54",
+          "width": "22.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "55",
+          "max": "55",
+          "width": "9.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "56",
+          "max": "56",
+          "width": "7.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "57",
+          "max": "57",
+          "width": "11.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "58",
+          "max": "58",
+          "width": "9.33203125",
+          "style": "432",
+          "customWidth": "1"
+        },
+        {
+          "min": "59",
+          "max": "59",
+          "width": "35.5546875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "60",
+          "max": "60",
+          "width": "20.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "61",
+          "max": "61",
+          "width": "7.44140625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "62",
+          "max": "62",
+          "width": "9.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "63",
+          "max": "63",
+          "width": "7.5546875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "64",
+          "max": "64",
+          "width": "7.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "65",
+          "max": "65",
+          "width": "13.77734375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "66",
+          "max": "66",
+          "width": "4.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "67",
+          "max": "67",
+          "width": "5.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "68",
+          "max": "68",
+          "width": "6.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "69",
+          "max": "69",
+          "width": "11.21875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "70",
+          "max": "70",
+          "width": "8.88671875",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "71",
+          "max": "71",
+          "width": "11.109375",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "72",
+          "max": "72",
+          "width": "9.6640625",
+          "style": "432",
+          "bestFit": "1",
+          "customWidth": "1"
+        },
+        {
+          "min": "73",
+          "max": "16384",
+          "width": "9.109375",
+          "style": "432"
+        }
+      ],
+      "kind": "diff"
+    },
+    {
+      "path": "Week_18.cell_style_digest",
+      "official": {
+        "count": 2665,
+        "sha256": "8ac86e571c11b287bc18ba5862d1149885deb60159714d91fffac864b188c77e"
+      },
+      "fixed": {
+        "count": 2665,
+        "sha256": "974df06312a8c9efa72bae09b716c8ffd6e33052bc8f29c098f835a3c03f4db6"
+      },
+      "kind": "diff"
+    },
+    {
+      "path": "Menu.cell_style_digest",
+      "official": {
+        "count": 42,
+        "sha256": "ddbab76224e4424651dd2eff468a09cfd6ab64be38ba31fa7b658d9955427ede"
+      },
+      "fixed": {
+        "count": 42,
+        "sha256": "a66cf25b29d115ebc68e9317152dc390cc2385d0ee9714e931fe06a865c9592c"
+      },
+      "kind": "diff"
+    }
+  ]
+}

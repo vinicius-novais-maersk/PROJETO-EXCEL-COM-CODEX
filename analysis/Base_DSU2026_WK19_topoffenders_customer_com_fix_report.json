@@ -1,0 +1,32 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK19.xlsm",
+  "backup": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\backups\\Base_DSU2026 - TbM - WK19_before_topoffenders_customer_com_fix_20260509_113931.xlsm",
+  "started_at": "2026-05-09T11:39:33",
+  "opened": true,
+  "icon_ranges_applied": [
+    "D8:D510",
+    "G8:G510",
+    "P8:P167",
+    "V7:V441",
+    "AA7:AA37",
+    "AM25:AM43"
+  ],
+  "g510_value_after": 0.9314583333333333,
+  "t441_w441_after": [
+    "Total Geral",
+    3715.0,
+    0.9114401076716017,
+    329.0
+  ],
+  "t442_w442_after": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "guide_title_after": "MAPA - Top Offenders Customers",
+  "saved": true,
+  "finished_at": "2026-05-09T11:40:53",
+  "workbook_size": 46370903,
+  "workbook_mtime": "2026-05-09T11:40:39"
+}

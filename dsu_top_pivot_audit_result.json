@@ -1,0 +1,1181 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "exists": true,
+  "excel_version": "16.0",
+  "application_calculation_before": "-2146826246",
+  "opened_read_only": true,
+  "workbook_name": "Base_DSU2026.xlsm",
+  "workbook_full_name": "https://my.maerskgroup.com/personal/vinicius_n_maersk_com/Documents/2025/Py/DSU 2025/Base_DSU2026.xlsm",
+  "date1904": "False",
+  "calc_mode_after_open": "-4105",
+  "before_refresh": [
+    {
+      "sheet": "Top_Offenders_Customers",
+      "used_range": "$A$1:$AQ$1805",
+      "used_rows": 1805,
+      "used_cols": 43,
+      "formula_count": 7702,
+      "blank_formula_results": 3204,
+      "blank_formula_samples": [
+        {
+          "address": "G10",
+          "formula": "=IFERROR(-(C10/B10-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G11",
+          "formula": "=IFERROR(-(C11/B11-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G12",
+          "formula": "=IFERROR(-(C12/B12-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G13",
+          "formula": "=IFERROR(-(C13/B13-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G14",
+          "formula": "=IFERROR(-(C14/B14-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G15",
+          "formula": "=IFERROR(-(C15/B15-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G16",
+          "formula": "=IFERROR(-(C16/B16-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G17",
+          "formula": "=IFERROR(-(C17/B17-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G18",
+          "formula": "=IFERROR(-(C18/B18-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G19",
+          "formula": "=IFERROR(-(C19/B19-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G20",
+          "formula": "=IFERROR(-(C20/B20-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G21",
+          "formula": "=IFERROR(-(C21/B21-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G22",
+          "formula": "=IFERROR(-(C22/B22-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G23",
+          "formula": "=IFERROR(-(C23/B23-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G24",
+          "formula": "=IFERROR(-(C24/B24-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G25",
+          "formula": "=IFERROR(-(C25/B25-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G26",
+          "formula": "=IFERROR(-(C26/B26-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G27",
+          "formula": "=IFERROR(-(C27/B27-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G28",
+          "formula": "=IFERROR(-(C28/B28-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G29",
+          "formula": "=IFERROR(-(C29/B29-1),\"\")",
+          "value": ""
+        }
+      ],
+      "formula_errors_count": 0,
+      "formula_error_samples": [],
+      "formula_result_by_col_with_blanks_or_zeros": {
+        "T": {
+          "formulas": 1800,
+          "blank_results": 352,
+          "zero_results": 1295
+        },
+        "U": {
+          "formulas": 1800,
+          "blank_results": 352,
+          "zero_results": 1295
+        },
+        "W": {
+          "formulas": 1800,
+          "blank_results": 352,
+          "zero_results": 1414
+        },
+        "V": {
+          "formulas": 1799,
+          "blank_results": 1647,
+          "zero_results": 6
+        },
+        "G": {
+          "formulas": 503,
+          "blank_results": 501,
+          "zero_results": 0
+        }
+      },
+      "pivots": [
+        {
+          "index": 1,
+          "name": "PivotTable2",
+          "table_range2": "$AK$20:$AN$35",
+          "data_body_range": "$AL$25:$AN$35",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 11,
+            "cols": 3,
+            "hash": "c8f3f6bb1c9bd22767276029187c771a",
+            "blank_count": 0,
+            "zero_count": 8,
+            "nonblank_count": 33,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-14 09:30:49.420000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 2,
+          "name": "PivotTable5",
+          "table_range2": "$N$2:$R$66",
+          "data_body_range": "$O$8:$R$66",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 59,
+            "cols": 4,
+            "hash": "c25ebf10a53f5575663f2ced94e77551",
+            "blank_count": 0,
+            "zero_count": 37,
+            "nonblank_count": 236,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-14 09:30:49.420000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 3,
+          "name": "Tabela dinâmica1",
+          "table_range2": "$Y$2:$AA$25",
+          "data_body_range": "$Z$7:$AA$25",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 19,
+            "cols": 2,
+            "hash": "65d6a802081e8d95a75f9451a5621d09",
+            "blank_count": 0,
+            "zero_count": 2,
+            "nonblank_count": 38,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-14 09:30:49.420000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 4,
+          "name": "PivotTable2_KPI_Helper",
+          "table_range2": "$AF$13:$AH$172",
+          "data_body_range": "$AG$21:$AH$172",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 152,
+            "cols": 2,
+            "hash": "47e830177cab86e5c320ae6d9b5134c7",
+            "blank_count": 0,
+            "zero_count": 119,
+            "nonblank_count": 304,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-14 09:30:49.420000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 5,
+          "name": "PivotTable1",
+          "table_range2": "$A$2:$F$9",
+          "data_body_range": "$B$8:$F$9",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 2,
+            "cols": 5,
+            "hash": "2042d6447763d4298e3de08fafaf3430",
+            "blank_count": 2,
+            "zero_count": 4,
+            "nonblank_count": 8,
+            "sample_blank_values": [
+              {
+                "rel_addr": "R1C3",
+                "value": null
+              },
+              {
+                "rel_addr": "R2C3",
+                "value": null
+              }
+            ]
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-14 09:30:49.420000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        }
+      ]
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "used_range": "$A$1:$AC$141",
+      "used_rows": 141,
+      "used_cols": 29,
+      "formula_count": 81,
+      "blank_formula_results": 67,
+      "blank_formula_samples": [
+        {
+          "address": "E21",
+          "formula": "=IFERROR(-(C21/B21-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E22",
+          "formula": "=IFERROR(-(C22/B22-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E23",
+          "formula": "=IFERROR(-(C23/B23-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E24",
+          "formula": "=IFERROR(-(C24/B24-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E25",
+          "formula": "=IFERROR(-(C25/B25-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E26",
+          "formula": "=IFERROR(-(C26/B26-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E27",
+          "formula": "=IFERROR(-(C27/B27-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E28",
+          "formula": "=IFERROR(-(C28/B28-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E29",
+          "formula": "=IFERROR(-(C29/B29-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E30",
+          "formula": "=IFERROR(-(C30/B30-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E31",
+          "formula": "=IFERROR(-(C31/B31-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E32",
+          "formula": "=IFERROR(-(C32/B32-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E33",
+          "formula": "=IFERROR(-(C33/B33-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E34",
+          "formula": "=IFERROR(-(C34/B34-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E35",
+          "formula": "=IFERROR(-(C35/B35-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E36",
+          "formula": "=IFERROR(-(C36/B36-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E37",
+          "formula": "=IFERROR(-(C37/B37-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E38",
+          "formula": "=IFERROR(-(C38/B38-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E39",
+          "formula": "=IFERROR(-(C39/B39-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E40",
+          "formula": "=IFERROR(-(C40/B40-1),\"\")",
+          "value": ""
+        }
+      ],
+      "formula_errors_count": 0,
+      "formula_error_samples": [],
+      "formula_result_by_col_with_blanks_or_zeros": {
+        "E": {
+          "formulas": 80,
+          "blank_results": 67,
+          "zero_results": 3
+        }
+      },
+      "pivots": [
+        {
+          "index": 1,
+          "name": "PivotTable3",
+          "table_range2": "$L$2:$M$15",
+          "data_body_range": "$M$8:$M$15",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 8,
+            "cols": 1,
+            "hash": "e7032e9e96d4a436482824d4ccd93813",
+            "blank_count": 0,
+            "zero_count": 0,
+            "nonblank_count": 8,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-14 09:30:49.420000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 2,
+          "name": "PivotTable1",
+          "table_range2": "$A$2:$D$20",
+          "data_body_range": "$B$8:$D$20",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 13,
+            "cols": 3,
+            "hash": "b0756efbc2854accc237a9d25aa49d68",
+            "blank_count": 0,
+            "zero_count": 5,
+            "nonblank_count": 39,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-14 09:30:49.420000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 3,
+          "name": "PivotTable4",
+          "table_range2": "$O$2:$P$17",
+          "data_body_range": "$P$8:$P$17",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 10,
+            "cols": 1,
+            "hash": "a340e640de405e11131c814778bfdbfa",
+            "blank_count": 0,
+            "zero_count": 0,
+            "nonblank_count": 10,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-14 09:30:49.420000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 4,
+          "name": "PivotTable2",
+          "table_range2": "$R$2:$S$27",
+          "data_body_range": "$S$8:$S$27",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 20,
+            "cols": 1,
+            "hash": "6214540c9d2adffe1b87abcfa28a2666",
+            "blank_count": 0,
+            "zero_count": 0,
+            "nonblank_count": 20,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-14 09:30:49.420000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        }
+      ]
+    }
+  ],
+  "refresh_results": [
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable2",
+      "ok": "True"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable5",
+      "ok": "True"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "Tabela dinâmica1",
+      "ok": "True"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable2_KPI_Helper",
+      "ok": "True"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable1",
+      "ok": "True"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable3",
+      "ok": "True"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable1",
+      "ok": "True"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable4",
+      "ok": "True"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable2",
+      "ok": "True"
+    }
+  ],
+  "after_refresh_calc": [
+    {
+      "sheet": "Top_Offenders_Customers",
+      "used_range": "$A$1:$AQ$1805",
+      "used_rows": 1805,
+      "used_cols": 43,
+      "formula_count": 7702,
+      "blank_formula_results": 3204,
+      "blank_formula_samples": [
+        {
+          "address": "G10",
+          "formula": "=IFERROR(-(C10/B10-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G11",
+          "formula": "=IFERROR(-(C11/B11-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G12",
+          "formula": "=IFERROR(-(C12/B12-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G13",
+          "formula": "=IFERROR(-(C13/B13-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G14",
+          "formula": "=IFERROR(-(C14/B14-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G15",
+          "formula": "=IFERROR(-(C15/B15-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G16",
+          "formula": "=IFERROR(-(C16/B16-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G17",
+          "formula": "=IFERROR(-(C17/B17-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G18",
+          "formula": "=IFERROR(-(C18/B18-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G19",
+          "formula": "=IFERROR(-(C19/B19-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G20",
+          "formula": "=IFERROR(-(C20/B20-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G21",
+          "formula": "=IFERROR(-(C21/B21-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G22",
+          "formula": "=IFERROR(-(C22/B22-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G23",
+          "formula": "=IFERROR(-(C23/B23-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G24",
+          "formula": "=IFERROR(-(C24/B24-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G25",
+          "formula": "=IFERROR(-(C25/B25-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G26",
+          "formula": "=IFERROR(-(C26/B26-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G27",
+          "formula": "=IFERROR(-(C27/B27-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G28",
+          "formula": "=IFERROR(-(C28/B28-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "G29",
+          "formula": "=IFERROR(-(C29/B29-1),\"\")",
+          "value": ""
+        }
+      ],
+      "formula_errors_count": 0,
+      "formula_error_samples": [],
+      "formula_result_by_col_with_blanks_or_zeros": {
+        "T": {
+          "formulas": 1800,
+          "blank_results": 352,
+          "zero_results": 1295
+        },
+        "U": {
+          "formulas": 1800,
+          "blank_results": 352,
+          "zero_results": 1295
+        },
+        "W": {
+          "formulas": 1800,
+          "blank_results": 352,
+          "zero_results": 1414
+        },
+        "V": {
+          "formulas": 1799,
+          "blank_results": 1647,
+          "zero_results": 6
+        },
+        "G": {
+          "formulas": 503,
+          "blank_results": 501,
+          "zero_results": 0
+        }
+      },
+      "pivots": [
+        {
+          "index": 1,
+          "name": "PivotTable2",
+          "table_range2": "$AK$20:$AN$35",
+          "data_body_range": "$AL$25:$AN$35",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 11,
+            "cols": 3,
+            "hash": "c8f3f6bb1c9bd22767276029187c771a",
+            "blank_count": 0,
+            "zero_count": 8,
+            "nonblank_count": 33,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-15 09:32:16.870000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 2,
+          "name": "PivotTable5",
+          "table_range2": "$N$2:$R$66",
+          "data_body_range": "$O$8:$R$66",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 59,
+            "cols": 4,
+            "hash": "c25ebf10a53f5575663f2ced94e77551",
+            "blank_count": 0,
+            "zero_count": 37,
+            "nonblank_count": 236,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-15 09:32:16.870000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 3,
+          "name": "Tabela dinâmica1",
+          "table_range2": "$Y$2:$AA$25",
+          "data_body_range": "$Z$7:$AA$25",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 19,
+            "cols": 2,
+            "hash": "65d6a802081e8d95a75f9451a5621d09",
+            "blank_count": 0,
+            "zero_count": 2,
+            "nonblank_count": 38,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-15 09:32:16.870000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 4,
+          "name": "PivotTable2_KPI_Helper",
+          "table_range2": "$AF$13:$AH$172",
+          "data_body_range": "$AG$21:$AH$172",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 152,
+            "cols": 2,
+            "hash": "47e830177cab86e5c320ae6d9b5134c7",
+            "blank_count": 0,
+            "zero_count": 119,
+            "nonblank_count": 304,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-15 09:32:16.870000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 5,
+          "name": "PivotTable1",
+          "table_range2": "$A$2:$F$9",
+          "data_body_range": "$B$8:$F$9",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 2,
+            "cols": 5,
+            "hash": "2042d6447763d4298e3de08fafaf3430",
+            "blank_count": 2,
+            "zero_count": 4,
+            "nonblank_count": 8,
+            "sample_blank_values": [
+              {
+                "rel_addr": "R1C3",
+                "value": null
+              },
+              {
+                "rel_addr": "R2C3",
+                "value": null
+              }
+            ]
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-15 09:32:16.870000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        }
+      ]
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "used_range": "$A$1:$AC$141",
+      "used_rows": 141,
+      "used_cols": 29,
+      "formula_count": 81,
+      "blank_formula_results": 67,
+      "blank_formula_samples": [
+        {
+          "address": "E21",
+          "formula": "=IFERROR(-(C21/B21-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E22",
+          "formula": "=IFERROR(-(C22/B22-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E23",
+          "formula": "=IFERROR(-(C23/B23-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E24",
+          "formula": "=IFERROR(-(C24/B24-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E25",
+          "formula": "=IFERROR(-(C25/B25-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E26",
+          "formula": "=IFERROR(-(C26/B26-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E27",
+          "formula": "=IFERROR(-(C27/B27-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E28",
+          "formula": "=IFERROR(-(C28/B28-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E29",
+          "formula": "=IFERROR(-(C29/B29-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E30",
+          "formula": "=IFERROR(-(C30/B30-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E31",
+          "formula": "=IFERROR(-(C31/B31-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E32",
+          "formula": "=IFERROR(-(C32/B32-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E33",
+          "formula": "=IFERROR(-(C33/B33-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E34",
+          "formula": "=IFERROR(-(C34/B34-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E35",
+          "formula": "=IFERROR(-(C35/B35-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E36",
+          "formula": "=IFERROR(-(C36/B36-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E37",
+          "formula": "=IFERROR(-(C37/B37-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E38",
+          "formula": "=IFERROR(-(C38/B38-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E39",
+          "formula": "=IFERROR(-(C39/B39-1),\"\")",
+          "value": ""
+        },
+        {
+          "address": "E40",
+          "formula": "=IFERROR(-(C40/B40-1),\"\")",
+          "value": ""
+        }
+      ],
+      "formula_errors_count": 0,
+      "formula_error_samples": [],
+      "formula_result_by_col_with_blanks_or_zeros": {
+        "E": {
+          "formulas": 80,
+          "blank_results": 67,
+          "zero_results": 3
+        }
+      },
+      "pivots": [
+        {
+          "index": 1,
+          "name": "PivotTable3",
+          "table_range2": "$L$2:$M$15",
+          "data_body_range": "$M$8:$M$15",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 8,
+            "cols": 1,
+            "hash": "e7032e9e96d4a436482824d4ccd93813",
+            "blank_count": 0,
+            "zero_count": 0,
+            "nonblank_count": 8,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-15 09:32:16.870000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 2,
+          "name": "PivotTable1",
+          "table_range2": "$A$2:$D$20",
+          "data_body_range": "$B$8:$D$20",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 13,
+            "cols": 3,
+            "hash": "b0756efbc2854accc237a9d25aa49d68",
+            "blank_count": 0,
+            "zero_count": 5,
+            "nonblank_count": 39,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-15 09:32:16.870000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 3,
+          "name": "PivotTable4",
+          "table_range2": "$O$2:$P$17",
+          "data_body_range": "$P$8:$P$17",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 10,
+            "cols": 1,
+            "hash": "a340e640de405e11131c814778bfdbfa",
+            "blank_count": 0,
+            "zero_count": 0,
+            "nonblank_count": 10,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-15 09:32:16.870000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        },
+        {
+          "index": 4,
+          "name": "PivotTable2",
+          "table_range2": "$R$2:$S$27",
+          "data_body_range": "$S$8:$S$27",
+          "data_body_summary": {
+            "exists": true,
+            "rows": 20,
+            "cols": 1,
+            "hash": "6214540c9d2adffe1b87abcfa28a2666",
+            "blank_count": 0,
+            "zero_count": 0,
+            "nonblank_count": 20,
+            "sample_blank_values": []
+          },
+          "source_data": "ROE_wk",
+          "source_rows": null,
+          "source_cols": null,
+          "source_probe_error": null,
+          "cache_index": "6",
+          "cache_record_count": "9204",
+          "cache_refresh_date": "2026-05-15 09:32:16.870000+00:00",
+          "cache_refresh_name": "Vinicius Novais Silva",
+          "refresh_on_file_open": "False",
+          "manual_update": "False",
+          "row_fields": [],
+          "column_fields": [],
+          "page_fields": [],
+          "data_fields": [],
+          "page_filters": [],
+          "calculated_fields": []
+        }
+      ]
+    }
+  ],
+  "saved": false
+}

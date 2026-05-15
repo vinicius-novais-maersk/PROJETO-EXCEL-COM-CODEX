@@ -1,0 +1,198 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+  "changes": [
+    {
+      "sheet": "ROE_wk",
+      "range": "BH2:BH9010",
+      "formula": "=IFERROR(BG2*24*60,\"\")"
+    },
+    {
+      "sheet": "ROE_wk_cancel",
+      "range": "BF2:BF2746",
+      "formula": "=IFERROR(BE2*24*60,\"\")"
+    },
+    {
+      "sheet": "ROE_wk_monthly",
+      "range": "BF2:BF40138",
+      "formula": "=IFERROR(BE2*24*60,\"\")"
+    },
+    {
+      "sheet": "ROE_wk_monthly",
+      "range": "BH2:BH40138",
+      "formula": "=IF(XLOOKUP(A2,SIL_wk_month!B:B,SIL_wk_month!M:M,\"\")=\"\",\"N\",\"S\")"
+    },
+    {
+      "sheet": "Reagendas",
+      "range": "P2:P514",
+      "formula": "=IFERROR(TEXTJOIN(CHAR(10), TRUE, FILTER(TEXTSPLIT(G2,CHAR(10)), TEXTSPLIT(G2,CHAR(10))<>\"\")),\"\")"
+    },
+    {
+      "sheet": "Reagendas",
+      "range": "Q2:Q514",
+      "formula": "=IF(P2=\"\",\"\",LEN(P2)-LEN(SUBSTITUTE(P2,CHAR(10),\"\"))+1)"
+    },
+    {
+      "sheet": "Query1",
+      "range": "BF2",
+      "value": ""
+    }
+  ],
+  "pivot_refresh": [
+    {
+      "sheet": "Week_Overview",
+      "pivot": "Tabela dinâmica3",
+      "ok": true
+    },
+    {
+      "sheet": "Week_Overview",
+      "pivot": "Tabela dinâmica1",
+      "ok": true
+    },
+    {
+      "sheet": "Week_Overview",
+      "pivot": "Tabela dinâmica4",
+      "ok": true
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable5",
+      "ok": true
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "Tabela dinâmica1",
+      "ok": true
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable2_KPI_Helper",
+      "ok": true
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable1",
+      "ok": true
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable2",
+      "ok": true
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable1",
+      "ok": true
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable4",
+      "ok": true
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable2",
+      "ok": true
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable3",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable9",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable2",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable4",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable10",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable3",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable1",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable5",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable6",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable7",
+      "ok": true
+    },
+    {
+      "sheet": "Din",
+      "pivot": "PivotTable8",
+      "ok": true
+    },
+    {
+      "sheet": "Weekly_DS",
+      "pivot": "PivotTable4",
+      "ok": true
+    },
+    {
+      "sheet": "Weekly_DS",
+      "pivot": "PivotTable3",
+      "ok": true
+    },
+    {
+      "sheet": "Weekly_DS",
+      "pivot": "PivotTable2",
+      "ok": true
+    },
+    {
+      "sheet": "Weekly_DS",
+      "pivot": "PivotTable1",
+      "ok": true
+    },
+    {
+      "sheet": "Sem_Preenchimento_Regiao",
+      "pivot": "ptSemPreenchRegiaoPS",
+      "ok": true
+    },
+    {
+      "sheet": "ROE_wk_cancel",
+      "pivot": "PivotTable1",
+      "ok": true
+    },
+    {
+      "sheet": "Week_18",
+      "pivot": "PivotTable3",
+      "ok": true
+    },
+    {
+      "sheet": "Week_18",
+      "pivot": "PivotTable2",
+      "ok": true
+    },
+    {
+      "sheet": "Week_18",
+      "pivot": "PivotTable1",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

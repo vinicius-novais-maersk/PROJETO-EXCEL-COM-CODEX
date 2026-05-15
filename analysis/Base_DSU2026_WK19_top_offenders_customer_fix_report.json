@@ -1,0 +1,20 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK19.xlsm",
+  "backup": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\backups\\Base_DSU2026 - TbM - WK19_before_topoffenders_customer_fix_20260509_113438.xlsm",
+  "sheet": "Top_Offenders_Customers",
+  "g510_formula": "IFERROR(-(C510/B510-1),\"\")",
+  "g510_cached_value": 0.9314583333333333,
+  "hypercare_formulas_updated": 2016,
+  "hypercare_blank_source_rows": 69,
+  "conditional_formatting_ranges": [
+    "D8:D510",
+    "G8:G510",
+    "P8:P167",
+    "V7:V441",
+    "AA7:AA37",
+    "AM25:AM43"
+  ],
+  "guide_block": "AP1:AQ11",
+  "workbook_size": 33476400,
+  "workbook_mtime": "2026-05-09T11:34:52"
+}

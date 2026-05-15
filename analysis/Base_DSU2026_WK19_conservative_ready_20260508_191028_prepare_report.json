@@ -1,0 +1,40 @@
+{
+  "candidate": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_conservative_ready_20260508_191028.xlsm",
+  "source": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+  "official": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK19.xlsm",
+  "created_at": "2026-05-08T19:10:30",
+  "vba_copied": true,
+  "vba_crc_matches_official": true,
+  "cols_restored": [
+    "Week_Overview",
+    "Top_Offenders_Customers",
+    "Top_Offenders_Vendors",
+    "Din",
+    "Sem_Preenchimento_Regiao",
+    "ROE_wk_cancel",
+    "Week_18"
+  ],
+  "drawings_copied": [
+    "xl/drawings/drawing1.xml",
+    "xl/drawings/drawing10.xml",
+    "xl/drawings/drawing11.xml",
+    "xl/drawings/drawing2.xml",
+    "xl/drawings/drawing3.xml",
+    "xl/drawings/drawing4.xml",
+    "xl/drawings/drawing5.xml",
+    "xl/drawings/drawing6.xml",
+    "xl/drawings/drawing7.xml",
+    "xl/drawings/drawing8.xml",
+    "xl/drawings/drawing9.xml"
+  ],
+  "calc_flags_set": true,
+  "zip_test_bad": null,
+  "sheet_count": 38,
+  "pivot_tables": 31,
+  "tables": 22,
+  "charts": 21,
+  "drawings": 11,
+  "vba_crc_official": 2476080313,
+  "vba_crc_candidate": 2476080313,
+  "size": 37724257
+}

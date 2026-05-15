@@ -1,0 +1,52 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "checked_at": "2026-05-15T14:17:56",
+  "last_write": "2026-05-15T14:11:27",
+  "week_overview_total_br": {
+    "moves_cab": 2400,
+    "moves_ds": 850,
+    "moves_total": 3250,
+    "oto_cab": 0.93,
+    "oto_ds": 0.95,
+    "oto_total": 0.9305413687436159,
+    "ok": true
+  },
+  "region_errors": {
+    "total_pivot_B12": 306,
+    "total_dias_J12": 306,
+    "ok": true
+  },
+  "graphs": {
+    "Volume_Graph": {
+      "total": 820,
+      "cab": 692,
+      "ds": 128,
+      "other": 33,
+      "label": "Vol x RoFo (Weekly) atualizado por último em 13/05/2026",
+      "ok": true
+    },
+    "Volume_DS": {
+      "total": 820,
+      "ds": 128,
+      "other": 33,
+      "label": "Vol x RoFo (Weekly) atualizado por último em 13/05/2026",
+      "ok": true
+    },
+    "Volume_MAO": {
+      "total": 820,
+      "cab_non_special": 609,
+      "cab_special": 83,
+      "ds": 128,
+      "label": "Vol x RoFo (Weekly) atualizado por último em 13/05/2026",
+      "ok": true
+    }
+  },
+  "menu": {
+    "hyper_volume": 103,
+    "hyper_atrasos": 8,
+    "hyper_oto_dia": 0.9223300970873787,
+    "geral_volume": 51,
+    "geral_atrasos": 0,
+    "geral_oto_dia": 1
+  }
+}

@@ -1,0 +1,2456 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "started_at": "2026-05-15T11:35:24",
+  "opened_read_only": true,
+  "sheet_count": 38,
+  "excel_version": "16.0",
+  "sheets": [
+    {
+      "name": "Volume_DS",
+      "used_range": "$A$1:$AY$34",
+      "rows": 34,
+      "cols": 51,
+      "formula_errors": 1,
+      "pivot_count": 0,
+      "chart_count": 1
+    },
+    {
+      "name": "Volume_MAO",
+      "used_range": "$A$1:$T$36",
+      "rows": 36,
+      "cols": 20,
+      "formula_errors": 1,
+      "pivot_count": 0,
+      "chart_count": 1
+    },
+    {
+      "name": "Volume_Graph",
+      "used_range": "$A$1:$R$40",
+      "rows": 40,
+      "cols": 18,
+      "formula_errors": 1,
+      "pivot_count": 0,
+      "chart_count": 1
+    },
+    {
+      "name": "Query1",
+      "used_range": "$A$1:$BH$722",
+      "rows": 722,
+      "cols": 60,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Week_Overview",
+      "used_range": "$A$1:$BT$47",
+      "rows": 47,
+      "cols": 72,
+      "formula_errors": 0,
+      "pivot_count": 3,
+      "chart_count": 0
+    },
+    {
+      "name": "Top_Offenders_Customers",
+      "used_range": "$A$1:$AQ$1805",
+      "rows": 1805,
+      "cols": 43,
+      "formula_errors": 0,
+      "pivot_count": 5,
+      "chart_count": 0
+    },
+    {
+      "name": "Top_Offenders_Vendors",
+      "used_range": "$A$1:$AC$141",
+      "rows": 141,
+      "cols": 29,
+      "formula_errors": 0,
+      "pivot_count": 4,
+      "chart_count": 0
+    },
+    {
+      "name": "Region errors",
+      "used_range": "$A$1:$I$17",
+      "rows": 17,
+      "cols": 9,
+      "formula_errors": 0,
+      "pivot_count": 1,
+      "chart_count": 0
+    },
+    {
+      "name": "Amb+RoFo+Cap",
+      "used_range": "$A$1:$BZ$104",
+      "rows": 104,
+      "cols": 78,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Validacao_BU",
+      "used_range": "$A$1:$Q$73",
+      "rows": 73,
+      "cols": 17,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Reagendas_Filtro",
+      "used_range": "$A$1:$N$12",
+      "rows": 12,
+      "cols": 14,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Reagendas_2",
+      "used_range": "$A$1:$BG$2",
+      "rows": 2,
+      "cols": 59,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Weekly",
+      "used_range": "$B$2:$AD$45",
+      "rows": 44,
+      "cols": 29,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Din",
+      "used_range": "$A$1:$BY$164",
+      "rows": 164,
+      "cols": 77,
+      "formula_errors": 0,
+      "pivot_count": 10,
+      "chart_count": 0
+    },
+    {
+      "name": "Capacity Plan",
+      "used_range": "$A$1:$D$21",
+      "rows": 21,
+      "cols": 4,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Month2date",
+      "used_range": "$A$1:$W$24",
+      "rows": 24,
+      "cols": 23,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "LastMonth_Overview",
+      "used_range": "$A$1:$U$23",
+      "rows": 23,
+      "cols": 21,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "LTFO_Week12",
+      "used_range": "$A$4:$N$14",
+      "rows": 11,
+      "cols": 14,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 1
+    },
+    {
+      "name": "OTO Exceptions",
+      "used_range": "$A$1:$X$67",
+      "rows": 67,
+      "cols": 24,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Moves Exceptions",
+      "used_range": "$A$1:$G$15",
+      "rows": 15,
+      "cols": 7,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Exceptions_Mapping",
+      "used_range": "$A$1:$M$184",
+      "rows": 184,
+      "cols": 13,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Exceptions",
+      "used_range": "$A$1:$AO$69",
+      "rows": 69,
+      "cols": 41,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "ROE_wk",
+      "used_range": "$A$1:$CF$9205",
+      "rows": 9205,
+      "cols": 84,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Weekly_DS",
+      "used_range": "$A$1:$O$606",
+      "rows": 606,
+      "cols": 15,
+      "formula_errors": 0,
+      "pivot_count": 4,
+      "chart_count": 0
+    },
+    {
+      "name": "SIL_wk",
+      "used_range": "$A$1:$Z$6677",
+      "rows": 6677,
+      "cols": 26,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "ROE_wk_cancel",
+      "used_range": "$A$1:$BL$2746",
+      "rows": 2746,
+      "cols": 64,
+      "formula_errors": 0,
+      "pivot_count": 1,
+      "chart_count": 0
+    },
+    {
+      "name": "Reagendas",
+      "used_range": "$A$1:$U$514",
+      "rows": 514,
+      "cols": 21,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "RAO_wk",
+      "used_range": "$A$1:$G$9907",
+      "rows": 9907,
+      "cols": 7,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "RAO_wk_cancel",
+      "used_range": "$A$1:$G$2953",
+      "rows": 2953,
+      "cols": 7,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "RAO_wk_monthly",
+      "used_range": "$A$1:$G$44638",
+      "rows": 44638,
+      "cols": 7,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "SIL_wk_month",
+      "used_range": "$A$1:$Z$22773",
+      "rows": 22773,
+      "cols": 26,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Aux",
+      "used_range": "$A$1:$X$532",
+      "rows": 532,
+      "cols": 24,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Week_20",
+      "used_range": "$A$1:$BT$47",
+      "rows": 47,
+      "cols": 72,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Week_11",
+      "used_range": "$A$1:$AY$47",
+      "rows": 47,
+      "cols": 51,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Week_10",
+      "used_range": "$A$1:$AY$47",
+      "rows": 47,
+      "cols": 51,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Validacao_Final",
+      "used_range": "$A$1:$Q$12",
+      "rows": 12,
+      "cols": 17,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 0
+    },
+    {
+      "name": "Menu",
+      "used_range": "$C$1:$P$37",
+      "rows": 37,
+      "cols": 14,
+      "formula_errors": 0,
+      "pivot_count": 0,
+      "chart_count": 3
+    },
+    {
+      "name": "ROE_wk_monthly",
+      "used_range": "$A$1:$BJ$44658",
+      "rows": 44658,
+      "cols": 62,
+      "formula_errors": 15625,
+      "pivot_count": 0,
+      "chart_count": 0
+    }
+  ],
+  "pivots": [
+    {
+      "name": "Tabela dinâmica4",
+      "range": "$BA$2:$BB$9",
+      "data_range": "$BB$8:$BB$9",
+      "source": "Reagendas",
+      "record_count": "1",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 2,
+        "cols": 1,
+        "nonblank": 2,
+        "blank": 0,
+        "zero": 0,
+        "hash": "8a1f7b2604e66991a17e5a43acf55fb2",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "(None,)"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "(None,)"
+          }
+        ]
+      },
+      "sheet": "Week_Overview"
+    },
+    {
+      "name": "Tabela dinâmica3",
+      "range": "$BG$2:$BI$10",
+      "data_range": "$BH$9:$BI$10",
+      "source": "Reagendas",
+      "record_count": "1",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 2,
+        "cols": 2,
+        "nonblank": 0,
+        "blank": 4,
+        "zero": 0,
+        "hash": "d661213ea838ae28e8b47fb09dadc11f",
+        "samples": []
+      },
+      "sheet": "Week_Overview"
+    },
+    {
+      "name": "Tabela dinâmica1",
+      "range": "$AR$2:$AT$11",
+      "data_range": "$AS$9:$AT$11",
+      "source": "Validacao_Final",
+      "record_count": "11",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 3,
+        "cols": 2,
+        "nonblank": 6,
+        "blank": 0,
+        "zero": 0,
+        "hash": "514fceeb27000e7e83d3b7391d3c6587",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "1.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "1.0"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "1.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "1.0"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "2.0"
+          },
+          {
+            "r": 3,
+            "c": 2,
+            "value": "2.0"
+          }
+        ]
+      },
+      "sheet": "Week_Overview"
+    },
+    {
+      "name": "PivotTable2_KPI_Helper",
+      "range": "$AF$13:$AH$172",
+      "data_range": "$AG$21:$AH$172",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 152,
+        "cols": 2,
+        "nonblank": 304,
+        "blank": 0,
+        "zero": 119,
+        "hash": "47e830177cab86e5c320ae6d9b5134c7",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "20.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "8.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "1.0"
+          },
+          {
+            "r": 3,
+            "c": 2,
+            "value": "0.0"
+          }
+        ]
+      },
+      "sheet": "Top_Offenders_Customers"
+    },
+    {
+      "name": "PivotTable1",
+      "range": "$A$2:$F$9",
+      "data_range": "$B$8:$F$9",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 2,
+        "cols": 5,
+        "nonblank": 8,
+        "blank": 2,
+        "zero": 4,
+        "hash": "2042d6447763d4298e3de08fafaf3430",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "51.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "value": "0.0"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "value": "0.5098039215686268"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "51.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "0.0"
+          }
+        ]
+      },
+      "sheet": "Top_Offenders_Customers"
+    },
+    {
+      "name": "PivotTable2",
+      "range": "$AK$20:$AN$35",
+      "data_range": "$AL$25:$AN$35",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 11,
+        "cols": 3,
+        "nonblank": 33,
+        "blank": 0,
+        "zero": 8,
+        "hash": "c8f3f6bb1c9bd22767276029187c771a",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "3.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "1.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "0.0"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "2.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "1.0"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "value": "0.0"
+          }
+        ]
+      },
+      "sheet": "Top_Offenders_Customers"
+    },
+    {
+      "name": "PivotTable5",
+      "range": "$N$2:$R$66",
+      "data_range": "$O$8:$R$66",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 59,
+        "cols": 4,
+        "nonblank": 236,
+        "blank": 0,
+        "zero": 37,
+        "hash": "c25ebf10a53f5575663f2ced94e77551",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "2.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "13.008333333333335"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "value": "0.0"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "2.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "0.0"
+          }
+        ]
+      },
+      "sheet": "Top_Offenders_Customers"
+    },
+    {
+      "name": "Tabela dinâmica1",
+      "range": "$Y$2:$AA$25",
+      "data_range": "$Z$7:$AA$25",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 19,
+        "cols": 2,
+        "nonblank": 38,
+        "blank": 0,
+        "zero": 2,
+        "hash": "65d6a802081e8d95a75f9451a5621d09",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "1.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.33333333333333337"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "1.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "0.5"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "3.0"
+          },
+          {
+            "r": 3,
+            "c": 2,
+            "value": "0.7449494949494949"
+          }
+        ]
+      },
+      "sheet": "Top_Offenders_Customers"
+    },
+    {
+      "name": "PivotTable2",
+      "range": "$R$2:$S$27",
+      "data_range": "$S$8:$S$27",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 20,
+        "cols": 1,
+        "nonblank": 20,
+        "blank": 0,
+        "zero": 0,
+        "hash": "6214540c9d2adffe1b87abcfa28a2666",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "(13.0,)"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "(5.0,)"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "(5.0,)"
+          },
+          {
+            "r": 4,
+            "c": 1,
+            "value": "(3.0,)"
+          },
+          {
+            "r": 5,
+            "c": 1,
+            "value": "(2.0,)"
+          },
+          {
+            "r": 6,
+            "c": 1,
+            "value": "(1.0,)"
+          }
+        ]
+      },
+      "sheet": "Top_Offenders_Vendors"
+    },
+    {
+      "name": "PivotTable3",
+      "range": "$L$2:$M$15",
+      "data_range": "$M$8:$M$15",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 8,
+        "cols": 1,
+        "nonblank": 8,
+        "blank": 0,
+        "zero": 0,
+        "hash": "e7032e9e96d4a436482824d4ccd93813",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "(15.0,)"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "(4.0,)"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "(2.0,)"
+          },
+          {
+            "r": 4,
+            "c": 1,
+            "value": "(2.0,)"
+          },
+          {
+            "r": 5,
+            "c": 1,
+            "value": "(1.0,)"
+          },
+          {
+            "r": 6,
+            "c": 1,
+            "value": "(1.0,)"
+          }
+        ]
+      },
+      "sheet": "Top_Offenders_Vendors"
+    },
+    {
+      "name": "PivotTable1",
+      "range": "$A$2:$D$20",
+      "data_range": "$B$8:$D$20",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 13,
+        "cols": 3,
+        "nonblank": 39,
+        "blank": 0,
+        "zero": 5,
+        "hash": "b0756efbc2854accc237a9d25aa49d68",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "132.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "15.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "0.944297082228118"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "21.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "2.0"
+          },
+          {
+            "r": 2,
+            "c": 3,
+            "value": "0.9466666666666667"
+          }
+        ]
+      },
+      "sheet": "Top_Offenders_Vendors"
+    },
+    {
+      "name": "PivotTable4",
+      "range": "$O$2:$P$17",
+      "data_range": "$P$8:$P$17",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 10,
+        "cols": 1,
+        "nonblank": 10,
+        "blank": 0,
+        "zero": 0,
+        "hash": "a340e640de405e11131c814778bfdbfa",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "(6.0,)"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "(4.0,)"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "(4.0,)"
+          },
+          {
+            "r": 4,
+            "c": 1,
+            "value": "(3.0,)"
+          },
+          {
+            "r": 5,
+            "c": 1,
+            "value": "(3.0,)"
+          },
+          {
+            "r": 6,
+            "c": 1,
+            "value": "(2.0,)"
+          }
+        ]
+      },
+      "sheet": "Top_Offenders_Vendors"
+    },
+    {
+      "name": "ptSemPreenchRegiaoPS",
+      "range": "$A$1:$B$12",
+      "data_range": "$B$7:$B$12",
+      "source": "'https://teamsite.maerskgroup.com/teams/LT-OPC/_vti_history/4608/Shared Documents/OPC (also BPS)/2026 - Info/DSU/[Base_DSU2026 - TbM - WK20.xlsm]ROE_wk'!L1C1:L9205C84",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 6,
+        "cols": 1,
+        "nonblank": 6,
+        "blank": 0,
+        "zero": 0,
+        "hash": "90e07fd62fdaabe8d24477977257057d",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "(121.0,)"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "(53.0,)"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "(13.0,)"
+          },
+          {
+            "r": 4,
+            "c": 1,
+            "value": "(12.0,)"
+          },
+          {
+            "r": 5,
+            "c": 1,
+            "value": "(3.0,)"
+          },
+          {
+            "r": 6,
+            "c": 1,
+            "value": "(202.0,)"
+          }
+        ]
+      },
+      "sheet": "Region errors"
+    },
+    {
+      "name": "PivotTable7",
+      "range": "$AT$1:$AZ$16",
+      "data_range": "$AU$8:$AZ$16",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 9,
+        "cols": 6,
+        "nonblank": 44,
+        "blank": 10,
+        "zero": 18,
+        "hash": "17be4f1ee4e0fac54ce16470ee05629a",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "6.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "2.0"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "value": "2.0"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "value": "8.0"
+          },
+          {
+            "r": 1,
+            "c": 6,
+            "value": "2.0"
+          }
+        ]
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable3",
+      "range": "$O$1:$U$164",
+      "data_range": "$P$7:$U$164",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 158,
+        "cols": 6,
+        "nonblank": 698,
+        "blank": 250,
+        "zero": 285,
+        "hash": "4f3493237051f58215f141e7f3a311ef",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "20.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "value": "20.0"
+          },
+          {
+            "r": 1,
+            "c": 6,
+            "value": "0.0"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "1.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "0.0"
+          }
+        ]
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable6",
+      "range": "$AL$1:$AN$18",
+      "data_range": "$AM$5:$AN$18",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 14,
+        "cols": 2,
+        "nonblank": 28,
+        "blank": 0,
+        "zero": 1,
+        "hash": "936cce1a5c05b9cb78a93474deb34474",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "43.038888888888884"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "30.0"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "38.30885416666668"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "32.0"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "32.66752136752138"
+          },
+          {
+            "r": 3,
+            "c": 2,
+            "value": "39.0"
+          }
+        ]
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable2",
+      "range": "$B$1:$F$20",
+      "data_range": "$C$7:$F$20",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 14,
+        "cols": 4,
+        "nonblank": 56,
+        "blank": 0,
+        "zero": 28,
+        "hash": "00733b8dc661dba351674288ca2a2206",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "343.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "343.0"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "value": "0.0"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "71.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "0.0"
+          }
+        ]
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable1",
+      "range": "$AH$1:$AJ$18",
+      "data_range": "$AI$5:$AJ$18",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 14,
+        "cols": 2,
+        "nonblank": 28,
+        "blank": 0,
+        "zero": 1,
+        "hash": "936cce1a5c05b9cb78a93474deb34474",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "43.038888888888884"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "30.0"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "38.30885416666668"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "32.0"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "32.66752136752138"
+          },
+          {
+            "r": 3,
+            "c": 2,
+            "value": "39.0"
+          }
+        ]
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable5",
+      "range": "$AE$1:$AF$5",
+      "data_range": "$AE$5",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 1,
+        "cols": 1,
+        "nonblank": 1,
+        "blank": 0,
+        "zero": 0,
+        "hash": "848a0a0109c5eae2206ebb1b7dc3b7f5",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "10.055853658536584"
+          }
+        ]
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable10",
+      "range": "$BX$1:$BY$4",
+      "data_range": "$BY$4",
+      "source": "'https://teamsite.maerskgroup.com/teams/LT-OPC/_vti_history/4608/Shared Documents/OPC (also BPS)/2026 - Info/DSU/[Base_DSU2026 - TbM - WK20.xlsm]SIL_wk'!L1C1:L2C25",
+      "record_count": "1",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 1,
+        "cols": 1,
+        "nonblank": 0,
+        "blank": 1,
+        "zero": 0,
+        "hash": "e3dd48e30aa7bcf81a4d874772465bc6",
+        "samples": []
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable8",
+      "range": "$BD$1:$BJ$10",
+      "data_range": "$BE$8:$BJ$10",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 3,
+        "cols": 6,
+        "nonblank": 16,
+        "blank": 2,
+        "zero": 4,
+        "hash": "bf3cd97ea5a7893ebd918f834139ba79",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "27.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "66.0"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "value": "2.0"
+          },
+          {
+            "r": 1,
+            "c": 5,
+            "value": "93.0"
+          },
+          {
+            "r": 1,
+            "c": 6,
+            "value": "2.0"
+          }
+        ]
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable9",
+      "range": "$BP$1:$BQ$11",
+      "data_range": "$BQ$6:$BQ$11",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 6,
+        "cols": 1,
+        "nonblank": 6,
+        "blank": 0,
+        "zero": 0,
+        "hash": "5ffba260a4e34ad0d6fc99caeb533934",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "(1.0,)"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "(1.0,)"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "(0.0,)"
+          },
+          {
+            "r": 4,
+            "c": 1,
+            "value": "(0.0,)"
+          },
+          {
+            "r": 5,
+            "c": 1,
+            "value": "(0.0,)"
+          },
+          {
+            "r": 6,
+            "c": 1,
+            "value": "(2.0,)"
+          }
+        ]
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable4",
+      "range": "$Z$1:$AA$16",
+      "data_range": "$AA$5:$AA$16",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 12,
+        "cols": 1,
+        "nonblank": 12,
+        "blank": 0,
+        "zero": 0,
+        "hash": "314d448eb7bb5408dd1eefbc43f8cef9",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "(11.0,)"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "(9.0,)"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "(6.0,)"
+          },
+          {
+            "r": 4,
+            "c": 1,
+            "value": "(5.0,)"
+          },
+          {
+            "r": 5,
+            "c": 1,
+            "value": "(4.0,)"
+          },
+          {
+            "r": 6,
+            "c": 1,
+            "value": "(3.0,)"
+          }
+        ]
+      },
+      "sheet": "Din"
+    },
+    {
+      "name": "PivotTable2",
+      "range": "$J$3:$N$9",
+      "data_range": "$K$7:$N$9",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 3,
+        "cols": 4,
+        "nonblank": 12,
+        "blank": 0,
+        "zero": 0,
+        "hash": "a31f841e4394ff15e93a00b40639d0a6",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "17.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "1.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "8.984313725490196"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "value": "0.7058823529411766"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "15.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "2.0"
+          }
+        ]
+      },
+      "sheet": "Weekly_DS"
+    },
+    {
+      "name": "PivotTable1",
+      "range": "$A$3:$E$101",
+      "data_range": "$B$7:$E$101",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 95,
+        "cols": 4,
+        "nonblank": 376,
+        "blank": 4,
+        "zero": 103,
+        "hash": "3a67d36cac535506b89492b0995a0075",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "63.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "1.6859788359788352"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "value": "0.01587301587301593"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "54.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "2.0"
+          }
+        ]
+      },
+      "sheet": "Weekly_DS"
+    },
+    {
+      "name": "PivotTable4",
+      "range": "$J$28:$N$33",
+      "data_range": "$K$32:$N$33",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 2,
+        "cols": 4,
+        "nonblank": 8,
+        "blank": 0,
+        "zero": 0,
+        "hash": "8eabb34e89a3e9e19e942e339053a7b1",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "41.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "1.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "7.903658536585367"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "value": "0.7073170731707316"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "41.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "1.0"
+          }
+        ]
+      },
+      "sheet": "Weekly_DS"
+    },
+    {
+      "name": "PivotTable3",
+      "range": "$J$15:$N$22",
+      "data_range": "$K$19:$N$22",
+      "source": "ROE_wk",
+      "record_count": "9204",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 4,
+        "cols": 4,
+        "nonblank": 16,
+        "blank": 0,
+        "zero": 3,
+        "hash": "3289177382bfb1a9481e68ccd998e747",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "12.0"
+          },
+          {
+            "r": 1,
+            "c": 2,
+            "value": "0.0"
+          },
+          {
+            "r": 1,
+            "c": 3,
+            "value": "2.290277777777778"
+          },
+          {
+            "r": 1,
+            "c": 4,
+            "value": "0.9166666666666665"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "14.0"
+          },
+          {
+            "r": 2,
+            "c": 2,
+            "value": "2.0"
+          }
+        ]
+      },
+      "sheet": "Weekly_DS"
+    },
+    {
+      "name": "PivotTable1",
+      "range": "$BJ$2:$BK$42",
+      "data_range": "$BK$6:$BK$42",
+      "source": "ROE_wk_cancel",
+      "record_count": "2745",
+      "row_fields": [],
+      "page_fields": [],
+      "data_fields": [],
+      "body": {
+        "exists": true,
+        "rows": 37,
+        "cols": 1,
+        "nonblank": 37,
+        "blank": 0,
+        "zero": 0,
+        "hash": "4105801115f82b25fafe29c1b042574a",
+        "samples": [
+          {
+            "r": 1,
+            "c": 1,
+            "value": "(7.0,)"
+          },
+          {
+            "r": 2,
+            "c": 1,
+            "value": "(7.0,)"
+          },
+          {
+            "r": 3,
+            "c": 1,
+            "value": "(6.0,)"
+          },
+          {
+            "r": 4,
+            "c": 1,
+            "value": "(5.0,)"
+          },
+          {
+            "r": 5,
+            "c": 1,
+            "value": "(5.0,)"
+          },
+          {
+            "r": 6,
+            "c": 1,
+            "value": "(4.0,)"
+          }
+        ]
+      },
+      "sheet": "ROE_wk_cancel"
+    }
+  ],
+  "charts": [
+    {
+      "object_name": "Chart 4",
+      "chart_type": "-4111",
+      "series": [
+        {
+          "formula": "=SERIES(Volume_DS!$E$11,Volume_DS!$F$8:$L$8,Volume_DS!$F$11:$L$11,1)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "168.0",
+            "225.0",
+            "299.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$12,Volume_DS!$F$8:$L$8,Volume_DS!$F$12:$L$12,2)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "54.0",
+            "40.0",
+            "34.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$13,Volume_DS!$F$8:$L$8,Volume_DS!$F$13:$L$13,3)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "21.0",
+            "7.0",
+            "5.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$10,,Volume_DS!$F$10:$L$10,4)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$14,,Volume_DS!$F$14:$L$14,5)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$15,,Volume_DS!$F$15:$L$15,6)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "348.0",
+            "267.0",
+            "179.0",
+            "59.0",
+            "220.0"
+          ]
+        }
+      ],
+      "title": null,
+      "series_count": 6,
+      "sheet": "Volume_DS"
+    },
+    {
+      "object_name": "Chart 4",
+      "chart_type": "-4111",
+      "series": [
+        {
+          "formula": "=SERIES(Volume_MAO!$E$12,Volume_MAO!$F$8:$L$8,Volume_MAO!$F$12:$L$12,1)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "141.0",
+            "196.0",
+            "272.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_MAO!$E$14,Volume_MAO!$F$8:$L$8,Volume_MAO!$F$14:$L$14,2)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "54.0",
+            "40.0",
+            "34.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_MAO!$E$15,Volume_MAO!$F$8:$L$8,Volume_MAO!$F$15:$L$15,3)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "21.0",
+            "7.0",
+            "5.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_MAO!$E$10,,Volume_MAO!$F$10:$L$10,4)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_MAO!$E$16,,Volume_MAO!$F$16:$L$16,5)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_MAO!$E$18,,Volume_MAO!$F$18:$L$18,6)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "348.0",
+            "267.0",
+            "179.0",
+            "59.0",
+            "220.0"
+          ]
+        }
+      ],
+      "title": null,
+      "series_count": 6,
+      "sheet": "Volume_MAO"
+    },
+    {
+      "object_name": "Chart 4",
+      "chart_type": "-4111",
+      "series": [
+        {
+          "formula": "=SERIES(Volume_Graph!$E$12,Volume_Graph!$F$8:$L$8,Volume_Graph!$F$12:$L$12,1)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "168.0",
+            "225.0",
+            "299.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$13,Volume_Graph!$F$8:$L$8,Volume_Graph!$F$13:$L$13,2)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "54.0",
+            "40.0",
+            "34.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$14,Volume_Graph!$F$8:$L$8,Volume_Graph!$F$14:$L$14,3)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "21.0",
+            "7.0",
+            "5.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$10,,Volume_Graph!$F$10:$L$10,4)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$15,,Volume_Graph!$F$15:$L$15,5)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$16,,Volume_Graph!$F$16:$L$16,6)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "348.0",
+            "267.0",
+            "179.0",
+            "59.0",
+            "220.0"
+          ]
+        }
+      ],
+      "title": null,
+      "series_count": 6,
+      "sheet": "Volume_Graph"
+    },
+    {
+      "object_name": "Chart 2",
+      "chart_type": "-4111",
+      "series": [
+        {
+          "formula": "=SERIES(LTFO_Week12!$E$11,,LTFO_Week12!$F$11:$L$11,1)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "250.0",
+            "334.5",
+            "348.42105263157896",
+            "221.32894736842104",
+            "225.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(LTFO_Week12!$E$12,,LTFO_Week12!$F$12:$L$12,2)",
+          "values_count": 7,
+          "values_nonblank": 7,
+          "values_sample": [
+            "0.0",
+            "404.4",
+            "404.4",
+            "404.4",
+            "404.4",
+            "404.4"
+          ]
+        }
+      ],
+      "title": null,
+      "series_count": 2,
+      "sheet": "LTFO_Week12"
+    },
+    {
+      "object_name": "Chart 5",
+      "chart_type": "51",
+      "series": [
+        {
+          "formula": "=SERIES(Volume_Graph!$E$9,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$9:$M$9,1)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "222.0",
+            "265.0",
+            "333.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$10,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$10:$M$10,2)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$11,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$11:$M$11,3)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "320.4",
+            "320.4",
+            "320.4",
+            "320.4",
+            "320.4"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$12,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$12:$M$12,4)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "168.0",
+            "225.0",
+            "299.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$13,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$13:$M$13,5)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "54.0",
+            "40.0",
+            "34.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$14,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$14:$M$14,6)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "21.0",
+            "7.0",
+            "5.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$15,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$15:$M$15,7)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$16,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$16:$M$16,8)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "348.0",
+            "267.0",
+            "179.0",
+            "59.0",
+            "220.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$17,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$17:$M$17,9)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "0.88",
+            "0.98",
+            "0.96",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_Graph!$E$18,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$18:$M$18,10)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "0.8452380952380952",
+            "0.7022222222222223",
+            "0.8361204013377926",
+            "0.0",
+            "0.0"
+          ]
+        }
+      ],
+      "title": "OTO CAB",
+      "series_count": 10,
+      "sheet": "Menu"
+    },
+    {
+      "object_name": "Chart 6",
+      "chart_type": "-4111",
+      "series": [
+        {
+          "formula": "=SERIES(Volume_DS!$E$9,Volume_DS!$F$8:$M$8,Volume_DS!$F$9:$M$9,1)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "222.0",
+            "265.0",
+            "333.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$10,Volume_DS!$F$8:$M$8,Volume_DS!$F$10:$M$10,2)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4",
+            "397.4"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$11,Volume_DS!$F$8:$M$8,Volume_DS!$F$11:$M$11,3)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "168.0",
+            "225.0",
+            "299.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$12,Volume_DS!$F$8:$M$8,Volume_DS!$F$12:$M$12,4)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "54.0",
+            "40.0",
+            "34.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$13,Volume_DS!$F$8:$M$8,Volume_DS!$F$13:$M$13,5)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "21.0",
+            "7.0",
+            "5.0",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$14,Volume_DS!$F$8:$M$8,Volume_DS!$F$14:$M$14,6)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0",
+            "231.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$15,Volume_DS!$F$8:$M$8,Volume_DS!$F$15:$M$15,7)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "348.0",
+            "267.0",
+            "179.0",
+            "59.0",
+            "220.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$16,Volume_DS!$F$8:$M$8,Volume_DS!$F$16:$M$16,8)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "0.83",
+            "1.0",
+            "0.91",
+            "0.0",
+            "0.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Volume_DS!$E$17,Volume_DS!$F$8:$M$8,Volume_DS!$F$17:$M$17,9)",
+          "values_count": 8,
+          "values_nonblank": 8,
+          "values_sample": [
+            "0.0",
+            "0.2222222222222222",
+            "0.7",
+            "0.2941176470588235",
+            "0.0",
+            "0.0"
+          ]
+        }
+      ],
+      "title": "OTO DS",
+      "series_count": 9,
+      "sheet": "Menu"
+    },
+    {
+      "object_name": "Chart 9",
+      "chart_type": "51",
+      "series": [
+        {
+          "formula": "=SERIES(Top_Offenders_Customers!$AL$24,Top_Offenders_Customers!$AK$25:$AK$35,Top_Offenders_Customers!$AL$25:$AL$35,1)",
+          "values_count": 10,
+          "values_nonblank": 10,
+          "values_sample": [
+            "3.0",
+            "2.0",
+            "20.0",
+            "6.0",
+            "7.0",
+            "3.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Top_Offenders_Customers!$AM$24,Top_Offenders_Customers!$AK$25:$AK$35,Top_Offenders_Customers!$AM$25:$AM$35,2)",
+          "values_count": 10,
+          "values_nonblank": 10,
+          "values_sample": [
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0",
+            "1.0"
+          ]
+        },
+        {
+          "formula": "=SERIES(Top_Offenders_Customers!$AN$24,Top_Offenders_Customers!$AK$25:$AK$35,Top_Offenders_Customers!$AN$25:$AN$35,3)",
+          "values_count": 10,
+          "values_nonblank": 10,
+          "values_sample": [
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0",
+            "0.0"
+          ]
+        }
+      ],
+      "title": null,
+      "series_count": 3,
+      "sheet": "Menu"
+    }
+  ],
+  "formula_error_sheets": [
+    {
+      "sheet": "Volume_DS",
+      "count": 1,
+      "samples": [
+        {
+          "address": "$E$28",
+          "text": "#N/D",
+          "value": "-2146826246",
+          "formula": "=CONCATENATE(\"Vol x RoFo (Weekly) atualizado por último em \",TEXT(MAX(ROE_wk_monthly!J:J)-1/86400,\"dd/mm/aaaa\"))"
+        }
+      ]
+    },
+    {
+      "sheet": "Volume_MAO",
+      "count": 1,
+      "samples": [
+        {
+          "address": "$E$30",
+          "text": "#N/D",
+          "value": "-2146826246",
+          "formula": "=CONCATENATE(\"Vol x RoFo (Weekly) atualizado por último em \",TEXT(MAX(ROE_wk_monthly!J:J)-1/86400,\"dd/mm/aaaa\"))"
+        }
+      ]
+    },
+    {
+      "sheet": "Volume_Graph",
+      "count": 1,
+      "samples": [
+        {
+          "address": "$E$28",
+          "text": "#N/D",
+          "value": "-2146826246",
+          "formula": "=CONCATENATE(\"Vol x RoFo (Weekly) atualizado por último em \",TEXT(MAX(ROE_wk_monthly!J:J)-1/86400,\"dd/mm/aaaa\"))"
+        }
+      ]
+    },
+    {
+      "sheet": "ROE_wk_monthly",
+      "count": 15625,
+      "samples": [
+        {
+          "address": "$AQ$27405",
+          "text": "#VALOR!",
+          "value": "-2146826273",
+          "formula": "=WEEKDAY(AO27405,1)"
+        },
+        {
+          "address": "$AR$27405",
+          "text": "#VALOR!",
+          "value": "-2146826273",
+          "formula": "=IF(WEEKNUM(AO27405,1)=53,\"1\",WEEKNUM(AO27405,1))"
+        },
+        {
+          "address": "$AQ$27406",
+          "text": "#VALOR!",
+          "value": "-2146826273",
+          "formula": "=WEEKDAY(AO27406,1)"
+        },
+        {
+          "address": "$AR$27406",
+          "text": "#VALOR!",
+          "value": "-2146826273",
+          "formula": "=IF(WEEKNUM(AO27406,1)=53,\"1\",WEEKNUM(AO27406,1))"
+        },
+        {
+          "address": "$AQ$27407",
+          "text": "#VALOR!",
+          "value": "-2146826273",
+          "formula": "=WEEKDAY(AO27407,1)"
+        },
+        {
+          "address": "$AR$27407",
+          "text": "#VALOR!",
+          "value": "-2146826273",
+          "formula": "=IF(WEEKNUM(AO27407,1)=53,\"1\",WEEKNUM(AO27407,1))"
+        },
+        {
+          "address": "$AQ$27408",
+          "text": "#VALOR!",
+          "value": "-2146826273",
+          "formula": "=WEEKDAY(AO27408,1)"
+        },
+        {
+          "address": "$AR$27408",
+          "text": "#VALOR!",
+          "value": "-2146826273",
+          "formula": "=IF(WEEKNUM(AO27408,1)=53,\"1\",WEEKNUM(AO27408,1))"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "pivot_total": 28,
+    "pivot_empty_or_no_body": [
+      {
+        "name": "Tabela dinâmica3",
+        "range": "$BG$2:$BI$10",
+        "data_range": "$BH$9:$BI$10",
+        "source": "Reagendas",
+        "record_count": "1",
+        "row_fields": [],
+        "page_fields": [],
+        "data_fields": [],
+        "body": {
+          "exists": true,
+          "rows": 2,
+          "cols": 2,
+          "nonblank": 0,
+          "blank": 4,
+          "zero": 0,
+          "hash": "d661213ea838ae28e8b47fb09dadc11f",
+          "samples": []
+        },
+        "sheet": "Week_Overview"
+      },
+      {
+        "name": "PivotTable10",
+        "range": "$BX$1:$BY$4",
+        "data_range": "$BY$4",
+        "source": "'https://teamsite.maerskgroup.com/teams/LT-OPC/_vti_history/4608/Shared Documents/OPC (also BPS)/2026 - Info/DSU/[Base_DSU2026 - TbM - WK20.xlsm]SIL_wk'!L1C1:L2C25",
+        "record_count": "1",
+        "row_fields": [],
+        "page_fields": [],
+        "data_fields": [],
+        "body": {
+          "exists": true,
+          "rows": 1,
+          "cols": 1,
+          "nonblank": 0,
+          "blank": 1,
+          "zero": 0,
+          "hash": "e3dd48e30aa7bcf81a4d874772465bc6",
+          "samples": []
+        },
+        "sheet": "Din"
+      }
+    ],
+    "chart_total": 7,
+    "chart_empty_series": [],
+    "formula_error_sheet_count": 4
+  },
+  "finished_at": "2026-05-15T11:37:17"
+}

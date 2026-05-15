@@ -1,0 +1,20 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+  "backup": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020_before_top_offenders_fix_20260508_174420.xlsm",
+  "timestamp": "2026-05-08T17:44:26",
+  "changes": [
+    {
+      "sheet": "ROE_wk",
+      "column": "% OTO Client",
+      "sample_before": "=IF([@[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS([Cliente Proposta],[@[Cliente Proposta]],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[OTD ajustado],\"<>Sem Preenchimento\",[Especiais],\"<>Especial\")=0,\"\",1-COUNTIFS([OTD ajustado],\"Atrasado\",[Cliente Proposta],[@[Cliente Proposta]],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[Especiais],\"<>Especial\")/COUNTIFS([Cliente Proposta],[@[Cliente Proposta]],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[OTD ajustado],\"<>Sem Preenchimento\",[Especiais],\"<>Especial\")),\"\")",
+      "sample_after": "=IF([@[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS([Cliente Proposta],[@[Cliente Proposta]],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[OTD ajustado],\"<>Sem Preenchimento\")=0,\"\",1-COUNTIFS([OTD ajustado],\"Atrasado\",[Cliente Proposta],[@[Cliente Proposta]],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[Especiais],\"<>Especial\")/COUNTIFS([Cliente Proposta],[@[Cliente Proposta]],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[OTD ajustado],\"<>Sem Preenchimento\")),\"\")"
+    },
+    {
+      "sheet": "ROE_wk",
+      "column": "% OTO Provider",
+      "sample_before": "=IF([@[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS([Provedor],[@Provedor],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[OTD ajustado],\"<>Sem Preenchimento\",[Especiais],\"<>Especial\")=0,\"\",1-COUNTIFS([OTD ajustado],\"Atrasado\",[Provedor],[@Provedor],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[Especiais],\"<>Especial\")/COUNTIFS([Provedor],[@Provedor],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[OTD ajustado],\"<>Sem Preenchimento\",[Especiais],\"<>Especial\")),\"\")",
+      "sample_after": "=IF([@[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS([Provedor],[@Provedor],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[OTD ajustado],\"<>Sem Preenchimento\")=0,\"\",1-COUNTIFS([OTD ajustado],\"Atrasado\",[Provedor],[@Provedor],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[Especiais],\"<>Especial\")/COUNTIFS([Provedor],[@Provedor],[Tipo Serviço],[@[Tipo Serviço]],[Porto],[@Porto],[Weeknum],[@Weeknum],[Volume],\"Ok\",[OTO Out],\"N\",[OTD ajustado],\"<>Sem Preenchimento\")),\"\")"
+    }
+  ],
+  "pivot_refresh_errors": []
+}

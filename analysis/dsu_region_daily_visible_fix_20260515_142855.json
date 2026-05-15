@@ -1,0 +1,82 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "backup": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\_backup_codex\\Base_DSU2026_pre_region_daily_visible_20260515_142855.xlsm",
+  "edit": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\work\\Base_DSU2026_region_daily_visible_20260515_142855.xlsm",
+  "sheet": "Region errors",
+  "week": 20,
+  "grand_total": 306,
+  "regions": {
+    "Southeast": {
+      "total": 140,
+      "days": {
+        "Mon": 80,
+        "Tue": 34,
+        "Wed": 26,
+        "Thu": 0,
+        "Fri": 0,
+        "Sat": 0,
+        "Sun": 0
+      }
+    },
+    "North": {
+      "total": 112,
+      "days": {
+        "Mon": 37,
+        "Tue": 40,
+        "Wed": 22,
+        "Thu": 0,
+        "Fri": 0,
+        "Sat": 0,
+        "Sun": 13
+      }
+    },
+    "Sem Porto/Region": {
+      "total": 5,
+      "days": {
+        "Mon": 0,
+        "Tue": 0,
+        "Wed": 0,
+        "Thu": 5,
+        "Fri": 0,
+        "Sat": 0,
+        "Sun": 0
+      }
+    },
+    "South": {
+      "total": 43,
+      "days": {
+        "Mon": 7,
+        "Tue": 6,
+        "Wed": 30,
+        "Thu": 0,
+        "Fri": 0,
+        "Sat": 0,
+        "Sun": 0
+      }
+    },
+    "Northeast": {
+      "total": 6,
+      "days": {
+        "Mon": 0,
+        "Tue": 1,
+        "Wed": 5,
+        "Thu": 0,
+        "Fri": 0,
+        "Sat": 0,
+        "Sun": 0
+      }
+    }
+  },
+  "totals_by_day": {
+    "Mon": 124,
+    "Tue": 81,
+    "Wed": 83,
+    "Thu": 5,
+    "Fri": 0,
+    "Sat": 0,
+    "Sun": 13
+  },
+  "zip_bad": null,
+  "has_vba": true,
+  "last_write": "2026-05-15T14:29:15"
+}

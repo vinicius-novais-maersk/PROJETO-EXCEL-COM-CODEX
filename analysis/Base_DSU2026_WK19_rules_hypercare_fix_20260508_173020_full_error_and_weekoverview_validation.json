@@ -1,0 +1,2149 @@
+{
+  "summary": {
+    "workbook": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+    "formula_ref_error_count": 0,
+    "formula_error_literal_count": 0,
+    "cached_error_sheet_count": 5,
+    "cached_error_total": 77984,
+    "week_overview_checks": 108,
+    "week_overview_failed": 74
+  },
+  "formula_ref_errors": [],
+  "formula_error_literals": [],
+  "cached_errors": [
+    {
+      "sheet": "Query1",
+      "count": 1,
+      "by_error": {
+        "#VALUE!": 1
+      },
+      "samples": [
+        {
+          "cell": "BF2",
+          "value": "#VALUE!"
+        }
+      ]
+    },
+    {
+      "sheet": "ROE_wk",
+      "count": 2348,
+      "by_error": {
+        "#VALUE!": 2348
+      },
+      "samples": [
+        {
+          "cell": "BH2",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH4",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH5",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH25",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH28",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH34",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH44",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH47",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH49",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH50",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH51",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH53",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH56",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH58",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH61",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH63",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH67",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH68",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH70",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH71",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH75",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH106",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH107",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH119",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH121",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH127",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH136",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH138",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH140",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH146",
+          "value": "#VALUE!"
+        }
+      ]
+    },
+    {
+      "sheet": "ROE_wk_cancel",
+      "count": 1,
+      "by_error": {
+        "#VALUE!": 1
+      },
+      "samples": [
+        {
+          "cell": "BF2",
+          "value": "#VALUE!"
+        }
+      ]
+    },
+    {
+      "sheet": "Reagendas",
+      "count": 2,
+      "by_error": {
+        "#VALUE!": 2
+      },
+      "samples": [
+        {
+          "cell": "P514",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "Q514",
+          "value": "#VALUE!"
+        }
+      ]
+    },
+    {
+      "sheet": "ROE_wk_monthly",
+      "count": 75632,
+      "by_error": {
+        "#VALUE!": 35495,
+        "#N/A": 40137
+      },
+      "samples": [
+        {
+          "cell": "BF2",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH2",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF3",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH3",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF4",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH4",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF5",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH5",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF6",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH6",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF7",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH7",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF8",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH8",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF9",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH9",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF10",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH10",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF11",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH11",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF12",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH12",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF13",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH13",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF14",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH14",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF15",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH15",
+          "value": "#N/A"
+        },
+        {
+          "cell": "BF16",
+          "value": "#VALUE!"
+        },
+        {
+          "cell": "BH16",
+          "value": "#N/A"
+        }
+      ]
+    }
+  ],
+  "week_overview_failed_checks": [
+    {
+      "row": 2,
+      "scope": "Manaus",
+      "cell": "D2",
+      "metric": "Volume CAB",
+      "actual": 1072,
+      "expected": 0,
+      "diff": 1072.0,
+      "ok": false
+    },
+    {
+      "row": 2,
+      "scope": "Manaus",
+      "cell": "H2",
+      "metric": "Volume DS",
+      "actual": 189,
+      "expected": 1261,
+      "diff": 1072.0,
+      "ok": false
+    },
+    {
+      "row": 2,
+      "scope": "Manaus",
+      "cell": "N2",
+      "metric": "OTO CAB",
+      "actual": 0.9006815968841285,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "D3",
+      "metric": "Volume CAB",
+      "actual": 135,
+      "expected": 0,
+      "diff": 135.0,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "H3",
+      "metric": "Volume DS",
+      "actual": 0,
+      "expected": 135,
+      "diff": 135.0,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "N3",
+      "metric": "OTO CAB",
+      "actual": 0.9390243902439024,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "P3",
+      "metric": "OTO DS",
+      "actual": null,
+      "expected": 0.9390243902439024,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "D6",
+      "metric": "Volume CAB",
+      "actual": 291,
+      "expected": 0,
+      "diff": 291.0,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "H6",
+      "metric": "Volume DS",
+      "actual": 6,
+      "expected": 297,
+      "diff": 291.0,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "N6",
+      "metric": "OTO CAB",
+      "actual": 0.865979381443299,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "P6",
+      "metric": "OTO DS",
+      "actual": 0.8,
+      "expected": 0.8648648648648649,
+      "diff": 0.06486486486486487,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "D7",
+      "metric": "Volume CAB",
+      "actual": 474,
+      "expected": 0,
+      "diff": 474.0,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "H7",
+      "metric": "Volume DS",
+      "actual": 0,
+      "expected": 474,
+      "diff": 474.0,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "N7",
+      "metric": "OTO CAB",
+      "actual": 0.9112050739957717,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "P7",
+      "metric": "OTO DS",
+      "actual": null,
+      "expected": 0.9112050739957717,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "D8",
+      "metric": "Volume CAB",
+      "actual": 262,
+      "expected": 0,
+      "diff": 262.0,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "H8",
+      "metric": "Volume DS",
+      "actual": 60,
+      "expected": 322,
+      "diff": 262.0,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "N8",
+      "metric": "OTO CAB",
+      "actual": 0.9157088122605364,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "P8",
+      "metric": "OTO DS",
+      "actual": 1,
+      "expected": 0.9314641744548287,
+      "diff": 0.06853582554517135,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "D11",
+      "metric": "Volume CAB",
+      "actual": 10,
+      "expected": 0,
+      "diff": 10.0,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "H11",
+      "metric": "Volume DS",
+      "actual": 0,
+      "expected": 10,
+      "diff": 10.0,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "N11",
+      "metric": "OTO CAB",
+      "actual": 1,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "P11",
+      "metric": "OTO DS",
+      "actual": null,
+      "expected": 1.0,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "D12",
+      "metric": "Volume CAB",
+      "actual": 159,
+      "expected": 0,
+      "diff": 159.0,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "H12",
+      "metric": "Volume DS",
+      "actual": 56,
+      "expected": 215,
+      "diff": 159.0,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "N12",
+      "metric": "OTO CAB",
+      "actual": 0.9554140127388535,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "P12",
+      "metric": "OTO DS",
+      "actual": 1,
+      "expected": 0.962962962962963,
+      "diff": 0.03703703703703698,
+      "ok": false
+    },
+    {
+      "row": 13,
+      "scope": "Santos",
+      "cell": "D13",
+      "metric": "Volume CAB",
+      "actual": 778,
+      "expected": 0,
+      "diff": 778.0,
+      "ok": false
+    },
+    {
+      "row": 13,
+      "scope": "Santos",
+      "cell": "H13",
+      "metric": "Volume DS",
+      "actual": 622,
+      "expected": 1400,
+      "diff": 778.0,
+      "ok": false
+    },
+    {
+      "row": 13,
+      "scope": "Santos",
+      "cell": "N13",
+      "metric": "OTO CAB",
+      "actual": 0.9444444444444444,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "D16",
+      "metric": "Volume CAB",
+      "actual": 186,
+      "expected": 0,
+      "diff": 186.0,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "H16",
+      "metric": "Volume DS",
+      "actual": 215,
+      "expected": 401,
+      "diff": 186.0,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "N16",
+      "metric": "OTO CAB",
+      "actual": 0.9096045197740112,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "P16",
+      "metric": "OTO DS",
+      "actual": 0.9897435897435898,
+      "expected": 0.9516129032258065,
+      "diff": 0.038130686517783285,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "D17",
+      "metric": "Volume CAB",
+      "actual": 17,
+      "expected": 0,
+      "diff": 17.0,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "H17",
+      "metric": "Volume DS",
+      "actual": 77,
+      "expected": 0,
+      "diff": 77.0,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "K17",
+      "metric": "Volume Total",
+      "actual": 94,
+      "expected": 0,
+      "diff": 94.0,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "N17",
+      "metric": "OTO CAB",
+      "actual": 0.8333333333333334,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "P17",
+      "metric": "OTO DS",
+      "actual": 1,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "Q17",
+      "metric": "OTO Total",
+      "actual": 0.9841269841269842,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "H18",
+      "metric": "Volume DS",
+      "actual": 10,
+      "expected": 73,
+      "diff": 63.0,
+      "ok": false
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "K18",
+      "metric": "Volume Total",
+      "actual": 10,
+      "expected": 73,
+      "diff": 63.0,
+      "ok": false
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "P18",
+      "metric": "OTO DS",
+      "actual": 0.8888888888888888,
+      "expected": 0.9305555555555556,
+      "diff": 0.04166666666666674,
+      "ok": false
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "Q18",
+      "metric": "OTO Total",
+      "actual": 0.8888888888888888,
+      "expected": 0.9305555555555556,
+      "diff": 0.04166666666666674,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "D19",
+      "metric": "Volume CAB",
+      "actual": 73,
+      "expected": 0,
+      "diff": 73.0,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "H19",
+      "metric": "Volume DS",
+      "actual": 0,
+      "expected": 111,
+      "diff": 111.0,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "K19",
+      "metric": "Volume Total",
+      "actual": 73,
+      "expected": 111,
+      "diff": 38.0,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "N19",
+      "metric": "OTO CAB",
+      "actual": 0.9305555555555556,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "P19",
+      "metric": "OTO DS",
+      "actual": null,
+      "expected": 0.8823529411764706,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "Q19",
+      "metric": "OTO Total",
+      "actual": 0.9305555555555556,
+      "expected": 0.8823529411764706,
+      "diff": 0.04820261437908502,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "D20",
+      "metric": "Volume CAB",
+      "actual": 109,
+      "expected": 0,
+      "diff": 109.0,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "H20",
+      "metric": "Volume DS",
+      "actual": 2,
+      "expected": 10,
+      "diff": 8.0,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "K20",
+      "metric": "Volume Total",
+      "actual": 111,
+      "expected": 10,
+      "diff": 101.0,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "N20",
+      "metric": "OTO CAB",
+      "actual": 0.88,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "P20",
+      "metric": "OTO DS",
+      "actual": 1,
+      "expected": 0.8888888888888888,
+      "diff": 0.11111111111111116,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "Q20",
+      "metric": "OTO Total",
+      "actual": 0.8823529411764706,
+      "expected": 0.8888888888888888,
+      "diff": 0.006535947712418277,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "scope": "North",
+      "cell": "D4",
+      "metric": "Volume CAB",
+      "actual": 1207,
+      "expected": 0,
+      "diff": 1207.0,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "scope": "North",
+      "cell": "H4",
+      "metric": "Volume DS",
+      "actual": 189,
+      "expected": 1396,
+      "diff": 1207.0,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "scope": "North",
+      "cell": "N4",
+      "metric": "OTO CAB",
+      "actual": 0.9035166816952209,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "D9",
+      "metric": "Volume CAB",
+      "actual": 1027,
+      "expected": 0,
+      "diff": 1027.0,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "H9",
+      "metric": "Volume DS",
+      "actual": 66,
+      "expected": 1093,
+      "diff": 1027.0,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "N9",
+      "metric": "OTO CAB",
+      "actual": 0.8995121951219512,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "P9",
+      "metric": "OTO DS",
+      "actual": 0.9846153846153847,
+      "expected": 0.9045871559633027,
+      "diff": 0.08002822865208192,
+      "ok": false
+    },
+    {
+      "row": 14,
+      "scope": "Southeast",
+      "cell": "D14",
+      "metric": "Volume CAB",
+      "actual": 947,
+      "expected": 0,
+      "diff": 947.0,
+      "ok": false
+    },
+    {
+      "row": 14,
+      "scope": "Southeast",
+      "cell": "H14",
+      "metric": "Volume DS",
+      "actual": 678,
+      "expected": 1625,
+      "diff": 947.0,
+      "ok": false
+    },
+    {
+      "row": 14,
+      "scope": "Southeast",
+      "cell": "N14",
+      "metric": "OTO CAB",
+      "actual": 0.9471210340775558,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "D21",
+      "metric": "Volume CAB",
+      "actual": 385,
+      "expected": 0,
+      "diff": 385.0,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "H21",
+      "metric": "Volume DS",
+      "actual": 304,
+      "expected": 689,
+      "diff": 385.0,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "N21",
+      "metric": "OTO CAB",
+      "actual": 0.9042253521126761,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "P21",
+      "metric": "OTO DS",
+      "actual": 0.9885931558935361,
+      "expected": 0.9401294498381877,
+      "diff": 0.04846370605534844,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "D23",
+      "metric": "Volume CAB",
+      "actual": 3580,
+      "expected": 0,
+      "diff": 3580.0,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "H23",
+      "metric": "Volume DS",
+      "actual": 1246,
+      "expected": 4826,
+      "diff": 3580.0,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "N23",
+      "metric": "OTO CAB",
+      "actual": 0.91,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "P23",
+      "metric": "OTO DS",
+      "actual": 0.95,
+      "expected": 0.9208107471128918,
+      "diff": 0.029189252887108164,
+      "ok": false
+    }
+  ],
+  "week_overview_checks": [
+    {
+      "row": 2,
+      "scope": "Manaus",
+      "cell": "D2",
+      "metric": "Volume CAB",
+      "actual": 1072,
+      "expected": 0,
+      "diff": 1072.0,
+      "ok": false
+    },
+    {
+      "row": 2,
+      "scope": "Manaus",
+      "cell": "H2",
+      "metric": "Volume DS",
+      "actual": 189,
+      "expected": 1261,
+      "diff": 1072.0,
+      "ok": false
+    },
+    {
+      "row": 2,
+      "scope": "Manaus",
+      "cell": "K2",
+      "metric": "Volume Total",
+      "actual": 1261,
+      "expected": 1261,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 2,
+      "scope": "Manaus",
+      "cell": "N2",
+      "metric": "OTO CAB",
+      "actual": 0.9006815968841285,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 2,
+      "scope": "Manaus",
+      "cell": "P2",
+      "metric": "OTO DS",
+      "actual": 0.9024390243902439,
+      "expected": 0.9012567324955116,
+      "diff": 0.0011822918947322902,
+      "ok": true
+    },
+    {
+      "row": 2,
+      "scope": "Manaus",
+      "cell": "Q2",
+      "metric": "OTO Total",
+      "actual": 0.9008115419296664,
+      "expected": 0.9012567324955116,
+      "diff": 0.00044519056584524375,
+      "ok": true
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "D3",
+      "metric": "Volume CAB",
+      "actual": 135,
+      "expected": 0,
+      "diff": 135.0,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "H3",
+      "metric": "Volume DS",
+      "actual": 0,
+      "expected": 135,
+      "diff": 135.0,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "K3",
+      "metric": "Volume Total",
+      "actual": 135,
+      "expected": 135,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "N3",
+      "metric": "OTO CAB",
+      "actual": 0.9390243902439024,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "P3",
+      "metric": "OTO DS",
+      "actual": null,
+      "expected": 0.9390243902439024,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "scope": "Vila do Conde",
+      "cell": "Q3",
+      "metric": "OTO Total",
+      "actual": 0.9390243902439024,
+      "expected": 0.9390243902439024,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "D6",
+      "metric": "Volume CAB",
+      "actual": 291,
+      "expected": 0,
+      "diff": 291.0,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "H6",
+      "metric": "Volume DS",
+      "actual": 6,
+      "expected": 297,
+      "diff": 291.0,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "K6",
+      "metric": "Volume Total",
+      "actual": 297,
+      "expected": 297,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "N6",
+      "metric": "OTO CAB",
+      "actual": 0.865979381443299,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "P6",
+      "metric": "OTO DS",
+      "actual": 0.8,
+      "expected": 0.8648648648648649,
+      "diff": 0.06486486486486487,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "scope": "Pecem",
+      "cell": "Q6",
+      "metric": "OTO Total",
+      "actual": 0.8648648648648649,
+      "expected": 0.8648648648648649,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "D7",
+      "metric": "Volume CAB",
+      "actual": 474,
+      "expected": 0,
+      "diff": 474.0,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "H7",
+      "metric": "Volume DS",
+      "actual": 0,
+      "expected": 474,
+      "diff": 474.0,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "K7",
+      "metric": "Volume Total",
+      "actual": 474,
+      "expected": 474,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "N7",
+      "metric": "OTO CAB",
+      "actual": 0.9112050739957717,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "P7",
+      "metric": "OTO DS",
+      "actual": null,
+      "expected": 0.9112050739957717,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "scope": "Suape",
+      "cell": "Q7",
+      "metric": "OTO Total",
+      "actual": 0.9112050739957717,
+      "expected": 0.9112050739957717,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "D8",
+      "metric": "Volume CAB",
+      "actual": 262,
+      "expected": 0,
+      "diff": 262.0,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "H8",
+      "metric": "Volume DS",
+      "actual": 60,
+      "expected": 322,
+      "diff": 262.0,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "K8",
+      "metric": "Volume Total",
+      "actual": 322,
+      "expected": 322,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "N8",
+      "metric": "OTO CAB",
+      "actual": 0.9157088122605364,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "P8",
+      "metric": "OTO DS",
+      "actual": 1,
+      "expected": 0.9314641744548287,
+      "diff": 0.06853582554517135,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "scope": "Salvador",
+      "cell": "Q8",
+      "metric": "OTO Total",
+      "actual": 0.9314641744548287,
+      "expected": 0.9314641744548287,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "D11",
+      "metric": "Volume CAB",
+      "actual": 10,
+      "expected": 0,
+      "diff": 10.0,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "H11",
+      "metric": "Volume DS",
+      "actual": 0,
+      "expected": 10,
+      "diff": 10.0,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "K11",
+      "metric": "Volume Total",
+      "actual": 10,
+      "expected": 10,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "N11",
+      "metric": "OTO CAB",
+      "actual": 1,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "P11",
+      "metric": "OTO DS",
+      "actual": null,
+      "expected": 1.0,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "scope": "Vitoria",
+      "cell": "Q11",
+      "metric": "OTO Total",
+      "actual": 1,
+      "expected": 1.0,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "D12",
+      "metric": "Volume CAB",
+      "actual": 159,
+      "expected": 0,
+      "diff": 159.0,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "H12",
+      "metric": "Volume DS",
+      "actual": 56,
+      "expected": 215,
+      "diff": 159.0,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "K12",
+      "metric": "Volume Total",
+      "actual": 215,
+      "expected": 215,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "N12",
+      "metric": "OTO CAB",
+      "actual": 0.9554140127388535,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "P12",
+      "metric": "OTO DS",
+      "actual": 1,
+      "expected": 0.962962962962963,
+      "diff": 0.03703703703703698,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "scope": "Rio",
+      "cell": "Q12",
+      "metric": "OTO Total",
+      "actual": 0.962962962962963,
+      "expected": 0.962962962962963,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 13,
+      "scope": "Santos",
+      "cell": "D13",
+      "metric": "Volume CAB",
+      "actual": 778,
+      "expected": 0,
+      "diff": 778.0,
+      "ok": false
+    },
+    {
+      "row": 13,
+      "scope": "Santos",
+      "cell": "H13",
+      "metric": "Volume DS",
+      "actual": 622,
+      "expected": 1400,
+      "diff": 778.0,
+      "ok": false
+    },
+    {
+      "row": 13,
+      "scope": "Santos",
+      "cell": "K13",
+      "metric": "Volume Total",
+      "actual": 1400,
+      "expected": 1400,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 13,
+      "scope": "Santos",
+      "cell": "N13",
+      "metric": "OTO CAB",
+      "actual": 0.9444444444444444,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 13,
+      "scope": "Santos",
+      "cell": "P13",
+      "metric": "OTO DS",
+      "actual": 0.933806146572104,
+      "expected": 0.9359649122807018,
+      "diff": 0.002158765708597743,
+      "ok": true
+    },
+    {
+      "row": 13,
+      "scope": "Santos",
+      "cell": "Q13",
+      "metric": "OTO Total",
+      "actual": 0.940379403794038,
+      "expected": 0.9359649122807018,
+      "diff": 0.004414491513336172,
+      "ok": true
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "D16",
+      "metric": "Volume CAB",
+      "actual": 186,
+      "expected": 0,
+      "diff": 186.0,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "H16",
+      "metric": "Volume DS",
+      "actual": 215,
+      "expected": 401,
+      "diff": 186.0,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "K16",
+      "metric": "Volume Total",
+      "actual": 401,
+      "expected": 401,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "N16",
+      "metric": "OTO CAB",
+      "actual": 0.9096045197740112,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "P16",
+      "metric": "OTO DS",
+      "actual": 0.9897435897435898,
+      "expected": 0.9516129032258065,
+      "diff": 0.038130686517783285,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "scope": "Itapoa",
+      "cell": "Q16",
+      "metric": "OTO Total",
+      "actual": 0.9516129032258065,
+      "expected": 0.9516129032258065,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "D17",
+      "metric": "Volume CAB",
+      "actual": 17,
+      "expected": 0,
+      "diff": 17.0,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "H17",
+      "metric": "Volume DS",
+      "actual": 77,
+      "expected": 0,
+      "diff": 77.0,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "K17",
+      "metric": "Volume Total",
+      "actual": 94,
+      "expected": 0,
+      "diff": 94.0,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "N17",
+      "metric": "OTO CAB",
+      "actual": 0.8333333333333334,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "P17",
+      "metric": "OTO DS",
+      "actual": 1,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "scope": "Navegantes",
+      "cell": "Q17",
+      "metric": "OTO Total",
+      "actual": 0.9841269841269842,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "D18",
+      "metric": "Volume CAB",
+      "actual": 0,
+      "expected": 0,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "H18",
+      "metric": "Volume DS",
+      "actual": 10,
+      "expected": 73,
+      "diff": 63.0,
+      "ok": false
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "K18",
+      "metric": "Volume Total",
+      "actual": 10,
+      "expected": 73,
+      "diff": 63.0,
+      "ok": false
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "N18",
+      "metric": "OTO CAB",
+      "actual": null,
+      "expected": null,
+      "diff": 0,
+      "ok": true
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "P18",
+      "metric": "OTO DS",
+      "actual": 0.8888888888888888,
+      "expected": 0.9305555555555556,
+      "diff": 0.04166666666666674,
+      "ok": false
+    },
+    {
+      "row": 18,
+      "scope": "Imbituba",
+      "cell": "Q18",
+      "metric": "OTO Total",
+      "actual": 0.8888888888888888,
+      "expected": 0.9305555555555556,
+      "diff": 0.04166666666666674,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "D19",
+      "metric": "Volume CAB",
+      "actual": 73,
+      "expected": 0,
+      "diff": 73.0,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "H19",
+      "metric": "Volume DS",
+      "actual": 0,
+      "expected": 111,
+      "diff": 111.0,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "K19",
+      "metric": "Volume Total",
+      "actual": 73,
+      "expected": 111,
+      "diff": 38.0,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "N19",
+      "metric": "OTO CAB",
+      "actual": 0.9305555555555556,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "P19",
+      "metric": "OTO DS",
+      "actual": null,
+      "expected": 0.8823529411764706,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "scope": "Rio Grande",
+      "cell": "Q19",
+      "metric": "OTO Total",
+      "actual": 0.9305555555555556,
+      "expected": 0.8823529411764706,
+      "diff": 0.04820261437908502,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "D20",
+      "metric": "Volume CAB",
+      "actual": 109,
+      "expected": 0,
+      "diff": 109.0,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "H20",
+      "metric": "Volume DS",
+      "actual": 2,
+      "expected": 10,
+      "diff": 8.0,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "K20",
+      "metric": "Volume Total",
+      "actual": 111,
+      "expected": 10,
+      "diff": 101.0,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "N20",
+      "metric": "OTO CAB",
+      "actual": 0.88,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "P20",
+      "metric": "OTO DS",
+      "actual": 1,
+      "expected": 0.8888888888888888,
+      "diff": 0.11111111111111116,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "scope": "Paranagua",
+      "cell": "Q20",
+      "metric": "OTO Total",
+      "actual": 0.8823529411764706,
+      "expected": 0.8888888888888888,
+      "diff": 0.006535947712418277,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "scope": "North",
+      "cell": "D4",
+      "metric": "Volume CAB",
+      "actual": 1207,
+      "expected": 0,
+      "diff": 1207.0,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "scope": "North",
+      "cell": "H4",
+      "metric": "Volume DS",
+      "actual": 189,
+      "expected": 1396,
+      "diff": 1207.0,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "scope": "North",
+      "cell": "K4",
+      "metric": "Volume Total",
+      "actual": 1396,
+      "expected": 1396,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 4,
+      "scope": "North",
+      "cell": "N4",
+      "metric": "OTO CAB",
+      "actual": 0.9035166816952209,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "scope": "North",
+      "cell": "P4",
+      "metric": "OTO DS",
+      "actual": 0.9024390243902439,
+      "expected": 0.9038461538461539,
+      "diff": 0.0014071294559099279,
+      "ok": true
+    },
+    {
+      "row": 4,
+      "scope": "North",
+      "cell": "Q4",
+      "metric": "OTO Total",
+      "actual": 0.9034424853064652,
+      "expected": 0.9038461538461539,
+      "diff": 0.0004036685396886508,
+      "ok": true
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "D9",
+      "metric": "Volume CAB",
+      "actual": 1027,
+      "expected": 0,
+      "diff": 1027.0,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "H9",
+      "metric": "Volume DS",
+      "actual": 66,
+      "expected": 1093,
+      "diff": 1027.0,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "K9",
+      "metric": "Volume Total",
+      "actual": 1093,
+      "expected": 1093,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "N9",
+      "metric": "OTO CAB",
+      "actual": 0.8995121951219512,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "P9",
+      "metric": "OTO DS",
+      "actual": 0.9846153846153847,
+      "expected": 0.9045871559633027,
+      "diff": 0.08002822865208192,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "scope": "Northeast",
+      "cell": "Q9",
+      "metric": "OTO Total",
+      "actual": 0.9045871559633027,
+      "expected": 0.9045871559633027,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 14,
+      "scope": "Southeast",
+      "cell": "D14",
+      "metric": "Volume CAB",
+      "actual": 947,
+      "expected": 0,
+      "diff": 947.0,
+      "ok": false
+    },
+    {
+      "row": 14,
+      "scope": "Southeast",
+      "cell": "H14",
+      "metric": "Volume DS",
+      "actual": 678,
+      "expected": 1625,
+      "diff": 947.0,
+      "ok": false
+    },
+    {
+      "row": 14,
+      "scope": "Southeast",
+      "cell": "K14",
+      "metric": "Volume Total",
+      "actual": 1625,
+      "expected": 1625,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 14,
+      "scope": "Southeast",
+      "cell": "N14",
+      "metric": "OTO CAB",
+      "actual": 0.9471210340775558,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 14,
+      "scope": "Southeast",
+      "cell": "P14",
+      "metric": "OTO DS",
+      "actual": 0.9384615384615385,
+      "expected": 0.9402539208364451,
+      "diff": 0.0017923823749066425,
+      "ok": true
+    },
+    {
+      "row": 14,
+      "scope": "Southeast",
+      "cell": "Q14",
+      "metric": "OTO Total",
+      "actual": 0.944104134762634,
+      "expected": 0.9402539208364451,
+      "diff": 0.0038502139261888946,
+      "ok": true
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "D21",
+      "metric": "Volume CAB",
+      "actual": 385,
+      "expected": 0,
+      "diff": 385.0,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "H21",
+      "metric": "Volume DS",
+      "actual": 304,
+      "expected": 689,
+      "diff": 385.0,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "K21",
+      "metric": "Volume Total",
+      "actual": 689,
+      "expected": 689,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "N21",
+      "metric": "OTO CAB",
+      "actual": 0.9042253521126761,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "P21",
+      "metric": "OTO DS",
+      "actual": 0.9885931558935361,
+      "expected": 0.9401294498381877,
+      "diff": 0.04846370605534844,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "scope": "South",
+      "cell": "Q21",
+      "metric": "OTO Total",
+      "actual": 0.9401294498381877,
+      "expected": 0.9401294498381877,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "D23",
+      "metric": "Volume CAB",
+      "actual": 3580,
+      "expected": 0,
+      "diff": 3580.0,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "H23",
+      "metric": "Volume DS",
+      "actual": 1246,
+      "expected": 4826,
+      "diff": 3580.0,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "K23",
+      "metric": "Volume Total",
+      "actual": 4826,
+      "expected": 4826,
+      "diff": 0.0,
+      "ok": true
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "N23",
+      "metric": "OTO CAB",
+      "actual": 0.91,
+      "expected": null,
+      "diff": null,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "P23",
+      "metric": "OTO DS",
+      "actual": 0.95,
+      "expected": 0.9208107471128918,
+      "diff": 0.029189252887108164,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "scope": "Total BR",
+      "cell": "Q23",
+      "metric": "OTO Total",
+      "actual": 0.9217598097502973,
+      "expected": 0.9208107471128918,
+      "diff": 0.0009490626374054623,
+      "ok": true
+    }
+  ],
+  "top_offenders": {
+    "D12": 1,
+    "D30": 1,
+    "D50": 1,
+    "D127": null,
+    "D167": 1,
+    "G27": 1
+  }
+}

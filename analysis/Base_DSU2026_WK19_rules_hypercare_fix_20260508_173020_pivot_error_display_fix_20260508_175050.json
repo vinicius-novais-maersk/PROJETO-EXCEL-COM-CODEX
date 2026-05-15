@@ -1,0 +1,97 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+  "timestamp": "2026-05-08T17:50:55",
+  "pivots": [
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable5",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "Tabela dinâmica1",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable2_KPI_Helper",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable1",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable2",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable1",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable4",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable2",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable3",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Weekly_DS",
+      "pivot": "PivotTable4",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Weekly_DS",
+      "pivot": "PivotTable3",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Weekly_DS",
+      "pivot": "PivotTable2",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    },
+    {
+      "sheet": "Weekly_DS",
+      "pivot": "PivotTable1",
+      "before_display_error": false,
+      "before_error_string": "",
+      "after_error_string": ""
+    }
+  ]
+}

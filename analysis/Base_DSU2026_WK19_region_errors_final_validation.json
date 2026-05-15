@@ -1,0 +1,176 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK19.xlsm",
+  "started_at": "2026-05-09T11:09:42",
+  "open_ok": true,
+  "old_sheet_exists": false,
+  "region_errors_exists": true,
+  "summary_values_before": [
+    [
+      "Region",
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Total"
+    ],
+    [
+      "North",
+      2.0,
+      41.0,
+      46.0,
+      51.0,
+      60.0,
+      0.0,
+      0.0,
+      200.0
+    ],
+    [
+      "Northeast",
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      2.0,
+      0.0,
+      0.0,
+      3.0
+    ],
+    [
+      "Southeast",
+      0.0,
+      54.0,
+      59.0,
+      123.0,
+      50.0,
+      0.0,
+      0.0,
+      286.0
+    ],
+    [
+      "South",
+      0.0,
+      21.0,
+      23.0,
+      15.0,
+      12.0,
+      0.0,
+      0.0,
+      71.0
+    ],
+    [
+      "Sem Porto/Region",
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      23.0,
+      0.0,
+      23.0
+    ],
+    [
+      "Total Geral",
+      2.0,
+      116.0,
+      129.0,
+      189.0,
+      124.0,
+      23.0,
+      0.0,
+      583.0
+    ]
+  ],
+  "button_found": true,
+  "button_on_action": "'Base_DSU2026 - TbM - WK19.xlsm'!AtualizarDashboardsSemPreenchimento",
+  "macro_found": true,
+  "macro_has_cache_refresh": true,
+  "macro_has_filter_cleanup": true,
+  "macro_run_ok": true,
+  "macro_run_seconds": 25.26,
+  "summary_values_after": [
+    [
+      "Region",
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Total"
+    ],
+    [
+      "North",
+      2.0,
+      41.0,
+      46.0,
+      51.0,
+      60.0,
+      0.0,
+      0.0,
+      200.0
+    ],
+    [
+      "Northeast",
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      2.0,
+      0.0,
+      0.0,
+      3.0
+    ],
+    [
+      "Southeast",
+      0.0,
+      54.0,
+      59.0,
+      123.0,
+      50.0,
+      0.0,
+      0.0,
+      286.0
+    ],
+    [
+      "South",
+      0.0,
+      21.0,
+      23.0,
+      15.0,
+      12.0,
+      0.0,
+      0.0,
+      71.0
+    ],
+    [
+      "Sem Porto/Region",
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      23.0,
+      0.0,
+      23.0
+    ],
+    [
+      "Total Geral",
+      2.0,
+      116.0,
+      129.0,
+      189.0,
+      124.0,
+      23.0,
+      0.0,
+      583.0
+    ]
+  ],
+  "saved_after_macro": true,
+  "finished_at": "2026-05-09T11:11:48",
+  "workbook_size": 46368432,
+  "workbook_mtime": "2026-05-09T11:11:34"
+}

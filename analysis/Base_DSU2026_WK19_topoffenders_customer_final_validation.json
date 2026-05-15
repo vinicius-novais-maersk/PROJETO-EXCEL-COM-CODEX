@@ -1,0 +1,29 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK19.xlsm",
+  "zip_test_bad": null,
+  "open_ok": true,
+  "worksheets": 38,
+  "g510_value": 0.9314583333333333,
+  "g510_formula": "=IFERROR(-(C510/B510-1),\"\")",
+  "t441_w441": [
+    "Total Geral",
+    3715.0,
+    0.9114401076716017,
+    329.0
+  ],
+  "t442_w442": [
+    "",
+    "",
+    "",
+    ""
+  ],
+  "guide_title": "MAPA - Top Offenders Customers",
+  "conditional_formatting_ranges": [
+    "D8:D510",
+    "G8:G510",
+    "P8:P167",
+    "V7:V441",
+    "AA7:AA37",
+    "AM25:AM43"
+  ]
+}

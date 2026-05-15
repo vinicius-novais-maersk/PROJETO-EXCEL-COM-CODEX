@@ -1,0 +1,133 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "zip_bad": null,
+  "has_vba": true,
+  "last_write": "2026-05-15T14:29:15",
+  "region_errors_visible_values": {
+    "5": [
+      "Region errors - quantidade por dia",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "6": [
+      "Region",
+      "Total sem preenchimento",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun",
+      "Total dias"
+    ],
+    "7": [
+      "Southeast",
+      140,
+      80,
+      34,
+      26,
+      0,
+      0,
+      0,
+      0,
+      140
+    ],
+    "8": [
+      "North",
+      112,
+      37,
+      40,
+      22,
+      0,
+      0,
+      0,
+      13,
+      112
+    ],
+    "9": [
+      "Sem Porto/Region",
+      5,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0,
+      5
+    ],
+    "10": [
+      "South",
+      43,
+      7,
+      6,
+      30,
+      0,
+      0,
+      0,
+      0,
+      43
+    ],
+    "11": [
+      "Northeast",
+      6,
+      0,
+      1,
+      5,
+      0,
+      0,
+      0,
+      0,
+      6
+    ],
+    "12": [
+      "Total Geral",
+      306,
+      124,
+      81,
+      83,
+      5,
+      0,
+      0,
+      13,
+      306
+    ]
+  },
+  "cols": [
+    {
+      "min": "1",
+      "max": "1",
+      "width": "14.77734375",
+      "bestFit": "1",
+      "customWidth": "1"
+    },
+    {
+      "min": "2",
+      "max": "2",
+      "width": "22.109375",
+      "bestFit": "1",
+      "customWidth": "1"
+    },
+    {
+      "min": "11",
+      "max": "11",
+      "width": "22",
+      "customWidth": "1"
+    },
+    {
+      "min": "3",
+      "max": "10",
+      "width": "12",
+      "customWidth": "1"
+    }
+  ],
+  "ok": true
+}

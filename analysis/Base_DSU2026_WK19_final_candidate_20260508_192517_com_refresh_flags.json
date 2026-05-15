@@ -1,0 +1,15 @@
+{
+  "source": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_conservative_ready_20260508_191028.xlsm",
+  "candidate": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_final_candidate_20260508_192517.xlsm",
+  "open_ok": true,
+  "saved": false,
+  "pivot_caches": 6,
+  "pivot_cache_flags_set": 6,
+  "pivot_cache_flag_failures": [],
+  "pivot_tables": 6,
+  "pivot_table_flags_set": 6,
+  "pivot_table_flag_failures": [],
+  "force_full_calculation": true,
+  "calculation": -4105,
+  "error": "com_error(-2147023174, 'O servidor RPC não está disponível.', None, None)"
+}

@@ -1,0 +1,46 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+  "ref_formulas": [],
+  "target_samples": {
+    "Month2date": {
+      "K2": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))",
+      "L2": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))",
+      "M2": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))",
+      "O2": "=COUNTIFS(ROE_wk_monthly!$AV:$AV,\"Ok\",ROE_wk_monthly!$AY:$AY,$Q2,ROE_wk_monthly!$BG:$BG,$Q$1,ROE_wk_monthly!$AI:$AI,\"Aliança\",ROE_wk_monthly!$N:$N,\"*Reagenda*\")",
+      "P2": "=COUNTIFS(ROE_wk_monthly!$AV:$AV,\"Ok\",ROE_wk_monthly!$AY:$AY,$Q2,ROE_wk_monthly!$BG:$BG,$Q$1,ROE_wk_monthly!$AI:$AI,\"Aliança\",ROE_wk_monthly!$N:$N,\"*HYPERCARE*\")",
+      "K22": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))",
+      "L22": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))",
+      "M22": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))",
+      "O22": "=SUM(O4,O9,O14,O20)",
+      "P22": "=SUM(P4,P9,P14,P20)"
+    },
+    "LastMonth_Overview": {
+      "K2": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))",
+      "L2": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))",
+      "M2": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))",
+      "O2": "=COUNTIFS(ROE_wk_monthly!$AV:$AV,\"Ok\",ROE_wk_monthly!$AY:$AY,$Q2,ROE_wk_monthly!$BG:$BG,$Q$1,ROE_wk_monthly!$AI:$AI,\"Aliança\",ROE_wk_monthly!$N:$N,\"*Reagenda*\")",
+      "P2": "=COUNTIFS(ROE_wk_monthly!$AV:$AV,\"Ok\",ROE_wk_monthly!$AY:$AY,$Q2,ROE_wk_monthly!$BG:$BG,$Q$1,ROE_wk_monthly!$AI:$AI,\"Aliança\",ROE_wk_monthly!$N:$N,\"*HYPERCARE*\")",
+      "K22": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))",
+      "L22": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))",
+      "M22": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))",
+      "O22": "=SUM(O4,O9,O14,O20)",
+      "P22": "=SUM(P4,P9,P14,P20)"
+    },
+    "Volume_DS": {
+      "F19": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,F$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")",
+      "M19": "=SUM(F19:L19)"
+    },
+    "Volume_Graph": {
+      "F20": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,F$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")",
+      "M20": "=SUM(F20:L20)"
+    },
+    "Volume_MAO": {
+      "F22": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,F$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")",
+      "M22": "=SUM(F22:L22)"
+    },
+    "Top_Offenders_Customers": {
+      "G26": "=IFERROR(-(C26/B26-1),\"\")",
+      "G27": "=IFERROR(-(C27/B27-1),\"\")"
+    }
+  }
+}

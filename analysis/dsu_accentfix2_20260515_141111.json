@@ -1,0 +1,10 @@
+{
+  "changed_files": [
+    "xl/worksheets/sheet1.xml",
+    "xl/worksheets/sheet2.xml",
+    "xl/worksheets/sheet3.xml"
+  ],
+  "zip_bad": null,
+  "has_vba": true,
+  "last_write": "2026-05-15T14:11:27"
+}

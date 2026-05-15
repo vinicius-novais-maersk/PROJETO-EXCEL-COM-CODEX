@@ -1,0 +1,25 @@
+{
+  "target": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "edit_copy": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\work\\Base_DSU2026_edit_lightfix_20260515_134506.xlsm",
+  "started_at": "2026-05-15T13:45:06",
+  "actions": [
+    {
+      "action": "created_edit_copy",
+      "path": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\work\\Base_DSU2026_edit_lightfix_20260515_134506.xlsm",
+      "size": 42351087
+    },
+    {
+      "action": "opened",
+      "read_only": false
+    },
+    {
+      "action": "region_pivot_localized",
+      "old_source": "'https://teamsite.maerskgroup.com/teams/LT-OPC/_vti_history/4608/Shared Documents/OPC (also BPS)/2026 - Info/DSU/[Base_DSU2026 - TbM - WK20.xlsm]ROE_wk'!L1C1:L9205C84",
+      "new_source": "ROE_wk"
+    }
+  ],
+  "warnings": [
+    "calc manual failed: (-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível definir a propriedade Calculation da classe Application', 'xlmain11.chm', 0, -2146827284), None)"
+  ],
+  "errors": []
+}

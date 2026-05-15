@@ -1,0 +1,19 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK19.xlsm",
+  "updates": [
+    {
+      "sheet": "Top_Offenders_Customers",
+      "range": "$AP$1:$AQ$12"
+    },
+    {
+      "sheet": "Week_Overview",
+      "range": "$S$25:$V$33"
+    },
+    {
+      "sheet": "Region errors",
+      "range": "$A$14:$B$17"
+    }
+  ],
+  "errors": [],
+  "saved": true
+}

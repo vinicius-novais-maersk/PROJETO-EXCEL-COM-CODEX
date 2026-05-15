@@ -1,0 +1,5446 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK19.xlsm",
+  "timestamp": "2026-05-08T16:41:34",
+  "workbook_exists": true,
+  "workbook_size": 47204672,
+  "workbook_mtime": "2026-05-08T15:44:20",
+  "sheets": {
+    "Volume_DS": {
+      "part": "xl/worksheets/sheet1.xml",
+      "dimension": "A1:AY34",
+      "formulas": 171,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 35,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Volume_MAO": {
+      "part": "xl/worksheets/sheet2.xml",
+      "dimension": "A1:T36",
+      "formulas": 186,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 14,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Volume_Graph": {
+      "part": "xl/worksheets/sheet3.xml",
+      "dimension": "A1:R40",
+      "formulas": 176,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 14,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Query1": {
+      "part": "xl/worksheets/sheet4.xml",
+      "dimension": "A1:BH1040",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 1,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Week_Overview": {
+      "part": "xl/worksheets/sheet5.xml",
+      "dimension": "A1:BT47",
+      "formulas": 617,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 13,
+      "relations": {
+        "tables": 0,
+        "pivots": 3,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Top_Offenders_Customers": {
+      "part": "xl/worksheets/sheet6.xml",
+      "dimension": "A1:AN1805",
+      "formulas": 7507,
+      "formula_ref_errors": [
+        {
+          "cell": "G27",
+          "formula": "IFERROR(-(C27/#REF!-1),\"\")"
+        }
+      ],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 1720,
+      "relations": {
+        "tables": 0,
+        "pivots": 5,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 1,
+      "formula_cached_error_count": 0
+    },
+    "Top_Offenders_Vendors": {
+      "part": "xl/worksheets/sheet7.xml",
+      "dimension": "A1:AC141",
+      "formulas": 80,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 80,
+      "relations": {
+        "tables": 1,
+        "pivots": 4,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Amb+RoFo+Cap": {
+      "part": "xl/worksheets/sheet8.xml",
+      "dimension": "A1:BZ104",
+      "formulas": 1827,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Validacao_BU": {
+      "part": "xl/worksheets/sheet9.xml",
+      "dimension": "A1:Q73",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 1,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Reagendas_Filtro": {
+      "part": "xl/worksheets/sheet10.xml",
+      "dimension": "A1:N10",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 1,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Reagendas_2": {
+      "part": "xl/worksheets/sheet11.xml",
+      "dimension": "A1:BG151",
+      "formulas": 300,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 1,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Weekly": {
+      "part": "xl/worksheets/sheet12.xml",
+      "dimension": "B2:AD45",
+      "formulas": 624,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 293,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Din": {
+      "part": "xl/worksheets/sheet13.xml",
+      "dimension": "A1:BY101",
+      "formulas": 27,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 6,
+      "relations": {
+        "tables": 0,
+        "pivots": 10,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Capacity Plan": {
+      "part": "xl/worksheets/sheet14.xml",
+      "dimension": "A1:D21",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Month2date": {
+      "part": "xl/worksheets/sheet15.xml",
+      "dimension": "A1:W24",
+      "formulas": 305,
+      "formula_ref_errors": [
+        {
+          "cell": "L2",
+          "formula": "IF(J2=0,\"\",IF($Q2=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O2",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q2,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L3",
+          "formula": "IF(J3=0,\"\",IF($Q3=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O3",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q3,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L4",
+          "formula": "IF(J4=0,\"\",IF($Q4=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "L6",
+          "formula": "IF(J6=0,\"\",IF($Q6=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O6",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q6,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L7",
+          "formula": "IF(J7=0,\"\",IF($Q7=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O7",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q7,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L8",
+          "formula": "IF(J8=0,\"\",IF($Q8=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O8",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q8,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L9",
+          "formula": "IF(J9=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "L11",
+          "formula": "IF(J11=0,\"\",IF($Q11=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O11",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q11,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L12",
+          "formula": "IF(J12=0,\"\",IF($Q12=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O12",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q12,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L13",
+          "formula": "IF(J13=0,\"\",IF($Q13=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O13",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q13,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L14",
+          "formula": "IF(J14=0,\"\",IF($Q14=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "L16",
+          "formula": "IF(J16=0,\"\",IF($Q16=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O16",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q16,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L17",
+          "formula": "IF(J17=0,\"\",IF($Q17=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O17",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q17,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L18",
+          "formula": "IF(J18=0,\"\",IF($Q18=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O18",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q18,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L19",
+          "formula": "IF(J19=0,\"\",IF($Q19=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O19",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q19,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L20",
+          "formula": "IF(J20=0,\"\",IF($Q20=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "L22",
+          "formula": "ROUNDUP(IF(J22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-"
+        }
+      ],
+      "formula_cached_errors": [
+        {
+          "cell": "O2",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q2,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O3",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q3,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O4",
+          "value": "#REF!",
+          "formula": "SUM(O2:O3)"
+        },
+        {
+          "cell": "O6",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q6,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O7",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q7,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O8",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q8,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O9",
+          "value": "#REF!",
+          "formula": "SUM(O6:O8)"
+        },
+        {
+          "cell": "O11",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q11,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O12",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q12,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O13",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q13,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O14",
+          "value": "#REF!",
+          "formula": "SUM(O11:O13)"
+        },
+        {
+          "cell": "O16",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q16,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O17",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q17,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O18",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q18,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O19",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q19,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O20",
+          "value": "#REF!",
+          "formula": "SUM(O16:O19)"
+        },
+        {
+          "cell": "K22",
+          "value": "#VALUE!",
+          "formula": "ROUNDUP(IF(I22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-"
+        },
+        {
+          "cell": "L22",
+          "value": "#VALUE!",
+          "formula": "ROUNDUP(IF(J22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-"
+        },
+        {
+          "cell": "O22",
+          "value": "#REF!",
+          "formula": "SUM(O4,O9,O14,O20)"
+        }
+      ],
+      "formula_missing_cached_values": 70,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 29,
+      "formula_cached_error_count": 19
+    },
+    "LastMonth_Overview": {
+      "part": "xl/worksheets/sheet16.xml",
+      "dimension": "A1:U23",
+      "formulas": 293,
+      "formula_ref_errors": [
+        {
+          "cell": "L2",
+          "formula": "IF(J2=0,\"\",IF($Q2=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O2",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q2,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L3",
+          "formula": "IF(J3=0,\"\",IF($Q3=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O3",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q3,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L4",
+          "formula": "IF(J4=0,\"\",IF($Q4=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "L6",
+          "formula": "IF(J6=0,\"\",IF($Q6=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O6",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q6,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L7",
+          "formula": "IF(J7=0,\"\",IF($Q7=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O7",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q7,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L8",
+          "formula": "IF(J8=0,\"\",IF($Q8=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "O8",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q8,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L9",
+          "formula": "IF(J9=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Alia"
+        },
+        {
+          "cell": "L11",
+          "formula": "IF(J11=0,\"\",IF($Q11=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O11",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q11,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L12",
+          "formula": "IF(J12=0,\"\",IF($Q12=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O12",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q12,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L13",
+          "formula": "IF(J13=0,\"\",IF($Q13=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O13",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q13,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L14",
+          "formula": "IF(J14=0,\"\",IF($Q14=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "L16",
+          "formula": "IF(J16=0,\"\",IF($Q16=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O16",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q16,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L17",
+          "formula": "IF(J17=0,\"\",IF($Q17=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O17",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q17,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L18",
+          "formula": "IF(J18=0,\"\",IF($Q18=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O18",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q18,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L19",
+          "formula": "IF(J19=0,\"\",IF($Q19=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "O19",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q19,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "L20",
+          "formula": "IF(J20=0,\"\",IF($Q20=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"A"
+        },
+        {
+          "cell": "L22",
+          "formula": "ROUNDUP(IF(J22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-"
+        }
+      ],
+      "formula_cached_errors": [
+        {
+          "cell": "O2",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q2,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O3",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q3,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O4",
+          "value": "#REF!",
+          "formula": "SUM(O2:O3)"
+        },
+        {
+          "cell": "O6",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q6,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O7",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q7,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O8",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q8,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O9",
+          "value": "#REF!",
+          "formula": "SUM(O6:O8)"
+        },
+        {
+          "cell": "O11",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q11,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O12",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q12,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O13",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q13,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O14",
+          "value": "#REF!",
+          "formula": "SUM(O11:O13)"
+        },
+        {
+          "cell": "O16",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q16,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O17",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q17,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O18",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q18,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O19",
+          "value": "#REF!",
+          "formula": "COUNTIFS(#REF!,\"Ok\",#REF!,$Q19,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")"
+        },
+        {
+          "cell": "O20",
+          "value": "#REF!",
+          "formula": "SUM(O16:O19)"
+        },
+        {
+          "cell": "K22",
+          "value": "#VALUE!",
+          "formula": "ROUNDUP(IF(I22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-"
+        },
+        {
+          "cell": "L22",
+          "value": "#VALUE!",
+          "formula": "ROUNDUP(IF(J22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-"
+        },
+        {
+          "cell": "O22",
+          "value": "#REF!",
+          "formula": "SUM(O4,O9,O14,O20)"
+        }
+      ],
+      "formula_missing_cached_values": 74,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 29,
+      "formula_cached_error_count": 19
+    },
+    "LTFO_Week12": {
+      "part": "xl/worksheets/sheet17.xml",
+      "dimension": "A4:N14",
+      "formulas": 15,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "OTO Exceptions": {
+      "part": "xl/worksheets/sheet18.xml",
+      "dimension": "A1:X67",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 8,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Moves Exceptions": {
+      "part": "xl/worksheets/sheet19.xml",
+      "dimension": "A1:G15",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 4,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Exceptions_Mapping": {
+      "part": "xl/worksheets/sheet20.xml",
+      "dimension": "A1:M184",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 1,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Exceptions": {
+      "part": "xl/worksheets/sheet21.xml",
+      "dimension": "A1:AO69",
+      "formulas": 12,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "ROE_wk": {
+      "part": "xl/worksheets/sheet22.xml",
+      "dimension": "A1:CF9010",
+      "formulas": 320942,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [
+        {
+          "cell": "BH2",
+          "value": "#VALUE!",
+          "formula": "BG2*24*60"
+        },
+        {
+          "cell": "BH4",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH5",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH25",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH28",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH34",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH44",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH47",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH49",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH50",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH51",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH53",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH56",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH58",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH61",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH63",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH67",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH68",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH70",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH71",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH75",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH106",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH107",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH119",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH121",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH127",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH136",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH138",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH140",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH146",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH148",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH150",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH152",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH154",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH156",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH158",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH160",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH167",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH171",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH178",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH182",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH197",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH207",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH209",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH214",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH216",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH218",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH220",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH223",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH233",
+          "value": "#VALUE!",
+          "formula": ""
+        }
+      ],
+      "formula_missing_cached_values": 63778,
+      "relations": {
+        "tables": 1,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 2348
+    },
+    "Weekly_DS": {
+      "part": "xl/worksheets/sheet23.xml",
+      "dimension": "A1:O606",
+      "formulas": 609,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 527,
+      "relations": {
+        "tables": 0,
+        "pivots": 4,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "SIL_wk": {
+      "part": "xl/worksheets/sheet24.xml",
+      "dimension": "A1:Z6448",
+      "formulas": 11501,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 1817,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Sem_Preenchimento_Regiao": {
+      "part": "xl/worksheets/sheet25.xml",
+      "dimension": "A1:B12",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 1,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "ROE_wk_cancel": {
+      "part": "xl/worksheets/sheet26.xml",
+      "dimension": "A1:BL2746",
+      "formulas": 26008,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [
+        {
+          "cell": "BF2",
+          "value": "#VALUE!",
+          "formula": "BE2*24*60"
+        }
+      ],
+      "formula_missing_cached_values": 1846,
+      "relations": {
+        "tables": 1,
+        "pivots": 1,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 1
+    },
+    "Reagendas": {
+      "part": "xl/worksheets/sheet27.xml",
+      "dimension": "A1:U514",
+      "formulas": 2565,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [
+        {
+          "cell": "P514",
+          "value": "#VALUE!",
+          "formula": "_xlfn.TEXTJOIN(CHAR(10), TRUE, _xlfn._xlws.FILTER(_xlfn.TEXTSPLIT(G514,CHAR(10)), _xlfn.TEXTSPLIT(G514,CHAR(10))<>\"\"))"
+        },
+        {
+          "cell": "Q514",
+          "value": "#VALUE!",
+          "formula": "LEN(P514) - LEN(SUBSTITUTE(P514,CHAR(10),\"\")) + 1"
+        }
+      ],
+      "formula_missing_cached_values": 2,
+      "relations": {
+        "tables": 1,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 2
+    },
+    "ROE_wk_monthly": {
+      "part": "xl/worksheets/sheet28.xml",
+      "dimension": "A1:BJ44658",
+      "formulas": 1003425,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [
+        {
+          "cell": "BF2",
+          "value": "#VALUE!",
+          "formula": "BE2*24*60"
+        },
+        {
+          "cell": "BH2",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A2,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF3",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH3",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A3,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF4",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH4",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A4,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF5",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH5",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A5,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF6",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH6",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A6,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF7",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH7",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A7,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF8",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH8",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A8,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF9",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH9",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A9,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF10",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH10",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A10,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF11",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH11",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A11,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF12",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH12",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A12,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF13",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH13",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A13,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF14",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH14",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A14,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF15",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH15",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A15,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF16",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH16",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A16,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF17",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH17",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A17,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF18",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH18",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A18,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF19",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH19",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A19,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF20",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH20",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A20,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF21",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH21",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A21,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF22",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH22",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A22,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF23",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH23",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A23,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF24",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH24",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A24,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF25",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH25",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A25,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        },
+        {
+          "cell": "BF26",
+          "value": "#VALUE!",
+          "formula": ""
+        },
+        {
+          "cell": "BH26",
+          "value": "#N/A",
+          "formula": "IF(_xlfn.XLOOKUP(A26,SIL_wk_month!B:B,SIL_wk_month!M:M)=\"\",\"N\",\"S\")"
+        }
+      ],
+      "formula_missing_cached_values": 339717,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 75632
+    },
+    "RAO_wk": {
+      "part": "xl/worksheets/sheet29.xml",
+      "dimension": "A1:G9886",
+      "formulas": 14482,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "RAO_wk_cancel": {
+      "part": "xl/worksheets/sheet30.xml",
+      "dimension": "A1:G2678",
+      "formulas": 4452,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "RAO_wk_monthly": {
+      "part": "xl/worksheets/sheet31.xml",
+      "dimension": "A1:G44638",
+      "formulas": 84400,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "SIL_wk_month": {
+      "part": "xl/worksheets/sheet32.xml",
+      "dimension": "A1:Z22773",
+      "formulas": 45544,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Aux": {
+      "part": "xl/worksheets/sheet33.xml",
+      "dimension": "A1:X532",
+      "formulas": 1095,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Week_18": {
+      "part": "xl/worksheets/sheet34.xml",
+      "dimension": "A1:BT47",
+      "formulas": 613,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 12,
+      "relations": {
+        "tables": 0,
+        "pivots": 3,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Week_11": {
+      "part": "xl/worksheets/sheet35.xml",
+      "dimension": "A1:AY47",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Week_10": {
+      "part": "xl/worksheets/sheet36.xml",
+      "dimension": "A1:AY47",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Validacao_Final": {
+      "part": "xl/worksheets/sheet37.xml",
+      "dimension": "A1:Q10",
+      "formulas": 0,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 1,
+        "pivots": 0,
+        "drawings": 0
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    },
+    "Menu": {
+      "part": "xl/worksheets/sheet38.xml",
+      "dimension": "C1:P37",
+      "formulas": 6,
+      "formula_ref_errors": [],
+      "formula_cached_errors": [],
+      "formula_missing_cached_values": 0,
+      "relations": {
+        "tables": 0,
+        "pivots": 0,
+        "drawings": 1
+      },
+      "formula_ref_error_count": 0,
+      "formula_cached_error_count": 0
+    }
+  },
+  "formula_totals": {
+    "sheets": 38,
+    "formulas": 1527782,
+    "formula_ref_error_count": 59,
+    "formula_cached_error_count": 78021,
+    "tables": 22,
+    "pivots": 31,
+    "charts": 7,
+    "chart_ref_issues": 0,
+    "pivot_source_issues": 0,
+    "defined_name_issues": 0,
+    "external_links": 0
+  },
+  "defined_name_issues": [],
+  "tables": [
+    {
+      "sheet": "Query1",
+      "name": "ROE_wk_cancel_",
+      "ref": "A1:BH1040",
+      "part": "xl/tables/table1.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "name": "Table3",
+      "ref": "AA2:AC39",
+      "part": "xl/tables/table2.xml"
+    },
+    {
+      "sheet": "Validacao_BU",
+      "name": "Validacao_BU",
+      "ref": "A1:Q73",
+      "part": "xl/tables/table3.xml"
+    },
+    {
+      "sheet": "Reagendas_Filtro",
+      "name": "Reagendas_Filtro",
+      "ref": "A1:N10",
+      "part": "xl/tables/table4.xml"
+    },
+    {
+      "sheet": "Reagendas_2",
+      "name": "Reagendas",
+      "ref": "A1:BG151",
+      "part": "xl/tables/table5.xml"
+    },
+    {
+      "sheet": "OTO Exceptions",
+      "name": "Table_fSafraOTO",
+      "ref": "X1:X36",
+      "part": "xl/tables/table13.xml"
+    },
+    {
+      "sheet": "OTO Exceptions",
+      "name": "Table_fCliente_BrandOTO",
+      "ref": "E1:G2",
+      "part": "xl/tables/table8.xml"
+    },
+    {
+      "sheet": "OTO Exceptions",
+      "name": "Table_fProvedorOTO",
+      "ref": "V1:V21",
+      "part": "xl/tables/table12.xml"
+    },
+    {
+      "sheet": "OTO Exceptions",
+      "name": "Table_fCarrosselOTO",
+      "ref": "C1:C10",
+      "part": "xl/tables/table7.xml"
+    },
+    {
+      "sheet": "OTO Exceptions",
+      "name": "fJustificativasOTO",
+      "ref": "A1:A3",
+      "part": "xl/tables/table6.xml"
+    },
+    {
+      "sheet": "OTO Exceptions",
+      "name": "Table_fEMB_LocalOTO",
+      "ref": "R1:T3",
+      "part": "xl/tables/table11.xml"
+    },
+    {
+      "sheet": "OTO Exceptions",
+      "name": "Table_fEMB_CL_PR_OTO",
+      "ref": "M1:P67",
+      "part": "xl/tables/table10.xml"
+    },
+    {
+      "sheet": "OTO Exceptions",
+      "name": "Table_fCliente_PortoOTO",
+      "ref": "I1:K2",
+      "part": "xl/tables/table9.xml"
+    },
+    {
+      "sheet": "Moves Exceptions",
+      "name": "Table_fTerminalMoves",
+      "ref": "E1:E5",
+      "part": "xl/tables/table16.xml"
+    },
+    {
+      "sheet": "Moves Exceptions",
+      "name": "Table_fProvedorMoves",
+      "ref": "C1:C15",
+      "part": "xl/tables/table15.xml"
+    },
+    {
+      "sheet": "Moves Exceptions",
+      "name": "Table_fCliente_PortoMoves",
+      "ref": "A1:A5",
+      "part": "xl/tables/table14.xml"
+    },
+    {
+      "sheet": "Moves Exceptions",
+      "name": "fJustificativasMoves__2",
+      "ref": "G1:G6",
+      "part": "xl/tables/table17.xml"
+    },
+    {
+      "sheet": "Exceptions_Mapping",
+      "name": "Exceptions_Mapping",
+      "ref": "A1:D184",
+      "part": "xl/tables/table18.xml"
+    },
+    {
+      "sheet": "ROE_wk",
+      "name": "ROE_wk",
+      "ref": "A1:CF9010",
+      "part": "xl/tables/table19.xml"
+    },
+    {
+      "sheet": "ROE_wk_cancel",
+      "name": "ROE_wk_cancel",
+      "ref": "A1:BG2746",
+      "part": "xl/tables/table20.xml"
+    },
+    {
+      "sheet": "Reagendas",
+      "name": "Sheet1",
+      "ref": "A1:R514",
+      "part": "xl/tables/table21.xml"
+    },
+    {
+      "sheet": "Validacao_Final",
+      "name": "Validacao_Final",
+      "ref": "A1:Q10",
+      "part": "xl/tables/table22.xml"
+    }
+  ],
+  "pivots": [
+    {
+      "sheet": "Week_Overview",
+      "name": "Tabela dinâmica4",
+      "cacheId": "1",
+      "location": "BA7:BB10",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition2.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "Reagendas",
+        "fields": [
+          "Numero CTe",
+          "Numero Controle CTe",
+          "Container",
+          "Tipo Container",
+          "Booking",
+          "Qtde Container",
+          "Num OS Coleta",
+          "Num OS Cancel Coleta",
+          "Num OS Entrega",
+          "Num OS Cancel Entrega",
+          "Cliente Proposta",
+          "CNPJ Cliente",
+          "Tomador CTe",
+          "CNPJ Tomador CTe",
+          "Nome Embarcador",
+          "CNPJ Embarcador",
+          "Nome Destinatario",
+          "CNPJ Destinatario",
+          "Modal",
+          "Agendamento Coleta",
+          "Data Agendamento Coleta",
+          "Data Programacao Coleta",
+          "POL",
+          "Terminal POL",
+          "Navio/Viagem POL",
+          "Deadline Carga",
+          "ETA POL",
+          "ETD POL",
+          "POD",
+          "Terminal POD",
+          "Navio/Viagem POD",
+          "ETA POD",
+          "ETD POD",
+          "Agendamento Entrega",
+          "Data Agendamento Entrega",
+          "Data Programacao Entrega",
+          "Observacao",
+          "Observ CDesk",
+          "Usuario Resp Alt",
+          "Data Alteracao",
+          "Tipo Alteracao",
+          "Justif Alteracao",
+          "Obs Alteracao",
+          "De",
+          "Para",
+          "Segmentação",
+          "Data",
+          "Porto Afetado",
+          "OS Cancelada",
+          "Grupo - Justificativa",
+          "Semana",
+          "Chave_Hist",
+          "Column87",
+          "Num OS Final",
+          "Diferença Horário",
+          "R/N",
+          "Chave",
+          "Filtro Valido",
+          "Date-Day"
+        ],
+        "records": "150"
+      },
+      "row_fields": [
+        "Porto Afetado"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "Grupo - Justificativa",
+        "Semana",
+        "R/N",
+        "Data"
+      ],
+      "data_fields": [
+        {
+          "name": "Contagem de Container",
+          "field": "Container",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable3.xml"
+    },
+    {
+      "sheet": "Week_Overview",
+      "name": "Tabela dinâmica1",
+      "cacheId": "4",
+      "location": "AR7:AU11",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition5.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "Validacao_Final",
+        "fields": [
+          "Grupo - Justificativa",
+          "Segmentação",
+          "Diferença Horário",
+          "De",
+          "Para",
+          "Data",
+          "Justif Alteracao",
+          "Obs Alteracao",
+          "Porto Afetado",
+          "R/N",
+          "Num OS Final",
+          "OS Cancelada",
+          "Semana",
+          "Data Alteracao",
+          "Confere?",
+          "Justificativa BU",
+          "WeekDay"
+        ],
+        "records": "9"
+      },
+      "row_fields": [
+        "Justif Alteracao"
+      ],
+      "col_fields": [
+        "Porto Afetado"
+      ],
+      "page_fields": [
+        "Grupo - Justificativa",
+        "Semana",
+        "R/N",
+        "Data"
+      ],
+      "data_fields": [
+        {
+          "name": "Contagem de Num OS Final",
+          "field": "Num OS Final",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable2.xml"
+    },
+    {
+      "sheet": "Week_Overview",
+      "name": "Tabela dinâmica3",
+      "cacheId": "1",
+      "location": "BG7:BS20",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition2.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "Reagendas",
+        "fields": [
+          "Numero CTe",
+          "Numero Controle CTe",
+          "Container",
+          "Tipo Container",
+          "Booking",
+          "Qtde Container",
+          "Num OS Coleta",
+          "Num OS Cancel Coleta",
+          "Num OS Entrega",
+          "Num OS Cancel Entrega",
+          "Cliente Proposta",
+          "CNPJ Cliente",
+          "Tomador CTe",
+          "CNPJ Tomador CTe",
+          "Nome Embarcador",
+          "CNPJ Embarcador",
+          "Nome Destinatario",
+          "CNPJ Destinatario",
+          "Modal",
+          "Agendamento Coleta",
+          "Data Agendamento Coleta",
+          "Data Programacao Coleta",
+          "POL",
+          "Terminal POL",
+          "Navio/Viagem POL",
+          "Deadline Carga",
+          "ETA POL",
+          "ETD POL",
+          "POD",
+          "Terminal POD",
+          "Navio/Viagem POD",
+          "ETA POD",
+          "ETD POD",
+          "Agendamento Entrega",
+          "Data Agendamento Entrega",
+          "Data Programacao Entrega",
+          "Observacao",
+          "Observ CDesk",
+          "Usuario Resp Alt",
+          "Data Alteracao",
+          "Tipo Alteracao",
+          "Justif Alteracao",
+          "Obs Alteracao",
+          "De",
+          "Para",
+          "Segmentação",
+          "Data",
+          "Porto Afetado",
+          "OS Cancelada",
+          "Grupo - Justificativa",
+          "Semana",
+          "Chave_Hist",
+          "Column87",
+          "Num OS Final",
+          "Diferença Horário",
+          "R/N",
+          "Chave",
+          "Filtro Valido",
+          "Date-Day"
+        ],
+        "records": "150"
+      },
+      "row_fields": [
+        "Justif Alteracao"
+      ],
+      "col_fields": [
+        "Porto Afetado"
+      ],
+      "page_fields": [
+        "Grupo - Justificativa",
+        "Semana",
+        "R/N",
+        "Data"
+      ],
+      "data_fields": [
+        {
+          "name": "Contagem de Num OS Final",
+          "field": "Num OS Final",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable1.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable2_KPI_Helper",
+      "cacheId": "5",
+      "location": "AF20:AH209",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "OTO Out",
+        "Weeknum",
+        "Porto",
+        "OTD ajustado",
+        "Especiais"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "field": "Atrasado?",
+          "subtotal": null
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable6.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "Tabela dinâmica1",
+      "cacheId": "5",
+      "location": "Y6:AA25",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Justificativa",
+        "Cliente Proposta",
+        "Provedor"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Centro de Custo",
+        "Atrasado?"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "OTO WK",
+          "field": "% OTO Client",
+          "subtotal": "average"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable5.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable5",
+      "cacheId": "5",
+      "location": "N7:R61",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta",
+        "Provedor",
+        "Justificativa"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Centro de Custo",
+        "Atrasado?",
+        "OTO Out"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "OTO WK",
+          "field": "% OTO Client",
+          "subtotal": "average"
+        },
+        {
+          "name": "Avg Em horas",
+          "field": "Em horas",
+          "subtotal": "average"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "field": "% SLA agend",
+          "subtotal": "average"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable4.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable2",
+      "cacheId": "5",
+      "location": "AK24:AN35",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta",
+        "Provedor",
+        "Justificativa"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Centro de Custo",
+        "Weeknum"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "OTO WK",
+          "field": "% OTO Client",
+          "subtotal": "average"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "field": "Atrasado?",
+          "subtotal": null
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable8.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable1",
+      "cacheId": "5",
+      "location": "A7:F206",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta",
+        "Provedor"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Centro de Custo",
+        "OTO Out",
+        "Atrasado?"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "field": "AtrasoRev",
+          "subtotal": null
+        },
+        {
+          "name": "OTO WK",
+          "field": "% OTO Client",
+          "subtotal": "average"
+        },
+        {
+          "name": "Avg Em horas",
+          "field": "Em horas",
+          "subtotal": "average"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "field": "% SLA agend",
+          "subtotal": "average"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable7.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "name": "PivotTable2",
+      "cacheId": "5",
+      "location": "R7:S8",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Tipo Atraso",
+        "Justificativa",
+        "Provedor"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "Volume",
+        "Data Prog.",
+        "Atrasado?",
+        "OTO Out"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable11.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "name": "PivotTable4",
+      "cacheId": "5",
+      "location": "O7:P8",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Justificativa",
+        "Provedor",
+        "Cliente Proposta"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "Volume",
+        "Data Prog.",
+        "Atrasado?",
+        "OTO Out"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable10.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "name": "PivotTable1",
+      "cacheId": "5",
+      "location": "A7:D8",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Provedor",
+        "Cliente Proposta"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Data Prog.",
+        "OTO Out",
+        "Atrasado?"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "field": "AtrasoRev",
+          "subtotal": null
+        },
+        {
+          "name": "OTO WK",
+          "field": "% OTO Provider",
+          "subtotal": "average"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable9.xml"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "name": "PivotTable3",
+      "cacheId": "5",
+      "location": "L7:M8",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Provedor",
+        "Justificativa",
+        "Cliente Proposta"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "Volume",
+        "Data Prog.",
+        "Atrasado?",
+        "OTO Out"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable12.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable2",
+      "cacheId": "5",
+      "location": "B4:F15",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Provedor"
+      ],
+      "col_fields": [
+        "OTD SIL",
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Porto"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "field": "Atrasado?",
+          "subtotal": null
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable20.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable5",
+      "cacheId": "5",
+      "location": "AE4:AE5",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [],
+      "col_fields": [],
+      "page_fields": [
+        "Volume",
+        "Porto"
+      ],
+      "data_fields": [
+        {
+          "name": "Average of Em horas",
+          "field": "Em horas",
+          "subtotal": "average"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable15.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable10",
+      "cacheId": "3",
+      "location": "BX3:BY4",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition4.xml",
+        "source_sheet": "SIL_wk",
+        "source_ref": "A1:Y2",
+        "source_name": null,
+        "fields": [
+          "BU",
+          "Número da programação",
+          "Número da solicitação de coleta",
+          "Data de criação da AE Atual",
+          "Situação prazo programação",
+          "Tipo de programação",
+          "Aut. embarque",
+          "Situação viagem",
+          "Containers",
+          "Transportadora",
+          "Previsão início atendimento (BRA)",
+          "Dt Início da Execução (BRA)",
+          "Dt FIM da Execução (BRA)",
+          "Tempo no cliente",
+          "Situação programação",
+          "Justificativa de atraso de programação",
+          "Nome local de atendimento",
+          "Placa do veículo",
+          "Placa da carreta 1",
+          "Embarcador",
+          "Booking",
+          "Dt prev. Coleta CNTR",
+          "Nome do motorista programado",
+          "Tipo container",
+          "Situação prazo programação (Ajustado)"
+        ],
+        "records": "1"
+      },
+      "row_fields": [
+        "BU"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "Dt Início da Execução (BRA)"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of Número da programação",
+          "field": "Número da programação",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable19.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable9",
+      "cacheId": "5",
+      "location": "BP5:BQ6",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Justificativa"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "Volume",
+        "Porto",
+        "Centro de Custo"
+      ],
+      "data_fields": [
+        {
+          "name": "Sum of Atrasado?",
+          "field": "Atrasado?",
+          "subtotal": null
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable14.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable6",
+      "cacheId": "5",
+      "location": "AL4:AN18",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Porto"
+      ],
+      "data_fields": [
+        {
+          "name": "Average of Em horas",
+          "field": "Em horas",
+          "subtotal": "average"
+        },
+        {
+          "name": "Count of Nº OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable13.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable3",
+      "cacheId": "5",
+      "location": "O4:U101",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta"
+      ],
+      "col_fields": [
+        "OTD SIL",
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Porto"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "field": "Atrasado?",
+          "subtotal": null
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable18.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable7",
+      "cacheId": "5",
+      "location": "AT5:AV8",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta"
+      ],
+      "col_fields": [
+        "OTD SIL",
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Porto",
+        "Centro de Custo"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "field": "Atrasado?",
+          "subtotal": null
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable17.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable8",
+      "cacheId": "5",
+      "location": "BD5:BF8",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Provedor"
+      ],
+      "col_fields": [
+        "OTD SIL",
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Porto",
+        "Centro de Custo"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "field": "Atrasado?",
+          "subtotal": null
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable22.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable4",
+      "cacheId": "5",
+      "location": "Z4:AA13",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Justificativa"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "Volume",
+        "Porto"
+      ],
+      "data_fields": [
+        {
+          "name": "Sum of Atrasado?",
+          "field": "Atrasado?",
+          "subtotal": null
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable16.xml"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable1",
+      "cacheId": "5",
+      "location": "AH4:AJ18",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Porto"
+      ],
+      "data_fields": [
+        {
+          "name": "Average of Em horas",
+          "field": "Em horas",
+          "subtotal": "average"
+        },
+        {
+          "name": "Count of Nº OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable21.xml"
+    },
+    {
+      "sheet": "Weekly_DS",
+      "name": "PivotTable2",
+      "cacheId": "5",
+      "location": "J6:N9",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta",
+        "Justificativa"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Centro de Custo"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "field": "AtrasoRev",
+          "subtotal": null
+        },
+        {
+          "name": "Avg Em horas",
+          "field": "Em horas",
+          "subtotal": "average"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "field": "% SLA agend",
+          "subtotal": "average"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable25.xml"
+    },
+    {
+      "sheet": "Weekly_DS",
+      "name": "PivotTable3",
+      "cacheId": "5",
+      "location": "J18:N23",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta",
+        "Justificativa"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Centro de Custo"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "field": "AtrasoRev",
+          "subtotal": null
+        },
+        {
+          "name": "Avg Em horas",
+          "field": "Em horas",
+          "subtotal": "average"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "field": "% SLA agend",
+          "subtotal": "average"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable24.xml"
+    },
+    {
+      "sheet": "Weekly_DS",
+      "name": "PivotTable4",
+      "cacheId": "5",
+      "location": "J31:N33",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta",
+        "Justificativa"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Centro de Custo"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "field": "AtrasoRev",
+          "subtotal": null
+        },
+        {
+          "name": "Avg Em horas",
+          "field": "Em horas",
+          "subtotal": "average"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "field": "% SLA agend",
+          "subtotal": "average"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable23.xml"
+    },
+    {
+      "sheet": "Weekly_DS",
+      "name": "PivotTable1",
+      "cacheId": "5",
+      "location": "A6:E78",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Cliente Proposta",
+        "Provedor"
+      ],
+      "col_fields": [
+        "Tipo_Programacao_SIL"
+      ],
+      "page_fields": [
+        "Volume",
+        "Centro de Custo"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "field": "AtrasoRev",
+          "subtotal": null
+        },
+        {
+          "name": "Avg Em horas",
+          "field": "Em horas",
+          "subtotal": "average"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "field": "% SLA agend",
+          "subtotal": "average"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable26.xml"
+    },
+    {
+      "sheet": "Sem_Preenchimento_Regiao",
+      "name": "ptSemPreenchRegiaoPS",
+      "cacheId": "0",
+      "location": "A6:B12",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition1.xml",
+        "source_sheet": "ROE_wk",
+        "source_ref": "A1:CF9010",
+        "source_name": null,
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "Terminal Cheio",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "Region",
+          "OTD SIL",
+          "OTD ajustado",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "% OTO Provider",
+          "% OTO Client",
+          "% SLA agend",
+          "OTO Out",
+          "24h+ on Client",
+          "ClientePropostaRes",
+          "Especiais",
+          "AtrasoRev",
+          "Tipo Atraso",
+          "Produto",
+          "Nome local de atendimento",
+          "JustificativaExc",
+          "Cliente PropostaExc",
+          "Cliente Proposta+BrandExc",
+          "Cliente Proposta+PortoExc",
+          "Embarcador+Cliente Proposta+ProvedorExc",
+          "Embarcador+Nome local de atendimentoExc",
+          "ProvedorExc",
+          "Is_OTOException",
+          "Is_MoveException",
+          "Embarcador+Cliente Proposta+Provedor+PortoExc",
+          "BU_SIL",
+          "Tipo_Programacao_SIL",
+          "% agend on time"
+        ],
+        "records": "9009"
+      },
+      "row_fields": [
+        "Region"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "OTO Out",
+        "OTD ajustado",
+        "Volume",
+        "Weeknum"
+      ],
+      "data_fields": [
+        {
+          "name": "Qtd OS sem preenchimento",
+          "field": "Nº OS",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable27.xml"
+    },
+    {
+      "sheet": "ROE_wk_cancel",
+      "name": "PivotTable1",
+      "cacheId": "2",
+      "location": "BJ5:BK70",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition3.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "ROE_wk_cancel",
+        "fields": [
+          "Nº OS",
+          "ST",
+          "Tipo OS",
+          "Provedor",
+          "Tipo Serviço",
+          "Valor",
+          "Qtde",
+          "Booking",
+          "Emissão",
+          "Data Prog.",
+          "Embarcador",
+          "Destinatário",
+          "Cliente Proposta",
+          "Aut. de Coleta/Entrega",
+          "Nota Fiscal",
+          "Navio",
+          "Origem/Destino",
+          "Container",
+          "Tipo",
+          "Tara",
+          "Lacre 1",
+          "Lacre 2",
+          "Lacre 3",
+          "Faturamento",
+          "Peso da carga (sem a tara)",
+          "Nº Agendamento",
+          "Nro. Apólice",
+          "Status Averbação",
+          "Número Averbação",
+          "Data Averbação",
+          "EDI",
+          "Data EDI",
+          "Val. EDI Alt. Usuário",
+          "Empresa",
+          "Centro de Custo",
+          "Diferenciador Proposta",
+          "Cliente Proposta2",
+          "CAB",
+          "Cliente + Porto",
+          "Tipo ajustado",
+          "Dia",
+          "day week",
+          "Weekday",
+          "Weeknum",
+          "Data Ag",
+          "SLA Ag",
+          "Special",
+          "Volume",
+          "POL",
+          "POD",
+          "Porto",
+          "OTD SIL",
+          "Justificativa",
+          "Atrasado?",
+          "Wtime",
+          "Em horas",
+          "W8ngTime",
+          "W8ngMinute",
+          "CAB3"
+        ],
+        "records": "2745"
+      },
+      "row_fields": [
+        "Cliente Proposta"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "Tipo Serviço",
+        "Origem/Destino"
+      ],
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "field": "Nº OS",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable28.xml"
+    },
+    {
+      "sheet": "Week_18",
+      "name": "PivotTable1",
+      "cacheId": "1",
+      "location": "BA7:BB10",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition2.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "Reagendas",
+        "fields": [
+          "Numero CTe",
+          "Numero Controle CTe",
+          "Container",
+          "Tipo Container",
+          "Booking",
+          "Qtde Container",
+          "Num OS Coleta",
+          "Num OS Cancel Coleta",
+          "Num OS Entrega",
+          "Num OS Cancel Entrega",
+          "Cliente Proposta",
+          "CNPJ Cliente",
+          "Tomador CTe",
+          "CNPJ Tomador CTe",
+          "Nome Embarcador",
+          "CNPJ Embarcador",
+          "Nome Destinatario",
+          "CNPJ Destinatario",
+          "Modal",
+          "Agendamento Coleta",
+          "Data Agendamento Coleta",
+          "Data Programacao Coleta",
+          "POL",
+          "Terminal POL",
+          "Navio/Viagem POL",
+          "Deadline Carga",
+          "ETA POL",
+          "ETD POL",
+          "POD",
+          "Terminal POD",
+          "Navio/Viagem POD",
+          "ETA POD",
+          "ETD POD",
+          "Agendamento Entrega",
+          "Data Agendamento Entrega",
+          "Data Programacao Entrega",
+          "Observacao",
+          "Observ CDesk",
+          "Usuario Resp Alt",
+          "Data Alteracao",
+          "Tipo Alteracao",
+          "Justif Alteracao",
+          "Obs Alteracao",
+          "De",
+          "Para",
+          "Segmentação",
+          "Data",
+          "Porto Afetado",
+          "OS Cancelada",
+          "Grupo - Justificativa",
+          "Semana",
+          "Chave_Hist",
+          "Column87",
+          "Num OS Final",
+          "Diferença Horário",
+          "R/N",
+          "Chave",
+          "Filtro Valido",
+          "Date-Day"
+        ],
+        "records": "150"
+      },
+      "row_fields": [
+        "Porto Afetado"
+      ],
+      "col_fields": [],
+      "page_fields": [
+        "Grupo - Justificativa",
+        "Semana",
+        "R/N",
+        "Data"
+      ],
+      "data_fields": [
+        {
+          "name": "Contagem de Container",
+          "field": "Container",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable31.xml"
+    },
+    {
+      "sheet": "Week_18",
+      "name": "PivotTable2",
+      "cacheId": "1",
+      "location": "BG7:BS20",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition2.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "Reagendas",
+        "fields": [
+          "Numero CTe",
+          "Numero Controle CTe",
+          "Container",
+          "Tipo Container",
+          "Booking",
+          "Qtde Container",
+          "Num OS Coleta",
+          "Num OS Cancel Coleta",
+          "Num OS Entrega",
+          "Num OS Cancel Entrega",
+          "Cliente Proposta",
+          "CNPJ Cliente",
+          "Tomador CTe",
+          "CNPJ Tomador CTe",
+          "Nome Embarcador",
+          "CNPJ Embarcador",
+          "Nome Destinatario",
+          "CNPJ Destinatario",
+          "Modal",
+          "Agendamento Coleta",
+          "Data Agendamento Coleta",
+          "Data Programacao Coleta",
+          "POL",
+          "Terminal POL",
+          "Navio/Viagem POL",
+          "Deadline Carga",
+          "ETA POL",
+          "ETD POL",
+          "POD",
+          "Terminal POD",
+          "Navio/Viagem POD",
+          "ETA POD",
+          "ETD POD",
+          "Agendamento Entrega",
+          "Data Agendamento Entrega",
+          "Data Programacao Entrega",
+          "Observacao",
+          "Observ CDesk",
+          "Usuario Resp Alt",
+          "Data Alteracao",
+          "Tipo Alteracao",
+          "Justif Alteracao",
+          "Obs Alteracao",
+          "De",
+          "Para",
+          "Segmentação",
+          "Data",
+          "Porto Afetado",
+          "OS Cancelada",
+          "Grupo - Justificativa",
+          "Semana",
+          "Chave_Hist",
+          "Column87",
+          "Num OS Final",
+          "Diferença Horário",
+          "R/N",
+          "Chave",
+          "Filtro Valido",
+          "Date-Day"
+        ],
+        "records": "150"
+      },
+      "row_fields": [
+        "Justif Alteracao"
+      ],
+      "col_fields": [
+        "Porto Afetado"
+      ],
+      "page_fields": [
+        "Grupo - Justificativa",
+        "Semana",
+        "R/N",
+        "Data"
+      ],
+      "data_fields": [
+        {
+          "name": "Contagem de Num OS Final",
+          "field": "Num OS Final",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable30.xml"
+    },
+    {
+      "sheet": "Week_18",
+      "name": "PivotTable3",
+      "cacheId": "4",
+      "location": "AR7:AU11",
+      "source": {
+        "part": "xl/pivotCache/pivotCacheDefinition5.xml",
+        "source_sheet": null,
+        "source_ref": null,
+        "source_name": "Validacao_Final",
+        "fields": [
+          "Grupo - Justificativa",
+          "Segmentação",
+          "Diferença Horário",
+          "De",
+          "Para",
+          "Data",
+          "Justif Alteracao",
+          "Obs Alteracao",
+          "Porto Afetado",
+          "R/N",
+          "Num OS Final",
+          "OS Cancelada",
+          "Semana",
+          "Data Alteracao",
+          "Confere?",
+          "Justificativa BU",
+          "WeekDay"
+        ],
+        "records": "9"
+      },
+      "row_fields": [
+        "Justif Alteracao"
+      ],
+      "col_fields": [
+        "Porto Afetado"
+      ],
+      "page_fields": [
+        "Grupo - Justificativa",
+        "Semana",
+        "R/N",
+        "Data"
+      ],
+      "data_fields": [
+        {
+          "name": "Contagem de Num OS Final",
+          "field": "Num OS Final",
+          "subtotal": "count"
+        }
+      ],
+      "part": "xl/pivotTables/pivotTable29.xml"
+    }
+  ],
+  "charts": [
+    {
+      "sheet": "Volume_DS",
+      "chart_part": "xl/charts/chart1.xml",
+      "series_count": 6,
+      "formula_count": 15,
+      "formulas": [
+        "Volume_DS!$E$11",
+        "Volume_DS!$F$8:$L$8",
+        "Volume_DS!$F$11:$L$11",
+        "Volume_DS!$E$12",
+        "Volume_DS!$F$8:$L$8",
+        "Volume_DS!$F$12:$L$12",
+        "Volume_DS!$E$13",
+        "Volume_DS!$F$8:$L$8",
+        "Volume_DS!$F$13:$L$13",
+        "Volume_DS!$E$10",
+        "Volume_DS!$F$10:$L$10",
+        "Volume_DS!$E$14",
+        "Volume_DS!$F$14:$L$14",
+        "Volume_DS!$E$15",
+        "Volume_DS!$F$15:$L$15"
+      ],
+      "point_counts": [
+        "1",
+        "7",
+        "7",
+        "1",
+        "7",
+        "7",
+        "1",
+        "7",
+        "7",
+        "1",
+        "7",
+        "1",
+        "7",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "sheet": "Volume_MAO",
+      "chart_part": "xl/charts/chart2.xml",
+      "series_count": 6,
+      "formula_count": 15,
+      "formulas": [
+        "Volume_MAO!$E$12",
+        "Volume_MAO!$F$8:$L$8",
+        "Volume_MAO!$F$12:$L$12",
+        "Volume_MAO!$E$14",
+        "Volume_MAO!$F$8:$L$8",
+        "Volume_MAO!$F$14:$L$14",
+        "Volume_MAO!$E$15",
+        "Volume_MAO!$F$8:$L$8",
+        "Volume_MAO!$F$15:$L$15",
+        "Volume_MAO!$E$10",
+        "Volume_MAO!$F$10:$L$10",
+        "Volume_MAO!$E$16",
+        "Volume_MAO!$F$16:$L$16",
+        "Volume_MAO!$E$18",
+        "Volume_MAO!$F$18:$L$18"
+      ],
+      "point_counts": [
+        "1",
+        "7",
+        "7",
+        "1",
+        "7",
+        "7",
+        "1",
+        "7",
+        "7",
+        "1",
+        "7",
+        "1",
+        "7",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "sheet": "Volume_Graph",
+      "chart_part": "xl/charts/chart3.xml",
+      "series_count": 6,
+      "formula_count": 15,
+      "formulas": [
+        "Volume_Graph!$E$12",
+        "Volume_Graph!$F$8:$L$8",
+        "Volume_Graph!$F$12:$L$12",
+        "Volume_Graph!$E$13",
+        "Volume_Graph!$F$8:$L$8",
+        "Volume_Graph!$F$13:$L$13",
+        "Volume_Graph!$E$14",
+        "Volume_Graph!$F$8:$L$8",
+        "Volume_Graph!$F$14:$L$14",
+        "Volume_Graph!$E$10",
+        "Volume_Graph!$F$10:$L$10",
+        "Volume_Graph!$E$15",
+        "Volume_Graph!$F$15:$L$15",
+        "Volume_Graph!$E$16",
+        "Volume_Graph!$F$16:$L$16"
+      ],
+      "point_counts": [
+        "1",
+        "7",
+        "7",
+        "1",
+        "7",
+        "7",
+        "1",
+        "7",
+        "7",
+        "1",
+        "7",
+        "1",
+        "7",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "sheet": "LTFO_Week12",
+      "chart_part": "xl/charts/chart4.xml",
+      "series_count": 2,
+      "formula_count": 4,
+      "formulas": [
+        "LTFO_Week12!$E$11",
+        "LTFO_Week12!$F$11:$L$11",
+        "LTFO_Week12!$E$12",
+        "LTFO_Week12!$F$12:$L$12"
+      ],
+      "point_counts": [
+        "1",
+        "7",
+        "1",
+        "7"
+      ]
+    },
+    {
+      "sheet": "Menu",
+      "chart_part": "xl/charts/chart6.xml",
+      "series_count": 9,
+      "formula_count": 27,
+      "formulas": [
+        "Volume_DS!$E$9",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$9:$M$9",
+        "Volume_DS!$E$10",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$10:$M$10",
+        "Volume_DS!$E$11",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$11:$M$11",
+        "Volume_DS!$E$12",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$12:$M$12",
+        "Volume_DS!$E$13",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$13:$M$13",
+        "Volume_DS!$E$14",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$14:$M$14",
+        "Volume_DS!$E$15",
+        "Volume_DS!$F$8:$M$8"
+      ],
+      "point_counts": [
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8"
+      ]
+    },
+    {
+      "sheet": "Menu",
+      "chart_part": "xl/charts/chart5.xml",
+      "series_count": 10,
+      "formula_count": 30,
+      "formulas": [
+        "Volume_Graph!$E$9",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$9:$M$9",
+        "Volume_Graph!$E$10",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$10:$M$10",
+        "Volume_Graph!$E$11",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$11:$M$11",
+        "Volume_Graph!$E$12",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$12:$M$12",
+        "Volume_Graph!$E$13",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$13:$M$13",
+        "Volume_Graph!$E$14",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$14:$M$14",
+        "Volume_Graph!$E$15",
+        "Volume_Graph!$F$8:$M$8"
+      ],
+      "point_counts": [
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8",
+        "8",
+        "1",
+        "8"
+      ]
+    },
+    {
+      "sheet": "Menu",
+      "chart_part": "xl/charts/chart7.xml",
+      "series_count": 3,
+      "formula_count": 9,
+      "formulas": [
+        "Top_Offenders_Customers!$AL$24",
+        "Top_Offenders_Customers!$AK$25:$AK$35",
+        "Top_Offenders_Customers!$AL$25:$AL$35",
+        "Top_Offenders_Customers!$AM$24",
+        "Top_Offenders_Customers!$AK$25:$AK$35",
+        "Top_Offenders_Customers!$AM$25:$AM$35",
+        "Top_Offenders_Customers!$AN$24",
+        "Top_Offenders_Customers!$AK$25:$AK$35",
+        "Top_Offenders_Customers!$AN$25:$AN$35"
+      ],
+      "point_counts": [
+        "1",
+        "10",
+        "10",
+        "1",
+        "10",
+        "10",
+        "1",
+        "10",
+        "10"
+      ]
+    }
+  ],
+  "chart_ref_issues": [],
+  "pivot_source_issues": [],
+  "external_links": []
+}

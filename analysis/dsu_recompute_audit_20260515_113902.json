@@ -1,0 +1,817 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "generated_at": "2026-05-15T11:39:23",
+  "week": "20",
+  "main_graph_port": "Manaus",
+  "roe_records_loaded": 4851,
+  "user_requested_total_with_delays": {
+    "total_volume_ok": 3250,
+    "simple_delays_Atrasado?1": 204,
+    "visual_oto": 0.9372307692307692,
+    "official_denominator": 2937,
+    "official_penalizable_delays": 204,
+    "official_oto": 0.9305413687436159
+  },
+  "center_breakdown": {
+    "CAB": {
+      "simple": {
+        "total_volume_ok": 2400,
+        "simple_delays_Atrasado?1": 169,
+        "visual_oto": 0.9295833333333333
+      },
+      "official": {
+        "denominator": 2269,
+        "penalizable_delays": 169,
+        "oto": 0.9255178492728074
+      }
+    },
+    "DS": {
+      "simple": {
+        "total_volume_ok": 850,
+        "simple_delays_Atrasado?1": 35,
+        "visual_oto": 0.9588235294117647
+      },
+      "official": {
+        "denominator": 668,
+        "penalizable_delays": 35,
+        "oto": 0.9476047904191617
+      }
+    }
+  },
+  "week_overview_port_checks": [
+    {
+      "row": 2,
+      "label": "MAO",
+      "port": "Manaus",
+      "moves_cab_calc": 692,
+      "moves_cab_sheet": 692,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 128,
+      "moves_ds_sheet": 128,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 820,
+      "moves_ttl_sheet": 820,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.9428152492668622,
+      "oto_cab_sheet": 0.9428152492668622,
+      "oto_cab_ok": true,
+      "oto_ds_calc": 0.8947368421052632,
+      "oto_ds_sheet": 0.8947368421052632,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.9379947229551451,
+      "oto_ttl_sheet": 0.9379947229551451,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 820,
+        "simple_delays_Atrasado?1": 47,
+        "visual_oto": 0.9426829268292682
+      }
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "port": "Vila do Conde",
+      "moves_cab_calc": 110,
+      "moves_cab_sheet": 110,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 0,
+      "moves_ds_sheet": 0,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 110,
+      "moves_ttl_sheet": 110,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.8813559322033898,
+      "oto_cab_sheet": 0.8813559322033898,
+      "oto_cab_ok": true,
+      "oto_ds_calc": null,
+      "oto_ds_sheet": null,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.8813559322033898,
+      "oto_ttl_sheet": 0.8813559322033898,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 110,
+        "simple_delays_Atrasado?1": 7,
+        "visual_oto": 0.9363636363636364
+      }
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "port": "Pecem",
+      "moves_cab_calc": 237,
+      "moves_cab_sheet": 237,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 5,
+      "moves_ds_sheet": 5,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 242,
+      "moves_ttl_sheet": 242,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.9194915254237288,
+      "oto_cab_sheet": 0.9194915254237288,
+      "oto_cab_ok": true,
+      "oto_ds_calc": 0.8,
+      "oto_ds_sheet": 0.8,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.91701244813278,
+      "oto_ttl_sheet": 0.91701244813278,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 242,
+        "simple_delays_Atrasado?1": 20,
+        "visual_oto": 0.9173553719008265
+      }
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "port": "Suape",
+      "moves_cab_calc": 387,
+      "moves_cab_sheet": 387,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 0,
+      "moves_ds_sheet": 0,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 387,
+      "moves_ttl_sheet": 387,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.8802083333333334,
+      "oto_cab_sheet": 0.8802083333333334,
+      "oto_cab_ok": true,
+      "oto_ds_calc": null,
+      "oto_ds_sheet": null,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.8802083333333334,
+      "oto_ttl_sheet": 0.8802083333333334,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 387,
+        "simple_delays_Atrasado?1": 46,
+        "visual_oto": 0.8811369509043928
+      }
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "port": "Salvador",
+      "moves_cab_calc": 156,
+      "moves_cab_sheet": 156,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 19,
+      "moves_ds_sheet": 19,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 175,
+      "moves_ttl_sheet": 175,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.935064935064935,
+      "oto_cab_sheet": 0.935064935064935,
+      "oto_cab_ok": true,
+      "oto_ds_calc": 0.9473684210526316,
+      "oto_ds_sheet": 0.9473684210526316,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.9364161849710982,
+      "oto_ttl_sheet": 0.9364161849710982,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 175,
+        "simple_delays_Atrasado?1": 11,
+        "visual_oto": 0.9371428571428572
+      }
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "port": "Vitoria",
+      "moves_cab_calc": 27,
+      "moves_cab_sheet": 27,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 0,
+      "moves_ds_sheet": 0,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 27,
+      "moves_ttl_sheet": 27,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.962962962962963,
+      "oto_cab_sheet": 0.962962962962963,
+      "oto_cab_ok": true,
+      "oto_ds_calc": null,
+      "oto_ds_sheet": null,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.962962962962963,
+      "oto_ttl_sheet": 0.962962962962963,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 27,
+        "simple_delays_Atrasado?1": 1,
+        "visual_oto": 0.962962962962963
+      }
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "port": "Rio",
+      "moves_cab_calc": 105,
+      "moves_cab_sheet": 105,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 29,
+      "moves_ds_sheet": 29,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 134,
+      "moves_ttl_sheet": 134,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.9238095238095239,
+      "oto_cab_sheet": 0.9238095238095239,
+      "oto_cab_ok": true,
+      "oto_ds_calc": 1.0,
+      "oto_ds_sheet": 1,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.9384615384615385,
+      "oto_ttl_sheet": 0.9384615384615385,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 134,
+        "simple_delays_Atrasado?1": 8,
+        "visual_oto": 0.9402985074626866
+      }
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "port": "Santos",
+      "moves_cab_calc": 343,
+      "moves_cab_sheet": 343,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 413,
+      "moves_ds_sheet": 413,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 756,
+      "moves_ttl_sheet": 756,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.9391891891891891,
+      "oto_cab_sheet": 0.9391891891891891,
+      "oto_cab_ok": true,
+      "oto_ds_calc": 0.940625,
+      "oto_ds_sheet": 0.940625,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.939935064935065,
+      "oto_ttl_sheet": 0.939935064935065,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 756,
+        "simple_delays_Atrasado?1": 37,
+        "visual_oto": 0.951058201058201
+      }
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "port": "Itapoa",
+      "moves_cab_calc": 219,
+      "moves_cab_sheet": 219,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 186,
+      "moves_ds_sheet": 186,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 405,
+      "moves_ttl_sheet": 405,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.910377358490566,
+      "oto_cab_sheet": 0.910377358490566,
+      "oto_cab_ok": true,
+      "oto_ds_calc": 0.9634146341463414,
+      "oto_ds_sheet": 0.9634146341463414,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.9335106382978724,
+      "oto_ttl_sheet": 0.9335106382978724,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 405,
+        "simple_delays_Atrasado?1": 25,
+        "visual_oto": 0.9382716049382716
+      }
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "port": "Itajai",
+      "moves_cab_calc": 3,
+      "moves_cab_sheet": 3,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 54,
+      "moves_ds_sheet": 54,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 57,
+      "moves_ttl_sheet": 57,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": null,
+      "oto_cab_sheet": null,
+      "oto_cab_ok": true,
+      "oto_ds_calc": 1.0,
+      "oto_ds_sheet": 1,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 1.0,
+      "oto_ttl_sheet": 1,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 57,
+        "simple_delays_Atrasado?1": 0,
+        "visual_oto": 1.0
+      }
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "port": "Paranagua",
+      "moves_cab_calc": 0,
+      "moves_cab_sheet": 0,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 13,
+      "moves_ds_sheet": 13,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 13,
+      "moves_ttl_sheet": 13,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": null,
+      "oto_cab_sheet": null,
+      "oto_cab_ok": true,
+      "oto_ds_calc": 1.0,
+      "oto_ds_sheet": 1,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 1.0,
+      "oto_ttl_sheet": 1,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 13,
+        "simple_delays_Atrasado?1": 0,
+        "visual_oto": 1.0
+      }
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "port": "Imbituba",
+      "moves_cab_calc": 56,
+      "moves_cab_sheet": 56,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 0,
+      "moves_ds_sheet": 0,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 56,
+      "moves_ttl_sheet": 56,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.9821428571428571,
+      "oto_cab_sheet": 0.9821428571428571,
+      "oto_cab_ok": true,
+      "oto_ds_calc": null,
+      "oto_ds_sheet": null,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.9821428571428571,
+      "oto_ttl_sheet": 0.9821428571428571,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 56,
+        "simple_delays_Atrasado?1": 1,
+        "visual_oto": 0.9821428571428571
+      }
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "port": "Rio Grande",
+      "moves_cab_calc": 62,
+      "moves_cab_sheet": 62,
+      "moves_cab_ok": true,
+      "moves_ds_calc": 1,
+      "moves_ds_sheet": 1,
+      "moves_ds_ok": true,
+      "moves_ttl_calc": 63,
+      "moves_ttl_sheet": 63,
+      "moves_ttl_ok": true,
+      "oto_cab_calc": 0.9827586206896551,
+      "oto_cab_sheet": 0.9827586206896551,
+      "oto_cab_ok": true,
+      "oto_ds_calc": 1.0,
+      "oto_ds_sheet": 1,
+      "oto_ds_ok": true,
+      "oto_ttl_calc": 0.9830508474576272,
+      "oto_ttl_sheet": 0.9830508474576272,
+      "oto_ttl_ok": true,
+      "simple_delays": {
+        "total_volume_ok": 63,
+        "simple_delays_Atrasado?1": 1,
+        "visual_oto": 0.9841269841269842
+      }
+    }
+  ],
+  "week_overview_total_check": {
+    "row": 23,
+    "label": "Total BR",
+    "moves_cab_calc": 2400,
+    "moves_cab_sheet": 2400,
+    "moves_cab_ok": true,
+    "moves_ds_calc": 850,
+    "moves_ds_sheet": 850,
+    "moves_ds_ok": true,
+    "moves_ttl_calc": 3250,
+    "moves_ttl_sheet": 3250,
+    "moves_ttl_ok": true,
+    "oto_cab_calc_rounded": 0.93,
+    "oto_cab_sheet": 0.93,
+    "oto_cab_ok": true,
+    "oto_ds_calc_rounded": 0.95,
+    "oto_ds_sheet": 0.95,
+    "oto_ds_ok": true,
+    "oto_ttl_calc": 0.9305413687436159,
+    "oto_ttl_sheet": 0.9305413687436159,
+    "oto_ttl_ok": true,
+    "simple_delays": {
+      "total_volume_ok": 3250,
+      "simple_delays_Atrasado?1": 204,
+      "visual_oto": 0.9372307692307692
+    }
+  },
+  "week_overview_mismatches": [],
+  "graph_checks": [
+    {
+      "sheet": "Volume_Graph",
+      "port": "Manaus",
+      "week": "20",
+      "checks": [
+        {
+          "row": 9,
+          "label": "Volume Total",
+          "calc_by_day": [
+            0,
+            222,
+            265,
+            333,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            222,
+            265,
+            333,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 820,
+          "total_sheet": 820,
+          "total_ok": true
+        },
+        {
+          "row": 12,
+          "label": "Volume CAB",
+          "calc_by_day": [
+            0,
+            168,
+            225,
+            299,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            168,
+            225,
+            299,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 692,
+          "total_sheet": 692,
+          "total_ok": true
+        },
+        {
+          "row": 13,
+          "label": "Volume DS",
+          "calc_by_day": [
+            0,
+            54,
+            40,
+            34,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            54,
+            40,
+            34,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 128,
+          "total_sheet": 128,
+          "total_ok": true
+        },
+        {
+          "row": 14,
+          "label": "Other",
+          "calc_by_day": [
+            0,
+            21,
+            7,
+            5,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            21,
+            7,
+            5,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 33,
+          "total_sheet": 33,
+          "total_ok": true
+        }
+      ]
+    },
+    {
+      "sheet": "Volume_DS",
+      "port": "Manaus",
+      "week": "20",
+      "checks": [
+        {
+          "row": 9,
+          "label": "Volume Total",
+          "calc_by_day": [
+            0,
+            222,
+            265,
+            333,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            222,
+            265,
+            333,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 820,
+          "total_sheet": 820,
+          "total_ok": true
+        },
+        {
+          "row": 12,
+          "label": "Volume DS",
+          "calc_by_day": [
+            0,
+            54,
+            40,
+            34,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            54,
+            40,
+            34,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 128,
+          "total_sheet": 128,
+          "total_ok": true
+        },
+        {
+          "row": 13,
+          "label": "Other",
+          "calc_by_day": [
+            0,
+            21,
+            7,
+            5,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            21,
+            7,
+            5,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 33,
+          "total_sheet": 33,
+          "total_ok": true
+        }
+      ]
+    },
+    {
+      "sheet": "Volume_MAO",
+      "port": "Manaus",
+      "week": "20",
+      "checks": [
+        {
+          "row": 9,
+          "label": "Volume Total",
+          "calc_by_day": [
+            0,
+            222,
+            265,
+            333,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            222,
+            265,
+            333,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 820,
+          "total_sheet": 820,
+          "total_ok": true
+        },
+        {
+          "row": 12,
+          "label": "CAB non-special",
+          "calc_by_day": [
+            0,
+            141,
+            196,
+            272,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            141,
+            196,
+            272,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 609,
+          "total_sheet": 609,
+          "total_ok": true
+        },
+        {
+          "row": 13,
+          "label": "CAB special",
+          "calc_by_day": [
+            0,
+            27,
+            29,
+            27,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            27,
+            29,
+            27,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 83,
+          "total_sheet": 83,
+          "total_ok": true
+        },
+        {
+          "row": 14,
+          "label": "DS",
+          "calc_by_day": [
+            0,
+            54,
+            40,
+            34,
+            0,
+            0,
+            0
+          ],
+          "sheet_by_day": [
+            0,
+            54,
+            40,
+            34,
+            0,
+            0,
+            0
+          ],
+          "days_ok": true,
+          "total_calc": 128,
+          "total_sheet": 128,
+          "total_ok": true
+        }
+      ]
+    }
+  ],
+  "graph_mismatches": [],
+  "region_errors_checks": [
+    {
+      "row": 7,
+      "region": "Southeast",
+      "calc": 140,
+      "sheet_B": 121,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "region": "North",
+      "calc": 112,
+      "sheet_B": 53,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "region": "Sem Porto/Region",
+      "calc": 5,
+      "sheet_B": 13,
+      "ok": false
+    },
+    {
+      "row": 10,
+      "region": "South",
+      "calc": 43,
+      "sheet_B": 12,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "region": "Northeast",
+      "calc": 6,
+      "sheet_B": 3,
+      "ok": false
+    }
+  ],
+  "region_errors_total": {
+    "calc": 306,
+    "sheet_B12": 202,
+    "ok": false
+  },
+  "top_offenders_checks": {
+    "customers_main_total": {
+      "volume": 51,
+      "delays": 0,
+      "oto_dia": 1,
+      "calc_oto": 1.0
+    },
+    "customers_atrasos_total": {
+      "volume": 47,
+      "source": "PivotTable5 atraso count"
+    },
+    "customers_justificativas_total": {
+      "volume": 47,
+      "source": "Tabela dinâmica1 causas"
+    },
+    "vendors_main_total": {
+      "volume": 222,
+      "delays": 26,
+      "oto_dia": 0.8828828828828829,
+      "calc_oto": 0.8828828828828829
+    },
+    "vendors_atrasos_total": {
+      "volume": 26,
+      "source": "PivotTable3 atraso count"
+    },
+    "vendors_justificativas_total": {
+      "volume": 26,
+      "source": "PivotTable4 causas"
+    }
+  }
+}

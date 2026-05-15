@@ -1,0 +1,4351 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK19.xlsm",
+  "generated_at": "2026-05-09T11:56:52",
+  "base_summary": {
+    "active_week": 19,
+    "roe_wk_rows_volume_ok_active_week": 4826,
+    "header_missing": [],
+    "status_patterns": [
+      {
+        "oto_out": "N",
+        "atrasado": "0",
+        "otd_ajustado": "No Prazo",
+        "count": 3833
+      },
+      {
+        "oto_out": "N",
+        "atrasado": "0",
+        "otd_ajustado": "Sem Preenchimento",
+        "count": 579
+      },
+      {
+        "oto_out": "N",
+        "atrasado": "1",
+        "otd_ajustado": "Atrasado",
+        "count": 329
+      },
+      {
+        "oto_out": "N",
+        "atrasado": "0",
+        "otd_ajustado": "Atrasado",
+        "count": 43
+      },
+      {
+        "oto_out": "S",
+        "atrasado": "0",
+        "otd_ajustado": "No Prazo",
+        "count": 31
+      },
+      {
+        "oto_out": "S",
+        "atrasado": "0",
+        "otd_ajustado": "Atrasado",
+        "count": 7
+      },
+      {
+        "oto_out": "S",
+        "atrasado": "0",
+        "otd_ajustado": "Sem Preenchimento",
+        "count": 4
+      }
+    ],
+    "sem_preenchimento_count": 583,
+    "kpi_denominator_excludes_sem_preenchimento": 4205,
+    "kpi_penalized_delays_excludes_special": 329,
+    "oto_total_expected": 0.9217598097502973,
+    "special_rows_active_week": 722,
+    "special_delayed_active_week": 43
+  },
+  "counts": {
+    "week_overview_checks": 126,
+    "week_overview_failures": 85,
+    "region_errors_checks": 48,
+    "region_errors_failures": 0,
+    "volume_sheet_checks": 86,
+    "volume_sheet_failures": 41,
+    "formulas_with_mojibake_alianca": 7,
+    "worksheet_error_sheets": 0,
+    "charts_total": 6,
+    "charts_with_ref_errors": 0
+  },
+  "xml_scan": {
+    "worksheet_error_cells": {},
+    "parts_with_formula_error_text": [],
+    "formulas_with_mojibake_alianca": [
+      {
+        "sheet": "Volume_DS",
+        "cell": "M11",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\")"
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "M12",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Alian?a\")"
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M12",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\",'ROE_wk'!$BO:$BO,\"<>Especial\")"
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M13",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\",'ROE_wk'!$BO:$BO,\"Especial\")"
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M14",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Alian?a\")"
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "M12",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\")"
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "M13",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Alian?a\")"
+      }
+    ],
+    "defined_name_info_only": [
+      {
+        "token": "#NAME?",
+        "count": 58
+      },
+      {
+        "token": "#N/A",
+        "count": 6
+      }
+    ],
+    "pivot_cache_error_items": [
+      {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "token": "#N/A",
+        "count": 1
+      }
+    ]
+  },
+  "failures": {
+    "week_overview": [
+      {
+        "row": 2,
+        "label": "MAO",
+        "filter_type": "port",
+        "filter": "Manaus",
+        "metric": "Moves CAB",
+        "cell": "D2",
+        "actual": 1072,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 2,
+        "label": "MAO",
+        "filter_type": "port",
+        "filter": "Manaus",
+        "metric": "Moves DS",
+        "cell": "H2",
+        "actual": 189,
+        "expected_from_base": 1261,
+        "ok": false
+      },
+      {
+        "row": 2,
+        "label": "MAO",
+        "filter_type": "port",
+        "filter": "Manaus",
+        "metric": "OTO CAB",
+        "cell": "N2",
+        "actual": 0.9006815968841285,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 2,
+        "label": "MAO",
+        "filter_type": "port",
+        "filter": "Manaus",
+        "metric": "OTO DS",
+        "cell": "P2",
+        "actual": 0.9024390243902439,
+        "expected_from_base": 0.9008115419296664,
+        "ok": false
+      },
+      {
+        "row": 2,
+        "label": "MAO",
+        "filter_type": "port",
+        "filter": "Manaus",
+        "metric": "48h Schedule CAB",
+        "cell": "R2",
+        "actual": 0.792910447761194,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 3,
+        "label": "VDC",
+        "filter_type": "port",
+        "filter": "Vila do Conde",
+        "metric": "Moves CAB",
+        "cell": "D3",
+        "actual": 135,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 3,
+        "label": "VDC",
+        "filter_type": "port",
+        "filter": "Vila do Conde",
+        "metric": "Moves DS",
+        "cell": "H3",
+        "actual": 0,
+        "expected_from_base": 135,
+        "ok": false
+      },
+      {
+        "row": 3,
+        "label": "VDC",
+        "filter_type": "port",
+        "filter": "Vila do Conde",
+        "metric": "OTO CAB",
+        "cell": "N3",
+        "actual": 0.9390243902439024,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 3,
+        "label": "VDC",
+        "filter_type": "port",
+        "filter": "Vila do Conde",
+        "metric": "OTO DS",
+        "cell": "P3",
+        "actual": null,
+        "expected_from_base": 0.9390243902439024,
+        "ok": false
+      },
+      {
+        "row": 3,
+        "label": "VDC",
+        "filter_type": "port",
+        "filter": "Vila do Conde",
+        "metric": "48h Schedule CAB",
+        "cell": "R3",
+        "actual": 0.9111111111111111,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 4,
+        "label": "North",
+        "filter_type": "region",
+        "filter": "North",
+        "metric": "Moves CAB",
+        "cell": "D4",
+        "actual": 1207,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 4,
+        "label": "North",
+        "filter_type": "region",
+        "filter": "North",
+        "metric": "Moves DS",
+        "cell": "H4",
+        "actual": 189,
+        "expected_from_base": 1396,
+        "ok": false
+      },
+      {
+        "row": 4,
+        "label": "North",
+        "filter_type": "region",
+        "filter": "North",
+        "metric": "OTO CAB",
+        "cell": "N4",
+        "actual": 0.9035166816952209,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 4,
+        "label": "North",
+        "filter_type": "region",
+        "filter": "North",
+        "metric": "OTO DS",
+        "cell": "P4",
+        "actual": 0.9024390243902439,
+        "expected_from_base": 0.9034424853064652,
+        "ok": false
+      },
+      {
+        "row": 4,
+        "label": "North",
+        "filter_type": "region",
+        "filter": "North",
+        "metric": "48h Schedule CAB",
+        "cell": "R4",
+        "actual": 0.8061309030654515,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 6,
+        "label": "PEC",
+        "filter_type": "port",
+        "filter": "Pecem",
+        "metric": "Moves CAB",
+        "cell": "D6",
+        "actual": 291,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 6,
+        "label": "PEC",
+        "filter_type": "port",
+        "filter": "Pecem",
+        "metric": "Moves DS",
+        "cell": "H6",
+        "actual": 6,
+        "expected_from_base": 297,
+        "ok": false
+      },
+      {
+        "row": 6,
+        "label": "PEC",
+        "filter_type": "port",
+        "filter": "Pecem",
+        "metric": "OTO CAB",
+        "cell": "N6",
+        "actual": 0.865979381443299,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 6,
+        "label": "PEC",
+        "filter_type": "port",
+        "filter": "Pecem",
+        "metric": "OTO DS",
+        "cell": "P6",
+        "actual": 0.8,
+        "expected_from_base": 0.8648648648648649,
+        "ok": false
+      },
+      {
+        "row": 6,
+        "label": "PEC",
+        "filter_type": "port",
+        "filter": "Pecem",
+        "metric": "48h Schedule CAB",
+        "cell": "R6",
+        "actual": 0.979381443298969,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 7,
+        "label": "SUA",
+        "filter_type": "port",
+        "filter": "Suape",
+        "metric": "Moves CAB",
+        "cell": "D7",
+        "actual": 474,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 7,
+        "label": "SUA",
+        "filter_type": "port",
+        "filter": "Suape",
+        "metric": "Moves DS",
+        "cell": "H7",
+        "actual": 0,
+        "expected_from_base": 474,
+        "ok": false
+      },
+      {
+        "row": 7,
+        "label": "SUA",
+        "filter_type": "port",
+        "filter": "Suape",
+        "metric": "OTO CAB",
+        "cell": "N7",
+        "actual": 0.9112050739957717,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 7,
+        "label": "SUA",
+        "filter_type": "port",
+        "filter": "Suape",
+        "metric": "OTO DS",
+        "cell": "P7",
+        "actual": null,
+        "expected_from_base": 0.9112050739957717,
+        "ok": false
+      },
+      {
+        "row": 7,
+        "label": "SUA",
+        "filter_type": "port",
+        "filter": "Suape",
+        "metric": "48h Schedule CAB",
+        "cell": "R7",
+        "actual": 0.9409282700421941,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 8,
+        "label": "SSA",
+        "filter_type": "port",
+        "filter": "Salvador",
+        "metric": "Moves CAB",
+        "cell": "D8",
+        "actual": 262,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 8,
+        "label": "SSA",
+        "filter_type": "port",
+        "filter": "Salvador",
+        "metric": "Moves DS",
+        "cell": "H8",
+        "actual": 60,
+        "expected_from_base": 322,
+        "ok": false
+      },
+      {
+        "row": 8,
+        "label": "SSA",
+        "filter_type": "port",
+        "filter": "Salvador",
+        "metric": "OTO CAB",
+        "cell": "N8",
+        "actual": 0.9157088122605364,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 8,
+        "label": "SSA",
+        "filter_type": "port",
+        "filter": "Salvador",
+        "metric": "OTO DS",
+        "cell": "P8",
+        "actual": 1,
+        "expected_from_base": 0.9314641744548287,
+        "ok": false
+      },
+      {
+        "row": 8,
+        "label": "SSA",
+        "filter_type": "port",
+        "filter": "Salvador",
+        "metric": "48h Schedule CAB",
+        "cell": "R8",
+        "actual": 0.9465648854961832,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 9,
+        "label": "Northeast",
+        "filter_type": "region",
+        "filter": "Northeast",
+        "metric": "Moves CAB",
+        "cell": "D9",
+        "actual": 1027,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 9,
+        "label": "Northeast",
+        "filter_type": "region",
+        "filter": "Northeast",
+        "metric": "Moves DS",
+        "cell": "H9",
+        "actual": 66,
+        "expected_from_base": 1093,
+        "ok": false
+      },
+      {
+        "row": 9,
+        "label": "Northeast",
+        "filter_type": "region",
+        "filter": "Northeast",
+        "metric": "OTO CAB",
+        "cell": "N9",
+        "actual": 0.8995121951219512,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 9,
+        "label": "Northeast",
+        "filter_type": "region",
+        "filter": "Northeast",
+        "metric": "OTO DS",
+        "cell": "P9",
+        "actual": 0.9846153846153847,
+        "expected_from_base": 0.9045871559633027,
+        "ok": false
+      },
+      {
+        "row": 9,
+        "label": "Northeast",
+        "filter_type": "region",
+        "filter": "Northeast",
+        "metric": "48h Schedule CAB",
+        "cell": "R9",
+        "actual": 0.9532619279454723,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 11,
+        "label": "VIX",
+        "filter_type": "port",
+        "filter": "Vitoria",
+        "metric": "Moves CAB",
+        "cell": "D11",
+        "actual": 10,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 11,
+        "label": "VIX",
+        "filter_type": "port",
+        "filter": "Vitoria",
+        "metric": "Moves DS",
+        "cell": "H11",
+        "actual": 0,
+        "expected_from_base": 10,
+        "ok": false
+      },
+      {
+        "row": 11,
+        "label": "VIX",
+        "filter_type": "port",
+        "filter": "Vitoria",
+        "metric": "OTO CAB",
+        "cell": "N11",
+        "actual": 1,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 11,
+        "label": "VIX",
+        "filter_type": "port",
+        "filter": "Vitoria",
+        "metric": "OTO DS",
+        "cell": "P11",
+        "actual": null,
+        "expected_from_base": 1.0,
+        "ok": false
+      },
+      {
+        "row": 11,
+        "label": "VIX",
+        "filter_type": "port",
+        "filter": "Vitoria",
+        "metric": "48h Schedule CAB",
+        "cell": "R11",
+        "actual": 1,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 12,
+        "label": "RIO",
+        "filter_type": "port",
+        "filter": "Rio",
+        "metric": "Moves CAB",
+        "cell": "D12",
+        "actual": 159,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 12,
+        "label": "RIO",
+        "filter_type": "port",
+        "filter": "Rio",
+        "metric": "Moves DS",
+        "cell": "H12",
+        "actual": 56,
+        "expected_from_base": 215,
+        "ok": false
+      },
+      {
+        "row": 12,
+        "label": "RIO",
+        "filter_type": "port",
+        "filter": "Rio",
+        "metric": "OTO CAB",
+        "cell": "N12",
+        "actual": 0.9554140127388535,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 12,
+        "label": "RIO",
+        "filter_type": "port",
+        "filter": "Rio",
+        "metric": "OTO DS",
+        "cell": "P12",
+        "actual": 1,
+        "expected_from_base": 0.962962962962963,
+        "ok": false
+      },
+      {
+        "row": 12,
+        "label": "RIO",
+        "filter_type": "port",
+        "filter": "Rio",
+        "metric": "48h Schedule CAB",
+        "cell": "R12",
+        "actual": 0.9433962264150944,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 13,
+        "label": "SSZ",
+        "filter_type": "port",
+        "filter": "Santos",
+        "metric": "Moves CAB",
+        "cell": "D13",
+        "actual": 778,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 13,
+        "label": "SSZ",
+        "filter_type": "port",
+        "filter": "Santos",
+        "metric": "Moves DS",
+        "cell": "H13",
+        "actual": 622,
+        "expected_from_base": 1400,
+        "ok": false
+      },
+      {
+        "row": 13,
+        "label": "SSZ",
+        "filter_type": "port",
+        "filter": "Santos",
+        "metric": "OTO CAB",
+        "cell": "N13",
+        "actual": 0.9444444444444444,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 13,
+        "label": "SSZ",
+        "filter_type": "port",
+        "filter": "Santos",
+        "metric": "OTO DS",
+        "cell": "P13",
+        "actual": 0.933806146572104,
+        "expected_from_base": 0.940379403794038,
+        "ok": false
+      },
+      {
+        "row": 13,
+        "label": "SSZ",
+        "filter_type": "port",
+        "filter": "Santos",
+        "metric": "48h Schedule CAB",
+        "cell": "R13",
+        "actual": 0.7840616966580977,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 14,
+        "label": "Southeast",
+        "filter_type": "region",
+        "filter": "Southeast",
+        "metric": "Moves CAB",
+        "cell": "D14",
+        "actual": 947,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 14,
+        "label": "Southeast",
+        "filter_type": "region",
+        "filter": "Southeast",
+        "metric": "Moves DS",
+        "cell": "H14",
+        "actual": 678,
+        "expected_from_base": 1625,
+        "ok": false
+      },
+      {
+        "row": 14,
+        "label": "Southeast",
+        "filter_type": "region",
+        "filter": "Southeast",
+        "metric": "OTO CAB",
+        "cell": "N14",
+        "actual": 0.9471210340775558,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 14,
+        "label": "Southeast",
+        "filter_type": "region",
+        "filter": "Southeast",
+        "metric": "OTO DS",
+        "cell": "P14",
+        "actual": 0.9384615384615385,
+        "expected_from_base": 0.944104134762634,
+        "ok": false
+      },
+      {
+        "row": 14,
+        "label": "Southeast",
+        "filter_type": "region",
+        "filter": "Southeast",
+        "metric": "48h Schedule CAB",
+        "cell": "R14",
+        "actual": 0.8130939809926082,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 16,
+        "label": "IOA",
+        "filter_type": "port",
+        "filter": "Itapoa",
+        "metric": "Moves CAB",
+        "cell": "D16",
+        "actual": 186,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 16,
+        "label": "IOA",
+        "filter_type": "port",
+        "filter": "Itapoa",
+        "metric": "Moves DS",
+        "cell": "H16",
+        "actual": 215,
+        "expected_from_base": 401,
+        "ok": false
+      },
+      {
+        "row": 16,
+        "label": "IOA",
+        "filter_type": "port",
+        "filter": "Itapoa",
+        "metric": "OTO CAB",
+        "cell": "N16",
+        "actual": 0.9096045197740112,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 16,
+        "label": "IOA",
+        "filter_type": "port",
+        "filter": "Itapoa",
+        "metric": "OTO DS",
+        "cell": "P16",
+        "actual": 0.9897435897435898,
+        "expected_from_base": 0.9516129032258065,
+        "ok": false
+      },
+      {
+        "row": 16,
+        "label": "IOA",
+        "filter_type": "port",
+        "filter": "Itapoa",
+        "metric": "48h Schedule CAB",
+        "cell": "R16",
+        "actual": 0.989247311827957,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 17,
+        "label": "ITJ",
+        "filter_type": "port",
+        "filter": "Itajai",
+        "metric": "Moves CAB",
+        "cell": "D17",
+        "actual": 17,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 17,
+        "label": "ITJ",
+        "filter_type": "port",
+        "filter": "Itajai",
+        "metric": "Moves DS",
+        "cell": "H17",
+        "actual": 77,
+        "expected_from_base": 94,
+        "ok": false
+      },
+      {
+        "row": 17,
+        "label": "ITJ",
+        "filter_type": "port",
+        "filter": "Itajai",
+        "metric": "OTO CAB",
+        "cell": "N17",
+        "actual": 0.8333333333333334,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 17,
+        "label": "ITJ",
+        "filter_type": "port",
+        "filter": "Itajai",
+        "metric": "OTO DS",
+        "cell": "P17",
+        "actual": 1,
+        "expected_from_base": 0.9841269841269842,
+        "ok": false
+      },
+      {
+        "row": 17,
+        "label": "ITJ",
+        "filter_type": "port",
+        "filter": "Itajai",
+        "metric": "48h Schedule CAB",
+        "cell": "R17",
+        "actual": 0.9411764705882353,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 19,
+        "label": "IBB",
+        "filter_type": "port",
+        "filter": "Imbituba",
+        "metric": "Moves CAB",
+        "cell": "D19",
+        "actual": 73,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 19,
+        "label": "IBB",
+        "filter_type": "port",
+        "filter": "Imbituba",
+        "metric": "Moves DS",
+        "cell": "H19",
+        "actual": 0,
+        "expected_from_base": 73,
+        "ok": false
+      },
+      {
+        "row": 19,
+        "label": "IBB",
+        "filter_type": "port",
+        "filter": "Imbituba",
+        "metric": "OTO CAB",
+        "cell": "N19",
+        "actual": 0.9305555555555556,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 19,
+        "label": "IBB",
+        "filter_type": "port",
+        "filter": "Imbituba",
+        "metric": "OTO DS",
+        "cell": "P19",
+        "actual": null,
+        "expected_from_base": 0.9305555555555556,
+        "ok": false
+      },
+      {
+        "row": 19,
+        "label": "IBB",
+        "filter_type": "port",
+        "filter": "Imbituba",
+        "metric": "48h Schedule CAB",
+        "cell": "R19",
+        "actual": 0.9863013698630136,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 20,
+        "label": "RIG",
+        "filter_type": "port",
+        "filter": "Rio Grande",
+        "metric": "Moves CAB",
+        "cell": "D20",
+        "actual": 109,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 20,
+        "label": "RIG",
+        "filter_type": "port",
+        "filter": "Rio Grande",
+        "metric": "Moves DS",
+        "cell": "H20",
+        "actual": 2,
+        "expected_from_base": 111,
+        "ok": false
+      },
+      {
+        "row": 20,
+        "label": "RIG",
+        "filter_type": "port",
+        "filter": "Rio Grande",
+        "metric": "OTO CAB",
+        "cell": "N20",
+        "actual": 0.88,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 20,
+        "label": "RIG",
+        "filter_type": "port",
+        "filter": "Rio Grande",
+        "metric": "OTO DS",
+        "cell": "P20",
+        "actual": 1,
+        "expected_from_base": 0.8823529411764706,
+        "ok": false
+      },
+      {
+        "row": 20,
+        "label": "RIG",
+        "filter_type": "port",
+        "filter": "Rio Grande",
+        "metric": "48h Schedule CAB",
+        "cell": "R20",
+        "actual": 0.981651376146789,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 21,
+        "label": "South",
+        "filter_type": "region",
+        "filter": "South",
+        "metric": "Moves CAB",
+        "cell": "D21",
+        "actual": 385,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 21,
+        "label": "South",
+        "filter_type": "region",
+        "filter": "South",
+        "metric": "Moves DS",
+        "cell": "H21",
+        "actual": 304,
+        "expected_from_base": 689,
+        "ok": false
+      },
+      {
+        "row": 21,
+        "label": "South",
+        "filter_type": "region",
+        "filter": "South",
+        "metric": "OTO CAB",
+        "cell": "N21",
+        "actual": 0.9042253521126761,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 21,
+        "label": "South",
+        "filter_type": "region",
+        "filter": "South",
+        "metric": "OTO DS",
+        "cell": "P21",
+        "actual": 0.9885931558935361,
+        "expected_from_base": 0.9401294498381877,
+        "ok": false
+      },
+      {
+        "row": 21,
+        "label": "South",
+        "filter_type": "region",
+        "filter": "South",
+        "metric": "48h Schedule CAB",
+        "cell": "R21",
+        "actual": 0.9844155844155844,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 23,
+        "label": "Total BR",
+        "filter_type": "total",
+        "filter": "ALL",
+        "metric": "Moves CAB",
+        "cell": "D23",
+        "actual": 3580,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "row": 23,
+        "label": "Total BR",
+        "filter_type": "total",
+        "filter": "ALL",
+        "metric": "Moves DS",
+        "cell": "H23",
+        "actual": 1246,
+        "expected_from_base": 4826,
+        "ok": false
+      },
+      {
+        "row": 23,
+        "label": "Total BR",
+        "filter_type": "total",
+        "filter": "ALL",
+        "metric": "OTO CAB",
+        "cell": "N23",
+        "actual": 0.91,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "row": 23,
+        "label": "Total BR",
+        "filter_type": "total",
+        "filter": "ALL",
+        "metric": "OTO DS",
+        "cell": "P23",
+        "actual": 0.95,
+        "expected_from_base": 0.92,
+        "ok": false
+      },
+      {
+        "row": 23,
+        "label": "Total BR",
+        "filter_type": "total",
+        "filter": "ALL",
+        "metric": "48h Schedule CAB",
+        "cell": "R23",
+        "actual": 0.8701117318435754,
+        "expected_from_base": "",
+        "ok": false
+      }
+    ],
+    "region_errors": [],
+    "region_formula_issues": [],
+    "volume_sheets": [
+      {
+        "sheet": "Volume_DS",
+        "cell": "G11",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Mon",
+        "actual": 138,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "H11",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Tue",
+        "actual": 102,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "I11",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Wed",
+        "actual": 121,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "J11",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Thu",
+        "actual": 113,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "M11",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 474,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "G12",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Mon",
+        "actual": 0,
+        "expected_from_base": 138,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "H12",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Tue",
+        "actual": 0,
+        "expected_from_base": 102,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "I12",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Wed",
+        "actual": 0,
+        "expected_from_base": 121,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "J12",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Thu",
+        "actual": 0,
+        "expected_from_base": 113,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "M12",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 0,
+        "expected_from_base": 474,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "M16",
+        "metric": "OTO total",
+        "port": "Suape",
+        "day": "Total",
+        "actual": null,
+        "expected_from_base": 0.91,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "M17",
+        "metric": "48h total",
+        "port": "Suape",
+        "day": "Total",
+        "actual": null,
+        "expected_from_base": 0.9409282700421941,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "G12",
+        "metric": "Volume CAB Diversos",
+        "port": "Suape",
+        "day": "Mon",
+        "actual": 132,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "H12",
+        "metric": "Volume CAB Diversos",
+        "port": "Suape",
+        "day": "Tue",
+        "actual": 96,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "I12",
+        "metric": "Volume CAB Diversos",
+        "port": "Suape",
+        "day": "Wed",
+        "actual": 119,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "J12",
+        "metric": "Volume CAB Diversos",
+        "port": "Suape",
+        "day": "Thu",
+        "actual": 111,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M12",
+        "metric": "Volume CAB Diversos",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 458,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "G13",
+        "metric": "Volume CAB Special",
+        "port": "Suape",
+        "day": "Mon",
+        "actual": 6,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "H13",
+        "metric": "Volume CAB Special",
+        "port": "Suape",
+        "day": "Tue",
+        "actual": 6,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "I13",
+        "metric": "Volume CAB Special",
+        "port": "Suape",
+        "day": "Wed",
+        "actual": 2,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "J13",
+        "metric": "Volume CAB Special",
+        "port": "Suape",
+        "day": "Thu",
+        "actual": 2,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M13",
+        "metric": "Volume CAB Special",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 16,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "G14",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Mon",
+        "actual": 0,
+        "expected_from_base": 138,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "H14",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Tue",
+        "actual": 0,
+        "expected_from_base": 102,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "I14",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Wed",
+        "actual": 0,
+        "expected_from_base": 121,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "J14",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Thu",
+        "actual": 0,
+        "expected_from_base": 113,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M14",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 0,
+        "expected_from_base": 474,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M19",
+        "metric": "OTO total",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 0.91,
+        "expected_from_base": null,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M20",
+        "metric": "48h total",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 0.9409282700421941,
+        "expected_from_base": "",
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "G12",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Mon",
+        "actual": 138,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "H12",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Tue",
+        "actual": 102,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "I12",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Wed",
+        "actual": 121,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "J12",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Thu",
+        "actual": 113,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "M12",
+        "metric": "Volume CAB",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 474,
+        "expected_from_base": 0,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "G13",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Mon",
+        "actual": 0,
+        "expected_from_base": 138,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "H13",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Tue",
+        "actual": 0,
+        "expected_from_base": 102,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "I13",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Wed",
+        "actual": 0,
+        "expected_from_base": 121,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "J13",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Thu",
+        "actual": 0,
+        "expected_from_base": 113,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "M13",
+        "metric": "Volume DS",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 0,
+        "expected_from_base": 474,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "M17",
+        "metric": "OTO total",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 0.91,
+        "expected_from_base": null,
+        "ok": false
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "M18",
+        "metric": "48h total",
+        "port": "Suape",
+        "day": "Total",
+        "actual": 0.9409282700421941,
+        "expected_from_base": "",
+        "ok": false
+      }
+    ],
+    "formula_mojibake_alianca": [
+      {
+        "sheet": "Volume_DS",
+        "cell": "M11",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\")"
+      },
+      {
+        "sheet": "Volume_DS",
+        "cell": "M12",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Alian?a\")"
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M12",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\",'ROE_wk'!$BO:$BO,\"<>Especial\")"
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M13",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\",'ROE_wk'!$BO:$BO,\"Especial\")"
+      },
+      {
+        "sheet": "Volume_MAO",
+        "cell": "M14",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Alian?a\")"
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "M12",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"Alian?a\")"
+      },
+      {
+        "sheet": "Volume_Graph",
+        "cell": "M13",
+        "formula": "COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AI:$AI,\"<>Alian?a\")"
+      }
+    ],
+    "worksheet_error_cells": {},
+    "charts_with_ref_errors": [],
+    "top_offenders_vendor_blank": {
+      "filters_visible": {
+        "B2": "Ok",
+        "B3": "(Tudo)",
+        "B4": "N",
+        "B5": "(vazio)",
+        "M2": "Ok",
+        "M3": "(Tudo)",
+        "M4": "(vazio)",
+        "M5": "N"
+      },
+      "visible_vendor_data_rows_A8_A40": 0,
+      "a8_e8": [
+        "Total Geral",
+        null,
+        null,
+        null,
+        null
+      ],
+      "base_distinct_providers_week": 84,
+      "base_penalized_delayed_rows_oto_scope": 329,
+      "status": "BLANK_PIVOT_WHILE_BASE_HAS_DATA"
+    }
+  },
+  "top_offenders": {
+    "Top_Offenders_Customers": {
+      "visao_geral_total_row": {
+        "row": 510,
+        "A:G": [
+          "Total Geral",
+          4800,
+          329,
+          0.9238959820438365,
+          7.828035868625761,
+          0.8059953703703648,
+          0.9314583333333333
+        ]
+      },
+      "hypercare_norte_mirror_total": {
+        "row": 441,
+        "T:W": [
+          "Total Geral",
+          3715,
+          0.9114401076716017,
+          329
+        ]
+      },
+      "g27": 0.9516129032258065
+    },
+    "Top_Offenders_Vendors": {
+      "filters_visible": {
+        "B2": "Ok",
+        "B3": "(Tudo)",
+        "B4": "N",
+        "B5": "(vazio)",
+        "M2": "Ok",
+        "M3": "(Tudo)",
+        "M4": "(vazio)",
+        "M5": "N"
+      },
+      "visible_vendor_data_rows_A8_A40": 0,
+      "a8_e8": [
+        "Total Geral",
+        null,
+        null,
+        null,
+        null
+      ],
+      "base_distinct_providers_week": 84,
+      "base_penalized_delayed_rows_oto_scope": 329,
+      "status": "BLANK_PIVOT_WHILE_BASE_HAS_DATA"
+    }
+  },
+  "charts": [
+    {
+      "sheet": "Volume_DS",
+      "chart_part": "xl/charts/chart1.xml",
+      "formula_count": 15,
+      "sample_formulas": [
+        "Volume_DS!$E$11",
+        "Volume_DS!$F$8:$L$8",
+        "Volume_DS!$F$11:$L$11",
+        "Volume_DS!$E$12",
+        "Volume_DS!$F$8:$L$8",
+        "Volume_DS!$F$12:$L$12",
+        "Volume_DS!$E$13",
+        "Volume_DS!$F$8:$L$8",
+        "Volume_DS!$F$13:$L$13",
+        "Volume_DS!$E$10",
+        "Volume_DS!$F$10:$L$10",
+        "Volume_DS!$E$14"
+      ],
+      "has_error_ref": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "chart_part": "xl/charts/chart2.xml",
+      "formula_count": 15,
+      "sample_formulas": [
+        "Volume_MAO!$E$12",
+        "Volume_MAO!$F$8:$L$8",
+        "Volume_MAO!$F$12:$L$12",
+        "Volume_MAO!$E$14",
+        "Volume_MAO!$F$8:$L$8",
+        "Volume_MAO!$F$14:$L$14",
+        "Volume_MAO!$E$15",
+        "Volume_MAO!$F$8:$L$8",
+        "Volume_MAO!$F$15:$L$15",
+        "Volume_MAO!$E$10",
+        "Volume_MAO!$F$10:$L$10",
+        "Volume_MAO!$E$16"
+      ],
+      "has_error_ref": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "chart_part": "xl/charts/chart3.xml",
+      "formula_count": 15,
+      "sample_formulas": [
+        "Volume_Graph!$E$12",
+        "Volume_Graph!$F$8:$L$8",
+        "Volume_Graph!$F$12:$L$12",
+        "Volume_Graph!$E$13",
+        "Volume_Graph!$F$8:$L$8",
+        "Volume_Graph!$F$13:$L$13",
+        "Volume_Graph!$E$14",
+        "Volume_Graph!$F$8:$L$8",
+        "Volume_Graph!$F$14:$L$14",
+        "Volume_Graph!$E$10",
+        "Volume_Graph!$F$10:$L$10",
+        "Volume_Graph!$E$15"
+      ],
+      "has_error_ref": false
+    },
+    {
+      "sheet": "Menu",
+      "chart_part": "xl/charts/chart6.xml",
+      "formula_count": 27,
+      "sample_formulas": [
+        "Volume_DS!$E$9",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$9:$M$9",
+        "Volume_DS!$E$10",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$10:$M$10",
+        "Volume_DS!$E$11",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$11:$M$11",
+        "Volume_DS!$E$12",
+        "Volume_DS!$F$8:$M$8",
+        "Volume_DS!$F$12:$M$12"
+      ],
+      "has_error_ref": false
+    },
+    {
+      "sheet": "Menu",
+      "chart_part": "xl/charts/chart5.xml",
+      "formula_count": 30,
+      "sample_formulas": [
+        "Volume_Graph!$E$9",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$9:$M$9",
+        "Volume_Graph!$E$10",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$10:$M$10",
+        "Volume_Graph!$E$11",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$11:$M$11",
+        "Volume_Graph!$E$12",
+        "Volume_Graph!$F$8:$M$8",
+        "Volume_Graph!$F$12:$M$12"
+      ],
+      "has_error_ref": false
+    },
+    {
+      "sheet": "Menu",
+      "chart_part": "xl/charts/chart7.xml",
+      "formula_count": 9,
+      "sample_formulas": [
+        "Top_Offenders_Customers!$AL$24",
+        "Top_Offenders_Customers!$AK$25:$AK$43",
+        "Top_Offenders_Customers!$AL$25:$AL$43",
+        "Top_Offenders_Customers!$AM$24",
+        "Top_Offenders_Customers!$AK$25:$AK$43",
+        "Top_Offenders_Customers!$AM$25:$AM$43",
+        "Top_Offenders_Customers!$AN$24",
+        "Top_Offenders_Customers!$AK$25:$AK$43",
+        "Top_Offenders_Customers!$AN$25:$AN$43"
+      ],
+      "has_error_ref": false
+    }
+  ],
+  "week_overview_checks": [
+    {
+      "row": 2,
+      "label": "MAO",
+      "filter_type": "port",
+      "filter": "Manaus",
+      "metric": "Moves CAB",
+      "cell": "D2",
+      "actual": 1072,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 2,
+      "label": "MAO",
+      "filter_type": "port",
+      "filter": "Manaus",
+      "metric": "Moves DS",
+      "cell": "H2",
+      "actual": 189,
+      "expected_from_base": 1261,
+      "ok": false
+    },
+    {
+      "row": 2,
+      "label": "MAO",
+      "filter_type": "port",
+      "filter": "Manaus",
+      "metric": "Moves Total",
+      "cell": "K2",
+      "actual": 1261,
+      "expected_from_base": 1261,
+      "ok": true
+    },
+    {
+      "row": 2,
+      "label": "MAO",
+      "filter_type": "port",
+      "filter": "Manaus",
+      "metric": "OTO CAB",
+      "cell": "N2",
+      "actual": 0.9006815968841285,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 2,
+      "label": "MAO",
+      "filter_type": "port",
+      "filter": "Manaus",
+      "metric": "OTO DS",
+      "cell": "P2",
+      "actual": 0.9024390243902439,
+      "expected_from_base": 0.9008115419296664,
+      "ok": false
+    },
+    {
+      "row": 2,
+      "label": "MAO",
+      "filter_type": "port",
+      "filter": "Manaus",
+      "metric": "OTO Total",
+      "cell": "Q2",
+      "actual": 0.9008115419296664,
+      "expected_from_base": 0.9008115419296664,
+      "ok": true
+    },
+    {
+      "row": 2,
+      "label": "MAO",
+      "filter_type": "port",
+      "filter": "Manaus",
+      "metric": "48h Schedule CAB",
+      "cell": "R2",
+      "actual": 0.792910447761194,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "filter_type": "port",
+      "filter": "Vila do Conde",
+      "metric": "Moves CAB",
+      "cell": "D3",
+      "actual": 135,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "filter_type": "port",
+      "filter": "Vila do Conde",
+      "metric": "Moves DS",
+      "cell": "H3",
+      "actual": 0,
+      "expected_from_base": 135,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "filter_type": "port",
+      "filter": "Vila do Conde",
+      "metric": "Moves Total",
+      "cell": "K3",
+      "actual": 135,
+      "expected_from_base": 135,
+      "ok": true
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "filter_type": "port",
+      "filter": "Vila do Conde",
+      "metric": "OTO CAB",
+      "cell": "N3",
+      "actual": 0.9390243902439024,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "filter_type": "port",
+      "filter": "Vila do Conde",
+      "metric": "OTO DS",
+      "cell": "P3",
+      "actual": null,
+      "expected_from_base": 0.9390243902439024,
+      "ok": false
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "filter_type": "port",
+      "filter": "Vila do Conde",
+      "metric": "OTO Total",
+      "cell": "Q3",
+      "actual": 0.9390243902439024,
+      "expected_from_base": 0.9390243902439024,
+      "ok": true
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "filter_type": "port",
+      "filter": "Vila do Conde",
+      "metric": "48h Schedule CAB",
+      "cell": "R3",
+      "actual": 0.9111111111111111,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 4,
+      "label": "North",
+      "filter_type": "region",
+      "filter": "North",
+      "metric": "Moves CAB",
+      "cell": "D4",
+      "actual": 1207,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "label": "North",
+      "filter_type": "region",
+      "filter": "North",
+      "metric": "Moves DS",
+      "cell": "H4",
+      "actual": 189,
+      "expected_from_base": 1396,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "label": "North",
+      "filter_type": "region",
+      "filter": "North",
+      "metric": "Moves Total",
+      "cell": "K4",
+      "actual": 1396,
+      "expected_from_base": 1396,
+      "ok": true
+    },
+    {
+      "row": 4,
+      "label": "North",
+      "filter_type": "region",
+      "filter": "North",
+      "metric": "OTO CAB",
+      "cell": "N4",
+      "actual": 0.9035166816952209,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 4,
+      "label": "North",
+      "filter_type": "region",
+      "filter": "North",
+      "metric": "OTO DS",
+      "cell": "P4",
+      "actual": 0.9024390243902439,
+      "expected_from_base": 0.9034424853064652,
+      "ok": false
+    },
+    {
+      "row": 4,
+      "label": "North",
+      "filter_type": "region",
+      "filter": "North",
+      "metric": "OTO Total",
+      "cell": "Q4",
+      "actual": 0.9034424853064652,
+      "expected_from_base": 0.9034424853064652,
+      "ok": true
+    },
+    {
+      "row": 4,
+      "label": "North",
+      "filter_type": "region",
+      "filter": "North",
+      "metric": "48h Schedule CAB",
+      "cell": "R4",
+      "actual": 0.8061309030654515,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "filter_type": "port",
+      "filter": "Pecem",
+      "metric": "Moves CAB",
+      "cell": "D6",
+      "actual": 291,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "filter_type": "port",
+      "filter": "Pecem",
+      "metric": "Moves DS",
+      "cell": "H6",
+      "actual": 6,
+      "expected_from_base": 297,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "filter_type": "port",
+      "filter": "Pecem",
+      "metric": "Moves Total",
+      "cell": "K6",
+      "actual": 297,
+      "expected_from_base": 297,
+      "ok": true
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "filter_type": "port",
+      "filter": "Pecem",
+      "metric": "OTO CAB",
+      "cell": "N6",
+      "actual": 0.865979381443299,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "filter_type": "port",
+      "filter": "Pecem",
+      "metric": "OTO DS",
+      "cell": "P6",
+      "actual": 0.8,
+      "expected_from_base": 0.8648648648648649,
+      "ok": false
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "filter_type": "port",
+      "filter": "Pecem",
+      "metric": "OTO Total",
+      "cell": "Q6",
+      "actual": 0.8648648648648649,
+      "expected_from_base": 0.8648648648648649,
+      "ok": true
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "filter_type": "port",
+      "filter": "Pecem",
+      "metric": "48h Schedule CAB",
+      "cell": "R6",
+      "actual": 0.979381443298969,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "filter_type": "port",
+      "filter": "Suape",
+      "metric": "Moves CAB",
+      "cell": "D7",
+      "actual": 474,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "filter_type": "port",
+      "filter": "Suape",
+      "metric": "Moves DS",
+      "cell": "H7",
+      "actual": 0,
+      "expected_from_base": 474,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "filter_type": "port",
+      "filter": "Suape",
+      "metric": "Moves Total",
+      "cell": "K7",
+      "actual": 474,
+      "expected_from_base": 474,
+      "ok": true
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "filter_type": "port",
+      "filter": "Suape",
+      "metric": "OTO CAB",
+      "cell": "N7",
+      "actual": 0.9112050739957717,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "filter_type": "port",
+      "filter": "Suape",
+      "metric": "OTO DS",
+      "cell": "P7",
+      "actual": null,
+      "expected_from_base": 0.9112050739957717,
+      "ok": false
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "filter_type": "port",
+      "filter": "Suape",
+      "metric": "OTO Total",
+      "cell": "Q7",
+      "actual": 0.9112050739957717,
+      "expected_from_base": 0.9112050739957717,
+      "ok": true
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "filter_type": "port",
+      "filter": "Suape",
+      "metric": "48h Schedule CAB",
+      "cell": "R7",
+      "actual": 0.9409282700421941,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "filter_type": "port",
+      "filter": "Salvador",
+      "metric": "Moves CAB",
+      "cell": "D8",
+      "actual": 262,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "filter_type": "port",
+      "filter": "Salvador",
+      "metric": "Moves DS",
+      "cell": "H8",
+      "actual": 60,
+      "expected_from_base": 322,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "filter_type": "port",
+      "filter": "Salvador",
+      "metric": "Moves Total",
+      "cell": "K8",
+      "actual": 322,
+      "expected_from_base": 322,
+      "ok": true
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "filter_type": "port",
+      "filter": "Salvador",
+      "metric": "OTO CAB",
+      "cell": "N8",
+      "actual": 0.9157088122605364,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "filter_type": "port",
+      "filter": "Salvador",
+      "metric": "OTO DS",
+      "cell": "P8",
+      "actual": 1,
+      "expected_from_base": 0.9314641744548287,
+      "ok": false
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "filter_type": "port",
+      "filter": "Salvador",
+      "metric": "OTO Total",
+      "cell": "Q8",
+      "actual": 0.9314641744548287,
+      "expected_from_base": 0.9314641744548287,
+      "ok": true
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "filter_type": "port",
+      "filter": "Salvador",
+      "metric": "48h Schedule CAB",
+      "cell": "R8",
+      "actual": 0.9465648854961832,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 9,
+      "label": "Northeast",
+      "filter_type": "region",
+      "filter": "Northeast",
+      "metric": "Moves CAB",
+      "cell": "D9",
+      "actual": 1027,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "label": "Northeast",
+      "filter_type": "region",
+      "filter": "Northeast",
+      "metric": "Moves DS",
+      "cell": "H9",
+      "actual": 66,
+      "expected_from_base": 1093,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "label": "Northeast",
+      "filter_type": "region",
+      "filter": "Northeast",
+      "metric": "Moves Total",
+      "cell": "K9",
+      "actual": 1093,
+      "expected_from_base": 1093,
+      "ok": true
+    },
+    {
+      "row": 9,
+      "label": "Northeast",
+      "filter_type": "region",
+      "filter": "Northeast",
+      "metric": "OTO CAB",
+      "cell": "N9",
+      "actual": 0.8995121951219512,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 9,
+      "label": "Northeast",
+      "filter_type": "region",
+      "filter": "Northeast",
+      "metric": "OTO DS",
+      "cell": "P9",
+      "actual": 0.9846153846153847,
+      "expected_from_base": 0.9045871559633027,
+      "ok": false
+    },
+    {
+      "row": 9,
+      "label": "Northeast",
+      "filter_type": "region",
+      "filter": "Northeast",
+      "metric": "OTO Total",
+      "cell": "Q9",
+      "actual": 0.9045871559633027,
+      "expected_from_base": 0.9045871559633027,
+      "ok": true
+    },
+    {
+      "row": 9,
+      "label": "Northeast",
+      "filter_type": "region",
+      "filter": "Northeast",
+      "metric": "48h Schedule CAB",
+      "cell": "R9",
+      "actual": 0.9532619279454723,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "filter_type": "port",
+      "filter": "Vitoria",
+      "metric": "Moves CAB",
+      "cell": "D11",
+      "actual": 10,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "filter_type": "port",
+      "filter": "Vitoria",
+      "metric": "Moves DS",
+      "cell": "H11",
+      "actual": 0,
+      "expected_from_base": 10,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "filter_type": "port",
+      "filter": "Vitoria",
+      "metric": "Moves Total",
+      "cell": "K11",
+      "actual": 10,
+      "expected_from_base": 10,
+      "ok": true
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "filter_type": "port",
+      "filter": "Vitoria",
+      "metric": "OTO CAB",
+      "cell": "N11",
+      "actual": 1,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "filter_type": "port",
+      "filter": "Vitoria",
+      "metric": "OTO DS",
+      "cell": "P11",
+      "actual": null,
+      "expected_from_base": 1.0,
+      "ok": false
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "filter_type": "port",
+      "filter": "Vitoria",
+      "metric": "OTO Total",
+      "cell": "Q11",
+      "actual": 1,
+      "expected_from_base": 1.0,
+      "ok": true
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "filter_type": "port",
+      "filter": "Vitoria",
+      "metric": "48h Schedule CAB",
+      "cell": "R11",
+      "actual": 1,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "filter_type": "port",
+      "filter": "Rio",
+      "metric": "Moves CAB",
+      "cell": "D12",
+      "actual": 159,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "filter_type": "port",
+      "filter": "Rio",
+      "metric": "Moves DS",
+      "cell": "H12",
+      "actual": 56,
+      "expected_from_base": 215,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "filter_type": "port",
+      "filter": "Rio",
+      "metric": "Moves Total",
+      "cell": "K12",
+      "actual": 215,
+      "expected_from_base": 215,
+      "ok": true
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "filter_type": "port",
+      "filter": "Rio",
+      "metric": "OTO CAB",
+      "cell": "N12",
+      "actual": 0.9554140127388535,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "filter_type": "port",
+      "filter": "Rio",
+      "metric": "OTO DS",
+      "cell": "P12",
+      "actual": 1,
+      "expected_from_base": 0.962962962962963,
+      "ok": false
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "filter_type": "port",
+      "filter": "Rio",
+      "metric": "OTO Total",
+      "cell": "Q12",
+      "actual": 0.962962962962963,
+      "expected_from_base": 0.962962962962963,
+      "ok": true
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "filter_type": "port",
+      "filter": "Rio",
+      "metric": "48h Schedule CAB",
+      "cell": "R12",
+      "actual": 0.9433962264150944,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "filter_type": "port",
+      "filter": "Santos",
+      "metric": "Moves CAB",
+      "cell": "D13",
+      "actual": 778,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "filter_type": "port",
+      "filter": "Santos",
+      "metric": "Moves DS",
+      "cell": "H13",
+      "actual": 622,
+      "expected_from_base": 1400,
+      "ok": false
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "filter_type": "port",
+      "filter": "Santos",
+      "metric": "Moves Total",
+      "cell": "K13",
+      "actual": 1400,
+      "expected_from_base": 1400,
+      "ok": true
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "filter_type": "port",
+      "filter": "Santos",
+      "metric": "OTO CAB",
+      "cell": "N13",
+      "actual": 0.9444444444444444,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "filter_type": "port",
+      "filter": "Santos",
+      "metric": "OTO DS",
+      "cell": "P13",
+      "actual": 0.933806146572104,
+      "expected_from_base": 0.940379403794038,
+      "ok": false
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "filter_type": "port",
+      "filter": "Santos",
+      "metric": "OTO Total",
+      "cell": "Q13",
+      "actual": 0.940379403794038,
+      "expected_from_base": 0.940379403794038,
+      "ok": true
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "filter_type": "port",
+      "filter": "Santos",
+      "metric": "48h Schedule CAB",
+      "cell": "R13",
+      "actual": 0.7840616966580977,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 14,
+      "label": "Southeast",
+      "filter_type": "region",
+      "filter": "Southeast",
+      "metric": "Moves CAB",
+      "cell": "D14",
+      "actual": 947,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 14,
+      "label": "Southeast",
+      "filter_type": "region",
+      "filter": "Southeast",
+      "metric": "Moves DS",
+      "cell": "H14",
+      "actual": 678,
+      "expected_from_base": 1625,
+      "ok": false
+    },
+    {
+      "row": 14,
+      "label": "Southeast",
+      "filter_type": "region",
+      "filter": "Southeast",
+      "metric": "Moves Total",
+      "cell": "K14",
+      "actual": 1625,
+      "expected_from_base": 1625,
+      "ok": true
+    },
+    {
+      "row": 14,
+      "label": "Southeast",
+      "filter_type": "region",
+      "filter": "Southeast",
+      "metric": "OTO CAB",
+      "cell": "N14",
+      "actual": 0.9471210340775558,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 14,
+      "label": "Southeast",
+      "filter_type": "region",
+      "filter": "Southeast",
+      "metric": "OTO DS",
+      "cell": "P14",
+      "actual": 0.9384615384615385,
+      "expected_from_base": 0.944104134762634,
+      "ok": false
+    },
+    {
+      "row": 14,
+      "label": "Southeast",
+      "filter_type": "region",
+      "filter": "Southeast",
+      "metric": "OTO Total",
+      "cell": "Q14",
+      "actual": 0.944104134762634,
+      "expected_from_base": 0.944104134762634,
+      "ok": true
+    },
+    {
+      "row": 14,
+      "label": "Southeast",
+      "filter_type": "region",
+      "filter": "Southeast",
+      "metric": "48h Schedule CAB",
+      "cell": "R14",
+      "actual": 0.8130939809926082,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "filter_type": "port",
+      "filter": "Itapoa",
+      "metric": "Moves CAB",
+      "cell": "D16",
+      "actual": 186,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "filter_type": "port",
+      "filter": "Itapoa",
+      "metric": "Moves DS",
+      "cell": "H16",
+      "actual": 215,
+      "expected_from_base": 401,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "filter_type": "port",
+      "filter": "Itapoa",
+      "metric": "Moves Total",
+      "cell": "K16",
+      "actual": 401,
+      "expected_from_base": 401,
+      "ok": true
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "filter_type": "port",
+      "filter": "Itapoa",
+      "metric": "OTO CAB",
+      "cell": "N16",
+      "actual": 0.9096045197740112,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "filter_type": "port",
+      "filter": "Itapoa",
+      "metric": "OTO DS",
+      "cell": "P16",
+      "actual": 0.9897435897435898,
+      "expected_from_base": 0.9516129032258065,
+      "ok": false
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "filter_type": "port",
+      "filter": "Itapoa",
+      "metric": "OTO Total",
+      "cell": "Q16",
+      "actual": 0.9516129032258065,
+      "expected_from_base": 0.9516129032258065,
+      "ok": true
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "filter_type": "port",
+      "filter": "Itapoa",
+      "metric": "48h Schedule CAB",
+      "cell": "R16",
+      "actual": 0.989247311827957,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "filter_type": "port",
+      "filter": "Itajai",
+      "metric": "Moves CAB",
+      "cell": "D17",
+      "actual": 17,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "filter_type": "port",
+      "filter": "Itajai",
+      "metric": "Moves DS",
+      "cell": "H17",
+      "actual": 77,
+      "expected_from_base": 94,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "filter_type": "port",
+      "filter": "Itajai",
+      "metric": "Moves Total",
+      "cell": "K17",
+      "actual": 94,
+      "expected_from_base": 94,
+      "ok": true
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "filter_type": "port",
+      "filter": "Itajai",
+      "metric": "OTO CAB",
+      "cell": "N17",
+      "actual": 0.8333333333333334,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "filter_type": "port",
+      "filter": "Itajai",
+      "metric": "OTO DS",
+      "cell": "P17",
+      "actual": 1,
+      "expected_from_base": 0.9841269841269842,
+      "ok": false
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "filter_type": "port",
+      "filter": "Itajai",
+      "metric": "OTO Total",
+      "cell": "Q17",
+      "actual": 0.9841269841269842,
+      "expected_from_base": 0.9841269841269842,
+      "ok": true
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "filter_type": "port",
+      "filter": "Itajai",
+      "metric": "48h Schedule CAB",
+      "cell": "R17",
+      "actual": 0.9411764705882353,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "filter_type": "port",
+      "filter": "Paranagua",
+      "metric": "Moves CAB",
+      "cell": "D18",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "filter_type": "port",
+      "filter": "Paranagua",
+      "metric": "Moves DS",
+      "cell": "H18",
+      "actual": 10,
+      "expected_from_base": 10,
+      "ok": true
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "filter_type": "port",
+      "filter": "Paranagua",
+      "metric": "Moves Total",
+      "cell": "K18",
+      "actual": 10,
+      "expected_from_base": 10,
+      "ok": true
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "filter_type": "port",
+      "filter": "Paranagua",
+      "metric": "OTO CAB",
+      "cell": "N18",
+      "actual": null,
+      "expected_from_base": "",
+      "ok": true
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "filter_type": "port",
+      "filter": "Paranagua",
+      "metric": "OTO DS",
+      "cell": "P18",
+      "actual": 0.8888888888888888,
+      "expected_from_base": 0.8888888888888888,
+      "ok": true
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "filter_type": "port",
+      "filter": "Paranagua",
+      "metric": "OTO Total",
+      "cell": "Q18",
+      "actual": 0.8888888888888888,
+      "expected_from_base": 0.8888888888888888,
+      "ok": true
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "filter_type": "port",
+      "filter": "Paranagua",
+      "metric": "48h Schedule CAB",
+      "cell": "R18",
+      "actual": null,
+      "expected_from_base": "",
+      "ok": true
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "filter_type": "port",
+      "filter": "Imbituba",
+      "metric": "Moves CAB",
+      "cell": "D19",
+      "actual": 73,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "filter_type": "port",
+      "filter": "Imbituba",
+      "metric": "Moves DS",
+      "cell": "H19",
+      "actual": 0,
+      "expected_from_base": 73,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "filter_type": "port",
+      "filter": "Imbituba",
+      "metric": "Moves Total",
+      "cell": "K19",
+      "actual": 73,
+      "expected_from_base": 73,
+      "ok": true
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "filter_type": "port",
+      "filter": "Imbituba",
+      "metric": "OTO CAB",
+      "cell": "N19",
+      "actual": 0.9305555555555556,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "filter_type": "port",
+      "filter": "Imbituba",
+      "metric": "OTO DS",
+      "cell": "P19",
+      "actual": null,
+      "expected_from_base": 0.9305555555555556,
+      "ok": false
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "filter_type": "port",
+      "filter": "Imbituba",
+      "metric": "OTO Total",
+      "cell": "Q19",
+      "actual": 0.9305555555555556,
+      "expected_from_base": 0.9305555555555556,
+      "ok": true
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "filter_type": "port",
+      "filter": "Imbituba",
+      "metric": "48h Schedule CAB",
+      "cell": "R19",
+      "actual": 0.9863013698630136,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "filter_type": "port",
+      "filter": "Rio Grande",
+      "metric": "Moves CAB",
+      "cell": "D20",
+      "actual": 109,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "filter_type": "port",
+      "filter": "Rio Grande",
+      "metric": "Moves DS",
+      "cell": "H20",
+      "actual": 2,
+      "expected_from_base": 111,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "filter_type": "port",
+      "filter": "Rio Grande",
+      "metric": "Moves Total",
+      "cell": "K20",
+      "actual": 111,
+      "expected_from_base": 111,
+      "ok": true
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "filter_type": "port",
+      "filter": "Rio Grande",
+      "metric": "OTO CAB",
+      "cell": "N20",
+      "actual": 0.88,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "filter_type": "port",
+      "filter": "Rio Grande",
+      "metric": "OTO DS",
+      "cell": "P20",
+      "actual": 1,
+      "expected_from_base": 0.8823529411764706,
+      "ok": false
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "filter_type": "port",
+      "filter": "Rio Grande",
+      "metric": "OTO Total",
+      "cell": "Q20",
+      "actual": 0.8823529411764706,
+      "expected_from_base": 0.8823529411764706,
+      "ok": true
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "filter_type": "port",
+      "filter": "Rio Grande",
+      "metric": "48h Schedule CAB",
+      "cell": "R20",
+      "actual": 0.981651376146789,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 21,
+      "label": "South",
+      "filter_type": "region",
+      "filter": "South",
+      "metric": "Moves CAB",
+      "cell": "D21",
+      "actual": 385,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "label": "South",
+      "filter_type": "region",
+      "filter": "South",
+      "metric": "Moves DS",
+      "cell": "H21",
+      "actual": 304,
+      "expected_from_base": 689,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "label": "South",
+      "filter_type": "region",
+      "filter": "South",
+      "metric": "Moves Total",
+      "cell": "K21",
+      "actual": 689,
+      "expected_from_base": 689,
+      "ok": true
+    },
+    {
+      "row": 21,
+      "label": "South",
+      "filter_type": "region",
+      "filter": "South",
+      "metric": "OTO CAB",
+      "cell": "N21",
+      "actual": 0.9042253521126761,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 21,
+      "label": "South",
+      "filter_type": "region",
+      "filter": "South",
+      "metric": "OTO DS",
+      "cell": "P21",
+      "actual": 0.9885931558935361,
+      "expected_from_base": 0.9401294498381877,
+      "ok": false
+    },
+    {
+      "row": 21,
+      "label": "South",
+      "filter_type": "region",
+      "filter": "South",
+      "metric": "OTO Total",
+      "cell": "Q21",
+      "actual": 0.9401294498381877,
+      "expected_from_base": 0.9401294498381877,
+      "ok": true
+    },
+    {
+      "row": 21,
+      "label": "South",
+      "filter_type": "region",
+      "filter": "South",
+      "metric": "48h Schedule CAB",
+      "cell": "R21",
+      "actual": 0.9844155844155844,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 23,
+      "label": "Total BR",
+      "filter_type": "total",
+      "filter": "ALL",
+      "metric": "Moves CAB",
+      "cell": "D23",
+      "actual": 3580,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "label": "Total BR",
+      "filter_type": "total",
+      "filter": "ALL",
+      "metric": "Moves DS",
+      "cell": "H23",
+      "actual": 1246,
+      "expected_from_base": 4826,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "label": "Total BR",
+      "filter_type": "total",
+      "filter": "ALL",
+      "metric": "Moves Total",
+      "cell": "K23",
+      "actual": 4826,
+      "expected_from_base": 4826,
+      "ok": true
+    },
+    {
+      "row": 23,
+      "label": "Total BR",
+      "filter_type": "total",
+      "filter": "ALL",
+      "metric": "OTO CAB",
+      "cell": "N23",
+      "actual": 0.91,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "row": 23,
+      "label": "Total BR",
+      "filter_type": "total",
+      "filter": "ALL",
+      "metric": "OTO DS",
+      "cell": "P23",
+      "actual": 0.95,
+      "expected_from_base": 0.92,
+      "ok": false
+    },
+    {
+      "row": 23,
+      "label": "Total BR",
+      "filter_type": "total",
+      "filter": "ALL",
+      "metric": "OTO Total",
+      "cell": "Q23",
+      "actual": 0.9217598097502973,
+      "expected_from_base": 0.9217598097502973,
+      "ok": true
+    },
+    {
+      "row": 23,
+      "label": "Total BR",
+      "filter_type": "total",
+      "filter": "ALL",
+      "metric": "48h Schedule CAB",
+      "cell": "R23",
+      "actual": 0.8701117318435754,
+      "expected_from_base": "",
+      "ok": false
+    }
+  ],
+  "region_errors": {
+    "checks": [
+      {
+        "cell": "B7",
+        "region": "North",
+        "day": "Sun",
+        "actual": 2,
+        "expected_from_base": 2,
+        "ok": true
+      },
+      {
+        "cell": "C7",
+        "region": "North",
+        "day": "Mon",
+        "actual": 41,
+        "expected_from_base": 41,
+        "ok": true
+      },
+      {
+        "cell": "D7",
+        "region": "North",
+        "day": "Tue",
+        "actual": 46,
+        "expected_from_base": 46,
+        "ok": true
+      },
+      {
+        "cell": "E7",
+        "region": "North",
+        "day": "Wed",
+        "actual": 51,
+        "expected_from_base": 51,
+        "ok": true
+      },
+      {
+        "cell": "F7",
+        "region": "North",
+        "day": "Thu",
+        "actual": 60,
+        "expected_from_base": 60,
+        "ok": true
+      },
+      {
+        "cell": "G7",
+        "region": "North",
+        "day": "Fri",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "H7",
+        "region": "North",
+        "day": "Sat",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "I7",
+        "region": "North",
+        "day": "Total",
+        "actual": 200,
+        "expected_from_base": 200,
+        "ok": true
+      },
+      {
+        "cell": "B8",
+        "region": "Northeast",
+        "day": "Sun",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "C8",
+        "region": "Northeast",
+        "day": "Mon",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "D8",
+        "region": "Northeast",
+        "day": "Tue",
+        "actual": 1,
+        "expected_from_base": 1,
+        "ok": true
+      },
+      {
+        "cell": "E8",
+        "region": "Northeast",
+        "day": "Wed",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "F8",
+        "region": "Northeast",
+        "day": "Thu",
+        "actual": 2,
+        "expected_from_base": 2,
+        "ok": true
+      },
+      {
+        "cell": "G8",
+        "region": "Northeast",
+        "day": "Fri",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "H8",
+        "region": "Northeast",
+        "day": "Sat",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "I8",
+        "region": "Northeast",
+        "day": "Total",
+        "actual": 3,
+        "expected_from_base": 3,
+        "ok": true
+      },
+      {
+        "cell": "B9",
+        "region": "Southeast",
+        "day": "Sun",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "C9",
+        "region": "Southeast",
+        "day": "Mon",
+        "actual": 54,
+        "expected_from_base": 54,
+        "ok": true
+      },
+      {
+        "cell": "D9",
+        "region": "Southeast",
+        "day": "Tue",
+        "actual": 59,
+        "expected_from_base": 59,
+        "ok": true
+      },
+      {
+        "cell": "E9",
+        "region": "Southeast",
+        "day": "Wed",
+        "actual": 123,
+        "expected_from_base": 123,
+        "ok": true
+      },
+      {
+        "cell": "F9",
+        "region": "Southeast",
+        "day": "Thu",
+        "actual": 50,
+        "expected_from_base": 50,
+        "ok": true
+      },
+      {
+        "cell": "G9",
+        "region": "Southeast",
+        "day": "Fri",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "H9",
+        "region": "Southeast",
+        "day": "Sat",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "I9",
+        "region": "Southeast",
+        "day": "Total",
+        "actual": 286,
+        "expected_from_base": 286,
+        "ok": true
+      },
+      {
+        "cell": "B10",
+        "region": "South",
+        "day": "Sun",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "C10",
+        "region": "South",
+        "day": "Mon",
+        "actual": 21,
+        "expected_from_base": 21,
+        "ok": true
+      },
+      {
+        "cell": "D10",
+        "region": "South",
+        "day": "Tue",
+        "actual": 23,
+        "expected_from_base": 23,
+        "ok": true
+      },
+      {
+        "cell": "E10",
+        "region": "South",
+        "day": "Wed",
+        "actual": 15,
+        "expected_from_base": 15,
+        "ok": true
+      },
+      {
+        "cell": "F10",
+        "region": "South",
+        "day": "Thu",
+        "actual": 12,
+        "expected_from_base": 12,
+        "ok": true
+      },
+      {
+        "cell": "G10",
+        "region": "South",
+        "day": "Fri",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "H10",
+        "region": "South",
+        "day": "Sat",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "I10",
+        "region": "South",
+        "day": "Total",
+        "actual": 71,
+        "expected_from_base": 71,
+        "ok": true
+      },
+      {
+        "cell": "B11",
+        "region": "Sem Porto/Region",
+        "day": "Sun",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "C11",
+        "region": "Sem Porto/Region",
+        "day": "Mon",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "D11",
+        "region": "Sem Porto/Region",
+        "day": "Tue",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "E11",
+        "region": "Sem Porto/Region",
+        "day": "Wed",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "F11",
+        "region": "Sem Porto/Region",
+        "day": "Thu",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "G11",
+        "region": "Sem Porto/Region",
+        "day": "Fri",
+        "actual": 23,
+        "expected_from_base": 23,
+        "ok": true
+      },
+      {
+        "cell": "H11",
+        "region": "Sem Porto/Region",
+        "day": "Sat",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "I11",
+        "region": "Sem Porto/Region",
+        "day": "Total",
+        "actual": 23,
+        "expected_from_base": 23,
+        "ok": true
+      },
+      {
+        "cell": "B12",
+        "region": "Total Geral",
+        "day": "Sun",
+        "actual": 2,
+        "expected_from_base": 2,
+        "ok": true
+      },
+      {
+        "cell": "C12",
+        "region": "Total Geral",
+        "day": "Mon",
+        "actual": 116,
+        "expected_from_base": 116,
+        "ok": true
+      },
+      {
+        "cell": "D12",
+        "region": "Total Geral",
+        "day": "Tue",
+        "actual": 129,
+        "expected_from_base": 129,
+        "ok": true
+      },
+      {
+        "cell": "E12",
+        "region": "Total Geral",
+        "day": "Wed",
+        "actual": 189,
+        "expected_from_base": 189,
+        "ok": true
+      },
+      {
+        "cell": "F12",
+        "region": "Total Geral",
+        "day": "Thu",
+        "actual": 124,
+        "expected_from_base": 124,
+        "ok": true
+      },
+      {
+        "cell": "G12",
+        "region": "Total Geral",
+        "day": "Fri",
+        "actual": 23,
+        "expected_from_base": 23,
+        "ok": true
+      },
+      {
+        "cell": "H12",
+        "region": "Total Geral",
+        "day": "Sat",
+        "actual": 0,
+        "expected_from_base": 0,
+        "ok": true
+      },
+      {
+        "cell": "I12",
+        "region": "Total Geral",
+        "day": "Total",
+        "actual": 583,
+        "expected_from_base": 583,
+        "ok": true
+      }
+    ],
+    "formula_issues": []
+  },
+  "volume_sheets": [
+    {
+      "sheet": "Volume_DS",
+      "cell": "F9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "G9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 138,
+      "expected_from_base": 138,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "H9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 102,
+      "expected_from_base": 102,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "I9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 121,
+      "expected_from_base": 121,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "J9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 113,
+      "expected_from_base": 113,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "K9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "L9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "M9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 474,
+      "expected_from_base": 474,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "F11",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "G11",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 138,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "H11",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 102,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "I11",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 121,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "J11",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 113,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "K11",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "L11",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "M11",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 474,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "F12",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "G12",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 0,
+      "expected_from_base": 138,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "H12",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 0,
+      "expected_from_base": 102,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "I12",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 0,
+      "expected_from_base": 121,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "J12",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 0,
+      "expected_from_base": 113,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "K12",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "L12",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "M12",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 0,
+      "expected_from_base": 474,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "M16",
+      "metric": "OTO total",
+      "port": "Suape",
+      "day": "Total",
+      "actual": null,
+      "expected_from_base": 0.91,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "M17",
+      "metric": "48h total",
+      "port": "Suape",
+      "day": "Total",
+      "actual": null,
+      "expected_from_base": 0.9409282700421941,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "F9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "G9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 138,
+      "expected_from_base": 138,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "H9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 102,
+      "expected_from_base": 102,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "I9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 121,
+      "expected_from_base": 121,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "J9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 113,
+      "expected_from_base": 113,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "K9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "L9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 474,
+      "expected_from_base": 474,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "F12",
+      "metric": "Volume CAB Diversos",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "G12",
+      "metric": "Volume CAB Diversos",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 132,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "H12",
+      "metric": "Volume CAB Diversos",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 96,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "I12",
+      "metric": "Volume CAB Diversos",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 119,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "J12",
+      "metric": "Volume CAB Diversos",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 111,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "K12",
+      "metric": "Volume CAB Diversos",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "L12",
+      "metric": "Volume CAB Diversos",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M12",
+      "metric": "Volume CAB Diversos",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 458,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "F13",
+      "metric": "Volume CAB Special",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "G13",
+      "metric": "Volume CAB Special",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 6,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "H13",
+      "metric": "Volume CAB Special",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 6,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "I13",
+      "metric": "Volume CAB Special",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 2,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "J13",
+      "metric": "Volume CAB Special",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 2,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "K13",
+      "metric": "Volume CAB Special",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "L13",
+      "metric": "Volume CAB Special",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M13",
+      "metric": "Volume CAB Special",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 16,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "F14",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "G14",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 0,
+      "expected_from_base": 138,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "H14",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 0,
+      "expected_from_base": 102,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "I14",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 0,
+      "expected_from_base": 121,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "J14",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 0,
+      "expected_from_base": 113,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "K14",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "L14",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M14",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 0,
+      "expected_from_base": 474,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M19",
+      "metric": "OTO total",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 0.91,
+      "expected_from_base": null,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M20",
+      "metric": "48h total",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 0.9409282700421941,
+      "expected_from_base": "",
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "F9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "G9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 138,
+      "expected_from_base": 138,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "H9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 102,
+      "expected_from_base": 102,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "I9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 121,
+      "expected_from_base": 121,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "J9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 113,
+      "expected_from_base": 113,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "K9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "L9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "M9",
+      "metric": "Volume Total",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 474,
+      "expected_from_base": 474,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "F12",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "G12",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 138,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "H12",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 102,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "I12",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 121,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "J12",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 113,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "K12",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "L12",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "M12",
+      "metric": "Volume CAB",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 474,
+      "expected_from_base": 0,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "F13",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Sun",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "G13",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Mon",
+      "actual": 0,
+      "expected_from_base": 138,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "H13",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Tue",
+      "actual": 0,
+      "expected_from_base": 102,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "I13",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Wed",
+      "actual": 0,
+      "expected_from_base": 121,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "J13",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Thu",
+      "actual": 0,
+      "expected_from_base": 113,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "K13",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Fri",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "L13",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Sat",
+      "actual": 0,
+      "expected_from_base": 0,
+      "ok": true
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "M13",
+      "metric": "Volume DS",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 0,
+      "expected_from_base": 474,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "M17",
+      "metric": "OTO total",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 0.91,
+      "expected_from_base": null,
+      "ok": false
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "M18",
+      "metric": "48h total",
+      "port": "Suape",
+      "day": "Total",
+      "actual": 0.9409282700421941,
+      "expected_from_base": "",
+      "ok": false
+    }
+  ]
+}

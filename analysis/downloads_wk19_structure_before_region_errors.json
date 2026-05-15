@@ -1,0 +1,4414 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK19.xlsm",
+  "open_ok": true,
+  "sheets": [
+    "Volume_DS",
+    "Volume_MAO",
+    "Volume_Graph",
+    "Query1",
+    "Week_Overview",
+    "Top_Offenders_Customers",
+    "Top_Offenders_Vendors",
+    "Sem_Preenchimento_Regiao",
+    "Amb+RoFo+Cap",
+    "Validacao_BU",
+    "Reagendas_Filtro",
+    "Reagendas_2",
+    "Weekly",
+    "Din",
+    "Capacity Plan",
+    "Month2date",
+    "LastMonth_Overview",
+    "LTFO_Week12",
+    "OTO Exceptions",
+    "Moves Exceptions",
+    "Exceptions_Mapping",
+    "Exceptions",
+    "ROE_wk",
+    "Weekly_DS",
+    "SIL_wk",
+    "ROE_wk_cancel",
+    "Reagendas",
+    "ROE_wk_monthly",
+    "RAO_wk",
+    "RAO_wk_cancel",
+    "RAO_wk_monthly",
+    "SIL_wk_month",
+    "Aux",
+    "Week_18",
+    "Week_11",
+    "Week_10",
+    "Validacao_Final",
+    "Menu"
+  ],
+  "button_sheet_present": [
+    "Sem_Preenchimento_Regiao"
+  ],
+  "roe_listobjects": [
+    {
+      "name": "ROE_wk",
+      "columns": [
+        "Nº OS",
+        "ST",
+        "Tipo OS",
+        "Provedor",
+        "Tipo Serviço",
+        "Valor",
+        "Qtde",
+        "Booking",
+        "Emissão",
+        "Data Prog.",
+        "Embarcador",
+        "Destinatário",
+        "Cliente Proposta",
+        "Aut. de Coleta/Entrega",
+        "Nota Fiscal",
+        "Navio",
+        "Origem/Destino",
+        "Container",
+        "Tipo",
+        "Tara",
+        "Lacre 1",
+        "Lacre 2",
+        "Lacre 3",
+        "Faturamento",
+        "Peso da carga (sem a tara)",
+        "Nº Agendamento",
+        "Nro. Apólice",
+        "Status Averbação",
+        "Número Averbação",
+        "Data Averbação",
+        "EDI",
+        "Data EDI",
+        "Val. EDI Alt. Usuário",
+        "Empresa",
+        "Centro de Custo",
+        "Diferenciador Proposta",
+        "Cliente Proposta2",
+        "Terminal Cheio",
+        "Cliente + Porto",
+        "Tipo ajustado",
+        "Dia",
+        "day week",
+        "Weekday",
+        "Weeknum",
+        "Data Ag",
+        "SLA Ag",
+        "Special",
+        "Volume",
+        "POL",
+        "POD",
+        "Porto",
+        "Region",
+        "OTD SIL",
+        "OTD ajustado",
+        "Justificativa",
+        "Atrasado?",
+        "Wtime",
+        "Em horas",
+        "W8ngTime",
+        "W8ngMinute",
+        "% OTO Provider",
+        "% OTO Client",
+        "% SLA agend",
+        "OTO Out",
+        "24h+ on Client",
+        "ClientePropostaRes",
+        "Especiais",
+        "AtrasoRev",
+        "Tipo Atraso",
+        "Produto",
+        "Nome local de atendimento",
+        "JustificativaExc",
+        "Cliente PropostaExc",
+        "Cliente Proposta+BrandExc",
+        "Cliente Proposta+PortoExc",
+        "Embarcador+Cliente Proposta+ProvedorExc",
+        "Embarcador+Nome local de atendimentoExc",
+        "ProvedorExc",
+        "Is_OTOException",
+        "Is_MoveException",
+        "Embarcador+Cliente Proposta+Provedor+PortoExc",
+        "BU_SIL",
+        "Tipo_Programacao_SIL",
+        "% agend on time"
+      ],
+      "rows": 9009
+    }
+  ],
+  "target_sheets": {
+    "Volume_DS": {
+      "used_range": null,
+      "shapes": [
+        {
+          "name": "Porto 4",
+          "text": "",
+          "on_action": "",
+          "left": 1014.7731323242188,
+          "top": 32.732757568359375
+        },
+        {
+          "name": "Chart 4",
+          "text": "",
+          "on_action": "",
+          "left": 144.2647247314453,
+          "top": 6.875118255615234
+        },
+        {
+          "name": "Picture 3",
+          "text": "",
+          "on_action": "",
+          "left": 10.650550842285156,
+          "top": 219.41220092773438
+        },
+        {
+          "name": "Picture 4",
+          "text": "",
+          "on_action": "",
+          "left": 9.79771614074707,
+          "top": 241.38723754882812
+        },
+        {
+          "name": "Picture 7",
+          "text": "",
+          "on_action": "",
+          "left": 11.082047462463379,
+          "top": 175.1955108642578
+        },
+        {
+          "name": "Picture 6",
+          "text": "",
+          "on_action": "",
+          "left": 11.194803237915039,
+          "top": 151.76480102539062
+        },
+        {
+          "name": "Picture 7",
+          "text": "",
+          "on_action": "",
+          "left": 10.716378211975098,
+          "top": 191.95338439941406
+        },
+        {
+          "name": "Graphic 8",
+          "text": "",
+          "on_action": "",
+          "left": 1168.7647705078125,
+          "top": 22.764724731445312
+        }
+      ],
+      "pivots": []
+    },
+    "Volume_MAO": {
+      "used_range": null,
+      "shapes": [
+        {
+          "name": "Porto 5",
+          "text": "",
+          "on_action": "",
+          "left": 1011.4127807617188,
+          "top": 34.50480270385742
+        },
+        {
+          "name": "Chart 4",
+          "text": "",
+          "on_action": "",
+          "left": 203.13967895507812,
+          "top": 10.0
+        },
+        {
+          "name": "Picture 3",
+          "text": "",
+          "on_action": "",
+          "left": 10.650550842285156,
+          "top": 250.98519897460938
+        },
+        {
+          "name": "Picture 4",
+          "text": "",
+          "on_action": "",
+          "left": 10.04771614074707,
+          "top": 270.7499084472656
+        },
+        {
+          "name": "Picture 7",
+          "text": "",
+          "on_action": "",
+          "left": 10.832047462463379,
+          "top": 191.2538604736328
+        },
+        {
+          "name": "Picture 6",
+          "text": "",
+          "on_action": "",
+          "left": 11.194803237915039,
+          "top": 151.76480102539062
+        },
+        {
+          "name": "Picture 7",
+          "text": "",
+          "on_action": "",
+          "left": 10.716378211975098,
+          "top": 222.52630615234375
+        }
+      ],
+      "pivots": []
+    },
+    "Volume_Graph": {
+      "used_range": null,
+      "shapes": [
+        {
+          "name": "Porto",
+          "text": "",
+          "on_action": "",
+          "left": 1020.6848754882812,
+          "top": 8.218031883239746
+        },
+        {
+          "name": "Chart 4",
+          "text": "",
+          "on_action": "",
+          "left": 163.6397705078125,
+          "top": 6.625118255615234
+        },
+        {
+          "name": "Picture 1",
+          "text": "",
+          "on_action": "",
+          "left": 10.650550842285156,
+          "top": 234.22047424316406
+        },
+        {
+          "name": "Picture 6",
+          "text": "",
+          "on_action": "",
+          "left": 10.04771614074707,
+          "top": 253.98519897460938
+        },
+        {
+          "name": "Picture 7",
+          "text": "",
+          "on_action": "",
+          "left": 10.832047462463379,
+          "top": 191.2538604736328
+        },
+        {
+          "name": "Picture 8",
+          "text": "",
+          "on_action": "",
+          "left": 11.194803237915039,
+          "top": 151.76480102539062
+        },
+        {
+          "name": "Picture 5",
+          "text": "",
+          "on_action": "",
+          "left": 10.716378211975098,
+          "top": 205.76165771484375
+        },
+        {
+          "name": "Graphic 7",
+          "text": "",
+          "on_action": "",
+          "left": 1170.8822021484375,
+          "top": 14.117637634277344
+        }
+      ],
+      "pivots": []
+    },
+    "Week_Overview": {
+      "used_range": null,
+      "shapes": [
+        {
+          "name": "Graphic 1",
+          "text": "",
+          "on_action": "",
+          "left": 1085.25,
+          "top": 465.0
+        }
+      ],
+      "pivots": [
+        {
+          "name": "Tabela dinâmica3",
+          "source": "Reagendas",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Data",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "3/16/2026",
+                "3/30/2026",
+                "4/6/2026",
+                "4/16/2026",
+                "4/15/2026",
+                "4/14/2026",
+                "4/13/2026",
+                "4/23/2026",
+                "4/20/2026",
+                "4/24/2026",
+                "4/22/2026",
+                "4/21/2026",
+                "4/19/2026",
+                "4/25/2026",
+                "4/26/2026",
+                "4/27/2026",
+                "4/28/2026",
+                "4/29/2026",
+                "4/30/2026",
+                "5/2/2026",
+                "5/4/2026"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 21
+            },
+            {
+              "name": "Porto Afetado",
+              "orientation": 2,
+              "current_page": null,
+              "visible_items": [
+                "Manaus",
+                "Pecem",
+                "Salvador",
+                "Santos",
+                "Suape",
+                "Vila do Conde",
+                "Rio",
+                "Itajai",
+                "Itapoa",
+                "Rio Grande",
+                "Imbituba",
+                "(blank)",
+                "Vitoria"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 13
+            },
+            {
+              "name": "Grupo - Justificativa",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Landside",
+                "Cliente",
+                "Outros",
+                "CX",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "Semana",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "12",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "R/N",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "No-Show",
+                "Reagendamento",
+                "Negativo",
+                "Sem OS",
+                "Indisp Veículo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            }
+          ]
+        },
+        {
+          "name": "Tabela dinâmica1",
+          "source": "Validacao_Final",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Grupo - Justificativa",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Landside",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 2
+            },
+            {
+              "name": "Data",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "3/16/2026 0:00",
+                "3/17/2026 0:00",
+                "3/18/2026 0:00",
+                "3/19/2026 0:00",
+                "3/20/2026 0:00",
+                "3/30/2026 0:00",
+                "3/31/2026 0:00",
+                "4/1/2026 0:00",
+                "4/6/2026 0:00",
+                "4/10/2026 0:00",
+                "4/8/2026 0:00",
+                "4/7/2026 0:00",
+                "4/9/2026 0:00",
+                "4/15/2026 0:00",
+                "4/16/2026 0:00",
+                "4/14/2026 0:00",
+                "4/13/2026 0:00",
+                "4/17/2026 0:00",
+                "4/29/2026 0:00",
+                "4/27/2026 0:00",
+                "4/28/2026 0:00",
+                "4/30/2026 0:00",
+                "5/2/2026 0:00",
+                "5/4/2026 0:00",
+                "5/5/2026 0:00"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 25
+            },
+            {
+              "name": "Porto Afetado",
+              "orientation": 2,
+              "current_page": null,
+              "visible_items": [
+                "Suape",
+                "Salvador",
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 9,
+              "all_items_count": 13
+            },
+            {
+              "name": "R/N",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Reagendamento",
+                "No-Show",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Semana",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "12",
+                "14",
+                "15",
+                "16",
+                "18",
+                "19"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "WeekDay",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Mon",
+                "Tue"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 2
+            }
+          ]
+        },
+        {
+          "name": "Tabela dinâmica4",
+          "source": "Reagendas",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Data",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "3/16/2026 0:00",
+                "3/30/2026 0:00",
+                "4/6/2026 0:00",
+                "4/16/2026 0:00",
+                "4/15/2026 0:00",
+                "4/14/2026 0:00",
+                "4/13/2026 0:00",
+                "4/23/2026 0:00",
+                "4/20/2026 0:00",
+                "4/24/2026 0:00",
+                "4/22/2026 0:00",
+                "4/21/2026 0:00",
+                "4/19/2026 0:00",
+                "4/25/2026 0:00",
+                "4/26/2026 0:00",
+                "4/27/2026 0:00",
+                "4/28/2026 0:00",
+                "4/29/2026 0:00",
+                "4/30/2026 0:00",
+                "5/2/2026 0:00",
+                "5/4/2026 0:00"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 21
+            },
+            {
+              "name": "Porto Afetado",
+              "orientation": 1,
+              "current_page": null,
+              "visible_items": [
+                "Pecem",
+                "Salvador",
+                "Suape",
+                "(blank)"
+              ],
+              "hidden_count": 9,
+              "all_items_count": 13
+            },
+            {
+              "name": "Grupo - Justificativa",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Landside",
+                "(blank)"
+              ],
+              "hidden_count": 3,
+              "all_items_count": 5
+            },
+            {
+              "name": "Semana",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "12",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "R/N",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Negativo",
+                "No-Show",
+                "(blank)"
+              ],
+              "hidden_count": 3,
+              "all_items_count": 6
+            }
+          ]
+        }
+      ]
+    },
+    "Top_Offenders_Customers": {
+      "used_range": null,
+      "shapes": [
+        {
+          "name": "Porto 2",
+          "text": "",
+          "on_action": "",
+          "left": 774.9633178710938,
+          "top": 104.96315002441406
+        },
+        {
+          "name": "Data Prog. 1",
+          "text": "",
+          "on_action": "",
+          "left": 890.8382568359375,
+          "top": 103.96331024169922
+        },
+        {
+          "name": "Graphic 3",
+          "text": "",
+          "on_action": "",
+          "left": 892.9412841796875,
+          "top": 0.0
+        }
+      ],
+      "pivots": [
+        {
+          "name": "PivotTable5",
+          "source": "ROE_wk",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Centro de Custo",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "(blank)"
+              ],
+              "hidden_count": 4,
+              "all_items_count": 5
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 53
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 14,
+              "all_items_count": 16
+            },
+            {
+              "name": "Region",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Atrasado",
+                "No Prazo",
+                "Sem Preenchimento",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 3,
+              "current_page": "1",
+              "visible_items": [
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "0",
+                "N",
+                "S",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "Depot/Porto",
+                "Interno",
+                "Provedor",
+                "Terceiro",
+                "#N/A",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 8
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        },
+        {
+          "name": "Tabela dinâmica1",
+          "source": "ROE_wk",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Centro de Custo",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "(blank)"
+              ],
+              "hidden_count": 4,
+              "all_items_count": 5
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 53
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 14,
+              "all_items_count": 16
+            },
+            {
+              "name": "Region",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Atrasado",
+                "No Prazo",
+                "Sem Preenchimento",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 3,
+              "current_page": "1",
+              "visible_items": [
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "N",
+                "S",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "Depot/Porto",
+                "Interno",
+                "Provedor",
+                "Terceiro",
+                "#N/A",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 8
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        },
+        {
+          "name": "PivotTable2_KPI_Helper",
+          "source": "ROE_wk",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 3,
+              "current_page": "19",
+              "visible_items": [
+                "19",
+                "(blank)"
+              ],
+              "hidden_count": 51,
+              "all_items_count": 53
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "Ok",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 14,
+              "all_items_count": 16
+            },
+            {
+              "name": "Region",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Atrasado",
+                "No Prazo",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 3,
+              "current_page": "N",
+              "visible_items": [
+                "N",
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 4
+            },
+            {
+              "name": "Especiais",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "Depot/Porto",
+                "Interno",
+                "Provedor",
+                "Terceiro",
+                "#N/A",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 8
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        },
+        {
+          "name": "PivotTable1",
+          "source": "ROE_wk",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Centro de Custo",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Aliança",
+                "Maersk",
+                "Maersk-Outros",
+                "(blank)",
+                "Sealand"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 53
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 14,
+              "all_items_count": 16
+            },
+            {
+              "name": "Region",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Atrasado",
+                "No Prazo",
+                "Sem Preenchimento",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "0",
+                "N",
+                "S",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "Depot/Porto",
+                "Interno",
+                "Provedor",
+                "Terceiro",
+                "#N/A",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 8
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        },
+        {
+          "name": "PivotTable2",
+          "source": "ROE_wk",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Centro de Custo",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "(blank)"
+              ],
+              "hidden_count": 4,
+              "all_items_count": 5
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "(blank)"
+              ],
+              "hidden_count": 52,
+              "all_items_count": 53
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 14,
+              "all_items_count": 16
+            },
+            {
+              "name": "Region",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Atrasado",
+                "No Prazo",
+                "Sem Preenchimento",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "N",
+                "S",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "Depot/Porto",
+                "Interno",
+                "Provedor",
+                "Terceiro",
+                "#N/A",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 8
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        }
+      ]
+    },
+    "Top_Offenders_Vendors": {
+      "used_range": null,
+      "shapes": [
+        {
+          "name": "Porto 1",
+          "text": "",
+          "on_action": "",
+          "left": 487.4901428222656,
+          "top": 48.02527618408203
+        },
+        {
+          "name": "Data Prog.",
+          "text": "",
+          "on_action": "",
+          "left": 614.9937133789062,
+          "top": 169.2804718017578
+        },
+        {
+          "name": "Graphic 3",
+          "text": "",
+          "on_action": "",
+          "left": 667.5672607421875,
+          "top": 56.78763961791992
+        }
+      ],
+      "pivots": [
+        {
+          "name": "PivotTable1",
+          "source": "ROE_wk",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Data Prog.",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 8000
+            },
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 53
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 14,
+              "all_items_count": 16
+            },
+            {
+              "name": "Region",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Atrasado",
+                "No Prazo",
+                "Sem Preenchimento",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 3,
+              "current_page": "(blank)",
+              "visible_items": [
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 3,
+              "current_page": "N",
+              "visible_items": [
+                "N",
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 4
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "Depot/Porto",
+                "Interno",
+                "Provedor",
+                "Terceiro",
+                "#N/A",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 8
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        },
+        {
+          "name": "PivotTable4",
+          "source": "ROE_wk",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Data Prog.",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 8000
+            },
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 53
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 14,
+              "all_items_count": 16
+            },
+            {
+              "name": "Region",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Atrasado",
+                "No Prazo",
+                "Sem Preenchimento",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 3,
+              "current_page": "(blank)",
+              "visible_items": [
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 3,
+              "current_page": "N",
+              "visible_items": [
+                "N",
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 4
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "Depot/Porto",
+                "Interno",
+                "Provedor",
+                "Terceiro",
+                "#N/A",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 8
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        },
+        {
+          "name": "PivotTable2",
+          "source": "ROE_wk",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Data Prog.",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 8000
+            },
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 53
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 14,
+              "all_items_count": 16
+            },
+            {
+              "name": "Region",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Atrasado",
+                "No Prazo",
+                "Sem Preenchimento",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 3,
+              "current_page": "(blank)",
+              "visible_items": [
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 3,
+              "current_page": "N",
+              "visible_items": [
+                "N",
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 4
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 1,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Depot/Porto",
+                "Interno",
+                "Provedor",
+                "Terceiro",
+                "#N/A",
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 8
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        },
+        {
+          "name": "PivotTable3",
+          "source": "ROE_wk",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Data Prog.",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 8000
+            },
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "17",
+                "18",
+                "19",
+                "20",
+                "21",
+                "23",
+                "24",
+                "25",
+                "26",
+                "27",
+                "28",
+                "29",
+                "30",
+                "31",
+                "32",
+                "33",
+                "34",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "40",
+                "41",
+                "42",
+                "43",
+                "44",
+                "45",
+                "46",
+                "47",
+                "48",
+                "49",
+                "50",
+                "51",
+                "52",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 53
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "(Tudo)",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Pecem",
+                "(blank)"
+              ],
+              "hidden_count": 14,
+              "all_items_count": 16
+            },
+            {
+              "name": "Region",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 5
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "Atrasado",
+                "No Prazo",
+                "Sem Preenchimento",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 3,
+              "current_page": "(blank)",
+              "visible_items": [
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 3,
+              "current_page": "N",
+              "visible_items": [
+                "N",
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 4
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "Depot/Porto",
+                "Interno",
+                "Provedor",
+                "Terceiro",
+                "#N/A",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 8
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        }
+      ]
+    },
+    "Sem_Preenchimento_Regiao": {
+      "used_range": null,
+      "shapes": [
+        {
+          "name": "btnAtualizarDashboardsSemPreenchimento",
+          "text": "Atualizar Dashboards",
+          "on_action": "'Base_DSU2026 - TbM - WK19.xlsm'!AtualizarDashboardsSemPreenchimento",
+          "left": 344.25,
+          "top": 16.5
+        }
+      ],
+      "pivots": [
+        {
+          "name": "ptSemPreenchRegiaoPS",
+          "source": "'ROE_wk'!L1C1:L9010C84",
+          "table_range": "",
+          "fields": [
+            {
+              "name": "Peso da carga (sem a tara)",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 2645
+            },
+            {
+              "name": "Cliente + Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "day week",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Fri",
+                "Mon",
+                "Sun",
+                "Thu",
+                "Tue",
+                "Wed"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weekday",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 7
+            },
+            {
+              "name": "Weeknum",
+              "orientation": 3,
+              "current_page": "19",
+              "visible_items": [
+                "19",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 2
+            },
+            {
+              "name": "Volume",
+              "orientation": 3,
+              "current_page": "Ok",
+              "visible_items": [
+                "Ok",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "Porto",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Imbituba",
+                "Itajai",
+                "Itapoa",
+                "Manaus",
+                "Paranagua",
+                "Pecem",
+                "Rio",
+                "Rio Grande",
+                "Salvador",
+                "Santos",
+                "Suape",
+                "Vila do Conde",
+                "Vitoria",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 15
+            },
+            {
+              "name": "Region",
+              "orientation": 1,
+              "current_page": null,
+              "visible_items": [
+                "Sem Porto/Region",
+                "North",
+                "Northeast",
+                "South",
+                "Southeast",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 6
+            },
+            {
+              "name": "OTD SIL",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "",
+                "Atrasado",
+                "No prazo",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 4
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": 3,
+              "current_page": "Sem Preenchimento",
+              "visible_items": [
+                "Sem Preenchimento",
+                "(blank)"
+              ],
+              "hidden_count": 2,
+              "all_items_count": 4
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "% OTO Provider",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0.214285714285714",
+                "0.666666666666667",
+                "0.692307692307692",
+                "0.730769230769231",
+                "0.75",
+                "0.774647887323944",
+                "0.797101449275362",
+                "0.8",
+                "0.806451612903226",
+                "0.826086956521739",
+                "0.828125",
+                "0.833333333333333",
+                "0.835051546391753",
+                "0.84",
+                "0.848484848484849",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.870967741935484",
+                "0.875",
+                "0.878787878787879",
+                "0.88135593220339",
+                "0.887096774193548",
+                "0.894736842105263",
+                "0.9",
+                "0.915254237288136",
+                "0.916666666666667",
+                "0.918032786885246",
+                "0.920430107526882",
+                "0.92156862745098",
+                "0.923076923076923",
+                "0.925373134328358",
+                "0.927536231884058",
+                "0.932584269662921",
+                "0.932692307692308",
+                "0.9375",
+                "0.941176470588235",
+                "0.945945945945946",
+                "0.95",
+                "0.951219512195122",
+                "0.956521739130435",
+                "0.957528957528958",
+                "0.961538461538462",
+                "0.967741935483871",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 45
+            },
+            {
+              "name": "% OTO Client",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "0.285714285714286",
+                "0.333333333333333",
+                "0.4",
+                "0.5",
+                "0.571428571428571",
+                "0.6",
+                "0.625",
+                "0.666666666666667",
+                "0.681818181818182",
+                "0.692307692307692",
+                "0.7",
+                "0.714285714285714",
+                "0.727272727272727",
+                "0.733333333333333",
+                "0.736842105263158",
+                "0.75",
+                "0.777777777777778",
+                "0.783783783783784",
+                "0.785714285714286",
+                "0.8",
+                "0.833333333333333",
+                "0.84",
+                "0.846153846153846",
+                "0.85",
+                "0.857142857142857",
+                "0.866666666666667",
+                "0.868421052631579",
+                "0.875",
+                "0.888888888888889",
+                "0.894736842105263",
+                "0.9",
+                "0.909090909090909",
+                "0.91304347826087",
+                "0.916666666666667",
+                "0.924528301886792",
+                "0.928571428571429",
+                "0.931034482758621",
+                "0.935483870967742",
+                "0.941176470588235",
+                "0.942028985507246",
+                "0.95",
+                "0.951612903225806",
+                "0.952380952380952",
+                "0.954545454545455",
+                "0.958333333333333",
+                "0.96",
+                "0.961538461538462",
+                "0.962962962962963",
+                "0.973684210526316",
+                "0.977777777777778",
+                "0.978260869565217",
+                "1",
+                ""
+              ],
+              "hidden_count": 0,
+              "all_items_count": 54
+            },
+            {
+              "name": "OTO Out",
+              "orientation": 3,
+              "current_page": "N",
+              "visible_items": [
+                "N",
+                "(blank)"
+              ],
+              "hidden_count": 1,
+              "all_items_count": 3
+            },
+            {
+              "name": "AtrasoRev",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 2
+            },
+            {
+              "name": "Cliente Proposta+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 784
+            },
+            {
+              "name": "Is_OTOException",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": [
+                "FALSE",
+                "TRUE",
+                "(blank)"
+              ],
+              "hidden_count": 0,
+              "all_items_count": 3
+            },
+            {
+              "name": "Embarcador+Cliente Proposta+Provedor+PortoExc",
+              "orientation": 0,
+              "current_page": null,
+              "visible_items": null,
+              "hidden_count": null,
+              "all_items_count": 1662
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

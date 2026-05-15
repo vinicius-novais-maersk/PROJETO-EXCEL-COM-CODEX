@@ -1,0 +1,53 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "size": 33105017,
+  "last_write": "2026-05-15T14:11:27",
+  "zip_bad": null,
+  "has_vba": true,
+  "cached_formula_errors": {},
+  "xl/pivotCache/pivotCacheDefinition2.xml": {
+    "external_ref": false,
+    "worksheetSource": [
+      "<worksheetSource name=\"ROE_wk\"/>"
+    ],
+    "refreshOnLoad": true
+  },
+  "xl/pivotCache/pivotCacheDefinition3.xml": {
+    "external_ref": false,
+    "worksheetSource": [
+      "<worksheetSource name=\"SIL_wk\"/>"
+    ],
+    "refreshOnLoad": true
+  },
+  "chart7_uses_AO": true,
+  "chart7_uses_AM": false,
+  "region_errors": {
+    "B7": 140,
+    "B8": 112,
+    "B9": 5,
+    "B10": 43,
+    "B11": 6,
+    "B12": 306,
+    "C12": 124,
+    "D12": 81,
+    "E12": 83,
+    "F12": 5,
+    "G12": 0,
+    "H12": 0,
+    "I12": 13,
+    "J12": 306
+  },
+  "menu": {
+    "C34": 103,
+    "E34": 8,
+    "G34": 0.9223300970873787,
+    "I34": 51,
+    "K34": 0,
+    "M34": 1
+  },
+  "labels": {
+    "Volume_Graph!E28": "Vol x RoFo (Weekly) atualizado por último em 13/05/2026",
+    "Volume_DS!E28": "Vol x RoFo (Weekly) atualizado por último em 13/05/2026",
+    "Volume_MAO!E30": "Vol x RoFo (Weekly) atualizado por último em 13/05/2026"
+  }
+}

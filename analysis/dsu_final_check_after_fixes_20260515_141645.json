@@ -1,0 +1,358 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "checked_at": "2026-05-15T14:16:45",
+  "size": 33105017,
+  "last_write": "2026-05-15T14:11:27",
+  "zip_bad": null,
+  "has_vba": true,
+  "cached_formula_errors": {},
+  "pivot_cache_external_rels": [],
+  "known_cache_sources": {
+    "xl/pivotCache/pivotCacheDefinition2.xml": "<worksheetSource name=\"ROE_wk\"/>",
+    "xl/pivotCache/pivotCacheDefinition3.xml": "<worksheetSource name=\"SIL_wk\"/>"
+  },
+  "chart_checks": [
+    {
+      "chart_xml": "xl/charts/chart1.xml",
+      "series_count": 6,
+      "empty_series": [],
+      "series": [
+        {
+          "formulas": [
+            "Volume_DS!$E$11",
+            "Volume_DS!$F$8:$L$8",
+            "Volume_DS!$F$11:$L$11"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "Volume_DS!$E$12",
+            "Volume_DS!$F$8:$L$8",
+            "Volume_DS!$F$12:$L$12"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "Volume_DS!$E$13",
+            "Volume_DS!$F$8:$L$8",
+            "Volume_DS!$F$13:$L$13"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "Volume_DS!$E$10",
+            "Volume_DS!$F$10:$L$10"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        }
+      ]
+    },
+    {
+      "chart_xml": "xl/charts/chart2.xml",
+      "series_count": 6,
+      "empty_series": [],
+      "series": [
+        {
+          "formulas": [
+            "Volume_MAO!$E$12",
+            "Volume_MAO!$F$8:$L$8",
+            "Volume_MAO!$F$12:$L$12"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "Volume_MAO!$E$14",
+            "Volume_MAO!$F$8:$L$8",
+            "Volume_MAO!$F$14:$L$14"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "Volume_MAO!$E$15",
+            "Volume_MAO!$F$8:$L$8",
+            "Volume_MAO!$F$15:$L$15"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "Volume_MAO!$E$10",
+            "Volume_MAO!$F$10:$L$10"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        }
+      ]
+    },
+    {
+      "chart_xml": "xl/charts/chart3.xml",
+      "series_count": 6,
+      "empty_series": [],
+      "series": [
+        {
+          "formulas": [
+            "Volume_Graph!$E$12",
+            "Volume_Graph!$F$8:$L$8",
+            "Volume_Graph!$F$12:$L$12"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "Volume_Graph!$E$13",
+            "Volume_Graph!$F$8:$L$8",
+            "Volume_Graph!$F$13:$L$13"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "Volume_Graph!$E$14",
+            "Volume_Graph!$F$8:$L$8",
+            "Volume_Graph!$F$14:$L$14"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "Volume_Graph!$E$10",
+            "Volume_Graph!$F$10:$L$10"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        }
+      ]
+    },
+    {
+      "chart_xml": "xl/charts/chart4.xml",
+      "series_count": 2,
+      "empty_series": [],
+      "series": [
+        {
+          "formulas": [
+            "LTFO_Week12!$E$11",
+            "LTFO_Week12!$F$11:$L$11"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        },
+        {
+          "formulas": [
+            "LTFO_Week12!$E$12",
+            "LTFO_Week12!$F$12:$L$12"
+          ],
+          "cached_values": 7,
+          "nonblank": 7
+        }
+      ]
+    },
+    {
+      "chart_xml": "xl/charts/chart5.xml",
+      "series_count": 10,
+      "empty_series": [],
+      "series": [
+        {
+          "formulas": [
+            "Volume_Graph!$E$9",
+            "Volume_Graph!$F$8:$M$8",
+            "Volume_Graph!$F$9:$M$9"
+          ],
+          "cached_values": 8,
+          "nonblank": 8
+        },
+        {
+          "formulas": [
+            "Volume_Graph!$E$10",
+            "Volume_Graph!$F$8:$M$8",
+            "Volume_Graph!$F$10:$M$10"
+          ],
+          "cached_values": 8,
+          "nonblank": 8
+        },
+        {
+          "formulas": [
+            "Volume_Graph!$E$11",
+            "Volume_Graph!$F$8:$M$8",
+            "Volume_Graph!$F$11:$M$11"
+          ],
+          "cached_values": 8,
+          "nonblank": 8
+        },
+        {
+          "formulas": [
+            "Volume_Graph!$E$12",
+            "Volume_Graph!$F$8:$M$8",
+            "Volume_Graph!$F$12:$M$12"
+          ],
+          "cached_values": 8,
+          "nonblank": 8
+        }
+      ]
+    },
+    {
+      "chart_xml": "xl/charts/chart6.xml",
+      "series_count": 9,
+      "empty_series": [],
+      "series": [
+        {
+          "formulas": [
+            "Volume_DS!$E$9",
+            "Volume_DS!$F$8:$M$8",
+            "Volume_DS!$F$9:$M$9"
+          ],
+          "cached_values": 8,
+          "nonblank": 8
+        },
+        {
+          "formulas": [
+            "Volume_DS!$E$10",
+            "Volume_DS!$F$8:$M$8",
+            "Volume_DS!$F$10:$M$10"
+          ],
+          "cached_values": 8,
+          "nonblank": 8
+        },
+        {
+          "formulas": [
+            "Volume_DS!$E$11",
+            "Volume_DS!$F$8:$M$8",
+            "Volume_DS!$F$11:$M$11"
+          ],
+          "cached_values": 8,
+          "nonblank": 8
+        },
+        {
+          "formulas": [
+            "Volume_DS!$E$12",
+            "Volume_DS!$F$8:$M$8",
+            "Volume_DS!$F$12:$M$12"
+          ],
+          "cached_values": 8,
+          "nonblank": 8
+        }
+      ]
+    },
+    {
+      "chart_xml": "xl/charts/chart7.xml",
+      "series_count": 3,
+      "empty_series": [],
+      "series": [
+        {
+          "formulas": [
+            "Top_Offenders_Customers!$AL$24",
+            "Top_Offenders_Customers!$AK$25:$AK$35",
+            "Top_Offenders_Customers!$AL$25:$AL$35"
+          ],
+          "cached_values": 10,
+          "nonblank": 10
+        },
+        {
+          "formulas": [
+            "Top_Offenders_Customers!$AO$24",
+            "Top_Offenders_Customers!$AK$25:$AK$35",
+            "Top_Offenders_Customers!$AO$25:$AO$35"
+          ],
+          "cached_values": 11,
+          "nonblank": 11
+        },
+        {
+          "formulas": [
+            "Top_Offenders_Customers!$AN$24",
+            "Top_Offenders_Customers!$AK$25:$AK$35",
+            "Top_Offenders_Customers!$AN$25:$AN$35"
+          ],
+          "cached_values": 10,
+          "nonblank": 10
+        }
+      ]
+    }
+  ],
+  "chart9_top_offenders_uses_oto_dia_AO": true,
+  "roe_headers_present": {
+    "Volume": true,
+    "Weeknum": true,
+    "Atrasado?": true,
+    "OTD ajustado": true,
+    "OTO Out": true,
+    "Region": true,
+    "day week": true,
+    "Category": false,
+    "Modal": false,
+    "Especial": false
+  },
+  "roe_week20_volume_ok": 3250,
+  "roe_week20_delays_simple": 204,
+  "roe_week20_official_denominator": 2944,
+  "roe_week20_official_delays": 204,
+  "roe_week20_official_oto": 0.9307065217391304,
+  "region_errors_cells": {
+    "B7": 140,
+    "B8": 112,
+    "B9": 5,
+    "B10": 43,
+    "B11": 6,
+    "B12": 306,
+    "C12": 124,
+    "D12": 81,
+    "E12": 83,
+    "F12": 5,
+    "G12": 0,
+    "H12": 0,
+    "I12": 13,
+    "J12": 306
+  },
+  "region_errors_ok": true,
+  "week_overview_total_row": {
+    "A23": "Total BR",
+    "B23": 3636,
+    "C23": 3508.8,
+    "D23": 2400,
+    "N23": 0.93,
+    "P23": 0.95,
+    "Q23": 0.9305413687436159
+  },
+  "week_overview_ok_known_totals": false,
+  "Volume_Graph": {
+    "M9": 820,
+    "M12": 692,
+    "M13": 128,
+    "M14": 33,
+    "E28": "Vol x RoFo (Weekly) atualizado por último em 13/05/2026"
+  },
+  "Volume_DS": {
+    "M9": 820,
+    "M12": 128,
+    "M13": 33,
+    "E28": "Vol x RoFo (Weekly) atualizado por último em 13/05/2026"
+  },
+  "Volume_MAO": {
+    "M9": 820,
+    "M12": 609,
+    "M13": 83,
+    "M14": 128,
+    "E30": "Vol x RoFo (Weekly) atualizado por último em 13/05/2026"
+  },
+  "menu": {
+    "C34": 103,
+    "E34": 8,
+    "G34": 0.9223300970873787,
+    "I34": 51,
+    "K34": 0,
+    "M34": 1
+  }
+}

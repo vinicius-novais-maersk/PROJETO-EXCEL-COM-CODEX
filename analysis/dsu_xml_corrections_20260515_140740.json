@@ -1,0 +1,66 @@
+{
+  "target": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026.xlsm",
+  "backup": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\_backup_codex\\Base_DSU2026_pre_xml_correcoes_20260515_140740.xlsm",
+  "edit": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\work\\Base_DSU2026_xmlfix_20260515_140740.xlsm",
+  "started_at": "2026-05-15T14:07:40",
+  "changes": [
+    {
+      "change": "patched_region_errors_cells",
+      "path": "xl/worksheets/sheet8.xml",
+      "total": 306
+    },
+    {
+      "change": "patched_menu_cells",
+      "cells": "G33:G34,M33:M34"
+    },
+    {
+      "change": "patched_chart7_series2",
+      "patched": true
+    },
+    {
+      "change": "patched_graph_labels",
+      "latest_label": "Vol x RoFo (Weekly) atualizado por ?ltimo em 13/05/2026"
+    },
+    {
+      "change": "patched_monthly_formula_errors",
+      "error_cells": 15625,
+      "error_cols": [
+        "AL",
+        "AM",
+        "AN",
+        "AO",
+        "AQ",
+        "AR",
+        "AS",
+        "AT",
+        "AU",
+        "AV",
+        "AW",
+        "AX",
+        "AY",
+        "AZ",
+        "BA",
+        "BB",
+        "BG",
+        "BH",
+        "BI",
+        "BJ"
+      ],
+      "formula_masters_wrapped": 396960,
+      "cached_errors_blanked": 15625
+    },
+    {
+      "change": "patched_external_pivot_caches",
+      "region_cache": "pivotCacheDefinition2.xml",
+      "din_cache": "pivotCacheDefinition3.xml",
+      "removed_external_rels": 2
+    }
+  ],
+  "warnings": [],
+  "zip_test": "OK",
+  "has_vba": true,
+  "has_workbook_xml": true,
+  "target_last_write": "2026-05-15T14:09:02",
+  "target_size": 33105012,
+  "finished_at": "2026-05-15T14:09:09"
+}

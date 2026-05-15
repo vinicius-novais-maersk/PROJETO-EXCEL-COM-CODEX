@@ -1,0 +1,16 @@
+{
+  "fixed": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+  "candidate": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_conservative_ready_20260508_191028.xlsm",
+  "sheet_count_fixed": 38,
+  "sheet_count_candidate": 38,
+  "sheetdata_mismatch_count": 0,
+  "sheetdata_mismatches": [],
+  "formula_mismatch_count": 0,
+  "formula_mismatches": [],
+  "formula_ref_error_count": 0,
+  "formula_ref_errors": [],
+  "cached_error_count": 0,
+  "cached_errors": [],
+  "literal_error_count": 0,
+  "literal_errors": []
+}

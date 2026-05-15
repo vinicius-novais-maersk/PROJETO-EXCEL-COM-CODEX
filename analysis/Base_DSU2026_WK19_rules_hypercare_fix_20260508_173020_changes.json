@@ -1,0 +1,1235 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+  "changes": [
+    {
+      "sheet": "Month2date",
+      "cell": "K2",
+      "before": "=IF(I2=0,\"\",IF($Q2=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C2,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L2",
+      "before": "=IF(J2=0,\"\",IF($Q2=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M2",
+      "before": "=IF(I2=0,\"\",IF($Q2=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I2,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O2",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q2,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q2,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P2",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q2,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K3",
+      "before": "=IF(I3=0,\"\",IF($Q3=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C3,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L3",
+      "before": "=IF(J3=0,\"\",IF($Q3=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M3",
+      "before": "=IF(I3=0,\"\",IF($Q3=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I3,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O3",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q3,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q3,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P3",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q3,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K6",
+      "before": "=IF(I6=0,\"\",IF($Q6=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C6,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L6",
+      "before": "=IF(J6=0,\"\",IF($Q6=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M6",
+      "before": "=IF(I6=0,\"\",IF($Q6=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I6,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O6",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q6,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q6,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P6",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q6,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K7",
+      "before": "=IF(I7=0,\"\",IF($Q7=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C7,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L7",
+      "before": "=IF(J7=0,\"\",IF($Q7=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M7",
+      "before": "=IF(I7=0,\"\",IF($Q7=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I7,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O7",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q7,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q7,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P7",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q7,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K8",
+      "before": "=IF(I8=0,\"\",IF($Q8=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C8,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L8",
+      "before": "=IF(J8=0,\"\",IF($Q8=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M8",
+      "before": "=IF(I8=0,\"\",IF($Q8=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I8,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O8",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q8,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q8,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P8",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q8,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K11",
+      "before": "=IF(I11=0,\"\",IF($Q11=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C11,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L11",
+      "before": "=IF(J11=0,\"\",IF($Q11=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M11",
+      "before": "=IF(I11=0,\"\",IF($Q11=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I11,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O11",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q11,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q11,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P11",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q11,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K12",
+      "before": "=IF(I12=0,\"\",IF($Q12=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C12,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L12",
+      "before": "=IF(J12=0,\"\",IF($Q12=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M12",
+      "before": "=IF(I12=0,\"\",IF($Q12=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I12,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O12",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q12,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q12,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P12",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q12,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K13",
+      "before": "=IF(I13=0,\"\",IF($Q13=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C13,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L13",
+      "before": "=IF(J13=0,\"\",IF($Q13=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M13",
+      "before": "=IF(I13=0,\"\",IF($Q13=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I13,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O13",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q13,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q13,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P13",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q13,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K16",
+      "before": "=IF(I16=0,\"\",IF($Q16=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C16,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L16",
+      "before": "=IF(J16=0,\"\",IF($Q16=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M16",
+      "before": "=IF(I16=0,\"\",IF($Q16=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I16,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O16",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q16,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q16,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P16",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q16,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K17",
+      "before": "=IF(I17=0,\"\",IF($Q17=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C17,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L17",
+      "before": "=IF(J17=0,\"\",IF($Q17=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M17",
+      "before": "=IF(I17=0,\"\",IF($Q17=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I17,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O17",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q17,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q17,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P17",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q17,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K18",
+      "before": "=IF(I18=0,\"\",IF($Q18=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C18,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L18",
+      "before": "=IF(J18=0,\"\",IF($Q18=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M18",
+      "before": "=IF(I18=0,\"\",IF($Q18=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I18,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O18",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q18,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q18,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P18",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q18,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K19",
+      "before": "=IF(I19=0,\"\",IF($Q19=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C19,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L19",
+      "before": "=IF(J19=0,\"\",IF($Q19=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M19",
+      "before": "=IF(I19=0,\"\",IF($Q19=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I19,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O19",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q19,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q19,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P19",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q19,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K4",
+      "before": "=IF(I4=0,\"\",IF($Q4=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C4,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L4",
+      "before": "=IF(J4=0,\"\",IF($Q4=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M4",
+      "before": "=IF(I4=0,\"\",IF($Q4=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I4,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O4",
+      "before": "=SUM(O2:O3)",
+      "after": "=SUM(O2:O3)"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P4",
+      "before": "=SUM(P2:P3)",
+      "after": "=SUM(P2:P3)"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K9",
+      "before": "=IF(I9=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C9,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L9",
+      "before": "=IF(J9=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M9",
+      "before": "=IF(I9=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I9,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O9",
+      "before": "=SUM(O6:O8)",
+      "after": "=SUM(O6:O8)"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P9",
+      "before": "=SUM(P6:P8)",
+      "after": "=SUM(P6:P8)"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K14",
+      "before": "=IF(I14=0,\"\",IF($Q14=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C14,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L14",
+      "before": "=IF(J14=0,\"\",IF($Q14=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M14",
+      "before": "=IF(I14=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I14,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O14",
+      "before": "=SUM(O11:O13)",
+      "after": "=SUM(O11:O13)"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P14",
+      "before": "=SUM(P11:P13)",
+      "after": "=SUM(P11:P13)"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K20",
+      "before": "=IF(I20=0,\"\",IF($Q20=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C20,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L20",
+      "before": "=IF(J20=0,\"\",IF($Q20=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M20",
+      "before": "=IF(I20=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I20,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O20",
+      "before": "=SUM(O16:O19)",
+      "after": "=SUM(O16:O19)"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P20",
+      "before": "=SUM(P16:P19)",
+      "after": "=SUM(P16:P19)"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "K22",
+      "before": "=ROUNDUP(IF(I22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C22,0))),2)",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "L22",
+      "before": "=ROUNDUP(IF(J22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0))),2)",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "M22",
+      "before": "=IF(I22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q22,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I22,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "O22",
+      "before": "=SUM(O4,O9,O14,O20)",
+      "after": "=SUM(O4,O9,O14,O20)"
+    },
+    {
+      "sheet": "Month2date",
+      "cell": "P22",
+      "before": "=SUM(P4,P9,P14,P20)",
+      "after": "=SUM(P4,P9,P14,P20)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K2",
+      "before": "=IF(I2=0,\"\",IF($Q2=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C2,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L2",
+      "before": "=IF(J2=0,\"\",IF($Q2=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M2",
+      "before": "=IF(I2=0,\"\",IF($Q2=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I2,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O2",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q2,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q2,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P2",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q2,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q2,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K3",
+      "before": "=IF(I3=0,\"\",IF($Q3=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C3,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L3",
+      "before": "=IF(J3=0,\"\",IF($Q3=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M3",
+      "before": "=IF(I3=0,\"\",IF($Q3=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I3,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O3",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q3,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q3,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P3",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q3,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q3,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K6",
+      "before": "=IF(I6=0,\"\",IF($Q6=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C6,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L6",
+      "before": "=IF(J6=0,\"\",IF($Q6=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M6",
+      "before": "=IF(I6=0,\"\",IF($Q6=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I6,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O6",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q6,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q6,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P6",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q6,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q6,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K7",
+      "before": "=IF(I7=0,\"\",IF($Q7=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C7,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L7",
+      "before": "=IF(J7=0,\"\",IF($Q7=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M7",
+      "before": "=IF(I7=0,\"\",IF($Q7=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I7,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O7",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q7,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q7,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P7",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q7,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q7,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K8",
+      "before": "=IF(I8=0,\"\",IF($Q8=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C8,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L8",
+      "before": "=IF(J8=0,\"\",IF($Q8=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M8",
+      "before": "=IF(I8=0,\"\",IF($Q8=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I8,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O8",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q8,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q8,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P8",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q8,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K11",
+      "before": "=IF(I11=0,\"\",IF($Q11=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C11,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L11",
+      "before": "=IF(J11=0,\"\",IF($Q11=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M11",
+      "before": "=IF(I11=0,\"\",IF($Q11=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I11,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O11",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q11,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q11,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P11",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q11,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q11,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K12",
+      "before": "=IF(I12=0,\"\",IF($Q12=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C12,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L12",
+      "before": "=IF(J12=0,\"\",IF($Q12=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M12",
+      "before": "=IF(I12=0,\"\",IF($Q12=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I12,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O12",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q12,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q12,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P12",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q12,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q12,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K13",
+      "before": "=IF(I13=0,\"\",IF($Q13=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C13,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L13",
+      "before": "=IF(J13=0,\"\",IF($Q13=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M13",
+      "before": "=IF(I13=0,\"\",IF($Q13=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I13,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O13",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q13,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q13,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P13",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q13,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q13,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K16",
+      "before": "=IF(I16=0,\"\",IF($Q16=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C16,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L16",
+      "before": "=IF(J16=0,\"\",IF($Q16=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M16",
+      "before": "=IF(I16=0,\"\",IF($Q16=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I16,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O16",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q16,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q16,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P16",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q16,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q16,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K17",
+      "before": "=IF(I17=0,\"\",IF($Q17=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C17,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L17",
+      "before": "=IF(J17=0,\"\",IF($Q17=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M17",
+      "before": "=IF(I17=0,\"\",IF($Q17=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I17,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O17",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q17,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q17,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P17",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q17,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q17,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K18",
+      "before": "=IF(I18=0,\"\",IF($Q18=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C18,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L18",
+      "before": "=IF(J18=0,\"\",IF($Q18=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M18",
+      "before": "=IF(I18=0,\"\",IF($Q18=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I18,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O18",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q18,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q18,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P18",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q18,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q18,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K19",
+      "before": "=IF(I19=0,\"\",IF($Q19=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C19,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L19",
+      "before": "=IF(J19=0,\"\",IF($Q19=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M19",
+      "before": "=IF(I19=0,\"\",IF($Q19=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I19,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O19",
+      "before": "=COUNTIFS(#REF!,\"Ok\",#REF!,$Q19,#REF!,\"Aliança\",#REF!,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q19,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*Reagenda*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P19",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$Q19,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk_monthly'!$AV:$AV,\"Ok\",'ROE_wk_monthly'!$AY:$AY,$Q19,'ROE_wk_monthly'!$BG:$BG,$Q$1,'ROE_wk_monthly'!$AI:$AI,\"Aliança\",'ROE_wk_monthly'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K4",
+      "before": "=IF(I4=0,\"\",IF($Q4=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C4,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L4",
+      "before": "=IF(J4=0,\"\",IF($Q4=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M4",
+      "before": "=IF(I4=0,\"\",IF($Q4=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I4,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A4,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O4",
+      "before": "=SUM(O2:O3)",
+      "after": "=SUM(O2:O3)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P4",
+      "before": "=SUM(P2:P3)",
+      "after": "=SUM(P2:P3)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K9",
+      "before": "=IF(I9=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C9,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L9",
+      "before": "=IF(J9=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M9",
+      "before": "=IF(I9=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I9,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A9,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O9",
+      "before": "=SUM(O6:O8)",
+      "after": "=SUM(O6:O8)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P9",
+      "before": "=SUM(P6:P8)",
+      "after": "=SUM(P6:P8)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K14",
+      "before": "=IF(I14=0,\"\",IF($Q14=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C14,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L14",
+      "before": "=IF(J14=0,\"\",IF($Q14=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M14",
+      "before": "=IF(I14=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I14,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A14,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O14",
+      "before": "=SUM(O11:O13)",
+      "after": "=SUM(O11:O13)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P14",
+      "before": "=SUM(P11:P13)",
+      "after": "=SUM(P11:P13)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K20",
+      "before": "=IF(I20=0,\"\",IF($Q20=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C20,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L20",
+      "before": "=IF(J20=0,\"\",IF($Q20=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M20",
+      "before": "=IF(I20=0,\"\",IF($Q9=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I20,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AZ:$AZ,$A20,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O20",
+      "before": "=SUM(O16:O19)",
+      "after": "=SUM(O16:O19)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P20",
+      "before": "=SUM(P16:P19)",
+      "after": "=SUM(P16:P19)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "K22",
+      "before": "=ROUNDUP(IF(I22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/C22,0))),2)",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "L22",
+      "before": "=ROUNDUP(IF(J22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\",'ROE_wk'!$AI:$AI,\"Aliança\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\")/#REF!,0))),2)",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$AI:$AI,\"<>Aliança\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "M22",
+      "before": "=IF(I22=0,\"\",IF($Q22=\"Manaus\",1-IFERROR(COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,$Q22,'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/COUNTIFS('ROE_wk'!$AN:$AN,\"Rodo\",'ROE_wk'!$AY:$AY,\"Manaus\"),0),1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"Atrasado\")/I22,0)))",
+      "after": "=IF(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\")=0,\"\",1-IFERROR(COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BL:$BL,\"N\",'ROE_wk'!$BB:$BB,\"Atrasado\",'ROE_wk'!$BO:$BO,\"<>Especial\")/COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AR:$AR,$Q$1,'ROE_wk'!$BB:$BB,\"<>Sem Preenchimento\",'ROE_wk'!$BL:$BL,\"N\"),0))"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "O22",
+      "before": "=SUM(O4,O9,O14,O20)",
+      "after": "=SUM(O4,O9,O14,O20)"
+    },
+    {
+      "sheet": "LastMonth_Overview",
+      "cell": "P22",
+      "before": "=SUM(P4,P9,P14,P20)",
+      "after": "=SUM(P4,P9,P14,P20)"
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "F19",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,F$8,'ROE_wk'!$AI:$AI,\"Maersk\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,F$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "G19",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,G$8,'ROE_wk'!$AI:$AI,\"Maersk\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,G$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "H19",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,H$8,'ROE_wk'!$AI:$AI,\"Maersk\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,H$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "I19",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,I$8,'ROE_wk'!$AI:$AI,\"Maersk\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,I$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "J19",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,J$8,'ROE_wk'!$AI:$AI,\"Maersk\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,J$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "K19",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,K$8,'ROE_wk'!$AI:$AI,\"Maersk\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,K$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "L19",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,L$8,'ROE_wk'!$AI:$AI,\"Maersk\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,L$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_DS",
+      "cell": "M19",
+      "before": "=SUM(F19:L19)",
+      "after": "=SUM(F19:L19)"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "F20",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,F$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,F$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "G20",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,G$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,G$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "H20",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,H$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,H$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "I20",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,I$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,I$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "J20",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,J$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,J$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "K20",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,K$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,K$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "L20",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,L$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,L$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_Graph",
+      "cell": "M20",
+      "before": " ",
+      "after": "=SUM(F20:L20)"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "F22",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,F$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,F$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "G22",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,G$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,G$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "H22",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,H$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,H$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "I22",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,I$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,I$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "J22",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,J$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,J$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "K22",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,K$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,K$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "L22",
+      "before": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,L$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*Reagenda*\")",
+      "after": "=COUNTIFS('ROE_wk'!$AV:$AV,\"Ok\",'ROE_wk'!$AY:$AY,$M$3,'ROE_wk'!$AR:$AR,$M$2,'ROE_wk'!$AP:$AP,L$8,'ROE_wk'!$AI:$AI,\"Aliança\",'ROE_wk'!$N:$N,\"*HYPERCARE*\")"
+    },
+    {
+      "sheet": "Volume_MAO",
+      "cell": "M22",
+      "before": "=SUM(F22:L22)",
+      "after": "=SUM(F22:L22)"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G20",
+      "before": "=IFERROR(-(C20/B20-1),\"\")",
+      "after": "=IFERROR(-(C20/B20-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G21",
+      "before": "=IFERROR(-(C21/B21-1),\"\")",
+      "after": "=IFERROR(-(C21/B21-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G22",
+      "before": "=IFERROR(-(C22/B22-1),\"\")",
+      "after": "=IFERROR(-(C22/B22-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G23",
+      "before": "=IFERROR(-(C23/B23-1),\"\")",
+      "after": "=IFERROR(-(C23/B23-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G24",
+      "before": "=IFERROR(-(C24/B24-1),\"\")",
+      "after": "=IFERROR(-(C24/B24-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G25",
+      "before": "=IFERROR(-(C25/B25-1),\"\")",
+      "after": "=IFERROR(-(C25/B25-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G26",
+      "before": "=IFERROR(-(C26/B27-1),\"\")",
+      "after": "=IFERROR(-(C26/B26-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G27",
+      "before": "=IFERROR(-(C27/#REF!-1),\"\")",
+      "after": "=IFERROR(-(C27/B27-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G28",
+      "before": "=IFERROR(-(C28/B28-1),\"\")",
+      "after": "=IFERROR(-(C28/B28-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G29",
+      "before": "=IFERROR(-(C29/B29-1),\"\")",
+      "after": "=IFERROR(-(C29/B29-1),\"\")"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "cell": "G30",
+      "before": "=IFERROR(-(C30/B30-1),\"\")",
+      "after": "=IFERROR(-(C30/B30-1),\"\")"
+    }
+  ]
+}

@@ -1,0 +1,168 @@
+{
+  "fixed": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_rules_hypercare_fix_20260508_173020.xlsm",
+  "candidate": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_conservative_ready_20260508_191028.xlsm",
+  "sheets": {
+    "Volume_DS": {
+      "candidate_formula_count": 171,
+      "candidate_formula_digest": "68ded87c366e2f6134b3f8fdc6df2f704dddad84d8b9dc76779322fc366bca6e"
+    },
+    "Volume_MAO": {
+      "candidate_formula_count": 186,
+      "candidate_formula_digest": "a877447ee47e30b74ab9d3b530755e2d299be009847c52b44fe6c81b46e363b3"
+    },
+    "Volume_Graph": {
+      "candidate_formula_count": 177,
+      "candidate_formula_digest": "654e984798b21c81a181cf9ffe7a570db6a682d3d7ac99de34735d19f73f0019"
+    },
+    "Query1": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Week_Overview": {
+      "candidate_formula_count": 617,
+      "candidate_formula_digest": "fff861cf1b40850f493e1323c03644c79b3b15fb246910d9562c12df8b4915ae"
+    },
+    "Top_Offenders_Customers": {
+      "candidate_formula_count": 7507,
+      "candidate_formula_digest": "60facb2b2c01b5fad9dcfe1bf5a8c7cc4eacdd87619409fd9db5d589773359da"
+    },
+    "Top_Offenders_Vendors": {
+      "candidate_formula_count": 80,
+      "candidate_formula_digest": "7bb2fdcb9f1edd1c1b60c1e7779df524b05e28570e558650de44672628757567"
+    },
+    "Amb+RoFo+Cap": {
+      "candidate_formula_count": 1827,
+      "candidate_formula_digest": "9cbad90798693337b7618229145138d39d1a274eab3c5a2c3d500c0eed0401d1"
+    },
+    "Validacao_BU": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Reagendas_Filtro": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Reagendas_2": {
+      "candidate_formula_count": 300,
+      "candidate_formula_digest": "e9c2b710e6df670dfb185634225730f1acf8370c87c4294a634c1b29c2809726"
+    },
+    "Weekly": {
+      "candidate_formula_count": 624,
+      "candidate_formula_digest": "d5c4dcba1197a32123b9c748554fd42ad6fd0b0e226f0c4829655c3e7112e97a"
+    },
+    "Din": {
+      "candidate_formula_count": 27,
+      "candidate_formula_digest": "b0a09442e91b9118a25d208707054730fa1af75445e7257800cfbbda4b968bfc"
+    },
+    "Capacity Plan": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Month2date": {
+      "candidate_formula_count": 305,
+      "candidate_formula_digest": "f5d1777445fa50a297b525f8604bd9bb56084b9ef41b67a576a571fa3ac9a8f3"
+    },
+    "LastMonth_Overview": {
+      "candidate_formula_count": 293,
+      "candidate_formula_digest": "542423318da7cafceca6b01a245978c55526f6d70ce4dbc78e84e19b5f2f4e98"
+    },
+    "LTFO_Week12": {
+      "candidate_formula_count": 15,
+      "candidate_formula_digest": "ecf65b328aded86794614f7014c27c73fb7700b80f165e437dfe9e17a70fe8d3"
+    },
+    "OTO Exceptions": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Moves Exceptions": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Exceptions_Mapping": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Exceptions": {
+      "candidate_formula_count": 12,
+      "candidate_formula_digest": "0f3f7206ba24b69712caa09941e50286869e37e33854f527962f4a156ff28a14"
+    },
+    "ROE_wk": {
+      "candidate_formula_count": 329070,
+      "candidate_formula_digest": "17c9a841c7deb6f7e4903f9ce3bf38f1a2b43c4765403b497ab1ed6f300bb9f7"
+    },
+    "Weekly_DS": {
+      "candidate_formula_count": 609,
+      "candidate_formula_digest": "2e0c3419e3cf1b3f3dc0df345344781aca13c9abc91bbc2eff0e4f45a93a9ae7"
+    },
+    "SIL_wk": {
+      "candidate_formula_count": 11501,
+      "candidate_formula_digest": "c4ec751283b9498ea7310ffc8f9c7b1ed22096de4683422b9a0cd0dc3d3e7273"
+    },
+    "Sem_Preenchimento_Regiao": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "ROE_wk_cancel": {
+      "candidate_formula_count": 26911,
+      "candidate_formula_digest": "5d5a1c58413a9d948294e144b82fcf6c942b24b912f2983fc7174ad250231624"
+    },
+    "Reagendas": {
+      "candidate_formula_count": 2565,
+      "candidate_formula_digest": "32865b8056b00690b7226232b123ffa2272a24d5458c8fb9d393813e9de9dbf0"
+    },
+    "ROE_wk_monthly": {
+      "candidate_formula_count": 1003425,
+      "candidate_formula_digest": "a0b3a2ef769d55380d6f377fc5cb77974c8582c046d279ea6a9657399b3421a9"
+    },
+    "RAO_wk": {
+      "candidate_formula_count": 14482,
+      "candidate_formula_digest": "2a5b40292dc7c1f9001d3275ccc2b29505b3579349edcfa08c674d91fa17f6b8"
+    },
+    "RAO_wk_cancel": {
+      "candidate_formula_count": 4452,
+      "candidate_formula_digest": "08c44cc228c954de5a82c40f96a03af532a996fa596f4cb7b08e42e6ac34d0cb"
+    },
+    "RAO_wk_monthly": {
+      "candidate_formula_count": 84400,
+      "candidate_formula_digest": "997fdb8471e53e5e39fa11ca8bfb33c8d4e6bd72fb3dc585b7504240893aaa90"
+    },
+    "SIL_wk_month": {
+      "candidate_formula_count": 45544,
+      "candidate_formula_digest": "825c00428984385fadf43e211a431e583e94ae95490d9e044cf8c838c5e3a3fb"
+    },
+    "Aux": {
+      "candidate_formula_count": 1095,
+      "candidate_formula_digest": "07edca12368296158b32361221bc83ad410fc13bed7cd01b00b110c1fcb97753"
+    },
+    "Week_18": {
+      "candidate_formula_count": 613,
+      "candidate_formula_digest": "e68a219d375b53bf14face1f25d4e514030419da338df55372c2619c7ae55fea"
+    },
+    "Week_11": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Week_10": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Validacao_Final": {
+      "candidate_formula_count": 0,
+      "candidate_formula_digest": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "Menu": {
+      "candidate_formula_count": 6,
+      "candidate_formula_digest": "b0ce05ff5fb66b5945db5e778f6f9a833487b4a7f3e2b0a31e866cd04749bfe1"
+    }
+  },
+  "formula_mismatches": [],
+  "formula_ref_errors": [],
+  "cached_errors": [],
+  "literal_errors": [],
+  "sheet_count_fixed": 38,
+  "sheet_count_candidate": 38,
+  "formula_mismatch_count": 0,
+  "formula_ref_error_count": 0,
+  "cached_error_count": 0,
+  "literal_error_count": 0
+}

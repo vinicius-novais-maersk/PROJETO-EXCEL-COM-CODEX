@@ -1,0 +1,886 @@
+﻿{
+    "workbook":  "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\_tmp_WK19_goal_com_audit.xlsm",
+    "timestamp":  "2026-05-08T16:58:09",
+    "pivots":  [
+                   {
+                       "sheet":  "Week_Overview",
+                       "name":  "Tabela dinâmica3",
+                       "tableRange":  "BG2:BS20",
+                       "sourceData":  "Reagendas",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Week_Overview",
+                       "name":  "Tabela dinâmica1",
+                       "tableRange":  "AR2:AU11",
+                       "sourceData":  "Validacao_Final",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Week_Overview",
+                       "name":  "Tabela dinâmica4",
+                       "tableRange":  "BA2:BB10",
+                       "sourceData":  "Reagendas",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Top_Offenders_Customers",
+                       "name":  "PivotTable5",
+                       "tableRange":  "N2:R61",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Top_Offenders_Customers",
+                       "name":  "Tabela dinâmica1",
+                       "tableRange":  "Y2:AA25",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Top_Offenders_Customers",
+                       "name":  "PivotTable2_KPI_Helper",
+                       "tableRange":  "AF13:AH209",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Top_Offenders_Customers",
+                       "name":  "PivotTable1",
+                       "tableRange":  "A2:F206",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Top_Offenders_Customers",
+                       "name":  "PivotTable2",
+                       "tableRange":  "AK20:AN35",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Top_Offenders_Vendors",
+                       "name":  "PivotTable1",
+                       "tableRange":  "A2:D8",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Top_Offenders_Vendors",
+                       "name":  "PivotTable4",
+                       "tableRange":  "O2:P8",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Top_Offenders_Vendors",
+                       "name":  "PivotTable2",
+                       "tableRange":  "R2:S8",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Top_Offenders_Vendors",
+                       "name":  "PivotTable3",
+                       "tableRange":  "L2:M8",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable7",
+                       "tableRange":  "AT1:AV8",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable3",
+                       "tableRange":  "O1:U101",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable6",
+                       "tableRange":  "AL1:AN18",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable9",
+                       "tableRange":  "BP1:BQ6",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable10",
+                       "tableRange":  "BX1:BY4",
+                       "sourceData":  "SIL_wk!L1C1:L2C25",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable5",
+                       "tableRange":  "AE1:AF5",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable2",
+                       "tableRange":  "B1:F15",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable1",
+                       "tableRange":  "AH1:AJ18",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable4",
+                       "tableRange":  "Z1:AA13",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Din",
+                       "name":  "PivotTable8",
+                       "tableRange":  "BD1:BF8",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Weekly_DS",
+                       "name":  "PivotTable2",
+                       "tableRange":  "J3:N9",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Weekly_DS",
+                       "name":  "PivotTable1",
+                       "tableRange":  "A3:E78",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Weekly_DS",
+                       "name":  "PivotTable4",
+                       "tableRange":  "J28:N33",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Weekly_DS",
+                       "name":  "PivotTable3",
+                       "tableRange":  "J15:N23",
+                       "sourceData":  "ROE_wk",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Sem_Preenchimento_Regiao",
+                       "name":  "ptSemPreenchRegiaoPS",
+                       "tableRange":  "A1:B12",
+                       "sourceData":  "\u0027ROE_wk\u0027!L1C1:L9010C84",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "ROE_wk_cancel",
+                       "name":  "PivotTable1",
+                       "tableRange":  "BJ2:BK70",
+                       "sourceData":  "ROE_wk_cancel",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Week_18",
+                       "name":  "PivotTable2",
+                       "tableRange":  "BG2:BS20",
+                       "sourceData":  "Reagendas",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Week_18",
+                       "name":  "PivotTable1",
+                       "tableRange":  "BA2:BB10",
+                       "sourceData":  "Reagendas",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   },
+                   {
+                       "sheet":  "Week_18",
+                       "name":  "PivotTable3",
+                       "tableRange":  "AR2:AU11",
+                       "sourceData":  "Validacao_Final",
+                       "pageFields":  [
+                                          "PageFields="
+                                      ],
+                       "rowFields":  [
+                                         "RowFields"
+                                     ],
+                       "columnFields":  [
+                                            "ColumnFields"
+                                        ],
+                       "dataFields":  [
+                                          "DataFields /  / func="
+                                      ]
+                   }
+               ],
+    "charts":  [
+                   {
+                       "sheet":  "Volume_DS",
+                       "name":  "Chart 4",
+                       "chartType":  "-4111",
+                       "seriesCount":  6,
+                       "issues":  [
+
+                                  ],
+                       "formulas":  [
+                                        "=SERIES(Volume_DS!$E$11,Volume_DS!$F$8:$L$8,Volume_DS!$F$11:$L$11,1)",
+                                        "=SERIES(Volume_DS!$E$12,Volume_DS!$F$8:$L$8,Volume_DS!$F$12:$L$12,2)",
+                                        "=SERIES(Volume_DS!$E$13,Volume_DS!$F$8:$L$8,Volume_DS!$F$13:$L$13,3)",
+                                        "=SERIES(Volume_DS!$E$10,,Volume_DS!$F$10:$L$10,4)",
+                                        "=SERIES(Volume_DS!$E$14,,Volume_DS!$F$14:$L$14,5)",
+                                        "=SERIES(Volume_DS!$E$15,,Volume_DS!$F$15:$L$15,6)"
+                                    ]
+                   },
+                   {
+                       "sheet":  "Volume_MAO",
+                       "name":  "Chart 4",
+                       "chartType":  "-4111",
+                       "seriesCount":  6,
+                       "issues":  [
+
+                                  ],
+                       "formulas":  [
+                                        "=SERIES(Volume_MAO!$E$12,Volume_MAO!$F$8:$L$8,Volume_MAO!$F$12:$L$12,1)",
+                                        "=SERIES(Volume_MAO!$E$14,Volume_MAO!$F$8:$L$8,Volume_MAO!$F$14:$L$14,2)",
+                                        "=SERIES(Volume_MAO!$E$15,Volume_MAO!$F$8:$L$8,Volume_MAO!$F$15:$L$15,3)",
+                                        "=SERIES(Volume_MAO!$E$10,,Volume_MAO!$F$10:$L$10,4)",
+                                        "=SERIES(Volume_MAO!$E$16,,Volume_MAO!$F$16:$L$16,5)",
+                                        "=SERIES(Volume_MAO!$E$18,,Volume_MAO!$F$18:$L$18,6)"
+                                    ]
+                   },
+                   {
+                       "sheet":  "Volume_Graph",
+                       "name":  "Chart 4",
+                       "chartType":  "-4111",
+                       "seriesCount":  6,
+                       "issues":  [
+
+                                  ],
+                       "formulas":  [
+                                        "=SERIES(Volume_Graph!$E$12,Volume_Graph!$F$8:$L$8,Volume_Graph!$F$12:$L$12,1)",
+                                        "=SERIES(Volume_Graph!$E$13,Volume_Graph!$F$8:$L$8,Volume_Graph!$F$13:$L$13,2)",
+                                        "=SERIES(Volume_Graph!$E$14,Volume_Graph!$F$8:$L$8,Volume_Graph!$F$14:$L$14,3)",
+                                        "=SERIES(Volume_Graph!$E$10,,Volume_Graph!$F$10:$L$10,4)",
+                                        "=SERIES(Volume_Graph!$E$15,,Volume_Graph!$F$15:$L$15,5)",
+                                        "=SERIES(Volume_Graph!$E$16,,Volume_Graph!$F$16:$L$16,6)"
+                                    ]
+                   },
+                   {
+                       "sheet":  "LTFO_Week12",
+                       "name":  "Chart 2",
+                       "chartType":  "-4111",
+                       "seriesCount":  2,
+                       "issues":  [
+
+                                  ],
+                       "formulas":  [
+                                        "=SERIES(LTFO_Week12!$E$11,,LTFO_Week12!$F$11:$L$11,1)",
+                                        "=SERIES(LTFO_Week12!$E$12,,LTFO_Week12!$F$12:$L$12,2)"
+                                    ]
+                   },
+                   {
+                       "sheet":  "Menu",
+                       "name":  "Chart 5",
+                       "chartType":  "51",
+                       "seriesCount":  10,
+                       "issues":  [
+
+                                  ],
+                       "formulas":  [
+                                        "=SERIES(Volume_Graph!$E$9,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$9:$M$9,1)",
+                                        "=SERIES(Volume_Graph!$E$10,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$10:$M$10,2)",
+                                        "=SERIES(Volume_Graph!$E$11,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$11:$M$11,3)",
+                                        "=SERIES(Volume_Graph!$E$12,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$12:$M$12,4)",
+                                        "=SERIES(Volume_Graph!$E$13,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$13:$M$13,5)",
+                                        "=SERIES(Volume_Graph!$E$14,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$14:$M$14,6)",
+                                        "=SERIES(Volume_Graph!$E$15,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$15:$M$15,7)",
+                                        "=SERIES(Volume_Graph!$E$16,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$16:$M$16,8)",
+                                        "=SERIES(Volume_Graph!$E$17,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$17:$M$17,9)",
+                                        "=SERIES(Volume_Graph!$E$18,Volume_Graph!$F$8:$M$8,Volume_Graph!$F$18:$M$18,10)"
+                                    ]
+                   },
+                   {
+                       "sheet":  "Menu",
+                       "name":  "Chart 6",
+                       "chartType":  "-4111",
+                       "seriesCount":  9,
+                       "issues":  [
+
+                                  ],
+                       "formulas":  [
+                                        "=SERIES(Volume_DS!$E$9,Volume_DS!$F$8:$M$8,Volume_DS!$F$9:$M$9,1)",
+                                        "=SERIES(Volume_DS!$E$10,Volume_DS!$F$8:$M$8,Volume_DS!$F$10:$M$10,2)",
+                                        "=SERIES(Volume_DS!$E$11,Volume_DS!$F$8:$M$8,Volume_DS!$F$11:$M$11,3)",
+                                        "=SERIES(Volume_DS!$E$12,Volume_DS!$F$8:$M$8,Volume_DS!$F$12:$M$12,4)",
+                                        "=SERIES(Volume_DS!$E$13,Volume_DS!$F$8:$M$8,Volume_DS!$F$13:$M$13,5)",
+                                        "=SERIES(Volume_DS!$E$14,Volume_DS!$F$8:$M$8,Volume_DS!$F$14:$M$14,6)",
+                                        "=SERIES(Volume_DS!$E$15,Volume_DS!$F$8:$M$8,Volume_DS!$F$15:$M$15,7)",
+                                        "=SERIES(Volume_DS!$E$16,Volume_DS!$F$8:$M$8,Volume_DS!$F$16:$M$16,8)",
+                                        "=SERIES(Volume_DS!$E$17,Volume_DS!$F$8:$M$8,Volume_DS!$F$17:$M$17,9)"
+                                    ]
+                   },
+                   {
+                       "sheet":  "Menu",
+                       "name":  "Chart 9",
+                       "chartType":  "51",
+                       "seriesCount":  3,
+                       "issues":  [
+
+                                  ],
+                       "formulas":  [
+                                        "=SERIES(Top_Offenders_Customers!$AL$24,Top_Offenders_Customers!$AK$25:$AK$35,Top_Offenders_Customers!$AL$25:$AL$35,1)",
+                                        "=SERIES(Top_Offenders_Customers!$AM$24,Top_Offenders_Customers!$AK$25:$AK$35,Top_Offenders_Customers!$AM$25:$AM$35,2)",
+                                        "=SERIES(Top_Offenders_Customers!$AN$24,Top_Offenders_Customers!$AK$25:$AK$35,Top_Offenders_Customers!$AN$25:$AN$35,3)"
+                                    ]
+                   }
+               ],
+    "sheetObjects":  [
+                         {
+                             "sheet":  "Volume_DS",
+                             "pivots":  0,
+                             "charts":  1
+                         },
+                         {
+                             "sheet":  "Volume_MAO",
+                             "pivots":  0,
+                             "charts":  1
+                         },
+                         {
+                             "sheet":  "Volume_Graph",
+                             "pivots":  0,
+                             "charts":  1
+                         },
+                         {
+                             "sheet":  "Query1",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Week_Overview",
+                             "pivots":  3,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Top_Offenders_Customers",
+                             "pivots":  5,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Top_Offenders_Vendors",
+                             "pivots":  4,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Amb+RoFo+Cap",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Validacao_BU",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Reagendas_Filtro",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Reagendas_2",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Weekly",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Din",
+                             "pivots":  10,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Capacity Plan",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Month2date",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "LastMonth_Overview",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "LTFO_Week12",
+                             "pivots":  0,
+                             "charts":  1
+                         },
+                         {
+                             "sheet":  "OTO Exceptions",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Moves Exceptions",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Exceptions_Mapping",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Exceptions",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "ROE_wk",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Weekly_DS",
+                             "pivots":  4,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "SIL_wk",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Sem_Preenchimento_Regiao",
+                             "pivots":  1,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "ROE_wk_cancel",
+                             "pivots":  1,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Reagendas",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "ROE_wk_monthly",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "RAO_wk",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "RAO_wk_cancel",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "RAO_wk_monthly",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "SIL_wk_month",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Aux",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Week_18",
+                             "pivots":  3,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Week_11",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Week_10",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Validacao_Final",
+                             "pivots":  0,
+                             "charts":  0
+                         },
+                         {
+                             "sheet":  "Menu",
+                             "pivots":  0,
+                             "charts":  3
+                         }
+                     ],
+    "name":  "_tmp_WK19_goal_com_audit.xlsm",
+    "readOnly":  true,
+    "worksheets":  38,
+    "summary":  {
+                    "sheets":  38,
+                    "pivots":  31,
+                    "charts":  7,
+                    "chartIssues":  0
+                }
+}

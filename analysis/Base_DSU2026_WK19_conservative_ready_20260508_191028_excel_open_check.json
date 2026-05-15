@@ -1,0 +1,11 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026_WK19_conservative_ready_20260508_191028.xlsm",
+  "open_ok": true,
+  "worksheets": 38,
+  "pivot_tables": 31,
+  "calculation": -4105,
+  "force_full_calculation": true,
+  "refresh_all_on_open": null,
+  "error": null,
+  "refresh_all_on_open_error": "'<win32com.gen_py.Microsoft Excel 16.0 Object Library._Workbook instance at 0x1342236556464>' object has no attribute 'RefreshAllOnOpen'"
+}

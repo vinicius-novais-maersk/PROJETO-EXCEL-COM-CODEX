@@ -1,0 +1,2499 @@
+{
+  "read_only": true,
+  "data": [
+    [
+      {
+        "r": 1,
+        "c": 1,
+        "value": "OTO Out",
+        "formula": "OTO Out"
+      },
+      {
+        "r": 1,
+        "c": 2,
+        "value": "N",
+        "formula": "N"
+      },
+      {
+        "r": 1,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 1,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 2,
+        "c": 1,
+        "value": "OTD ajustado",
+        "formula": "OTD ajustado"
+      },
+      {
+        "r": 2,
+        "c": 2,
+        "value": "Sem Preenchimento",
+        "formula": "Sem Preenchimento"
+      },
+      {
+        "r": 2,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 2,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 3,
+        "c": 1,
+        "value": "Volume",
+        "formula": "Volume"
+      },
+      {
+        "r": 3,
+        "c": 2,
+        "value": "Ok",
+        "formula": "Ok"
+      },
+      {
+        "r": 3,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 3,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 4,
+        "c": 1,
+        "value": "Weeknum",
+        "formula": "Weeknum"
+      },
+      {
+        "r": 4,
+        "c": 2,
+        "value": "20.0",
+        "formula": "20"
+      },
+      {
+        "r": 4,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 4,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 5,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 5,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 6,
+        "c": 1,
+        "value": "Region",
+        "formula": "Region"
+      },
+      {
+        "r": 6,
+        "c": 2,
+        "value": "Qtd OS sem preenchimento",
+        "formula": "Qtd OS sem preenchimento"
+      },
+      {
+        "r": 6,
+        "c": 3,
+        "value": "Mon",
+        "formula": "Mon"
+      },
+      {
+        "r": 6,
+        "c": 4,
+        "value": "Tue",
+        "formula": "Tue"
+      },
+      {
+        "r": 6,
+        "c": 5,
+        "value": "Wed",
+        "formula": "Wed"
+      },
+      {
+        "r": 6,
+        "c": 6,
+        "value": "Thu",
+        "formula": "Thu"
+      },
+      {
+        "r": 6,
+        "c": 7,
+        "value": "Fri",
+        "formula": "Fri"
+      },
+      {
+        "r": 6,
+        "c": 8,
+        "value": "Sat",
+        "formula": "Sat"
+      },
+      {
+        "r": 6,
+        "c": 9,
+        "value": "Total",
+        "formula": "Total"
+      },
+      {
+        "r": 6,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 6,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 6,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 6,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 6,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 7,
+        "c": 1,
+        "value": "Southeast",
+        "formula": "Southeast"
+      },
+      {
+        "r": 7,
+        "c": 2,
+        "value": "121.0",
+        "formula": "121"
+      },
+      {
+        "r": 7,
+        "c": 3,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A7,ROE_wk[day week],C$6)"
+      },
+      {
+        "r": 7,
+        "c": 4,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A7,ROE_wk[day week],D$6)"
+      },
+      {
+        "r": 7,
+        "c": 5,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A7,ROE_wk[day week],E$6)"
+      },
+      {
+        "r": 7,
+        "c": 6,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A7,ROE_wk[day week],F$6)"
+      },
+      {
+        "r": 7,
+        "c": 7,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A7,ROE_wk[day week],G$6)"
+      },
+      {
+        "r": 7,
+        "c": 8,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A7,ROE_wk[day week],H$6)"
+      },
+      {
+        "r": 7,
+        "c": 9,
+        "value": "121.0",
+        "formula": "=SUM(B7:H7)"
+      },
+      {
+        "r": 7,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 7,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 7,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 7,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 7,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 8,
+        "c": 1,
+        "value": "North",
+        "formula": "North"
+      },
+      {
+        "r": 8,
+        "c": 2,
+        "value": "53.0",
+        "formula": "53"
+      },
+      {
+        "r": 8,
+        "c": 3,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A8,ROE_wk[day week],C$6)"
+      },
+      {
+        "r": 8,
+        "c": 4,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A8,ROE_wk[day week],D$6)"
+      },
+      {
+        "r": 8,
+        "c": 5,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A8,ROE_wk[day week],E$6)"
+      },
+      {
+        "r": 8,
+        "c": 6,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A8,ROE_wk[day week],F$6)"
+      },
+      {
+        "r": 8,
+        "c": 7,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A8,ROE_wk[day week],G$6)"
+      },
+      {
+        "r": 8,
+        "c": 8,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A8,ROE_wk[day week],H$6)"
+      },
+      {
+        "r": 8,
+        "c": 9,
+        "value": "53.0",
+        "formula": "=SUM(B8:H8)"
+      },
+      {
+        "r": 8,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 8,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 8,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 8,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 8,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 9,
+        "c": 1,
+        "value": "Sem Porto/Region",
+        "formula": "Sem Porto/Region"
+      },
+      {
+        "r": 9,
+        "c": 2,
+        "value": "13.0",
+        "formula": "13"
+      },
+      {
+        "r": 9,
+        "c": 3,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A9,ROE_wk[day week],C$6)"
+      },
+      {
+        "r": 9,
+        "c": 4,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A9,ROE_wk[day week],D$6)"
+      },
+      {
+        "r": 9,
+        "c": 5,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A9,ROE_wk[day week],E$6)"
+      },
+      {
+        "r": 9,
+        "c": 6,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A9,ROE_wk[day week],F$6)"
+      },
+      {
+        "r": 9,
+        "c": 7,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A9,ROE_wk[day week],G$6)"
+      },
+      {
+        "r": 9,
+        "c": 8,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A9,ROE_wk[day week],H$6)"
+      },
+      {
+        "r": 9,
+        "c": 9,
+        "value": "13.0",
+        "formula": "=SUM(B9:H9)"
+      },
+      {
+        "r": 9,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 9,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 9,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 9,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 9,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 10,
+        "c": 1,
+        "value": "South",
+        "formula": "South"
+      },
+      {
+        "r": 10,
+        "c": 2,
+        "value": "12.0",
+        "formula": "12"
+      },
+      {
+        "r": 10,
+        "c": 3,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A10,ROE_wk[day week],C$6)"
+      },
+      {
+        "r": 10,
+        "c": 4,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A10,ROE_wk[day week],D$6)"
+      },
+      {
+        "r": 10,
+        "c": 5,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A10,ROE_wk[day week],E$6)"
+      },
+      {
+        "r": 10,
+        "c": 6,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A10,ROE_wk[day week],F$6)"
+      },
+      {
+        "r": 10,
+        "c": 7,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A10,ROE_wk[day week],G$6)"
+      },
+      {
+        "r": 10,
+        "c": 8,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],$A10,ROE_wk[day week],H$6)"
+      },
+      {
+        "r": 10,
+        "c": 9,
+        "value": "12.0",
+        "formula": "=SUM(B10:H10)"
+      },
+      {
+        "r": 10,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 10,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 10,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 10,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 10,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 11,
+        "c": 1,
+        "value": "Northeast",
+        "formula": "Northeast"
+      },
+      {
+        "r": 11,
+        "c": 2,
+        "value": "3.0",
+        "formula": "3"
+      },
+      {
+        "r": 11,
+        "c": 3,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],\"\",ROE_wk[day week],C$6)"
+      },
+      {
+        "r": 11,
+        "c": 4,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],\"\",ROE_wk[day week],D$6)"
+      },
+      {
+        "r": 11,
+        "c": 5,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],\"\",ROE_wk[day week],E$6)"
+      },
+      {
+        "r": 11,
+        "c": 6,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],\"\",ROE_wk[day week],F$6)"
+      },
+      {
+        "r": 11,
+        "c": 7,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],\"\",ROE_wk[day week],G$6)"
+      },
+      {
+        "r": 11,
+        "c": 8,
+        "value": "0.0",
+        "formula": "=COUNTIFS(ROE_wk[Volume],\"Ok\",ROE_wk[OTD ajustado],\"Sem Preenchimento\",ROE_wk[Weeknum],$B$2,ROE_wk[Region],\"\",ROE_wk[day week],H$6)"
+      },
+      {
+        "r": 11,
+        "c": 9,
+        "value": "3.0",
+        "formula": "=SUM(B11:H11)"
+      },
+      {
+        "r": 11,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 11,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 11,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 11,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 11,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 12,
+        "c": 1,
+        "value": "Total Geral",
+        "formula": "Total Geral"
+      },
+      {
+        "r": 12,
+        "c": 2,
+        "value": "202.0",
+        "formula": "202"
+      },
+      {
+        "r": 12,
+        "c": 3,
+        "value": "0.0",
+        "formula": "=SUM(C7:C11)"
+      },
+      {
+        "r": 12,
+        "c": 4,
+        "value": "0.0",
+        "formula": "=SUM(D7:D11)"
+      },
+      {
+        "r": 12,
+        "c": 5,
+        "value": "0.0",
+        "formula": "=SUM(E7:E11)"
+      },
+      {
+        "r": 12,
+        "c": 6,
+        "value": "0.0",
+        "formula": "=SUM(F7:F11)"
+      },
+      {
+        "r": 12,
+        "c": 7,
+        "value": "0.0",
+        "formula": "=SUM(G7:G11)"
+      },
+      {
+        "r": 12,
+        "c": 8,
+        "value": "0.0",
+        "formula": "=SUM(H7:H11)"
+      },
+      {
+        "r": 12,
+        "c": 9,
+        "value": "202.0",
+        "formula": "=SUM(I7:I11)"
+      },
+      {
+        "r": 12,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 12,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 12,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 12,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 12,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 13,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 13,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 14,
+        "c": 1,
+        "value": "MAPA - Region errors",
+        "formula": "MAPA - Region errors"
+      },
+      {
+        "r": 14,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 14,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 15,
+        "c": 1,
+        "value": "É tabela dinâmica?",
+        "formula": "É tabela dinâmica?"
+      },
+      {
+        "r": 15,
+        "c": 2,
+        "value": "Não. Esta aba é uma tabela auxiliar por fórmula, não uma tabela dinâmica.",
+        "formula": "Não. Esta aba é uma tabela auxiliar por fórmula, não uma tabela dinâmica."
+      },
+      {
+        "r": 15,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 15,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 16,
+        "c": 1,
+        "value": "Dias da semana",
+        "formula": "Dias da semana"
+      },
+      {
+        "r": 16,
+        "c": 2,
+        "value": "B6:H6 são critérios usados nas fórmulas COUNTIFS contra ROE_wk[day week].",
+        "formula": "B6:H6 são critérios usados nas fórmulas COUNTIFS contra ROE_wk[day week]."
+      },
+      {
+        "r": 16,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 16,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 17,
+        "c": 1,
+        "value": "Atualização",
+        "formula": "Atualização"
+      },
+      {
+        "r": 17,
+        "c": 2,
+        "value": "Quando ROE_wk e Week_Overview!AG1 mudam/recalculam, os dias atualizam sem depender de cache/filtro de pivô.",
+        "formula": "Quando ROE_wk e Week_Overview!AG1 mudam/recalculam, os dias atualizam sem depender de cache/filtro de pivô."
+      },
+      {
+        "r": 17,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 17,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 18,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 18,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 19,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 19,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 20,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 20,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 21,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 21,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 22,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 22,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 23,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 23,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 24,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 24,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 25,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 25,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 26,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 26,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 27,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 27,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 28,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 28,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ],
+    [
+      {
+        "r": 29,
+        "c": 1,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 2,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 3,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 4,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 5,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 6,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 7,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 8,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 9,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 10,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 11,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 12,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 13,
+        "value": "",
+        "formula": ""
+      },
+      {
+        "r": 29,
+        "c": 14,
+        "value": "",
+        "formula": ""
+      }
+    ]
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK19.xlsm",
+  "active_week": 19,
+  "base_volume_ok_week_rows": 4826,
+  "port_summary": {
+    "Itapoa": {
+      "volume_total": 401,
+      "sem_preenchimento": 29,
+      "cab_volume": 186,
+      "ds_volume": 215,
+      "oto_total_pct": 95.16,
+      "oto_total_delay_penalty": 18,
+      "oto_total_denominator": 372,
+      "oto_cab_pct": 90.96,
+      "oto_cab_delay_penalty": 16,
+      "oto_cab_denominator": 177,
+      "oto_ds_pct": 98.97,
+      "oto_ds_delay_penalty": 2,
+      "oto_ds_denominator": 195
+    },
+    "Suape": {
+      "volume_total": 474,
+      "sem_preenchimento": 1,
+      "cab_volume": 474,
+      "ds_volume": 0,
+      "oto_total_pct": 91.12,
+      "oto_total_delay_penalty": 42,
+      "oto_total_denominator": 473,
+      "oto_cab_pct": 91.12,
+      "oto_cab_delay_penalty": 42,
+      "oto_cab_denominator": 473,
+      "oto_ds_pct": null,
+      "oto_ds_delay_penalty": 0,
+      "oto_ds_denominator": 0
+    },
+    "Santos": {
+      "volume_total": 1400,
+      "sem_preenchimento": 260,
+      "cab_volume": 778,
+      "ds_volume": 622,
+      "oto_total_pct": 94.04,
+      "oto_total_delay_penalty": 66,
+      "oto_total_denominator": 1107,
+      "oto_cab_pct": 94.44,
+      "oto_cab_delay_penalty": 38,
+      "oto_cab_denominator": 684,
+      "oto_ds_pct": 93.38,
+      "oto_ds_delay_penalty": 28,
+      "oto_ds_denominator": 423
+    },
+    "Manaus": {
+      "volume_total": 1261,
+      "sem_preenchimento": 147,
+      "cab_volume": 1072,
+      "ds_volume": 189,
+      "oto_total_pct": 90.08,
+      "oto_total_delay_penalty": 110,
+      "oto_total_denominator": 1109,
+      "oto_cab_pct": 90.07,
+      "oto_cab_delay_penalty": 102,
+      "oto_cab_denominator": 1027,
+      "oto_ds_pct": 90.24,
+      "oto_ds_delay_penalty": 8,
+      "oto_ds_denominator": 82
+    },
+    "Pecem": {
+      "volume_total": 297,
+      "sem_preenchimento": 1,
+      "cab_volume": 291,
+      "ds_volume": 6,
+      "oto_total_pct": 86.49,
+      "oto_total_delay_penalty": 40,
+      "oto_total_denominator": 296,
+      "oto_cab_pct": 86.6,
+      "oto_cab_delay_penalty": 39,
+      "oto_cab_denominator": 291,
+      "oto_ds_pct": 80.0,
+      "oto_ds_delay_penalty": 1,
+      "oto_ds_denominator": 5
+    },
+    "Salvador": {
+      "volume_total": 322,
+      "sem_preenchimento": 1,
+      "cab_volume": 262,
+      "ds_volume": 60,
+      "oto_total_pct": 93.15,
+      "oto_total_delay_penalty": 22,
+      "oto_total_denominator": 321,
+      "oto_cab_pct": 91.57,
+      "oto_cab_delay_penalty": 22,
+      "oto_cab_denominator": 261,
+      "oto_ds_pct": 100.0,
+      "oto_ds_delay_penalty": 0,
+      "oto_ds_denominator": 60
+    },
+    "Rio": {
+      "volume_total": 215,
+      "sem_preenchimento": 26,
+      "cab_volume": 159,
+      "ds_volume": 56,
+      "oto_total_pct": 96.3,
+      "oto_total_delay_penalty": 7,
+      "oto_total_denominator": 189,
+      "oto_cab_pct": 95.54,
+      "oto_cab_delay_penalty": 7,
+      "oto_cab_denominator": 157,
+      "oto_ds_pct": 100.0,
+      "oto_ds_delay_penalty": 0,
+      "oto_ds_denominator": 32
+    },
+    "Vitoria": {
+      "volume_total": 10,
+      "sem_preenchimento": 0,
+      "cab_volume": 10,
+      "ds_volume": 0,
+      "oto_total_pct": 100.0,
+      "oto_total_delay_penalty": 0,
+      "oto_total_denominator": 10,
+      "oto_cab_pct": 100.0,
+      "oto_cab_delay_penalty": 0,
+      "oto_cab_denominator": 10,
+      "oto_ds_pct": null,
+      "oto_ds_delay_penalty": 0,
+      "oto_ds_denominator": 0
+    },
+    "Paranagua": {
+      "volume_total": 10,
+      "sem_preenchimento": 1,
+      "cab_volume": 0,
+      "ds_volume": 10,
+      "oto_total_pct": 88.89,
+      "oto_total_delay_penalty": 1,
+      "oto_total_denominator": 9,
+      "oto_cab_pct": null,
+      "oto_cab_delay_penalty": 0,
+      "oto_cab_denominator": 0,
+      "oto_ds_pct": 88.89,
+      "oto_ds_delay_penalty": 1,
+      "oto_ds_denominator": 9
+    },
+    "Imbituba": {
+      "volume_total": 73,
+      "sem_preenchimento": 1,
+      "cab_volume": 73,
+      "ds_volume": 0,
+      "oto_total_pct": 93.06,
+      "oto_total_delay_penalty": 5,
+      "oto_total_denominator": 72,
+      "oto_cab_pct": 93.06,
+      "oto_cab_delay_penalty": 5,
+      "oto_cab_denominator": 72,
+      "oto_ds_pct": null,
+      "oto_ds_delay_penalty": 0,
+      "oto_ds_denominator": 0
+    },
+    "Rio Grande": {
+      "volume_total": 111,
+      "sem_preenchimento": 9,
+      "cab_volume": 109,
+      "ds_volume": 2,
+      "oto_total_pct": 88.24,
+      "oto_total_delay_penalty": 12,
+      "oto_total_denominator": 102,
+      "oto_cab_pct": 88.0,
+      "oto_cab_delay_penalty": 12,
+      "oto_cab_denominator": 100,
+      "oto_ds_pct": 100.0,
+      "oto_ds_delay_penalty": 0,
+      "oto_ds_denominator": 2
+    },
+    "Vila do Conde": {
+      "volume_total": 135,
+      "sem_preenchimento": 53,
+      "cab_volume": 135,
+      "ds_volume": 0,
+      "oto_total_pct": 93.9,
+      "oto_total_delay_penalty": 5,
+      "oto_total_denominator": 82,
+      "oto_cab_pct": 93.9,
+      "oto_cab_delay_penalty": 5,
+      "oto_cab_denominator": 82,
+      "oto_ds_pct": null,
+      "oto_ds_delay_penalty": 0,
+      "oto_ds_denominator": 0
+    }
+  },
+  "week_values": {
+    "SUA": {
+      "row": 7,
+      "moves_ttl_K": 474,
+      "OTO_CAB_N": 0.9112050739957717,
+      "CTO_O": 0.8518958679960469,
+      "OTO_DS_P": null,
+      "OTO_TTL_Q": 0.9112050739957717
+    },
+    "SSZ": {
+      "row": 13,
+      "moves_ttl_K": 1400,
+      "OTO_CAB_N": 0.9444444444444444,
+      "CTO_O": 0.9408166168729548,
+      "OTO_DS_P": 0.933806146572104,
+      "OTO_TTL_Q": 0.940379403794038
+    },
+    "IOA": {
+      "row": 16,
+      "moves_ttl_K": 401,
+      "OTO_CAB_N": 0.9096045197740112,
+      "CTO_O": 0.9047403244811021,
+      "OTO_DS_P": 0.9897435897435898,
+      "OTO_TTL_Q": 0.9516129032258065
+    },
+    "South": {
+      "row": 21,
+      "moves_ttl_K": 689,
+      "OTO_CAB_N": 0.9042253521126761,
+      "CTO_O": 0.8926327193932828,
+      "OTO_DS_P": 0.9885931558935361,
+      "OTO_TTL_Q": 0.9401294498381877
+    },
+    "Total BR": {
+      "row": 23,
+      "moves_ttl_K": 4826,
+      "OTO_CAB_N": 0.91,
+      "CTO_O": 0.8908394859174187,
+      "OTO_DS_P": 0.95,
+      "OTO_TTL_Q": 0.9217598097502973
+    }
+  },
+  "err_cells": [],
+  "err_count": 0,
+  "current_snapshots": {
+    "Top_Offenders_Customers_filters": {
+      "B2": "Ok",
+      "B3": "(Tudo)",
+      "B4": "(Tudo)",
+      "B5": "(Tudo)",
+      "C2": "Ok",
+      "C3": "All",
+      "C4": "All",
+      "C5": "All"
+    },
+    "Top_Offenders_Customers_total_A510_G510": [
+      "Total Geral",
+      4800,
+      329,
+      0.9238959820438365,
+      7.828035868625761,
+      0.8059953703703648,
+      0.9314583333333333
+    ],
+    "Top_Offenders_Customers_hypercare_T441_W445": [
+      [
+        "Total Geral",
+        3715,
+        0.9114401076716017,
+        329
+      ],
+      [
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "Top_Offenders_Vendors_filters": {
+      "B2": "Ok",
+      "B3": "(Tudo)",
+      "B4": "(Tudo)",
+      "B5": "(Tudo)",
+      "M2": "Ok",
+      "M3": "(Tudo)",
+      "M4": 1,
+      "M5": "(Tudo)",
+      "P2": "Ok",
+      "P3": "(Tudo)",
+      "P4": 1,
+      "P5": "(Tudo)"
+    },
+    "Top_Offenders_Vendors_A8_E15": [
+      [
+        "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+        581,
+        37,
+        0.9204301075268846,
+        0.9363166953528399
+      ],
+      [
+        "MAERSK LNS SAO BERNARDO DO CAMPO",
+        563,
+        22,
+        0.957528957528955,
+        0.9609236234458259
+      ],
+      [
+        "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+        282,
+        8,
+        0.970956262197221,
+        0.9716312056737588
+      ],
+      [
+        "MAERSK LNS ITAPOA",
+        278,
+        14,
+        0.9426189817376919,
+        0.9496402877697842
+      ],
+      [
+        "COOPERCARGA S A",
+        168,
+        6,
+        0.9642857142857151,
+        0.9642857142857143
+      ],
+      [
+        "COOPERCARGA S/A",
+        161,
+        19,
+        0.8665946529840675,
+        0.8819875776397516
+      ],
+      [
+        "MAFRO TRANSPORTES LTDA",
+        147,
+        6,
+        0.9325842696629226,
+        0.9591836734693877
+      ],
+      [
+        "T S SERVICOS TRANSPORTE E LOGISTICALTDA",
+        135,
+        0,
+        1,
+        1
+      ]
+    ]
+  },
+  "volume_graph": {
+    "selected_week": 19,
+    "selected_port": "Suape",
+    "volume_graph_M9": 474,
+    "base_selected_port_total": 474,
+    "base_selected_port_sem_preenchimento": 1,
+    "days_B6_H6_region_errors": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "region_errors_total": 583
+  },
+  "os_search": {
+    "target": "6AIT159602A",
+    "matches": [],
+    "sample_trailing_space_os": []
+  }
+}
