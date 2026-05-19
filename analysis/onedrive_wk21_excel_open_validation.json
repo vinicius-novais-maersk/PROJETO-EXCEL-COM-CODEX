@@ -1,0 +1,8 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK21.xlsm",
+  "started_at": "2026-05-19 10:10:33",
+  "opened": false,
+  "error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'O método Open da classe Workbooks falhou', 'xlmain11.chm', 0, -2146827284), None)",
+  "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 21, in <module>\n  File \"C:\\Users\\VNO024\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\gen_py\\00020813-0000-0000-C000-000000000046x0x1x9\\Workbooks.py\", line 75, in Open\n    ret = self._oleobj_.InvokeTypes(1923, LCID, 1, (13, 0), ((8, 1), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17), (12, 17)),Filename\n    \t, UpdateLinks, ReadOnly, Format, Password, WriteResPassword\n    \t, IgnoreReadOnlyRecommended, Origin, Delimiter, Editable, Notify\n    \t, Converter, AddToMru, Local, CorruptLoad)\npywintypes.com_error: (-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'O método Open da classe Workbooks falhou', 'xlmain11.chm', 0, -2146827284), None)\n",
+  "finished_at": "2026-05-19 10:10:53"
+}

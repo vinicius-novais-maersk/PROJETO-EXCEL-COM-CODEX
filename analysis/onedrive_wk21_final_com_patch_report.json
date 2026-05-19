@@ -1,0 +1,67 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK21.xlsm",
+  "target_week": 21,
+  "refreshed_charts": [
+    "Menu!Chart 5",
+    "Menu!Chart 6",
+    "Menu!Chart 9",
+    "Volume_Graph!Chart 4",
+    "Volume_DS!Chart 4",
+    "Volume_MAO!Chart 4"
+  ],
+  "top_pivots_cleared": [
+    {
+      "pivot_index": 4,
+      "error": "(-2146827864, 'OLE error 0x800a01a8', None, None)"
+    },
+    {
+      "pivot_index": 3,
+      "error": "(-2146827864, 'OLE error 0x800a01a8', None, None)"
+    },
+    {
+      "pivot_index": 2,
+      "error": "(-2146827864, 'OLE error 0x800a01a8', None, None)"
+    },
+    {
+      "pivot_index": 1,
+      "error": "(-2146827864, 'OLE error 0x800a01a8', None, None)"
+    }
+  ],
+  "region_pivots_cleared": [
+    {
+      "pivot_index": 1,
+      "error": "(-2146827864, 'OLE error 0x800a01a8', None, None)"
+    }
+  ],
+  "wk_rows": 1905,
+  "volume_ok_rows": 1173,
+  "provider_rows": 72,
+  "provider_total_count": 1173,
+  "provider_total_delay": 46.0,
+  "delay_rows": 46,
+  "justification_total": 46,
+  "region_error_rows": 204,
+  "region_total": [
+    "Total Geral",
+    204,
+    33,
+    160,
+    11,
+    0,
+    0,
+    0,
+    0,
+    204
+  ],
+  "top_first_row": [
+    "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+    133,
+    6.0,
+    0.943925233644861,
+    0.9548872180451128
+  ],
+  "zip": {
+    "zip_bad_file": null,
+    "has_vbaProject_bin": true
+  }
+}

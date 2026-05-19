@@ -1,0 +1,264 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK21.xlsm",
+  "zip_test": "OK",
+  "has_vba": true,
+  "target_week": 21,
+  "week_overview_total_ok": true,
+  "week_overview_total": {
+    "K23": 1173,
+    "Q23": 0.9520333680917623,
+    "expected_volume_ok": 1173,
+    "expected_oto_total": 0.9520333680917623
+  },
+  "top_vendors_overview_rows": 73,
+  "top_vendors_total_row": {
+    "row": 80,
+    "label": "Total Geral",
+    "count": 1173,
+    "atraso_rev": 46,
+    "oto_wk": 0.953615883528973,
+    "oto_dia": 0.96078431372549
+  },
+  "top_vendors_delay_rows": 21,
+  "top_vendors_delay_total": {
+    "row": 28,
+    "label": "Total Geral",
+    "count": 46
+  },
+  "region_expected_total": 204,
+  "region_visible_total": 204,
+  "region_visible": [
+    {
+      "row": 7,
+      "label": "Southeast",
+      "values": [
+        115,
+        4,
+        111,
+        0,
+        0,
+        0,
+        0,
+        0,
+        115
+      ]
+    },
+    {
+      "row": 8,
+      "label": "North",
+      "values": [
+        64,
+        29,
+        35,
+        0,
+        0,
+        0,
+        0,
+        0,
+        64
+      ]
+    },
+    {
+      "row": 9,
+      "label": "South",
+      "values": [
+        12,
+        0,
+        12,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ]
+    },
+    {
+      "row": 10,
+      "label": "Sem Porto/Region",
+      "values": [
+        11,
+        0,
+        0,
+        11,
+        0,
+        0,
+        0,
+        0,
+        11
+      ]
+    },
+    {
+      "row": 11,
+      "label": "Northeast",
+      "values": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ]
+    },
+    {
+      "row": 12,
+      "label": "Total Geral",
+      "values": [
+        204,
+        33,
+        160,
+        11,
+        0,
+        0,
+        0,
+        0,
+        204
+      ]
+    }
+  ],
+  "region_expected_day_totals": {
+    "Sun": 33,
+    "Mon": 160,
+    "Tue": 11,
+    "Wed": 0,
+    "Thu": 0,
+    "Fri": 0,
+    "Sat": 0
+  },
+  "customer_oto_dia_helper": [
+    {
+      "row": 24,
+      "label": "Rótulos de Linha",
+      "ao": "OTO DIA"
+    },
+    {
+      "row": 25,
+      "label": "UNILEVER BRASIL ALIMENTOS LTDA",
+      "ao": 1
+    },
+    {
+      "row": 26,
+      "label": "SEARA ALIMENTOS LTDA",
+      "ao": 1
+    },
+    {
+      "row": 27,
+      "label": "VIDEPLAST INDUSTRIA DE EMBALAGENS LA",
+      "ao": 1
+    },
+    {
+      "row": 28,
+      "label": "NOVELIS DO BRASIL LTDA",
+      "ao": 1
+    },
+    {
+      "row": 29,
+      "label": "HISENSE GORENJE DO BRASIL IMPORTACAO E C",
+      "ao": 1
+    },
+    {
+      "row": 30,
+      "label": "AMBEV S A",
+      "ao": 0.947368421052632
+    },
+    {
+      "row": 31,
+      "label": "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+      "ao": 0.888888888888889
+    },
+    {
+      "row": 32,
+      "label": "ASSOCIACAO RECICLANIP",
+      "ao": 0.666666666666667
+    },
+    {
+      "row": 33,
+      "label": "MADEM SA INDUSTRIA E COMERCIO DEMADEIRAS",
+      "ao": 0.5
+    },
+    {
+      "row": 34,
+      "label": "CAMIL ALIMENTOS S.A.",
+      "ao": 1
+    },
+    {
+      "row": 35,
+      "label": "Total Geral",
+      "ao": 0.935897435897436
+    }
+  ],
+  "chart_mismatches_total": 0,
+  "chart_cache_errors_total": 0,
+  "menu_chart7_series_formulas": [
+    [
+      "Top_Offenders_Customers!$AL$24",
+      "Top_Offenders_Customers!$AK$25:$AK$35",
+      "Top_Offenders_Customers!$AL$25:$AL$35"
+    ],
+    [
+      "Top_Offenders_Customers!$AO$24",
+      "Top_Offenders_Customers!$AK$25:$AK$35",
+      "Top_Offenders_Customers!$AO$25:$AO$35"
+    ],
+    [
+      "Top_Offenders_Customers!$AN$24",
+      "Top_Offenders_Customers!$AK$25:$AK$35",
+      "Top_Offenders_Customers!$AN$25:$AN$35"
+    ]
+  ],
+  "formula_errors": {
+    "Volume_DS": {
+      "count": 1,
+      "samples": [
+        {
+          "address": "E28",
+          "value": "#N/A",
+          "formula": "CONCATENATE(\"Vol x RoFo (Weekly) atualizado por último em \",TEXT(MAX(ROE_wk_monthly!J:J)-1/86400,\"dd/mm/aaaa\"))"
+        }
+      ]
+    },
+    "Volume_MAO": {
+      "count": 1,
+      "samples": [
+        {
+          "address": "E30",
+          "value": "#N/A",
+          "formula": "CONCATENATE(\"Vol x RoFo (Weekly) atualizado por último em \",TEXT(MAX(ROE_wk_monthly!J:J)-1/86400,\"dd/mm/aaaa\"))"
+        }
+      ]
+    },
+    "Volume_Graph": {
+      "count": 1,
+      "samples": [
+        {
+          "address": "E28",
+          "value": "#N/A",
+          "formula": "CONCATENATE(\"Vol x RoFo (Weekly) atualizado por último em \",TEXT(MAX(ROE_wk_monthly!J:J)-1/86400,\"dd/mm/aaaa\"))"
+        }
+      ]
+    },
+    "ROE_wk_monthly": {
+      "count": 15120,
+      "samples": [
+        {
+          "address": "AO27405",
+          "value": "#VALUE!",
+          "formula": "DATE(YEAR(J27405),MONTH(J27405),DAY(J27405))"
+        },
+        {
+          "address": "AQ27405",
+          "value": "#VALUE!",
+          "formula": "WEEKDAY(AO27405,1)"
+        },
+        {
+          "address": "AR27405",
+          "value": "#VALUE!",
+          "formula": "IF(WEEKNUM(AO27405,1)=53,\"1\",WEEKNUM(AO27405,1))"
+        }
+      ]
+    }
+  }
+}

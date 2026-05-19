@@ -1,0 +1,15 @@
+patched_at=2026-05-19 10:06:13
+workbook=C:\Users\VNO024\OneDrive - Maersk Group\2025\Py\DSU 2025\Base_DSU2026 - TbM - WK21.xlsm
+zip_test=OK
+Volume_DS!E28=unicode_formula
+Volume_MAO!E30=unicode_formula
+Volume_Graph!E28=unicode_formula
+Top_Offenders_Vendors!A7=unicode_text
+Top_Offenders_Vendors!L7=unicode_text
+Top_Offenders_Vendors!O7=unicode_text
+Top_Offenders_Vendors!R7=unicode_text
+Region errors!A15=unicode_text
+Region errors!B15=unicode_text
+Region errors!A16=unicode_text
+Region errors!A17=unicode_text
+Region errors!B17=unicode_text

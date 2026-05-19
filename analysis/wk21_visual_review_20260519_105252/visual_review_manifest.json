@@ -1,0 +1,24 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK21.xlsm",
+  "output_dir": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_20260519_105252",
+  "menu_charts": [
+    {
+      "chart": "Chart 5",
+      "png": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_20260519_105252\\menu_Chart_5.png",
+      "ok": true,
+      "series_count": 10
+    },
+    {
+      "chart": "Chart 6",
+      "png": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_20260519_105252\\menu_Chart_6.png",
+      "ok": true,
+      "series_count": 9
+    },
+    {
+      "chart": "Chart 9",
+      "png": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_20260519_105252\\menu_Chart_9.png",
+      "ok": true,
+      "series_count": 3
+    }
+  ]
+}

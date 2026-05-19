@@ -1,0 +1,148 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK21.xlsm",
+  "patched_at": "2026-05-19 09:53:30",
+  "target_week": 21,
+  "top_vendors": {
+    "overview_providers": 72,
+    "overview_total_count": 1173,
+    "overview_total_atraso_rev": 46.0,
+    "delayed_total": 46,
+    "delay_providers": 20,
+    "top_delay_providers": [
+      [
+        "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+        6
+      ],
+      [
+        "LUARA MEL VIEIRA TRANSPORTES LTDA",
+        4
+      ],
+      [
+        "MAERSK LNS ITAPOA",
+        4
+      ],
+      [
+        "MAERSK LNS SAO BERNARDO DO CAMPO",
+        4
+      ],
+      [
+        "POLO NORTE TRANSPORTES LTDA EPP",
+        4
+      ],
+      [
+        "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+        4
+      ],
+      [
+        "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+        3
+      ],
+      [
+        "LEV CARGA FROTA DEDICADA",
+        3
+      ],
+      [
+        "J RIVELINO MOREIRA LTDA",
+        2
+      ],
+      [
+        "M S TRANSPORTES E LOCACAO LTDA",
+        2
+      ]
+    ]
+  },
+  "region_errors": {
+    "regions": [
+      [
+        "Southeast",
+        115,
+        [
+          4,
+          111,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "North",
+        64,
+        [
+          29,
+          35,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "South",
+        12,
+        [
+          0,
+          12,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "Sem Porto/Region",
+        11,
+        [
+          0,
+          0,
+          11,
+          0,
+          0,
+          0,
+          0
+        ]
+      ],
+      [
+        "Northeast",
+        2,
+        [
+          0,
+          2,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ],
+    "total": 204,
+    "days": [
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat"
+    ],
+    "day_totals": {
+      "Sun": 33,
+      "Mon": 160,
+      "Tue": 11,
+      "Wed": 0,
+      "Thu": 0,
+      "Fri": 0,
+      "Sat": 0
+    }
+  },
+  "menu": {
+    "chart7_series2_source": "Top_Offenders_Customers!$AO$24 / $AO$25:$AO$35",
+    "chart5_chart6_cache_synced_to_source": true
+  },
+  "zip_test": "OK",
+  "has_vba": true
+}

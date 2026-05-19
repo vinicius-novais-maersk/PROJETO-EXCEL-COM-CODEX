@@ -1,0 +1,111 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK21.xlsm",
+  "output_dir": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742",
+  "open_excel_com": true,
+  "key_cells": {
+    "Week_Overview_AG1": 21,
+    "Week_Overview_K23": 1173,
+    "Week_Overview_Q23": 0.9520333680917623,
+    "Region_errors_B4": 21,
+    "Region_errors_B12": 204,
+    "Region_errors_J12": 204,
+    "Top_A7": "Rótulos de Linha",
+    "Top_B8": 133,
+    "Top_C8": 6,
+    "Top_volume_total": 1173,
+    "Top_delay_total": 46,
+    "Top_delayed_provider_total": 46,
+    "Top_summary_just_total": 46
+  },
+  "pivot_counts": {
+    "Region errors": 0,
+    "Top_Offenders_Vendors": 0
+  },
+  "table_exports": [
+    {
+      "sheet": "Region errors",
+      "print_area": "$A$1:$J$17",
+      "pdf": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742\\region_errors.pdf",
+      "pngs": [
+        "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742\\region_errors_page1.png"
+      ]
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "print_area": "$A$1:$S$32",
+      "pdf": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742\\top_offenders_summary.pdf",
+      "pngs": [
+        "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742\\top_offenders_summary_page1.png"
+      ]
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "print_area": "$A$75:$E$80",
+      "pdf": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742\\top_offenders_vendor_total.pdf",
+      "pngs": [
+        "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742\\top_offenders_vendor_total_page1.png"
+      ]
+    }
+  ],
+  "menu_chart_exports_visible": [
+    {
+      "chart": "Chart 5",
+      "ok": true,
+      "size": 31889,
+      "png": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742\\menu_Chart_5.png",
+      "series_count": 10
+    },
+    {
+      "chart": "Chart 6",
+      "ok": true,
+      "size": 30487,
+      "png": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742\\menu_Chart_6.png",
+      "series_count": 9
+    },
+    {
+      "chart": "Chart 9",
+      "ok": true,
+      "size": 4802,
+      "png": "c:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\wk21_visual_review_final2_20260519_111742\\menu_Chart_9.png",
+      "series_count": 3
+    }
+  ],
+  "zip_bad_file": null,
+  "has_vbaProject_bin": true,
+  "suspicious_text_hits": [],
+  "checks": [
+    {
+      "name": "excel_open",
+      "ok": true
+    },
+    {
+      "name": "zip_ok",
+      "ok": true
+    },
+    {
+      "name": "vba_kept",
+      "ok": true
+    },
+    {
+      "name": "week_overview_ok",
+      "ok": true
+    },
+    {
+      "name": "region_ok",
+      "ok": true
+    },
+    {
+      "name": "top_ok",
+      "ok": true
+    },
+    {
+      "name": "menu_visual_exports_ok",
+      "ok": true
+    },
+    {
+      "name": "no_mojibake_tokens",
+      "ok": true
+    }
+  ],
+  "all_checks_ok": true
+}

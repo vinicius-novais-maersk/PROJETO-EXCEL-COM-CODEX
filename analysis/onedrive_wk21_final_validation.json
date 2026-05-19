@@ -1,0 +1,126 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK21.xlsm",
+  "open_excel_com": true,
+  "week_overview": {
+    "AG1_week": 21,
+    "K23_total_volume": 1173,
+    "Q23_oto_total": 0.9520333680917623
+  },
+  "top_offenders_vendors": {
+    "A1": "VISÃO GERAL",
+    "A7": "Rótulos de Linha",
+    "A8_provider": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+    "B8_count": 133,
+    "C8_delay": 6,
+    "A_total_row": 80,
+    "A_total_count": 1173,
+    "A_total_delay": 46,
+    "L_total_row": 28,
+    "L_total_count": 46,
+    "O_total_row": 22,
+    "O_total_count": 46,
+    "R_total_row": 22,
+    "R_total_count": 46,
+    "pivot_count": 0
+  },
+  "region_errors": {
+    "B4_week": 21,
+    "A7": "Southeast",
+    "B7": 115,
+    "A8": "North",
+    "B8": 64,
+    "A12": "Total Geral",
+    "B12_total": 204,
+    "J12_total_days": 204,
+    "A15": "É tabela dinâmica?",
+    "B15": "Não. Esta aba agora usa uma tabela auxiliar calculada contra ROE_wk.",
+    "pivot_count": 0
+  },
+  "chart_labels": {
+    "Volume_Graph_E28": "Vol x RoFo (Weekly) atualizado",
+    "Volume_DS_E28": "Vol x RoFo (Weekly) atualizado",
+    "Volume_MAO_E30": "Vol x RoFo (Weekly) atualizado"
+  },
+  "charts": [
+    {
+      "sheet": "Menu",
+      "chart": "Chart 5",
+      "series_count": 10
+    },
+    {
+      "sheet": "Menu",
+      "chart": "Chart 6",
+      "series_count": 9
+    },
+    {
+      "sheet": "Menu",
+      "chart": "Chart 9",
+      "series_count": 3
+    },
+    {
+      "sheet": "Volume_Graph",
+      "chart": "Chart 4",
+      "series_count": 6
+    },
+    {
+      "sheet": "Volume_DS",
+      "chart": "Chart 4",
+      "series_count": 6
+    },
+    {
+      "sheet": "Volume_MAO",
+      "chart": "Chart 4",
+      "series_count": 6
+    }
+  ],
+  "zip_bad_file": null,
+  "has_vbaProject_bin": true,
+  "suspicious_text_hits": [],
+  "checks": [
+    {
+      "name": "excel_open",
+      "ok": true
+    },
+    {
+      "name": "zip_ok",
+      "ok": true
+    },
+    {
+      "name": "vba_kept",
+      "ok": true
+    },
+    {
+      "name": "week_21",
+      "ok": true
+    },
+    {
+      "name": "week_total_volume_1173",
+      "ok": true
+    },
+    {
+      "name": "region_week_21",
+      "ok": true
+    },
+    {
+      "name": "region_total_204",
+      "ok": true
+    },
+    {
+      "name": "top_first_provider_count",
+      "ok": true
+    },
+    {
+      "name": "top_delay_total_46",
+      "ok": true
+    },
+    {
+      "name": "labels_ok",
+      "ok": true
+    },
+    {
+      "name": "no_mojibake_tokens",
+      "ok": true
+    }
+  ],
+  "all_checks_ok": true
+}

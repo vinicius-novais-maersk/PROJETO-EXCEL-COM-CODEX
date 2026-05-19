@@ -1,0 +1,2410 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK21.xlsm",
+  "file_size": 36890536,
+  "last_write_time": "2026-05-19 06:53:21",
+  "zip_test": "OK",
+  "has_vba": true,
+  "target_week": 21,
+  "roe_summary": {
+    "table_rows": 9204,
+    "nonblank_relevant_rows": 1905,
+    "volume_ok_target_week": 1173,
+    "volume_n_target_week": 732,
+    "oto_denominator_total": 959,
+    "oto_delay_penalty_total": 46,
+    "oto_total": 0.9520333680917623,
+    "center_counts": [
+      [
+        "Aliança",
+        1282
+      ],
+      [
+        "Maersk",
+        438
+      ],
+      [
+        "",
+        129
+      ],
+      [
+        "Maersk-Outros",
+        56
+      ]
+    ],
+    "weeknum_counts": [
+      [
+        "21",
+        1905
+      ]
+    ]
+  },
+  "week_overview_validation": [
+    {
+      "row": 2,
+      "label": "MAO",
+      "port": "Manaus",
+      "moves_cab": 185,
+      "moves_ds": 54,
+      "moves_total": 239,
+      "oto_cab": {
+        "denominator": 183,
+        "delay_penalty": 6,
+        "value": 0.9672131147540983
+      },
+      "oto_ds": {
+        "denominator": 28,
+        "delay_penalty": 2,
+        "value": 0.9285714285714286
+      },
+      "oto_total": {
+        "denominator": 211,
+        "delay_penalty": 8,
+        "value": 0.9620853080568721
+      },
+      "sheet": {
+        "D": 185,
+        "H": 54,
+        "K": 239,
+        "N": 0.9672131147540983,
+        "P": 0.9285714285714286,
+        "Q": 0.9620853080568721
+      },
+      "diffs": []
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "port": "Vila do Conde",
+      "moves_cab": 63,
+      "moves_ds": 0,
+      "moves_total": 63,
+      "oto_cab": {
+        "denominator": 25,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "oto_ds": {
+        "denominator": 0,
+        "delay_penalty": 0,
+        "value": null
+      },
+      "oto_total": {
+        "denominator": 25,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "sheet": {
+        "D": 63,
+        "H": 0,
+        "K": 63,
+        "N": 1,
+        "P": null,
+        "Q": 1
+      },
+      "diffs": []
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "port": "Pecem",
+      "moves_cab": 79,
+      "moves_ds": 1,
+      "moves_total": 80,
+      "oto_cab": {
+        "denominator": 79,
+        "delay_penalty": 6,
+        "value": 0.9240506329113924
+      },
+      "oto_ds": {
+        "denominator": 1,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "oto_total": {
+        "denominator": 80,
+        "delay_penalty": 6,
+        "value": 0.925
+      },
+      "sheet": {
+        "D": 79,
+        "H": 1,
+        "K": 80,
+        "N": 0.9240506329113924,
+        "P": 1,
+        "Q": 0.925
+      },
+      "diffs": []
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "port": "Suape",
+      "moves_cab": 135,
+      "moves_ds": 3,
+      "moves_total": 138,
+      "oto_cab": {
+        "denominator": 134,
+        "delay_penalty": 7,
+        "value": 0.9477611940298507
+      },
+      "oto_ds": {
+        "denominator": 2,
+        "delay_penalty": 1,
+        "value": 0.5
+      },
+      "oto_total": {
+        "denominator": 136,
+        "delay_penalty": 8,
+        "value": 0.9411764705882353
+      },
+      "sheet": {
+        "D": 135,
+        "H": 3,
+        "K": 138,
+        "N": 0.9477611940298507,
+        "P": 0.5,
+        "Q": 0.9411764705882353
+      },
+      "diffs": []
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "port": "Salvador",
+      "moves_cab": 45,
+      "moves_ds": 0,
+      "moves_total": 45,
+      "oto_cab": {
+        "denominator": 45,
+        "delay_penalty": 1,
+        "value": 0.9777777777777777
+      },
+      "oto_ds": {
+        "denominator": 0,
+        "delay_penalty": 0,
+        "value": null
+      },
+      "oto_total": {
+        "denominator": 45,
+        "delay_penalty": 1,
+        "value": 0.9777777777777777
+      },
+      "sheet": {
+        "D": 45,
+        "H": 0,
+        "K": 45,
+        "N": 0.9777777777777777,
+        "P": null,
+        "Q": 0.9777777777777777
+      },
+      "diffs": []
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "port": "Vitoria",
+      "moves_cab": 7,
+      "moves_ds": 0,
+      "moves_total": 7,
+      "oto_cab": {
+        "denominator": 7,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "oto_ds": {
+        "denominator": 0,
+        "delay_penalty": 0,
+        "value": null
+      },
+      "oto_total": {
+        "denominator": 7,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "sheet": {
+        "D": 7,
+        "H": 0,
+        "K": 7,
+        "N": 1,
+        "P": null,
+        "Q": 1
+      },
+      "diffs": []
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "port": "Rio",
+      "moves_cab": 56,
+      "moves_ds": 22,
+      "moves_total": 78,
+      "oto_cab": {
+        "denominator": 54,
+        "delay_penalty": 4,
+        "value": 0.9259259259259259
+      },
+      "oto_ds": {
+        "denominator": 12,
+        "delay_penalty": 1,
+        "value": 0.9166666666666666
+      },
+      "oto_total": {
+        "denominator": 66,
+        "delay_penalty": 5,
+        "value": 0.9242424242424242
+      },
+      "sheet": {
+        "D": 56,
+        "H": 22,
+        "K": 78,
+        "N": 0.9259259259259259,
+        "P": 0.9166666666666666,
+        "Q": 0.9242424242424242
+      },
+      "diffs": []
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "port": "Santos",
+      "moves_cab": 148,
+      "moves_ds": 178,
+      "moves_total": 326,
+      "oto_cab": {
+        "denominator": 138,
+        "delay_penalty": 4,
+        "value": 0.9710144927536232
+      },
+      "oto_ds": {
+        "denominator": 77,
+        "delay_penalty": 4,
+        "value": 0.948051948051948
+      },
+      "oto_total": {
+        "denominator": 215,
+        "delay_penalty": 8,
+        "value": 0.9627906976744186
+      },
+      "sheet": {
+        "D": 148,
+        "H": 178,
+        "K": 326,
+        "N": 0.9710144927536232,
+        "P": 0.948051948051948,
+        "Q": 0.9627906976744186
+      },
+      "diffs": []
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "port": "Itapoa",
+      "moves_cab": 74,
+      "moves_ds": 58,
+      "moves_total": 132,
+      "oto_cab": {
+        "denominator": 70,
+        "delay_penalty": 7,
+        "value": 0.9
+      },
+      "oto_ds": {
+        "denominator": 56,
+        "delay_penalty": 1,
+        "value": 0.9821428571428571
+      },
+      "oto_total": {
+        "denominator": 126,
+        "delay_penalty": 8,
+        "value": 0.9365079365079365
+      },
+      "sheet": {
+        "D": 74,
+        "H": 58,
+        "K": 132,
+        "N": 0.9,
+        "P": 0.9821428571428571,
+        "Q": 0.9365079365079365
+      },
+      "diffs": []
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "port": "Itajai",
+      "moves_cab": 6,
+      "moves_ds": 22,
+      "moves_total": 28,
+      "oto_cab": {
+        "denominator": 1,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "oto_ds": {
+        "denominator": 21,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "oto_total": {
+        "denominator": 22,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "sheet": {
+        "D": 6,
+        "H": 22,
+        "K": 28,
+        "N": 1,
+        "P": 1,
+        "Q": 1
+      },
+      "diffs": []
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "port": "Paranagua",
+      "moves_cab": 0,
+      "moves_ds": 5,
+      "moves_total": 5,
+      "oto_cab": {
+        "denominator": 0,
+        "delay_penalty": 0,
+        "value": null
+      },
+      "oto_ds": {
+        "denominator": 5,
+        "delay_penalty": 1,
+        "value": 0.8
+      },
+      "oto_total": {
+        "denominator": 5,
+        "delay_penalty": 1,
+        "value": 0.8
+      },
+      "sheet": {
+        "D": 0,
+        "H": 5,
+        "K": 5,
+        "N": null,
+        "P": 0.8,
+        "Q": 0.8
+      },
+      "diffs": []
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "port": "Imbituba",
+      "moves_cab": 10,
+      "moves_ds": 0,
+      "moves_total": 10,
+      "oto_cab": {
+        "denominator": 10,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "oto_ds": {
+        "denominator": 0,
+        "delay_penalty": 0,
+        "value": null
+      },
+      "oto_total": {
+        "denominator": 10,
+        "delay_penalty": 0,
+        "value": 1.0
+      },
+      "sheet": {
+        "D": 10,
+        "H": 0,
+        "K": 10,
+        "N": 1,
+        "P": null,
+        "Q": 1
+      },
+      "diffs": []
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "port": "Rio Grande",
+      "moves_cab": 11,
+      "moves_ds": 0,
+      "moves_total": 11,
+      "oto_cab": {
+        "denominator": 11,
+        "delay_penalty": 1,
+        "value": 0.9090909090909091
+      },
+      "oto_ds": {
+        "denominator": 0,
+        "delay_penalty": 0,
+        "value": null
+      },
+      "oto_total": {
+        "denominator": 11,
+        "delay_penalty": 1,
+        "value": 0.9090909090909091
+      },
+      "sheet": {
+        "D": 11,
+        "H": 0,
+        "K": 11,
+        "N": 0.9090909090909091,
+        "P": null,
+        "Q": 0.9090909090909091
+      },
+      "diffs": []
+    },
+    {
+      "row": 23,
+      "label": "Total BR",
+      "port": null,
+      "moves_cab": 828,
+      "moves_ds": 345,
+      "moves_total": 1173,
+      "oto_cab": {
+        "denominator": 757,
+        "delay_penalty": 36,
+        "value": 0.952443857331572
+      },
+      "oto_ds": {
+        "denominator": 202,
+        "delay_penalty": 10,
+        "value": 0.9504950495049505
+      },
+      "oto_total": {
+        "denominator": 959,
+        "delay_penalty": 46,
+        "value": 0.9520333680917623
+      },
+      "sheet": {
+        "D": 828,
+        "H": 345,
+        "K": 1173,
+        "N": 0.95,
+        "P": 0.95,
+        "Q": 0.9520333680917623
+      },
+      "diffs": []
+    }
+  ],
+  "week_overview_region_sums": [
+    {
+      "region": "North",
+      "row": 4,
+      "diffs": []
+    },
+    {
+      "region": "Northeast",
+      "row": 9,
+      "diffs": []
+    },
+    {
+      "region": "Southeast",
+      "row": 14,
+      "diffs": []
+    },
+    {
+      "region": "South",
+      "row": 21,
+      "diffs": []
+    }
+  ],
+  "graph_validation": [
+    {
+      "sheet": "Volume_Graph",
+      "checks": [
+        {
+          "check": "M2 week",
+          "sheet": 21,
+          "expected": 21,
+          "ok": true
+        },
+        {
+          "check": "M3 port",
+          "sheet": "Manaus",
+          "expected": "Manaus",
+          "ok": true
+        },
+        {
+          "check": "M9 total vs Week_Overview K2",
+          "sheet": 239,
+          "expected": 239,
+          "ok": true
+        },
+        {
+          "check": "M12 CAB vs Week_Overview D2",
+          "sheet": 185,
+          "expected": 185,
+          "ok": true
+        },
+        {
+          "check": "M13 DS vs Week_Overview H2",
+          "sheet": 54,
+          "expected": 54,
+          "ok": true
+        },
+        {
+          "check": "M17 OTO CAB vs Week_Overview N2",
+          "sheet": 0.97,
+          "expected": 0.9672131147540983,
+          "ok": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "sheet": "Volume_DS",
+      "checks": [
+        {
+          "check": "M2 week",
+          "sheet": 21,
+          "expected": 21,
+          "ok": true
+        },
+        {
+          "check": "M3 port",
+          "sheet": "Manaus",
+          "expected": "Manaus",
+          "ok": true
+        },
+        {
+          "check": "M9 total vs Week_Overview K2",
+          "sheet": 239,
+          "expected": 239,
+          "ok": true
+        },
+        {
+          "check": "M11 CAB vs Week_Overview D2",
+          "sheet": 185,
+          "expected": 185,
+          "ok": true
+        },
+        {
+          "check": "M12 DS vs Week_Overview H2",
+          "sheet": 54,
+          "expected": 54,
+          "ok": true
+        },
+        {
+          "check": "M16 OTO DS vs Week_Overview P2",
+          "sheet": 0.93,
+          "expected": 0.9285714285714286,
+          "ok": true
+        }
+      ],
+      "failed": []
+    },
+    {
+      "sheet": "Volume_MAO",
+      "checks": [
+        {
+          "check": "M2 week",
+          "sheet": 21,
+          "expected": 21,
+          "ok": true
+        },
+        {
+          "check": "M3 port",
+          "sheet": "Manaus",
+          "expected": "Manaus",
+          "ok": true
+        },
+        {
+          "check": "M9 total vs Week_Overview K2",
+          "sheet": 239,
+          "expected": 239,
+          "ok": true
+        },
+        {
+          "check": "M12+M13 CAB split vs Week_Overview D2",
+          "sheet": 185,
+          "expected": 185,
+          "ok": true
+        },
+        {
+          "check": "M14 DS vs Week_Overview H2",
+          "sheet": 54,
+          "expected": 54,
+          "ok": true
+        },
+        {
+          "check": "M19 OTO CAB vs Week_Overview N2",
+          "sheet": 0.97,
+          "expected": 0.9672131147540983,
+          "ok": true
+        }
+      ],
+      "failed": []
+    }
+  ],
+  "top_offenders_customers_chart_source_validation": [
+    {
+      "row": 25,
+      "label": "UNILEVER BRASIL ALIMENTOS LTDA",
+      "sheet": {
+        "count": 11,
+        "oto_wk": 1,
+        "atrasado": 0
+      },
+      "calc": {
+        "count": 11,
+        "oto_wk": 1.0,
+        "atrasado": 0.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 26,
+      "label": "SEARA ALIMENTOS LTDA",
+      "sheet": {
+        "count": 6,
+        "oto_wk": 1,
+        "atrasado": 0
+      },
+      "calc": {
+        "count": 6,
+        "oto_wk": 1.0,
+        "atrasado": 0.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 27,
+      "label": "VIDEPLAST INDUSTRIA DE EMBALAGENS LA",
+      "sheet": {
+        "count": 3,
+        "oto_wk": 1,
+        "atrasado": 0
+      },
+      "calc": {
+        "count": 3,
+        "oto_wk": 1.0,
+        "atrasado": 0.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 28,
+      "label": "NOVELIS DO BRASIL LTDA",
+      "sheet": {
+        "count": 18,
+        "oto_wk": 1,
+        "atrasado": 0
+      },
+      "calc": {
+        "count": 18,
+        "oto_wk": 1.0,
+        "atrasado": 0.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 29,
+      "label": "HISENSE GORENJE DO BRASIL IMPORTACAO E C",
+      "sheet": {
+        "count": 3,
+        "oto_wk": 1,
+        "atrasado": 0
+      },
+      "calc": {
+        "count": 3,
+        "oto_wk": 1.0,
+        "atrasado": 0.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 30,
+      "label": "AMBEV S A",
+      "sheet": {
+        "count": 19,
+        "oto_wk": 0.9444444444444444,
+        "atrasado": 1
+      },
+      "calc": {
+        "count": 19,
+        "oto_wk": 0.9444444444444444,
+        "atrasado": 1.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 31,
+      "label": "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+      "sheet": {
+        "count": 9,
+        "oto_wk": 0.8888888888888891,
+        "atrasado": 1
+      },
+      "calc": {
+        "count": 9,
+        "oto_wk": 0.8888888888888888,
+        "atrasado": 1.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 32,
+      "label": "ASSOCIACAO RECICLANIP",
+      "sheet": {
+        "count": 3,
+        "oto_wk": 0.6666666666666666,
+        "atrasado": 1
+      },
+      "calc": {
+        "count": 3,
+        "oto_wk": 0.6666666666666666,
+        "atrasado": 1.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 33,
+      "label": "MADEM SA INDUSTRIA E COMERCIO DEMADEIRAS",
+      "sheet": {
+        "count": 4,
+        "oto_wk": 0.5,
+        "atrasado": 2
+      },
+      "calc": {
+        "count": 4,
+        "oto_wk": 0.5,
+        "atrasado": 2.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 34,
+      "label": "CAMIL ALIMENTOS S.A.",
+      "sheet": {
+        "count": 2,
+        "oto_wk": null,
+        "atrasado": 0
+      },
+      "calc": {
+        "count": 2,
+        "oto_wk": null,
+        "atrasado": 0.0
+      },
+      "diffs": []
+    },
+    {
+      "row": 35,
+      "label": "Total Geral",
+      "is_total": true,
+      "sheet": {
+        "count": 78,
+        "oto_wk": 0.9333333333333333,
+        "atrasado": 5
+      }
+    }
+  ],
+  "top_offenders_vendors_overview_validation": [
+    {
+      "row": 8,
+      "label": "Total Geral",
+      "is_total": true,
+      "sheet": {
+        "count": null,
+        "atraso_rev": null,
+        "oto_wk": null,
+        "oto_dia": null
+      }
+    }
+  ],
+  "formula_error_summary": {
+    "Volume_DS": {
+      "formula_errors": 1,
+      "samples": [
+        {
+          "address": "E28",
+          "value": "#N/A",
+          "formula": "CONCATENATE(\"Vol x RoFo (Weekly) atualizado por último em \",TEXT(MAX(ROE_wk_monthly!J:J)-1/86400,\"dd/mm/aaaa\"))"
+        }
+      ]
+    },
+    "Volume_MAO": {
+      "formula_errors": 1,
+      "samples": [
+        {
+          "address": "E30",
+          "value": "#N/A",
+          "formula": "CONCATENATE(\"Vol x RoFo (Weekly) atualizado por último em \",TEXT(MAX(ROE_wk_monthly!J:J)-1/86400,\"dd/mm/aaaa\"))"
+        }
+      ]
+    },
+    "Volume_Graph": {
+      "formula_errors": 1,
+      "samples": [
+        {
+          "address": "E28",
+          "value": "#N/A",
+          "formula": "CONCATENATE(\"Vol x RoFo (Weekly) atualizado por último em \",TEXT(MAX(ROE_wk_monthly!J:J)-1/86400,\"dd/mm/aaaa\"))"
+        }
+      ]
+    },
+    "ROE_wk_monthly": {
+      "formula_errors": 15120,
+      "samples": [
+        {
+          "address": "AO27405",
+          "value": "#VALUE!",
+          "formula": "DATE(YEAR(J27405),MONTH(J27405),DAY(J27405))"
+        },
+        {
+          "address": "AQ27405",
+          "value": "#VALUE!",
+          "formula": "WEEKDAY(AO27405,1)"
+        },
+        {
+          "address": "AR27405",
+          "value": "#VALUE!",
+          "formula": "IF(WEEKNUM(AO27405,1)=53,\"1\",WEEKNUM(AO27405,1))"
+        },
+        {
+          "address": "AT27405",
+          "value": "#VALUE!",
+          "formula": "IF(AQ27405=2,IF(AS27405<>\"\",IF(J27405-AS27405>=4,\"On time\",\"N\"),\"\"),IF(AS27405<>\"\",IF(J27405-AS27405>=2,\"On time\",\"N\"),\"\"))"
+        },
+        {
+          "address": "BG27405",
+          "value": "#VALUE!",
+          "formula": "MONTH(J27405)"
+        }
+      ]
+    }
+  },
+  "pivots": [
+    {
+      "sheet": "Week_Overview",
+      "name": "Tabela dinâmica3",
+      "path": "xl/pivotTables/pivotTable3.xml",
+      "ref": "BG7:BI10",
+      "cacheId": "124",
+      "data_fields": [
+        {
+          "name": "Contagem de Num OS Final",
+          "fld": "53",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "49",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        },
+        {
+          "fld": "55",
+          "hier": "-1"
+        },
+        {
+          "fld": "46",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 12,
+        "blank_count": 5,
+        "error_count": 0,
+        "nonblank_count": 7
+      },
+      "cache_source": {
+        "name": "Reagendas"
+      },
+      "cache_recordCount": "1"
+    },
+    {
+      "sheet": "Week_Overview",
+      "name": "Tabela dinâmica4",
+      "path": "xl/pivotTables/pivotTable2.xml",
+      "ref": "BA7:BB9",
+      "cacheId": "124",
+      "data_fields": [
+        {
+          "name": "Contagem de Container",
+          "fld": "2",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "49",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        },
+        {
+          "fld": "55",
+          "hier": "-1"
+        },
+        {
+          "fld": "46",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 6,
+        "blank_count": 2,
+        "error_count": 0,
+        "nonblank_count": 4
+      },
+      "cache_source": {
+        "name": "Reagendas"
+      },
+      "cache_recordCount": "1"
+    },
+    {
+      "sheet": "Week_Overview",
+      "name": "Tabela dinâmica1",
+      "path": "xl/pivotTables/pivotTable1.xml",
+      "ref": "AR7:AT10",
+      "cacheId": "106",
+      "data_fields": [
+        {
+          "name": "Contagem de Num OS Final",
+          "fld": "10",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "0",
+          "hier": "-1"
+        },
+        {
+          "fld": "12",
+          "hier": "-1"
+        },
+        {
+          "fld": "9",
+          "hier": "-1"
+        },
+        {
+          "fld": "5",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 12,
+        "blank_count": 5,
+        "error_count": 0,
+        "nonblank_count": 7
+      },
+      "cache_source": {
+        "name": "Validacao_Final"
+      },
+      "cache_recordCount": "1"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable1",
+      "path": "xl/pivotTables/pivotTable6.xml",
+      "ref": "A7:F417",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "fld": "67",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "OTO WK",
+          "fld": "61",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "224",
+          "numFmtId": "9"
+        },
+        {
+          "name": "Avg Em horas",
+          "fld": "57",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "165"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "fld": "62",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "9"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        },
+        {
+          "fld": "63",
+          "hier": "-1"
+        },
+        {
+          "fld": "55",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 2466,
+        "blank_count": 29,
+        "error_count": 0,
+        "nonblank_count": 2437
+      },
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable2_KPI_Helper",
+      "path": "xl/pivotTables/pivotTable5.xml",
+      "ref": "AF20:AH265",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "fld": "55",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "63",
+          "item": "0",
+          "hier": "-1"
+        },
+        {
+          "fld": "43",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        },
+        {
+          "fld": "53",
+          "hier": "-1"
+        },
+        {
+          "fld": "66",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 738,
+        "blank_count": 0,
+        "error_count": 0,
+        "nonblank_count": 738
+      },
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "Tabela dinâmica1",
+      "path": "xl/pivotTables/pivotTable4.xml",
+      "ref": "Y6:AA25",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "OTO WK",
+          "fld": "61",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "224",
+          "numFmtId": "9"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        },
+        {
+          "fld": "55",
+          "item": "1",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 60,
+        "blank_count": 0,
+        "error_count": 0,
+        "nonblank_count": 60
+      },
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable5",
+      "path": "xl/pivotTables/pivotTable8.xml",
+      "ref": "N7:R72",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "OTO WK",
+          "fld": "61",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "224",
+          "numFmtId": "9"
+        },
+        {
+          "name": "Avg Em horas",
+          "fld": "57",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "165"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "fld": "62",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "9"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        },
+        {
+          "fld": "55",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "63",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 330,
+        "blank_count": 0,
+        "error_count": 0,
+        "nonblank_count": 330
+      },
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable2",
+      "path": "xl/pivotTables/pivotTable7.xml",
+      "ref": "AK24:AN35",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "OTO WK",
+          "fld": "61",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "224",
+          "numFmtId": "9"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "fld": "55",
+          "baseField": "12",
+          "baseItem": "295"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        },
+        {
+          "fld": "43",
+          "item": "1",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 48,
+        "blank_count": 1,
+        "error_count": 0,
+        "nonblank_count": 47
+      },
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "name": "PivotTable1",
+      "path": "xl/pivotTables/pivotTable11.xml",
+      "ref": "A7:D8",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "fld": "67",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "OTO WK",
+          "fld": "60",
+          "subtotal": "average",
+          "baseField": "3",
+          "baseItem": "46",
+          "numFmtId": "9"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "9",
+          "hier": "-1"
+        },
+        {
+          "fld": "63",
+          "hier": "-1"
+        },
+        {
+          "fld": "55",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 8,
+        "blank_count": 3,
+        "error_count": 0,
+        "nonblank_count": 5
+      },
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "name": "PivotTable3",
+      "path": "xl/pivotTables/pivotTable10.xml",
+      "ref": "L7:M8",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "9",
+          "hier": "-1"
+        },
+        {
+          "fld": "55",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "63",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 4,
+        "blank_count": 1,
+        "error_count": 0,
+        "nonblank_count": 3
+      },
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "name": "PivotTable2",
+      "path": "xl/pivotTables/pivotTable9.xml",
+      "ref": "R7:S8",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "9",
+          "hier": "-1"
+        },
+        {
+          "fld": "55",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "63",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 4,
+        "blank_count": 1,
+        "error_count": 0,
+        "nonblank_count": 3
+      },
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "name": "PivotTable4",
+      "path": "xl/pivotTables/pivotTable12.xml",
+      "ref": "O7:P8",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "9",
+          "hier": "-1"
+        },
+        {
+          "fld": "55",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "63",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": {
+        "cell_count_scanned": 4,
+        "blank_count": 1,
+        "error_count": 0,
+        "nonblank_count": 3
+      },
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Region errors",
+      "name": "ptSemPreenchRegiaoPS",
+      "path": "xl/pivotTables/pivotTable13.xml",
+      "ref": "A6:B12",
+      "cacheId": "0",
+      "data_fields": [
+        {
+          "name": "Qtd OS sem preenchimento",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "63",
+          "item": "0",
+          "hier": "-1"
+        },
+        {
+          "fld": "53",
+          "item": "2",
+          "hier": "-1"
+        },
+        {
+          "fld": "47",
+          "item": "1",
+          "hier": "-1"
+        },
+        {
+          "fld": "43",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "ref": "A1:CF9205",
+        "sheet": "ROE_wk",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable4",
+      "path": "xl/pivotTables/pivotTable21.xml",
+      "ref": "Z4:AA9",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Sum of Atrasado?",
+          "fld": "55",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable2",
+      "path": "xl/pivotTables/pivotTable16.xml",
+      "ref": "B4:F18",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "fld": "55",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable3",
+      "path": "xl/pivotTables/pivotTable20.xml",
+      "ref": "O4:U77",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "fld": "55",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable8",
+      "path": "xl/pivotTables/pivotTable15.xml",
+      "ref": "BD5:BJ9",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "3",
+          "baseItem": "37"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "fld": "55",
+          "baseField": "3",
+          "baseItem": "37"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable1",
+      "path": "xl/pivotTables/pivotTable14.xml",
+      "ref": "AH4:AJ26",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Average of Em horas",
+          "fld": "57",
+          "subtotal": "average",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Count of Nº OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable9",
+      "path": "xl/pivotTables/pivotTable19.xml",
+      "ref": "BP5:BQ8",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Sum of Atrasado?",
+          "fld": "55",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable10",
+      "path": "xl/pivotTables/pivotTable18.xml",
+      "ref": "BX3:BY4",
+      "cacheId": "1",
+      "data_fields": [
+        {
+          "name": "Count of Número da programação",
+          "fld": "1",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "11",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "ref": "A1:Y2",
+        "sheet": "SIL_wk",
+        "{http://schemas.openxmlformats.org/officeDocument/2006/relationships}id": "rId2"
+      },
+      "cache_recordCount": "1"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable6",
+      "path": "xl/pivotTables/pivotTable23.xml",
+      "ref": "AL4:AN26",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Average of Em horas",
+          "fld": "57",
+          "subtotal": "average",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Count of Nº OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable7",
+      "path": "xl/pivotTables/pivotTable17.xml",
+      "ref": "AT5:AZ12",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "12",
+          "baseItem": "8"
+        },
+        {
+          "name": "Sum of Atrasado?",
+          "fld": "55",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Din",
+      "name": "PivotTable5",
+      "path": "xl/pivotTables/pivotTable22.xml",
+      "ref": "AE4:AE5",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Average of Em horas",
+          "fld": "57",
+          "subtotal": "average",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "50",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Weekly_DS",
+      "name": "PivotTable1",
+      "path": "xl/pivotTables/pivotTable26.xml",
+      "ref": "A6:E57",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "fld": "67",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Avg Em horas",
+          "fld": "57",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "165"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "fld": "62",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "9"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Weekly_DS",
+      "name": "PivotTable2",
+      "path": "xl/pivotTables/pivotTable25.xml",
+      "ref": "J6:N8",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "fld": "67",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Avg Em horas",
+          "fld": "57",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "165"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "fld": "62",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "9"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Weekly_DS",
+      "name": "PivotTable3",
+      "path": "xl/pivotTables/pivotTable24.xml",
+      "ref": "J18:N21",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "fld": "67",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Avg Em horas",
+          "fld": "57",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "165"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "fld": "62",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "9"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "Weekly_DS",
+      "name": "PivotTable4",
+      "path": "xl/pivotTables/pivotTable27.xml",
+      "ref": "J31:N33",
+      "cacheId": "286",
+      "data_fields": [
+        {
+          "name": "Count of OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Sum of AtrasoRev",
+          "fld": "67",
+          "baseField": "0",
+          "baseItem": "0"
+        },
+        {
+          "name": "Avg Em horas",
+          "fld": "57",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "165"
+        },
+        {
+          "name": "Avg % SLA agend",
+          "fld": "62",
+          "subtotal": "average",
+          "baseField": "12",
+          "baseItem": "238",
+          "numFmtId": "9"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "47",
+          "hier": "-1"
+        },
+        {
+          "fld": "34",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk"
+      },
+      "cache_recordCount": "9204"
+    },
+    {
+      "sheet": "ROE_wk_cancel",
+      "name": "PivotTable1",
+      "path": "xl/pivotTables/pivotTable28.xml",
+      "ref": "BJ5:BK17",
+      "cacheId": "47",
+      "data_fields": [
+        {
+          "name": "Count of Nº OS",
+          "fld": "0",
+          "subtotal": "count",
+          "baseField": "0",
+          "baseItem": "0"
+        }
+      ],
+      "page_fields": [
+        {
+          "fld": "4",
+          "hier": "-1"
+        },
+        {
+          "fld": "16",
+          "hier": "-1"
+        }
+      ],
+      "body_summary": null,
+      "cache_source": {
+        "name": "ROE_wk_cancel"
+      },
+      "cache_recordCount": "2745"
+    }
+  ],
+  "charts_summary": [
+    {
+      "sheet": "Volume_DS",
+      "chart_path": "xl/charts/chart1.xml",
+      "series_count": 6,
+      "series_formulas": [
+        [
+          "Volume_DS!$E$11",
+          "Volume_DS!$F$8:$L$8",
+          "Volume_DS!$F$11:$L$11"
+        ],
+        [
+          "Volume_DS!$E$12",
+          "Volume_DS!$F$8:$L$8",
+          "Volume_DS!$F$12:$L$12"
+        ],
+        [
+          "Volume_DS!$E$13",
+          "Volume_DS!$F$8:$L$8",
+          "Volume_DS!$F$13:$L$13"
+        ],
+        [
+          "Volume_DS!$E$10",
+          "Volume_DS!$F$10:$L$10"
+        ],
+        [
+          "Volume_DS!$E$14",
+          "Volume_DS!$F$14:$L$14"
+        ],
+        [
+          "Volume_DS!$E$15",
+          "Volume_DS!$F$15:$L$15"
+        ]
+      ]
+    },
+    {
+      "sheet": "Volume_MAO",
+      "chart_path": "xl/charts/chart2.xml",
+      "series_count": 6,
+      "series_formulas": [
+        [
+          "Volume_MAO!$E$12",
+          "Volume_MAO!$F$8:$L$8",
+          "Volume_MAO!$F$12:$L$12"
+        ],
+        [
+          "Volume_MAO!$E$14",
+          "Volume_MAO!$F$8:$L$8",
+          "Volume_MAO!$F$14:$L$14"
+        ],
+        [
+          "Volume_MAO!$E$15",
+          "Volume_MAO!$F$8:$L$8",
+          "Volume_MAO!$F$15:$L$15"
+        ],
+        [
+          "Volume_MAO!$E$10",
+          "Volume_MAO!$F$10:$L$10"
+        ],
+        [
+          "Volume_MAO!$E$16",
+          "Volume_MAO!$F$16:$L$16"
+        ],
+        [
+          "Volume_MAO!$E$18",
+          "Volume_MAO!$F$18:$L$18"
+        ]
+      ]
+    },
+    {
+      "sheet": "Volume_Graph",
+      "chart_path": "xl/charts/chart3.xml",
+      "series_count": 6,
+      "series_formulas": [
+        [
+          "Volume_Graph!$E$12",
+          "Volume_Graph!$F$8:$L$8",
+          "Volume_Graph!$F$12:$L$12"
+        ],
+        [
+          "Volume_Graph!$E$13",
+          "Volume_Graph!$F$8:$L$8",
+          "Volume_Graph!$F$13:$L$13"
+        ],
+        [
+          "Volume_Graph!$E$14",
+          "Volume_Graph!$F$8:$L$8",
+          "Volume_Graph!$F$14:$L$14"
+        ],
+        [
+          "Volume_Graph!$E$10",
+          "Volume_Graph!$F$10:$L$10"
+        ],
+        [
+          "Volume_Graph!$E$15",
+          "Volume_Graph!$F$15:$L$15"
+        ],
+        [
+          "Volume_Graph!$E$16",
+          "Volume_Graph!$F$16:$L$16"
+        ]
+      ]
+    },
+    {
+      "sheet": "LTFO_Week12",
+      "chart_path": "xl/charts/chart4.xml",
+      "series_count": 2,
+      "series_formulas": [
+        [
+          "LTFO_Week12!$E$11",
+          "LTFO_Week12!$F$11:$L$11"
+        ],
+        [
+          "LTFO_Week12!$E$12",
+          "LTFO_Week12!$F$12:$L$12"
+        ]
+      ]
+    },
+    {
+      "sheet": "Menu",
+      "chart_path": "xl/charts/chart5.xml",
+      "series_count": 10,
+      "series_formulas": [
+        [
+          "Volume_Graph!$E$9",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$9:$M$9"
+        ],
+        [
+          "Volume_Graph!$E$10",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$10:$M$10"
+        ],
+        [
+          "Volume_Graph!$E$11",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$11:$M$11"
+        ],
+        [
+          "Volume_Graph!$E$12",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$12:$M$12"
+        ],
+        [
+          "Volume_Graph!$E$13",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$13:$M$13"
+        ],
+        [
+          "Volume_Graph!$E$14",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$14:$M$14"
+        ],
+        [
+          "Volume_Graph!$E$15",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$15:$M$15"
+        ],
+        [
+          "Volume_Graph!$E$16",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$16:$M$16"
+        ],
+        [
+          "Volume_Graph!$E$17",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$17:$M$17"
+        ],
+        [
+          "Volume_Graph!$E$18",
+          "Volume_Graph!$F$8:$M$8",
+          "Volume_Graph!$F$18:$M$18"
+        ]
+      ]
+    },
+    {
+      "sheet": "Menu",
+      "chart_path": "xl/charts/chart6.xml",
+      "series_count": 9,
+      "series_formulas": [
+        [
+          "Volume_DS!$E$9",
+          "Volume_DS!$F$8:$M$8",
+          "Volume_DS!$F$9:$M$9"
+        ],
+        [
+          "Volume_DS!$E$10",
+          "Volume_DS!$F$8:$M$8",
+          "Volume_DS!$F$10:$M$10"
+        ],
+        [
+          "Volume_DS!$E$11",
+          "Volume_DS!$F$8:$M$8",
+          "Volume_DS!$F$11:$M$11"
+        ],
+        [
+          "Volume_DS!$E$12",
+          "Volume_DS!$F$8:$M$8",
+          "Volume_DS!$F$12:$M$12"
+        ],
+        [
+          "Volume_DS!$E$13",
+          "Volume_DS!$F$8:$M$8",
+          "Volume_DS!$F$13:$M$13"
+        ],
+        [
+          "Volume_DS!$E$14",
+          "Volume_DS!$F$8:$M$8",
+          "Volume_DS!$F$14:$M$14"
+        ],
+        [
+          "Volume_DS!$E$15",
+          "Volume_DS!$F$8:$M$8",
+          "Volume_DS!$F$15:$M$15"
+        ],
+        [
+          "Volume_DS!$E$16",
+          "Volume_DS!$F$8:$M$8",
+          "Volume_DS!$F$16:$M$16"
+        ],
+        [
+          "Volume_DS!$E$17",
+          "Volume_DS!$F$8:$M$8",
+          "Volume_DS!$F$17:$M$17"
+        ]
+      ]
+    },
+    {
+      "sheet": "Menu",
+      "chart_path": "xl/charts/chart7.xml",
+      "series_count": 3,
+      "series_formulas": [
+        [
+          "Top_Offenders_Customers!$AL$24",
+          "Top_Offenders_Customers!$AK$25:$AK$35",
+          "Top_Offenders_Customers!$AL$25:$AL$35"
+        ],
+        [
+          "Top_Offenders_Customers!$AM$24",
+          "Top_Offenders_Customers!$AK$25:$AK$35",
+          "Top_Offenders_Customers!$AM$25:$AM$35"
+        ],
+        [
+          "Top_Offenders_Customers!$AN$24",
+          "Top_Offenders_Customers!$AK$25:$AK$35",
+          "Top_Offenders_Customers!$AN$25:$AN$35"
+        ]
+      ]
+    }
+  ]
+}
