@@ -205,6 +205,11 @@ def main() -> int:
                 "VIBRA ENERGIA S.A",
                 "Rio",
             ),
+            "NEXA_RIO": ensure_client_port_special(
+                exceptions_ws,
+                "NEXA RECURSOS MINERAIS S.A",
+                "Rio",
+            ),
             "RENAULT_SANTOS": ensure_client_port_special(
                 exceptions_ws,
                 "RENAULT DO BRASIL S A",
