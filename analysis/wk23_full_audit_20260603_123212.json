@@ -1,0 +1,2826 @@
+{
+  "created_at": "2026-06-03T12:39:15.437238",
+  "source_path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+  "source_mtime": "2026-06-03T11:20:41",
+  "temp_recalc": {
+    "calculated_and_saved_temp": true,
+    "calculation_state": "0"
+  },
+  "openpyxl": {
+    "sheets": [
+      {
+        "name": "Volume_DS",
+        "max_row": 34,
+        "max_col": 51,
+        "formula_count": 171,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Volume_MAO",
+        "max_row": 36,
+        "max_col": 20,
+        "formula_count": 186,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Volume_Graph",
+        "max_row": 40,
+        "max_col": 18,
+        "formula_count": 177,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Query1",
+        "max_row": 333,
+        "max_col": 60,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Week_Overview",
+        "max_row": 47,
+        "max_col": 72,
+        "formula_count": 607,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Top_Offenders_Customers",
+        "max_row": 1805,
+        "max_col": 43,
+        "formula_count": 7702,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Top_Offenders_Vendors",
+        "max_row": 188,
+        "max_col": 29,
+        "formula_count": 81,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 1,
+        "external_formula_samples": [
+          {
+            "cell": "R40",
+            "formula": "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")"
+          }
+        ],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Region errors",
+        "max_row": 18,
+        "max_col": 9,
+        "formula_count": 42,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 30,
+        "external_formula_samples": [
+          {
+            "cell": "C7",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],C$6))"
+          },
+          {
+            "cell": "D7",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],D$6))"
+          },
+          {
+            "cell": "E7",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],E$6))"
+          },
+          {
+            "cell": "F7",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],F$6))"
+          },
+          {
+            "cell": "G7",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],G$6))"
+          },
+          {
+            "cell": "H7",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],H$6))"
+          },
+          {
+            "cell": "C8",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],C$6))"
+          },
+          {
+            "cell": "D8",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],D$6))"
+          },
+          {
+            "cell": "E8",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],E$6))"
+          },
+          {
+            "cell": "F8",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],F$6))"
+          },
+          {
+            "cell": "G8",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],G$6))"
+          },
+          {
+            "cell": "H8",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],H$6))"
+          },
+          {
+            "cell": "C9",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],C$6))"
+          },
+          {
+            "cell": "D9",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],D$6))"
+          },
+          {
+            "cell": "E9",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],E$6))"
+          },
+          {
+            "cell": "F9",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],F$6))"
+          },
+          {
+            "cell": "G9",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],G$6))"
+          },
+          {
+            "cell": "H9",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],H$6))"
+          },
+          {
+            "cell": "C10",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],C$6))"
+          },
+          {
+            "cell": "D10",
+            "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],D$6))"
+          }
+        ],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Amb+RoFo+Cap",
+        "max_row": 104,
+        "max_col": 78,
+        "formula_count": 1827,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Validacao_BU",
+        "max_row": 73,
+        "max_col": 17,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Reagendas_Filtro",
+        "max_row": 6,
+        "max_col": 14,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Reagendas_2",
+        "max_row": 132,
+        "max_col": 59,
+        "formula_count": 262,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 131,
+        "external_formula_samples": [
+          {
+            "cell": "BF2",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF3",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF4",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF5",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF6",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF7",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF8",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF9",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF10",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF11",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF12",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF13",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF14",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF15",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF16",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF17",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF18",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF19",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF20",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          },
+          {
+            "cell": "BF21",
+            "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+          }
+        ],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Weekly",
+        "max_row": 45,
+        "max_col": 30,
+        "formula_count": 624,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Din",
+        "max_row": 23,
+        "max_col": 77,
+        "formula_count": 27,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 18,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Capacity Plan",
+        "max_row": 21,
+        "max_col": 4,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Month2date",
+        "max_row": 24,
+        "max_col": 23,
+        "formula_count": 305,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "LastMonth_Overview",
+        "max_row": 23,
+        "max_col": 21,
+        "formula_count": 293,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "LTFO_Week12",
+        "max_row": 14,
+        "max_col": 14,
+        "formula_count": 15,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "OTO Exceptions",
+        "max_row": 67,
+        "max_col": 32,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Moves Exceptions",
+        "max_row": 15,
+        "max_col": 10,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Exceptions_Mapping",
+        "max_row": 184,
+        "max_col": 13,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Exceptions",
+        "max_row": 69,
+        "max_col": 41,
+        "formula_count": 12,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "ROE_wk",
+        "max_row": 9847,
+        "max_col": 84,
+        "formula_count": 129443,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 66323,
+        "external_formula_samples": [
+          {
+            "cell": "AV2",
+            "formula": "=_xlfn.IFS(AN2<>\"Rodo\",\"N\",ROE_wk[[#This Row],[Is_MoveException]]=TRUE,\"N\",TRUE,\"Ok\")"
+          },
+          {
+            "cell": "AZ2",
+            "formula": "=_xlfn.XLOOKUP(ROE_wk[[#This Row],[Porto]],Aux!E:E,Aux!D:D,\"\")"
+          },
+          {
+            "cell": "BD2",
+            "formula": "=IF(AND(ROE_wk[[#This Row],[OTD ajustado]]=\"Atrasado\",ROE_wk[[#This Row],[OTO Out]]=\"N\",ROE_wk[[#This Row],[Especiais]]<>\"Especial\"),1,0)"
+          },
+          {
+            "cell": "BI2",
+            "formula": "=IF(ROE_wk[[#This Row],[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS(ROE_wk[Provedor],ROE_wk[[#This Row],[Provedor]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serviço]],ROE_wk[Porto],ROE_wk[[#This Row],[Porto]],ROE_wk[Weeknum],ROE_wk[[#This Row],[Weeknum]],ROE_wk[Volume],\"Ok\",ROE_wk[OTO Out],\"N\",ROE_wk[OTD ajustado],\"<>Sem Preenchimento\")=0,\"\",1-COUNTIFS(ROE_wk[OTD ajustado],\"Atrasado\",ROE_wk[Provedor],ROE_wk[[#This Row],[Provedor]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serv..."
+          },
+          {
+            "cell": "BJ2",
+            "formula": "=IF(ROE_wk[[#This Row],[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS(ROE_wk[Cliente Proposta],ROE_wk[[#This Row],[Cliente Proposta]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serviço]],ROE_wk[Porto],ROE_wk[[#This Row],[Porto]],ROE_wk[Weeknum],ROE_wk[[#This Row],[Weeknum]],ROE_wk[Volume],\"Ok\",ROE_wk[OTO Out],\"N\",ROE_wk[OTD ajustado],\"<>Sem Preenchimento\")=0,\"\",1-COUNTIFS(ROE_wk[OTD ajustado],\"Atrasado\",ROE_wk[Cliente Proposta],ROE_wk[[#This Row],[Cliente Proposta]],ROE_wk[Tipo Serviç..."
+          },
+          {
+            "cell": "BK2",
+            "formula": "=IF(ROE_wk[[#This Row],[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS(ROE_wk[Cliente Proposta],ROE_wk[[#This Row],[Cliente Proposta]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serviço]],ROE_wk[Porto],ROE_wk[[#This Row],[Porto]],ROE_wk[Volume],\"Ok\")=0,\"\",1-COUNTIFS(ROE_wk[SLA Ag],\"N\",ROE_wk[Cliente Proposta],ROE_wk[[#This Row],[Cliente Proposta]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serviço]],ROE_wk[Porto],ROE_wk[[#This Row],[Porto]],ROE_wk[Volume],\"Ok\")/COUNTIFS(ROE_wk[Clien..."
+          },
+          {
+            "cell": "BL2",
+            "formula": "=IF(ROE_wk[[#This Row],[Is_OTOException]]=TRUE,\"S\",\n    IF(AND(ROE_wk[[#This Row],[Diferenciador Proposta]]<>\"\",ISNUMBER(SEARCH(\"SAFRA 2\",ROE_wk[[#This Row],[Diferenciador Proposta]]))),\n       \"S\",\n       \"N\"))"
+          },
+          {
+            "cell": "BM2",
+            "formula": "=IF(AND(IF(AND(_xlfn.XLOOKUP(ROE_wk[[#This Row],[Nº OS]],SIL_wk!B:B,SIL_wk!O:O,\"\")=\"EM ATENDIMENTO NO CLIENTE\",ROE_wk[[#This Row],[Cliente + Porto]]<>\"LG ELECTRONICS DO BRASIL LTDAManaus\"),\"S\",\"N\")=\"S\",ROE_wk[[#This Row],[W8ngTime]]>\"24:00\"),ROE_wk[[#This Row],[W8ngTime]],\"\")"
+          },
+          {
+            "cell": "BN2",
+            "formula": "=_xlfn.XLOOKUP(ROE_wk[[#This Row],[Cliente Proposta]],Aux!M:M,Aux!N:N,LEFT(ROE_wk[[#This Row],[Cliente Proposta]],20))"
+          },
+          {
+            "cell": "BO2",
+            "formula": "=_xlfn.LET(\n    _xlpm.cliente,ROE_wk[[#This Row],[Cliente Proposta]],\n    _xlpm.embarcador,ROE_wk[[#This Row],[Embarcador]],\n    _xlpm.destinatario,ROE_wk[[#This Row],[Destinatário]],\n    _xlpm.provedor,ROE_wk[[#This Row],[Provedor]],\n    _xlpm.porto,ROE_wk[[#This Row],[Porto]],\n    _xlpm.produto,ROE_wk[[#This Row],[Produto]],\n    _xlpm.clientePorto,ROE_wk[[#This Row],[Cliente Proposta+PortoExc]],\n    _xlpm.embCliProv,ROE_wk[[#This Row],[Embarcador+Cliente Proposta+ProvedorExc]],\n    _xlpm.es..."
+          },
+          {
+            "cell": "BQ2",
+            "formula": "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")"
+          },
+          {
+            "cell": "BR2",
+            "formula": "=IFERROR(IF(ROE_wk[[#This Row],[Centro de Custo]]=\"Aliança\",\"Cab\",\"DS\"),\"\")"
+          },
+          {
+            "cell": "BS2",
+            "formula": "=_xlfn.XLOOKUP(ROE_wk[[#This Row],[Nº OS]],SIL_wk!B:B,SIL_wk!Q:Q,\"\")"
+          },
+          {
+            "cell": "BT2",
+            "formula": "=ROE_wk[[#This Row],[Justificativa]]"
+          },
+          {
+            "cell": "BU2",
+            "formula": "=ROE_wk[[#This Row],[Cliente Proposta]]"
+          },
+          {
+            "cell": "BV2",
+            "formula": "=ROE_wk[[#This Row],[Cliente Proposta]] & ROE_wk[[#This Row],[Centro de Custo]]"
+          },
+          {
+            "cell": "BW2",
+            "formula": "=ROE_wk[[#This Row],[Cliente Proposta]] & ROE_wk[[#This Row],[Porto]]"
+          },
+          {
+            "cell": "BX2",
+            "formula": "=ROE_wk[[#This Row],[Embarcador]] & ROE_wk[[#This Row],[Cliente Proposta]] & ROE_wk[[#This Row],[Provedor]]"
+          },
+          {
+            "cell": "BY2",
+            "formula": "=ROE_wk[[#This Row],[Cliente Proposta]] & ROE_wk[[#This Row],[Nome local de atendimento]]"
+          },
+          {
+            "cell": "BZ2",
+            "formula": "=ROE_wk[[#This Row],[Provedor]]"
+          }
+        ],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Weekly_DS",
+        "max_row": 606,
+        "max_col": 15,
+        "formula_count": 609,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "SIL_wk",
+        "max_row": 5921,
+        "max_col": 26,
+        "formula_count": 3041,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "ROE_wk_cancel",
+        "max_row": 2746,
+        "max_col": 64,
+        "formula_count": 8018,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Reagendas",
+        "max_row": 514,
+        "max_col": 21,
+        "formula_count": 2052,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 513,
+        "external_formula_samples": [
+          {
+            "cell": "R2",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R3",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R4",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R5",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R6",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R7",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R8",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R9",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R10",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R11",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R12",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R13",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R14",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R15",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R16",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R17",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R18",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R19",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R20",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          },
+          {
+            "cell": "R21",
+            "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+          }
+        ],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "RAO_wk",
+        "max_row": 9145,
+        "max_col": 7,
+        "formula_count": 5578,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "RAO_wk_cancel",
+        "max_row": 2863,
+        "max_col": 7,
+        "formula_count": 1442,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "RAO_wk_monthly",
+        "max_row": 42764,
+        "max_col": 7,
+        "formula_count": 80806,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "SIL_wk_month",
+        "max_row": 22773,
+        "max_col": 26,
+        "formula_count": 45544,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Aux",
+        "max_row": 532,
+        "max_col": 24,
+        "formula_count": 1095,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Week_20",
+        "max_row": 47,
+        "max_col": 72,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Week_11",
+        "max_row": 47,
+        "max_col": 51,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Week_10",
+        "max_row": 47,
+        "max_col": 51,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Validacao_Final",
+        "max_row": 6,
+        "max_col": 17,
+        "formula_count": 0,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "Menu",
+        "max_row": 37,
+        "max_col": 16,
+        "formula_count": 6,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 0,
+        "external_formula_samples": [],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      },
+      {
+        "name": "ROE_wk_monthly",
+        "max_row": 40202,
+        "max_col": 62,
+        "formula_count": 943050,
+        "formula_error_count": 0,
+        "formula_error_samples": [],
+        "constant_error_count": 0,
+        "external_formula_count": 37722,
+        "external_formula_samples": [
+          {
+            "cell": "BJ2",
+            "formula": "=_xlfn.XLOOKUP(A2,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ3",
+            "formula": "=_xlfn.XLOOKUP(A3,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ4",
+            "formula": "=_xlfn.XLOOKUP(A4,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ5",
+            "formula": "=_xlfn.XLOOKUP(A5,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ6",
+            "formula": "=_xlfn.XLOOKUP(A6,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ7",
+            "formula": "=_xlfn.XLOOKUP(A7,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ8",
+            "formula": "=_xlfn.XLOOKUP(A8,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ9",
+            "formula": "=_xlfn.XLOOKUP(A9,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ10",
+            "formula": "=_xlfn.XLOOKUP(A10,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ11",
+            "formula": "=_xlfn.XLOOKUP(A11,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ12",
+            "formula": "=_xlfn.XLOOKUP(A12,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ13",
+            "formula": "=_xlfn.XLOOKUP(A13,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ14",
+            "formula": "=_xlfn.XLOOKUP(A14,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ15",
+            "formula": "=_xlfn.XLOOKUP(A15,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ16",
+            "formula": "=_xlfn.XLOOKUP(A16,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ17",
+            "formula": "=_xlfn.XLOOKUP(A17,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ18",
+            "formula": "=_xlfn.XLOOKUP(A18,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ19",
+            "formula": "=_xlfn.XLOOKUP(A19,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ20",
+            "formula": "=_xlfn.XLOOKUP(A20,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          },
+          {
+            "cell": "BJ21",
+            "formula": "=_xlfn.XLOOKUP(A21,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+          }
+        ],
+        "ref_formula_samples": [],
+        "old_week_formula_samples": [],
+        "tables": []
+      }
+    ],
+    "formula_error_summary": {},
+    "external_formula_samples": {
+      "Top_Offenders_Vendors": [
+        {
+          "cell": "R40",
+          "formula": "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")"
+        }
+      ],
+      "Region errors": [
+        {
+          "cell": "C7",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],C$6))"
+        },
+        {
+          "cell": "D7",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],D$6))"
+        },
+        {
+          "cell": "E7",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],E$6))"
+        },
+        {
+          "cell": "F7",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],F$6))"
+        },
+        {
+          "cell": "G7",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],G$6))"
+        },
+        {
+          "cell": "H7",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],H$6))"
+        },
+        {
+          "cell": "C8",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],C$6))"
+        },
+        {
+          "cell": "D8",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],D$6))"
+        },
+        {
+          "cell": "E8",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],E$6))"
+        },
+        {
+          "cell": "F8",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],F$6))"
+        },
+        {
+          "cell": "G8",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],G$6))"
+        },
+        {
+          "cell": "H8",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],H$6))"
+        },
+        {
+          "cell": "C9",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],C$6))"
+        },
+        {
+          "cell": "D9",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],D$6))"
+        },
+        {
+          "cell": "E9",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],E$6))"
+        },
+        {
+          "cell": "F9",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],F$6))"
+        },
+        {
+          "cell": "G9",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],G$6))"
+        },
+        {
+          "cell": "H9",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],H$6))"
+        },
+        {
+          "cell": "C10",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],C$6))"
+        },
+        {
+          "cell": "D10",
+          "formula": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],D$6))"
+        }
+      ],
+      "Reagendas_2": [
+        {
+          "cell": "BF2",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF3",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF4",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF5",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF6",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF7",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF8",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF9",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF10",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF11",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF12",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF13",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF14",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF15",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF16",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF17",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF18",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF19",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF20",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        },
+        {
+          "cell": "BF21",
+          "formula": "=AND(Reagendas[[#This Row],[Grupo - Justificativa]]=\"Landside\", OR(Reagendas[[#This Row],[R/N]]=\"No-Show\", Reagendas[[#This Row],[R/N]]=\"Reagendamento\"))"
+        }
+      ],
+      "ROE_wk": [
+        {
+          "cell": "AV2",
+          "formula": "=_xlfn.IFS(AN2<>\"Rodo\",\"N\",ROE_wk[[#This Row],[Is_MoveException]]=TRUE,\"N\",TRUE,\"Ok\")"
+        },
+        {
+          "cell": "AZ2",
+          "formula": "=_xlfn.XLOOKUP(ROE_wk[[#This Row],[Porto]],Aux!E:E,Aux!D:D,\"\")"
+        },
+        {
+          "cell": "BD2",
+          "formula": "=IF(AND(ROE_wk[[#This Row],[OTD ajustado]]=\"Atrasado\",ROE_wk[[#This Row],[OTO Out]]=\"N\",ROE_wk[[#This Row],[Especiais]]<>\"Especial\"),1,0)"
+        },
+        {
+          "cell": "BI2",
+          "formula": "=IF(ROE_wk[[#This Row],[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS(ROE_wk[Provedor],ROE_wk[[#This Row],[Provedor]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serviço]],ROE_wk[Porto],ROE_wk[[#This Row],[Porto]],ROE_wk[Weeknum],ROE_wk[[#This Row],[Weeknum]],ROE_wk[Volume],\"Ok\",ROE_wk[OTO Out],\"N\",ROE_wk[OTD ajustado],\"<>Sem Preenchimento\")=0,\"\",1-COUNTIFS(ROE_wk[OTD ajustado],\"Atrasado\",ROE_wk[Provedor],ROE_wk[[#This Row],[Provedor]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serv..."
+        },
+        {
+          "cell": "BJ2",
+          "formula": "=IF(ROE_wk[[#This Row],[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS(ROE_wk[Cliente Proposta],ROE_wk[[#This Row],[Cliente Proposta]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serviço]],ROE_wk[Porto],ROE_wk[[#This Row],[Porto]],ROE_wk[Weeknum],ROE_wk[[#This Row],[Weeknum]],ROE_wk[Volume],\"Ok\",ROE_wk[OTO Out],\"N\",ROE_wk[OTD ajustado],\"<>Sem Preenchimento\")=0,\"\",1-COUNTIFS(ROE_wk[OTD ajustado],\"Atrasado\",ROE_wk[Cliente Proposta],ROE_wk[[#This Row],[Cliente Proposta]],ROE_wk[Tipo Serviç..."
+        },
+        {
+          "cell": "BK2",
+          "formula": "=IF(ROE_wk[[#This Row],[Tipo Serviço]]=\"Transporte Rodoviário\",IF(COUNTIFS(ROE_wk[Cliente Proposta],ROE_wk[[#This Row],[Cliente Proposta]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serviço]],ROE_wk[Porto],ROE_wk[[#This Row],[Porto]],ROE_wk[Volume],\"Ok\")=0,\"\",1-COUNTIFS(ROE_wk[SLA Ag],\"N\",ROE_wk[Cliente Proposta],ROE_wk[[#This Row],[Cliente Proposta]],ROE_wk[Tipo Serviço],ROE_wk[[#This Row],[Tipo Serviço]],ROE_wk[Porto],ROE_wk[[#This Row],[Porto]],ROE_wk[Volume],\"Ok\")/COUNTIFS(ROE_wk[Clien..."
+        },
+        {
+          "cell": "BL2",
+          "formula": "=IF(ROE_wk[[#This Row],[Is_OTOException]]=TRUE,\"S\",\n    IF(AND(ROE_wk[[#This Row],[Diferenciador Proposta]]<>\"\",ISNUMBER(SEARCH(\"SAFRA 2\",ROE_wk[[#This Row],[Diferenciador Proposta]]))),\n       \"S\",\n       \"N\"))"
+        },
+        {
+          "cell": "BM2",
+          "formula": "=IF(AND(IF(AND(_xlfn.XLOOKUP(ROE_wk[[#This Row],[Nº OS]],SIL_wk!B:B,SIL_wk!O:O,\"\")=\"EM ATENDIMENTO NO CLIENTE\",ROE_wk[[#This Row],[Cliente + Porto]]<>\"LG ELECTRONICS DO BRASIL LTDAManaus\"),\"S\",\"N\")=\"S\",ROE_wk[[#This Row],[W8ngTime]]>\"24:00\"),ROE_wk[[#This Row],[W8ngTime]],\"\")"
+        },
+        {
+          "cell": "BN2",
+          "formula": "=_xlfn.XLOOKUP(ROE_wk[[#This Row],[Cliente Proposta]],Aux!M:M,Aux!N:N,LEFT(ROE_wk[[#This Row],[Cliente Proposta]],20))"
+        },
+        {
+          "cell": "BO2",
+          "formula": "=_xlfn.LET(\n    _xlpm.cliente,ROE_wk[[#This Row],[Cliente Proposta]],\n    _xlpm.embarcador,ROE_wk[[#This Row],[Embarcador]],\n    _xlpm.destinatario,ROE_wk[[#This Row],[Destinatário]],\n    _xlpm.provedor,ROE_wk[[#This Row],[Provedor]],\n    _xlpm.porto,ROE_wk[[#This Row],[Porto]],\n    _xlpm.produto,ROE_wk[[#This Row],[Produto]],\n    _xlpm.clientePorto,ROE_wk[[#This Row],[Cliente Proposta+PortoExc]],\n    _xlpm.embCliProv,ROE_wk[[#This Row],[Embarcador+Cliente Proposta+ProvedorExc]],\n    _xlpm.es..."
+        },
+        {
+          "cell": "BQ2",
+          "formula": "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")"
+        },
+        {
+          "cell": "BR2",
+          "formula": "=IFERROR(IF(ROE_wk[[#This Row],[Centro de Custo]]=\"Aliança\",\"Cab\",\"DS\"),\"\")"
+        },
+        {
+          "cell": "BS2",
+          "formula": "=_xlfn.XLOOKUP(ROE_wk[[#This Row],[Nº OS]],SIL_wk!B:B,SIL_wk!Q:Q,\"\")"
+        },
+        {
+          "cell": "BT2",
+          "formula": "=ROE_wk[[#This Row],[Justificativa]]"
+        },
+        {
+          "cell": "BU2",
+          "formula": "=ROE_wk[[#This Row],[Cliente Proposta]]"
+        },
+        {
+          "cell": "BV2",
+          "formula": "=ROE_wk[[#This Row],[Cliente Proposta]] & ROE_wk[[#This Row],[Centro de Custo]]"
+        },
+        {
+          "cell": "BW2",
+          "formula": "=ROE_wk[[#This Row],[Cliente Proposta]] & ROE_wk[[#This Row],[Porto]]"
+        },
+        {
+          "cell": "BX2",
+          "formula": "=ROE_wk[[#This Row],[Embarcador]] & ROE_wk[[#This Row],[Cliente Proposta]] & ROE_wk[[#This Row],[Provedor]]"
+        },
+        {
+          "cell": "BY2",
+          "formula": "=ROE_wk[[#This Row],[Cliente Proposta]] & ROE_wk[[#This Row],[Nome local de atendimento]]"
+        },
+        {
+          "cell": "BZ2",
+          "formula": "=ROE_wk[[#This Row],[Provedor]]"
+        }
+      ],
+      "Reagendas": [
+        {
+          "cell": "R2",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R3",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R4",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R5",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R6",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R7",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R8",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R9",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R10",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R11",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R12",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R13",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R14",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R15",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R16",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R17",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R18",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R19",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R20",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        },
+        {
+          "cell": "R21",
+          "formula": "=WEEKNUM(Sheet1[[#This Row],[Data de operação]],1)"
+        }
+      ],
+      "ROE_wk_monthly": [
+        {
+          "cell": "BJ2",
+          "formula": "=_xlfn.XLOOKUP(A2,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ3",
+          "formula": "=_xlfn.XLOOKUP(A3,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ4",
+          "formula": "=_xlfn.XLOOKUP(A4,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ5",
+          "formula": "=_xlfn.XLOOKUP(A5,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ6",
+          "formula": "=_xlfn.XLOOKUP(A6,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ7",
+          "formula": "=_xlfn.XLOOKUP(A7,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ8",
+          "formula": "=_xlfn.XLOOKUP(A8,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ9",
+          "formula": "=_xlfn.XLOOKUP(A9,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ10",
+          "formula": "=_xlfn.XLOOKUP(A10,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ11",
+          "formula": "=_xlfn.XLOOKUP(A11,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ12",
+          "formula": "=_xlfn.XLOOKUP(A12,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ13",
+          "formula": "=_xlfn.XLOOKUP(A13,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ14",
+          "formula": "=_xlfn.XLOOKUP(A14,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ15",
+          "formula": "=_xlfn.XLOOKUP(A15,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ16",
+          "formula": "=_xlfn.XLOOKUP(A16,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ17",
+          "formula": "=_xlfn.XLOOKUP(A17,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ18",
+          "formula": "=_xlfn.XLOOKUP(A18,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ19",
+          "formula": "=_xlfn.XLOOKUP(A19,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ20",
+          "formula": "=_xlfn.XLOOKUP(A20,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        },
+        {
+          "cell": "BJ21",
+          "formula": "=_xlfn.XLOOKUP(A21,ROE_wk[Nº OS],ROE_wk[% OTO Provider],\"\")"
+        }
+      ]
+    },
+    "ref_formula_samples": {},
+    "old_week_formula_samples": {},
+    "tables": []
+  },
+  "business": {
+    "roe_counts": {
+      "rows": 9846,
+      "week_23": 2630,
+      "week_None": 7216
+    },
+    "ajinomoto_total": 20,
+    "ajinomoto_by_provider_special": [
+      [
+        [
+          "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+          "Especial"
+        ],
+        10
+      ],
+      [
+        [
+          "VELOSTER OPERACOES LOGISTICAS LTDA",
+          null
+        ],
+        10
+      ]
+    ],
+    "ajinomoto_bad_unitrading": [],
+    "ajinomoto_bad_veloster": [],
+    "ajinomoto_late_unitrading": [
+      {
+        "row": 1446,
+        "provider": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+        "port": "Santos",
+        "otd": "Atrasado",
+        "late": 0,
+        "special": "Especial"
+      },
+      {
+        "row": 1452,
+        "provider": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+        "port": "Santos",
+        "otd": "Atrasado",
+        "late": 0,
+        "special": "Especial"
+      },
+      {
+        "row": 1460,
+        "provider": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+        "port": "Santos",
+        "otd": "Atrasado",
+        "late": 0,
+        "special": "Especial"
+      }
+    ],
+    "nexa_rows": [
+      {
+        "row": 2629,
+        "provider": "TORA RIO",
+        "port": null,
+        "special": null
+      },
+      {
+        "row": 2630,
+        "provider": "TORA RIO",
+        "port": null,
+        "special": null
+      },
+      {
+        "row": 2631,
+        "provider": "TORA RIO",
+        "port": null,
+        "special": null
+      }
+    ],
+    "region_errors_expected_region": {
+      "North": 124,
+      "South": 30,
+      "Southeast": 64,
+      "Northeast": 3,
+      "Sem Porto/Region": 3
+    },
+    "region_errors_expected_visible_days": {
+      "South|Mon": 20,
+      "North|Mon": 44,
+      "Southeast|Mon": 40,
+      "Northeast|Tue": 3,
+      "Southeast|Tue": 24,
+      "South|Tue": 10,
+      "North|Tue": 41,
+      "Sem Porto/Region|Wed": 3
+    },
+    "region_errors_actual_region": {
+      "North": 124,
+      "Southeast": 64,
+      "South": 30,
+      "Sem Porto/Region": 3,
+      "Northeast": 3
+    },
+    "region_errors_actual_visible_days": {
+      "North|Mon": 44,
+      "North|Tue": 41,
+      "North|Wed": 0,
+      "North|Thu": 0,
+      "North|Fri": 0,
+      "North|Sat": 0,
+      "Southeast|Mon": 40,
+      "Southeast|Tue": 24,
+      "Southeast|Wed": 0,
+      "Southeast|Thu": 0,
+      "Southeast|Fri": 0,
+      "Southeast|Sat": 0,
+      "South|Mon": 20,
+      "South|Tue": 10,
+      "South|Wed": 0,
+      "South|Thu": 0,
+      "South|Fri": 0,
+      "South|Sat": 0,
+      "Sem Porto/Region|Mon": 0,
+      "Sem Porto/Region|Tue": 0,
+      "Sem Porto/Region|Wed": 3,
+      "Sem Porto/Region|Thu": 0,
+      "Sem Porto/Region|Fri": 0,
+      "Sem Porto/Region|Sat": 0,
+      "Northeast|Mon": 0,
+      "Northeast|Tue": 3,
+      "Northeast|Wed": 0,
+      "Northeast|Thu": 0,
+      "Northeast|Fri": 0,
+      "Northeast|Sat": 0
+    },
+    "region_errors_total_row": [
+      "Total Geral",
+      224,
+      104,
+      78,
+      3,
+      0,
+      0,
+      0,
+      224
+    ],
+    "special_formula_has_ajinomoto_rule": true,
+    "special_formula_has_global_nexa": false
+  },
+  "com": {
+    "workbook": {
+      "name": "Base_DSU2026 - TbM - WK23.xlsm",
+      "full_name": "C:\\Users\\VNO024\\AppData\\Local\\Temp\\dsu_full_audit_uqo8599r\\Base_DSU2026 - TbM - WK23.xlsm",
+      "saved": true
+    },
+    "pivots": [
+      {
+        "sheet": "Week_Overview",
+        "name": "Tabela dinâmica3",
+        "source_data": "Reagendas",
+        "range1": "$BG$7:$BS$22",
+        "range2": "$BG$2:$BS$22",
+        "fields": [
+          {
+            "name": "Justif Alteracao",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Data",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto Afetado",
+            "orientation": 2,
+            "current_page": null
+          },
+          {
+            "name": "Grupo - Justificativa",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Semana",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "R/N",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Week_Overview",
+        "name": "Tabela dinâmica1",
+        "source_data": "Validacao_Final",
+        "range1": "$AR$7:$AW$10",
+        "range2": "$AR$2:$AW$10",
+        "fields": [
+          {
+            "name": "Grupo - Justificativa",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Data",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Justif Alteracao",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Porto Afetado",
+            "orientation": 2,
+            "current_page": null
+          },
+          {
+            "name": "R/N",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Semana",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Week_Overview",
+        "name": "Tabela dinâmica4",
+        "source_data": "Reagendas",
+        "range1": "$BA$7:$BB$19",
+        "range2": "$BA$2:$BB$19",
+        "fields": [
+          {
+            "name": "Data",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto Afetado",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Grupo - Justificativa",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Semana",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "R/N",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Top_Offenders_Customers",
+        "name": "PivotTable5",
+        "source_data": "ROE_wk",
+        "range1": "$N$7:$R$89",
+        "range2": "$N$2:$R$89",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Atrasado?",
+            "orientation": 3,
+            "current_page": "1"
+          },
+          {
+            "name": "OTO Out",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Top_Offenders_Customers",
+        "name": "Tabela dinâmica1",
+        "source_data": "ROE_wk",
+        "range1": "$Y$6:$AA$48",
+        "range2": "$Y$2:$AA$48",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Atrasado?",
+            "orientation": 3,
+            "current_page": "1"
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Top_Offenders_Customers",
+        "name": "PivotTable2_KPI_Helper",
+        "source_data": "ROE_wk",
+        "range1": "$AF$20:$AH$223",
+        "range2": "$AF$13:$AH$223",
+        "fields": [
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Weeknum",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "Ok"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "OTD ajustado",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "OTO Out",
+            "orientation": 3,
+            "current_page": "N"
+          },
+          {
+            "name": "Especiais",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Valores",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Top_Offenders_Customers",
+        "name": "PivotTable1",
+        "source_data": "ROE_wk",
+        "range1": "$A$7:$F$428",
+        "range2": "$A$2:$F$428",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Atrasado?",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "OTO Out",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Top_Offenders_Customers",
+        "name": "PivotTable2",
+        "source_data": "ROE_wk",
+        "range1": "$AK$24:$AN$31",
+        "range2": "$AK$20:$AN$31",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Weeknum",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Top_Offenders_Vendors",
+        "name": "PivotTable3",
+        "source_data": "ROE_wk",
+        "range1": "$L$7:$M$51",
+        "range2": "$L$2:$M$51",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Data Prog.",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "Ok"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Atrasado?",
+            "orientation": 3,
+            "current_page": "1"
+          },
+          {
+            "name": "OTO Out",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Top_Offenders_Vendors",
+        "name": "PivotTable1",
+        "source_data": "ROE_wk",
+        "range1": "$A$7:$D$106",
+        "range2": "$A$2:$D$106",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Data Prog.",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "Ok"
+          },
+          {
+            "name": "Atrasado?",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "OTO Out",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Top_Offenders_Vendors",
+        "name": "PivotTable4",
+        "source_data": "ROE_wk",
+        "range1": "$O$7:$P$51",
+        "range2": "$O$2:$P$51",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Data Prog.",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "Ok"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Atrasado?",
+            "orientation": 3,
+            "current_page": "1"
+          },
+          {
+            "name": "OTO Out",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Top_Offenders_Vendors",
+        "name": "PivotTable2",
+        "source_data": "ROE_wk",
+        "range1": "$R$7:$S$63",
+        "range2": "$R$2:$S$63",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Data Prog.",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "Ok"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Atrasado?",
+            "orientation": 3,
+            "current_page": "1"
+          },
+          {
+            "name": "OTO Out",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Tipo Atraso",
+            "orientation": 1,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Region errors",
+        "name": "ptSemPreenchRegiaoPS",
+        "source_data": "'ROE_wk'!L1C1:L9847C84",
+        "range1": "$A$6:$B$12",
+        "range2": "$A$1:$B$12",
+        "fields": [
+          {
+            "name": "Weeknum",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "Ok"
+          },
+          {
+            "name": "Region",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "OTD ajustado",
+            "orientation": 3,
+            "current_page": "Sem Preenchimento"
+          },
+          {
+            "name": "OTO Out",
+            "orientation": 3,
+            "current_page": "N"
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable4",
+        "source_data": "ROE_wk",
+        "range1": "$Z$4:$AA$8",
+        "range2": "$Z$1:$AA$8",
+        "fields": [
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable5",
+        "source_data": "ROE_wk",
+        "range1": "$AE$4:$AE$5",
+        "range2": "$AE$1:$AF$5",
+        "fields": [
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable8",
+        "source_data": "ROE_wk",
+        "range1": "$BD$5:$BF$8",
+        "range2": "$BD$1:$BF$8",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "OTD SIL",
+            "orientation": 2,
+            "current_page": null
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable6",
+        "source_data": "ROE_wk",
+        "range1": "$AL$4:$AN$22",
+        "range2": "$AL$1:$AN$22",
+        "fields": [
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable10",
+        "source_data": "'https://teamsite.maerskgroup.com/teams/LT-OPC/_vti_history/4608/Shared Documents/OPC (also BPS)/2026 - Info/DSU/[Base_DSU2026 - TbM - WK20.xlsm]SIL_wk'!L1C1:L2C25",
+        "range1": "$BX$3:$BY$4",
+        "range2": "$BX$1:$BY$4",
+        "fields": [
+          {
+            "name": "BU",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Dt Início da Execução (BRA)",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          }
+        ],
+        "flags": [
+          "external_or_history_source",
+          "old_week_source"
+        ]
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable3",
+        "source_data": "ROE_wk",
+        "range1": "$O$4:$W$23",
+        "range2": "$O$1:$W$23",
+        "fields": [
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "OTD SIL",
+            "orientation": 2,
+            "current_page": null
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable7",
+        "source_data": "ROE_wk",
+        "range1": "$AT$5:$AV$8",
+        "range2": "$AT$1:$AV$8",
+        "fields": [
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "OTD SIL",
+            "orientation": 2,
+            "current_page": null
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable1",
+        "source_data": "ROE_wk",
+        "range1": "$AH$4:$AJ$22",
+        "range2": "$AH$1:$AJ$22",
+        "fields": [
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable9",
+        "source_data": "ROE_wk",
+        "range1": "$BP$5:$BQ$6",
+        "range2": "$BP$1:$BQ$6",
+        "fields": [
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Din",
+        "name": "PivotTable2",
+        "source_data": "ROE_wk",
+        "range1": "$B$4:$F$10",
+        "range2": "$B$1:$F$10",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Porto",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "OTD SIL",
+            "orientation": 2,
+            "current_page": null
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Weekly_DS",
+        "name": "PivotTable1",
+        "source_data": "ROE_wk",
+        "range1": "$A$6:$E$74",
+        "range2": "$A$3:$E$74",
+        "fields": [
+          {
+            "name": "Provedor",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Weekly_DS",
+        "name": "PivotTable4",
+        "source_data": "ROE_wk",
+        "range1": "$J$31:$N$33",
+        "range2": "$J$28:$N$33",
+        "fields": [
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Weekly_DS",
+        "name": "PivotTable3",
+        "source_data": "ROE_wk",
+        "range1": "$J$18:$N$19",
+        "range2": "$J$15:$N$19",
+        "fields": [
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "Weekly_DS",
+        "name": "PivotTable2",
+        "source_data": "ROE_wk",
+        "range1": "$J$6:$N$8",
+        "range2": "$J$3:$N$8",
+        "fields": [
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Centro de Custo",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Volume",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Justificativa",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Values",
+            "orientation": 2,
+            "current_page": null
+          }
+        ],
+        "flags": []
+      },
+      {
+        "sheet": "ROE_wk_cancel",
+        "name": "PivotTable1",
+        "source_data": "ROE_wk_cancel",
+        "range1": "$BJ$5:$BK$28",
+        "range2": "$BJ$2:$BK$28",
+        "fields": [
+          {
+            "name": "Tipo Serviço",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          },
+          {
+            "name": "Cliente Proposta",
+            "orientation": 1,
+            "current_page": null
+          },
+          {
+            "name": "Origem/Destino",
+            "orientation": 3,
+            "current_page": "(Tudo)"
+          }
+        ],
+        "flags": []
+      }
+    ],
+    "connections": [
+      {
+        "name": "ModelConnection_fCarrosselOTO",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fCarrosselOTO | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ModelConnection_fCliente BrandOTO",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fCliente BrandOTO | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ModelConnection_fCliente PortoMoves",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fCliente PortoMoves | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ModelConnection_fCliente PortoOTO",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fCliente PortoOTO | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ModelConnection_fEMB CL PR_OTO",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fEMB CL PR_OTO | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ModelConnection_fEMB LocalOTO",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fEMB LocalOTO | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ModelConnection_fProvedorMoves",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fProvedorMoves | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ModelConnection_fProvedorOTO",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fProvedorOTO | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ModelConnection_fSafraOTO",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fSafraOTO | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ModelConnection_fTerminalMoves",
+        "type": "7",
+        "source": "Connection=OLEDB; | CommandText=fTerminalMoves | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fCarrosselOTO",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fCarrosselOTO;Extended Properties=\u0000 | CommandText=\"fCarrosselOTO\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fCliente+BrandOTO",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fCliente+BrandOTO;Extended Properties=\u0000 | CommandText=\"fCliente+BrandOTO\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fCliente+PortoMoves",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fCliente+PortoMoves;Extended Properties=\u0000 | CommandText=\"fCliente+PortoMoves\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fCliente+PortoOTO",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fCliente+PortoOTO;Extended Properties=\u0000 | CommandText=\"fCliente+PortoOTO\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fEMB+CL+PR_OTO",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fEMB+CL+PR_OTO;Extended Properties=\u0000 | CommandText=\"fEMB+CL+PR_OTO\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fEMB+LocalOTO",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fEMB+LocalOTO;Extended Properties=\u0000 | CommandText=\"fEMB+LocalOTO\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fJustificativasMoves",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fJustificativasMoves;Extended Properties=\"\" | CommandText=SELECT * FROM [fJustificativasMoves] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fJustificativasMoves (2)",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=\"fJustificativasMoves (2)\";Extended Properties=\"\" | CommandText=SELECT * FROM [fJustificativasMoves (2)] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fJustificativasOTO",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fJustificativasOTO;Extended Properties=\"\" | CommandText=SELECT * FROM [fJustificativasOTO] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fProvedorMoves",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fProvedorMoves;Extended Properties=\u0000 | CommandText=\"fProvedorMoves\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fProvedorOTO",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fProvedorOTO;Extended Properties=\u0000 | CommandText=\"fProvedorOTO\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fRAO_Ativos",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fRAO_Ativos;Extended Properties=\"\" | CommandText=SELECT * FROM [fRAO_Ativos] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fSafraOTO",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fSafraOTO;Extended Properties=\u0000 | CommandText=\"fSafraOTO\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - fTerminalMoves",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fTerminalMoves;Extended Properties=\u0000 | CommandText=\"fTerminalMoves\" | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - PickWeek",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=PickWeek;Extended Properties=\"\" | CommandText=SELECT * FROM [PickWeek] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - Query1",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Query1;Extended Properties=\"\" | CommandText=SELECT * FROM [Query1] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - Reagendas",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Reagendas;Extended Properties=\"\" | CommandText=SELECT * FROM [Reagendas] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - Reagendas_Filtro",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Reagendas_Filtro;Extended Properties=\"\" | CommandText=SELECT * FROM [Reagendas_Filtro] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - ROE_wk_cancel",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=ROE_wk_cancel;Extended Properties=\"\" | CommandText=SELECT * FROM [ROE_wk_cancel] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - Sheet1",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Sheet1;Extended Properties=\"\" | CommandText=SELECT * FROM [Sheet1] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "Query - Validacao_Final",
+        "type": "1",
+        "source": "Connection=OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Validacao_Final;Extended Properties=\"\" | CommandText=SELECT * FROM [Validacao_Final] | SourceConnectionFile=",
+        "flags": []
+      },
+      {
+        "name": "ThisWorkbookDataModel",
+        "type": "7",
+        "source": "",
+        "flags": []
+      }
+    ],
+    "links": [],
+    "names_flagged": [
+      {
+        "name": "DSU_LastUpdateAt",
+        "refers_to": "=\"2026-06-03 08:25:11\""
+      },
+      {
+        "name": "DSU_LastUpdateEtapa",
+        "refers_to": "=\"Atualizando Reagendas\""
+      },
+      {
+        "name": "DSU_LastUpdateMessage",
+        "refers_to": "=\" | Etapa: Atualizando Reagendas | Erro: -2147220984 - Atualizando Reagendas falhou. Tabela: 1004 - Erro de definição de aplicativo ou de definição de objeto | Conexao: 1004 - [Erro de Permissão] As credenciais fornecidas para a fonte Web são \""
+      },
+      {
+        "name": "DSU_LastUpdateStatus",
+        "refers_to": "=\"ERRO\""
+      }
+    ]
+  },
+  "zip": {
+    "external_link_parts": [],
+    "pivot_cache_definition_flags": [
+      {
+        "part": "xl/pivotCache/pivotCacheDefinition1.xml",
+        "flags": [
+          "external_or_old_text"
+        ],
+        "snippet": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<pivotCacheDefinition xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" mc:Ignorable=\"xr\" xmlns:xr=\"http://schemas.microsoft.com/office/spreadsheetml/2014/revision\" r:id=\"rId1\" refreshedBy=\"Vinicius Novais Silva\" refreshedDate=\"46156.391826157407\" createdVersion=\"8\" refreshedVersion=\"8\" minRefreshableVersion=\"3\" recordCount=\"1\" xr:uid=\"{B86751D8-CEBB-441A-A88B-8088BF032EBC}\"><cacheSource type=\"worksheet\"><worksheetSource ref=\"A1:Y2\" sheet=\"SIL_wk\" r:id=\"rId2\"/></cacheSource><cacheFields count=\"25\"><cacheField name=\"BU\" numFmtId=\"49\"><sharedItems containsBlank=\"1\" count=\"9\"><s v=\"SSZ\"/><s v=\"MAO\" u=\"1\"/><s v=\"REC\" u=\"1\"/><s v=\"RIO\" u=\"1\"/><s v=\"ITJ\" u=\"1\"/><s v=\"FOR\" u=\"1\"/><s v=\"SSA\" u=\"1\"/><s v=\"POA\" u=\"1\"/><m u=\"1\"/></sharedItems></cacheField><cacheField name=\"Númer"
+      },
+      {
+        "part": "xl/pivotCache/pivotCacheDefinition2.xml",
+        "flags": [
+          "external_or_old_text"
+        ],
+        "snippet": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<pivotCacheDefinition xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" mc:Ignorable=\"xr\" xmlns:xr=\"http://schemas.microsoft.com/office/spreadsheetml/2014/revision\" r:id=\"rId1\" refreshedBy=\"Vinicius Novais Silva\" refreshedDate=\"46176.291093865744\" missingItemsLimit=\"0\" createdVersion=\"8\" refreshedVersion=\"8\" minRefreshableVersion=\"3\" recordCount=\"9846\" xr:uid=\"{65E8AE57-D5C7-42F7-BA94-942FDBA8B2E9}\"><cacheSource type=\"worksheet\"><worksheetSource name=\"ROE_wk\"/></cacheSource><cacheFields count=\"84\"><cacheField name=\"Nº OS\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheField><cacheField name=\"ST\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheField><cacheField name=\"Tipo OS\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheField><cacheField name=\"Provedor\""
+      },
+      {
+        "part": "xl/pivotCache/pivotCacheDefinition3.xml",
+        "flags": [
+          "external_or_old_text"
+        ],
+        "snippet": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<pivotCacheDefinition xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" mc:Ignorable=\"xr\" xmlns:xr=\"http://schemas.microsoft.com/office/spreadsheetml/2014/revision\" r:id=\"rId1\" refreshedBy=\"Vinicius Novais Silva\" refreshedDate=\"46176.291118287038\" missingItemsLimit=\"0\" createdVersion=\"8\" refreshedVersion=\"8\" minRefreshableVersion=\"3\" recordCount=\"131\" xr:uid=\"{93DB7021-EFD0-4F88-ADC9-217519EE40FF}\"><cacheSource type=\"worksheet\"><worksheetSource name=\"Reagendas\"/></cacheSource><cacheFields count=\"59\"><cacheField name=\"Numero CTe\" numFmtId=\"0\"><sharedItems containsString=\"0\" containsBlank=\"1\" containsNumber=\"1\" containsInteger=\"1\" minValue=\"15066\" maxValue=\"537976\"/></cacheField><cacheField name=\"Numero Controle CTe\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheF"
+      },
+      {
+        "part": "xl/pivotCache/pivotCacheDefinition4.xml",
+        "flags": [
+          "external_or_old_text"
+        ],
+        "snippet": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<pivotCacheDefinition xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" mc:Ignorable=\"xr\" xmlns:xr=\"http://schemas.microsoft.com/office/spreadsheetml/2014/revision\" r:id=\"rId1\" refreshedBy=\"Vinicius Novais Silva\" refreshedDate=\"46176.291118865738\" missingItemsLimit=\"0\" createdVersion=\"8\" refreshedVersion=\"8\" minRefreshableVersion=\"3\" recordCount=\"5\" xr:uid=\"{6F7ED113-BCDB-4E36-9D0E-E4F61C5E4E65}\"><cacheSource type=\"worksheet\"><worksheetSource name=\"Validacao_Final\"/></cacheSource><cacheFields count=\"17\"><cacheField name=\"Grupo - Justificativa\" numFmtId=\"0\"><sharedItems count=\"1\"><s v=\"Landside\"/></sharedItems></cacheField><cacheField name=\"Segmentação\" numFmtId=\"0\"><sharedItems/></cacheField><cacheField name=\"Diferença Horário\" numFmtId=\"0\"><sharedItems/></cacheField>"
+      },
+      {
+        "part": "xl/pivotCache/pivotCacheDefinition5.xml",
+        "flags": [
+          "external_or_old_text"
+        ],
+        "snippet": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<pivotCacheDefinition xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" mc:Ignorable=\"xr\" xmlns:xr=\"http://schemas.microsoft.com/office/spreadsheetml/2014/revision\" r:id=\"rId1\" refreshedBy=\"Vinicius Novais Silva\" refreshedDate=\"46176.291119907408\" createdVersion=\"8\" refreshedVersion=\"8\" minRefreshableVersion=\"3\" recordCount=\"2745\" xr:uid=\"{2927661F-C525-4BB8-AB16-949E728D5EE9}\"><cacheSource type=\"worksheet\"><worksheetSource name=\"ROE_wk_cancel\"/></cacheSource><cacheFields count=\"59\"><cacheField name=\"Nº OS\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheField><cacheField name=\"ST\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheField><cacheField name=\"Tipo OS\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheField><cacheField name=\"Provedor\" numFmtId=\"0\"><"
+      },
+      {
+        "part": "xl/pivotCache/pivotCacheDefinition6.xml",
+        "flags": [
+          "external_or_old_text"
+        ],
+        "snippet": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\r\n<pivotCacheDefinition xmlns=\"http://schemas.openxmlformats.org/spreadsheetml/2006/main\" xmlns:r=\"http://schemas.openxmlformats.org/officeDocument/2006/relationships\" xmlns:mc=\"http://schemas.openxmlformats.org/markup-compatibility/2006\" mc:Ignorable=\"xr\" xmlns:xr=\"http://schemas.microsoft.com/office/spreadsheetml/2014/revision\" r:id=\"rId1\" refreshedBy=\"Vinicius Novais Silva\" refreshedDate=\"46176.471126736113\" createdVersion=\"8\" refreshedVersion=\"8\" minRefreshableVersion=\"3\" recordCount=\"9846\" xr:uid=\"{430D8177-BD8E-42FC-860D-026409CD51FC}\"><cacheSource type=\"worksheet\"><worksheetSource ref=\"A1:CF9847\" sheet=\"ROE_wk\"/></cacheSource><cacheFields count=\"84\"><cacheField name=\"Nº OS\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheField><cacheField name=\"ST\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheField><cacheField name=\"Tipo OS\" numFmtId=\"0\"><sharedItems containsBlank=\"1\"/></cacheField><cacheField name=\"Provedor\" numF"
+      }
+    ],
+    "vba_present": true
+  }
+}

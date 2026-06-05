@@ -140,7 +140,8 @@ def update_special_formula(roe_ws) -> None:
         E(NÃO(ÉERROS(PROCURAR("BMW DO BRASIL LTDA";textoRegra)));ehFrotaMaersk);
         E(NÃO(ÉERROS(PROCURAR("WESTROCK";textoRegra)));ehCabotagem);
         E(NÃO(ÉERROS(PROCURAR("MARIO JOSE WERNER & CIA LTDA";textoRegra)));porto="Itajai");
-        E(cliente="VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER";provedor="IRB LOGISTICA S.A.";porto="Rio")
+        E(cliente="VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER";provedor="IRB LOGISTICA S.A.";porto="Rio");
+        E(cliente="AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO";provedor="UNITRADING LOGISTICA IMPORTACAO E EXPORT";porto="Santos")
     );
     especialLegado;OU(
         cliente="SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG";

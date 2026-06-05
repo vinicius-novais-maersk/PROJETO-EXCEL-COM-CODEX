@@ -1,0 +1,310 @@
+{
+  "tmp": "C:\\Users\\VNO024\\AppData\\Local\\Temp\\dsu_reagendas_diag_t9a37w9g\\Base_DSU2026 - TbM - WK23.xlsm",
+  "queries": [
+    {
+      "name": "Reagendas",
+      "formula": "let\r\n    // ===== Fonte principal (robusta para o novo caminho) =====\r\n    SiteUrl        = \"https://teamsite.maerskgroup.com/teams/Corporate-BI\",\r\n    PastaRelativa  = \"/teams/Corporate-BI/Shared Documents/General/1. Atendimento/Squad LNS/\",\r\n    NomeArquivo    = \"Histórico - Reagendamentos_v2.1.xlsm\",\r\n\r\n    // Lista todos os arquivos do site\r\n    Fonte          = SharePoint.Files(SiteUrl, [ApiVersion = 15]),\r\n\r\n    // Garante comparação sem case-sensitivity no Folder Path\r\n    EmPasta        = Table.SelectRows(\r\n                        Fonte,\r\n                        each Text.EndsWith(\r\n                            Text.Lower([Folder Path]),\r\n                            Text.Lower(PastaRelativa)\r\n                        )\r\n                     ),\r\n\r\n    // Seleciona o arquivo pelo nome dentro da pasta\r\n    EmArquivo      = Table.SelectRows(EmPasta, each [Name] = NomeArquivo),\r\n\r\n    // Mensagem de erro amigável se não encontrar\r\n    _check         = if Table.RowCount(EmArquivo) = 0\r\n                     then error \"Arquivo não encontrado em: \" & PastaRelativa & \" → \" & NomeArquivo\r\n                     else null,\r\n\r\n    Arquivo        = EmArquivo{0}[Content],\r\n\r\n    // ===== A partir daqui, tudo igual ao seu tratamento =====\r\n    Conteudo       = Excel.Workbook(Arquivo, null, true),\r\n    AbaControle    = Table.SelectRows(Conteudo, each [Name] = \"Controle\"),\r\n    DadosControle  = AbaControle{0}[Data],\r\n    RemoveLinhas   = Table.Skip(DadosControle, 3),\r\n    Promovido      = Table.PromoteHeaders(RemoveLinhas, [PromoteAllScalars=true]),\r\n    #\"Removed Columns\" = Table.RemoveColumns(Promovido,{\"Column1\"}),\r\n\r\n    #\"Changed Type\" =\r\n        Table.TransformColumnTypes(#\"Removed Columns\",\r\n            {\r\n                {\"Data Agendamento Coleta\", type datetime}, {\"Data Programacao Coleta\", type datetime},\r\n                {\"Deadline Carga\", type datetime}, {\"ETA POL\", type datetime}, {\"ETD POL\", type datetime},\r\n                {\"ETA POD\", type datetime}, {\"ETD POD\", type datetime},\r\n                {\"Data Agendamento Entrega\", type datetime}, {\"Data Programacao Entrega\", type datetime},\r\n                {\"Data Alteracao\", type datetime}, {\"De\", type datetime}, {\"Para\", type datetime},\r\n                {\"Data\", type datetime}\r\n            }\r\n        ),\r\n\r\n    #\"Removed Columns1\" =\r\n        Table.RemoveColumns(#\"Changed Type\",\r\n            {\"Column53\",\"Column54\",\"Column55\",\"Column56\",\"Column57\",\"Column58\",\"Column59\",\"Column60\",\"Column61\",\"Column62\",\r\n             \"Column63\",\"Column64\",\"Column65\",\"Column66\",\"Column67\",\"Column68\",\"Column69\",\"Column70\",\"Column71\",\"Column72\",\r\n             \"Column73\",\"Column74\",\"Column75\",\"Column76\",\"Column77\",\"Column78\",\"Column79\",\"Column80\",\"Column81\",\"Column82\",\r\n             \"Column83\",\"Column84\",\"Column85\",\"Column86\"}),\r\n\r\n    Normalizado =\r\n        Table.TransformColumns(#\"Removed Columns1\",\r\n            {\r\n                {\"Porto Afetado\", each Text.Trim(Text.Clean(Text.From(_))), type text},\r\n                {\"Grupo - Justificativa\", each Text.Trim(Text.Clean(Text.From(_))), type text}\r\n            }),\r\n\r\n    ColunaCondicional =\r\n        Table.AddColumn(Normalizado, \"Num OS Final\",\r\n            each if [Tipo Alteracao] = \"Data Prog Ent\" then [Num OS Cancel Entrega]\r\n                 else if [Tipo Alteracao] = \"Data Prog Col\" then [Num OS Cancel Coleta]\r\n                 else null),\r\n\r\n    ColunaDiferenca =\r\n        Table.AddColumn(ColunaCondicional, \"Diferença Horário\",\r\n            each let delta = Duration.From([De] - [Data Alteracao])\r\n                 in if delta < #duration(0,0,0,0) then \"Negativo\"\r\n                    else Text.PadStart(Text.From(Duration.Hours(delta)),2,\"0\") & \":\" &\r\n                         Text.PadStart(Text.From(Duration.Minutes(delta)),2,\"0\") & \":\" &\r\n                         Text.PadStart(Text.From(Duration.Seconds(delta)),2,\"0\")),\r\n\r\n    ColunaRN =\r\n        Table.AddColumn(ColunaDiferenca, \"R/N\",\r\n            each if [Justif Alteracao] = \"Agendamento - Indisp. Veí",
+      "has_reagendas": true,
+      "has_web": true
+    },
+    {
+      "name": "Sheet1",
+      "formula": "let\r\n    Source = Excel.Workbook(Web.Contents(\"https://my.maerskgroup.com/personal/guilherme_britto_lns_maersk_com/Documents/Reagendas_No%20Show.xlsx\"), null, true),\r\n    Sheet1_Sheet = Source{[Item=\"Sheet1\",Kind=\"Sheet\"]}[Data],\r\n    #\"Promoted Headers\" = Table.PromoteHeaders(Sheet1_Sheet, [PromoteAllScalars=true]),\r\n    #\"Changed Type\" = Table.TransformColumnTypes(#\"Promoted Headers\",{{\"Id\", Int64.Type}, {\"Hora de início\", type datetime}, {\"Hora de conclusão\", type datetime}, {\"Email\", type text}, {\"Nome\", type text}, {\"Porto\", type text}, {\"Nº OS / Agendamento\", type text}, {\"Data de operação\", type date}, {\"Reagenda ou No Show?\", type text}})\r\nin\r\n    #\"Changed Type\"",
+      "has_reagendas": true,
+      "has_web": true
+    },
+    {
+      "name": "Reagendas_Filtro",
+      "formula": "let\r\n    Source = Reagendas,\r\n    SelectedColumns = Table.SelectColumns(Source, {\r\n        \"Num OS Final\", \r\n        \"OS Cancelada\", \r\n        \"Porto Afetado\", \r\n        \"Grupo - Justificativa\",\r\n        \"R/N\", \r\n        \"Diferença Horário\", \r\n        \"De\", \r\n        \"Para\", \r\n        \"Segmentação\", \r\n        \"Data\",\r\n        \"Justif Alteracao\", \r\n        \"Obs Alteracao\", \r\n        \"Semana\",\r\n        \"Data Alteracao\"\r\n    }),\r\n    #\"Reordered Columns\" = Table.ReorderColumns(SelectedColumns,{\"Segmentação\", \"Diferença Horário\", \"De\", \"Para\", \"Data\", \"Justif Alteracao\", \"Obs Alteracao\", \"Grupo - Justificativa\", \"Porto Afetado\", \"R/N\", \"Num OS Final\", \"OS Cancelada\", \"Semana\"}),\r\n    #\"Filtered Rows\" = Table.SelectRows(#\"Reordered Columns\", each ([#\"Grupo - Justificativa\"] = \"Landside\")),\r\n    #\"Reordered Columns1\" = Table.ReorderColumns(#\"Filtered Rows\",{\"Grupo - Justificativa\", \"Segmentação\", \"Diferença Horário\", \"De\", \"Para\", \"Data\", \"Justif Alteracao\", \"Obs Alteracao\", \"Porto Afetado\", \"R/N\", \"Num OS Final\", \"OS Cancelada\", \"Semana\"}),\r\n    #\"Filtered Rows1\" = Table.SelectRows(#\"Reordered Columns1\", each ([#\"R/N\"] = \"No-Show\" or [#\"R/N\"] = \"Reagendamento\"))\r\nin\r\n    #\"Filtered Rows1\"",
+      "has_reagendas": true,
+      "has_web": false
+    },
+    {
+      "name": "Validacao_Final",
+      "formula": "let\r\n    // 1. Carrega a query Reagendas_Filtro\r\n    Reagendas = Reagendas_Filtro,\r\n\r\n    // 2. Carrega a tabela de validações manuais\r\n    Validacoes = Excel.CurrentWorkbook(){[Name=\"Validacao_BU\"]}[Content],\r\n\r\n    // 3. Garante que ambas as tabelas usam texto para \"Num OS Final\"\r\n    ReagendasCorrigido = Table.TransformColumnTypes(Reagendas, {{\"Num OS Final\", type text}}),\r\n    ValidacoesCorrigido = Table.TransformColumnTypes(Validacoes, {{\"Num OS Final\", type text}}),\r\n\r\n    // 4. Remove duplicações de OS na tabela de validações\r\n    ValidacoesUnicas = Table.Distinct(ValidacoesCorrigido, {\"Num OS Final\"}),\r\n\r\n    // 5. Faz o merge pela coluna \"Num OS Final\"\r\n    Merged = Table.NestedJoin(ReagendasCorrigido, {\"Num OS Final\"}, ValidacoesUnicas, {\"Num OS Final\"}, \"ValInfo\", JoinKind.LeftOuter),\r\n\r\n    // 6. Expande as colunas de validação\r\n    Expanded = Table.ExpandTableColumn(Merged, \"ValInfo\", {\"Confere?\", \"Justificativa BU\"}),\r\n\r\n    // 7. Reordena as colunas no padrão desejado\r\n    Reordered = Table.ReorderColumns(Expanded, {\r\n        \"Grupo - Justificativa\", \"Segmentação\", \"Diferença Horário\", \"De\", \"Para\", \"Data\",\r\n        \"Justif Alteracao\", \"Obs Alteracao\", \"Porto Afetado\", \"R/N\", \"Num OS Final\", \"OS Cancelada\",\r\n        \"Semana\", \"Confere?\", \"Justificativa BU\"\r\n    }),\r\n    #\"Added Custom\" = Table.AddColumn(Reordered, \"WeekDay\", each Date.ToText(DateTime.Date([Data Alteracao]), \"ddd\", \"en-US\"))\r\nin\r\n    #\"Added Custom\"",
+      "has_reagendas": true,
+      "has_web": false
+    }
+  ],
+  "connections": [
+    {
+      "name": "Query - fCarrosselOTO",
+      "type": 1,
+      "description": "Connection to the 'fCarrosselOTO' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fCarrosselOTO;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fCarrosselOTO\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fCliente+BrandOTO",
+      "type": 1,
+      "description": "Connection to the 'fCliente+BrandOTO' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fCliente+BrandOTO;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fCliente+BrandOTO\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fCliente+PortoMoves",
+      "type": 1,
+      "description": "Connection to the 'fCliente+PortoMoves' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fCliente+PortoMoves;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fCliente+PortoMoves\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fCliente+PortoOTO",
+      "type": 1,
+      "description": "Connection to the 'fCliente+PortoOTO' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fCliente+PortoOTO;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fCliente+PortoOTO\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fEMB+CL+PR_OTO",
+      "type": 1,
+      "description": "Connection to the 'fEMB+CL+PR_OTO' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fEMB+CL+PR_OTO;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fEMB+CL+PR_OTO\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fEMB+LocalOTO",
+      "type": 1,
+      "description": "Connection to the 'fEMB+LocalOTO' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fEMB+LocalOTO;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fEMB+LocalOTO\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fJustificativasMoves",
+      "type": 1,
+      "description": "Connection to the 'fJustificativasMoves' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fJustificativasMoves;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [fJustificativasMoves]",
+      "ole_db_background": true,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fJustificativasMoves (2)",
+      "type": 1,
+      "description": "Connection to the 'fJustificativasMoves (2)' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=\"fJustificativasMoves (2)\";Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [fJustificativasMoves (2)]",
+      "ole_db_background": true,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fJustificativasOTO",
+      "type": 1,
+      "description": "Connection to the 'fJustificativasOTO' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fJustificativasOTO;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [fJustificativasOTO]",
+      "ole_db_background": true,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fProvedorMoves",
+      "type": 1,
+      "description": "Connection to the 'fProvedorMoves' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fProvedorMoves;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fProvedorMoves\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fProvedorOTO",
+      "type": 1,
+      "description": "Connection to the 'fProvedorOTO' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fProvedorOTO;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fProvedorOTO\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fRAO_Ativos",
+      "type": 1,
+      "description": "Connection to the 'fRAO_Ativos' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fRAO_Ativos;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [fRAO_Ativos]",
+      "ole_db_background": true,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fSafraOTO",
+      "type": 1,
+      "description": "Connection to the 'fSafraOTO' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fSafraOTO;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fSafraOTO\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - fTerminalMoves",
+      "type": 1,
+      "description": "Connection to the 'fTerminalMoves' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=fTerminalMoves;Extended Properties=\u0000",
+      "ole_db_command_text": "\"fTerminalMoves\"",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - PickWeek",
+      "type": 1,
+      "description": "Connection to the 'PickWeek' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=PickWeek;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [PickWeek]",
+      "ole_db_background": true,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - Query1",
+      "type": 1,
+      "description": "Connection to the 'Query1' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Query1;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [Query1]",
+      "ole_db_background": true,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - Reagendas",
+      "type": 1,
+      "description": "Connection to the 'Reagendas' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Reagendas;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [Reagendas]",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - Reagendas_Filtro",
+      "type": 1,
+      "description": "Connection to the 'Reagendas_Filtro' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Reagendas_Filtro;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [Reagendas_Filtro]",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - ROE_wk_cancel",
+      "type": 1,
+      "description": "Connection to the 'ROE_wk_cancel' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=ROE_wk_cancel;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [ROE_wk_cancel]",
+      "ole_db_background": true,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - Sheet1",
+      "type": 1,
+      "description": "Connection to the 'Sheet1' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Sheet1;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [Sheet1]",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    },
+    {
+      "name": "Query - Validacao_Final",
+      "type": 1,
+      "description": "Connection to the 'Validacao_Final' query in the workbook.",
+      "ole_db_connection": "OLEDB;Provider=Microsoft.Mashup.OleDb.1;Data Source=$Workbook$;Location=Validacao_Final;Extended Properties=\"\"",
+      "ole_db_command_text": "SELECT * FROM [Validacao_Final]",
+      "ole_db_background": false,
+      "odbc_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+    }
+  ],
+  "sheets": {
+    "Reagendas": {
+      "used_range": "$A$1:$U$514",
+      "listobjects": [
+        {
+          "name": "Sheet1",
+          "range": "$A$1:$R$514",
+          "rows": 514,
+          "cols": 18,
+          "source_type": 3,
+          "querytable_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+        }
+      ],
+      "querytables": [],
+      "pivots": [],
+      "rows": 514,
+      "cols": 21
+    },
+    "Reagendas_2": {
+      "used_range": "$A$1:$BG$132",
+      "listobjects": [
+        {
+          "name": "Reagendas",
+          "range": "$A$1:$BG$132",
+          "rows": 132,
+          "cols": 59,
+          "source_type": 3,
+          "querytable_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+        }
+      ],
+      "querytables": [],
+      "pivots": [],
+      "rows": 132,
+      "cols": 59
+    },
+    "Reagendas_Filtro": {
+      "used_range": "$A$1:$N$6",
+      "listobjects": [
+        {
+          "name": "Reagendas_Filtro",
+          "range": "$A$1:$N$6",
+          "rows": 6,
+          "cols": 14,
+          "source_type": 3,
+          "querytable_error": "com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+        }
+      ],
+      "querytables": [],
+      "pivots": [],
+      "rows": 6,
+      "cols": 14
+    }
+  },
+  "names": [
+    {
+      "name": "Reagendas_2!_FilterDatabase",
+      "refers_to": "=Reagendas_2!$BJ$1:$BJ$3213"
+    },
+    {
+      "name": "DSU_LastUpdateAt",
+      "refers_to": "=\"2026-06-03 08:25:11\""
+    },
+    {
+      "name": "DSU_LastUpdateEtapa",
+      "refers_to": "=\"Atualizando Reagendas\""
+    },
+    {
+      "name": "DSU_LastUpdateMessage",
+      "refers_to": "=\" | Etapa: Atualizando Reagendas | Erro: -2147220984 - Atualizando Reagendas falhou. Tabela: 1004 - Erro de definição de aplicativo ou de definição de objeto | Conexao: 1004 - [Erro de Permissão] As credenciais fornecidas para a fonte Web são \""
+    },
+    {
+      "name": "DSU_LastUpdateStatus",
+      "refers_to": "=\"ERRO\""
+    },
+    {
+      "name": "'Reagendas'!ExternalData_1",
+      "refers_to": "='Reagendas'!$A$1:$M$514"
+    },
+    {
+      "name": "Reagendas_2!ExternalData_1",
+      "refers_to": "=Reagendas_2!$A$1:$BE$132"
+    },
+    {
+      "name": "'Reagendas_Filtro'!ExternalData_2",
+      "refers_to": "='Reagendas_Filtro'!$A$1:$N$6"
+    }
+  ],
+  "errors": [],
+  "query_count": 21,
+  "connection_count": 32
+}

@@ -1,0 +1,337 @@
+{
+  "tmp": "C:\\Users\\VNO024\\AppData\\Local\\Temp\\dsu_vba_export_oe3aovei\\Base_DSU2026 - TbM - WK23.xlsm",
+  "outdir": "analysis\\vba_export_20260603_130857",
+  "components": [
+    {
+      "name": "ThisWorkbook",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\ThisWorkbook.cls"
+    },
+    {
+      "name": "Sheet5",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet5.cls"
+    },
+    {
+      "name": "Sheet9",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet9.cls"
+    },
+    {
+      "name": "Sheet15",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet15.cls"
+    },
+    {
+      "name": "Sheet10",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet10.cls"
+    },
+    {
+      "name": "Sheet11",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet11.cls"
+    },
+    {
+      "name": "Sheet12",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet12.cls"
+    },
+    {
+      "name": "Sheet13",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet13.cls"
+    },
+    {
+      "name": "Sheet14",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet14.cls"
+    },
+    {
+      "name": "Sheet6",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet6.cls"
+    },
+    {
+      "name": "Sheet20",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet20.cls"
+    },
+    {
+      "name": "Sheet23",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet23.cls"
+    },
+    {
+      "name": "Sheet16",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet16.cls"
+    },
+    {
+      "name": "Sheet8",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet8.cls"
+    },
+    {
+      "name": "Sheet19",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet19.cls"
+    },
+    {
+      "name": "Sheet18",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet18.cls"
+    },
+    {
+      "name": "Sheet7",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet7.cls"
+    },
+    {
+      "name": "Sheet2",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet2.cls"
+    },
+    {
+      "name": "Sheet1",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet1.cls"
+    },
+    {
+      "name": "Sheet4",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet4.cls"
+    },
+    {
+      "name": "Sheet3",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet3.cls"
+    },
+    {
+      "name": "Sheet21",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet21.cls"
+    },
+    {
+      "name": "Sheet22",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet22.cls"
+    },
+    {
+      "name": "Module1",
+      "type": 1,
+      "lines": 79,
+      "file": "analysis\\vba_export_20260603_130857\\Module1.bas"
+    },
+    {
+      "name": "Module2",
+      "type": 1,
+      "lines": 76,
+      "file": "analysis\\vba_export_20260603_130857\\Module2.bas"
+    },
+    {
+      "name": "Module3",
+      "type": 1,
+      "lines": 83,
+      "file": "analysis\\vba_export_20260603_130857\\Module3.bas"
+    },
+    {
+      "name": "Module4",
+      "type": 1,
+      "lines": 83,
+      "file": "analysis\\vba_export_20260603_130857\\Module4.bas"
+    },
+    {
+      "name": "Module5",
+      "type": 1,
+      "lines": 83,
+      "file": "analysis\\vba_export_20260603_130857\\Module5.bas"
+    },
+    {
+      "name": "Module6",
+      "type": 1,
+      "lines": 135,
+      "file": "analysis\\vba_export_20260603_130857\\Module6.bas"
+    },
+    {
+      "name": "Module7",
+      "type": 1,
+      "lines": 70,
+      "file": "analysis\\vba_export_20260603_130857\\Module7.bas"
+    },
+    {
+      "name": "Sheet24",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet24.cls"
+    },
+    {
+      "name": "Sheet27",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet27.cls"
+    },
+    {
+      "name": "Sheet28",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet28.cls"
+    },
+    {
+      "name": "Sheet29",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet29.cls"
+    },
+    {
+      "name": "Module8",
+      "type": 1,
+      "lines": 26,
+      "file": "analysis\\vba_export_20260603_130857\\Module8.bas"
+    },
+    {
+      "name": "Sheet17",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet17.cls"
+    },
+    {
+      "name": "Module9",
+      "type": 1,
+      "lines": 89,
+      "file": "analysis\\vba_export_20260603_130857\\Module9.bas"
+    },
+    {
+      "name": "Sheet25",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet25.cls"
+    },
+    {
+      "name": "Sheet30",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet30.cls"
+    },
+    {
+      "name": "Sheet31",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet31.cls"
+    },
+    {
+      "name": "Module10",
+      "type": 1,
+      "lines": 26,
+      "file": "analysis\\vba_export_20260603_130857\\Module10.bas"
+    },
+    {
+      "name": "UserForm1",
+      "type": 3,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\UserForm1.frm"
+    },
+    {
+      "name": "UserForm2",
+      "type": 3,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\UserForm2.frm"
+    },
+    {
+      "name": "Sheet26",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet26.cls"
+    },
+    {
+      "name": "Sheet32",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet32.cls"
+    },
+    {
+      "name": "Sheet33",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet33.cls"
+    },
+    {
+      "name": "Sheet35",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet35.cls"
+    },
+    {
+      "name": "Sheet36",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet36.cls"
+    },
+    {
+      "name": "Sheet37",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet37.cls"
+    },
+    {
+      "name": "Sheet39",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Sheet39.cls"
+    },
+    {
+      "name": "UserForm3",
+      "type": 3,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\UserForm3.frm"
+    },
+    {
+      "name": "Módulo1",
+      "type": 1,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Módulo1.bas"
+    },
+    {
+      "name": "Planilha1",
+      "type": 100,
+      "lines": 0,
+      "file": "analysis\\vba_export_20260603_130857\\Planilha1.cls"
+    },
+    {
+      "name": "modCodexAtualizacaoDashboards",
+      "type": 1,
+      "lines": 187,
+      "file": "analysis\\vba_export_20260603_130857\\modCodexAtualizacaoDashboards.bas"
+    },
+    {
+      "name": "modAtualizarTudoDSU",
+      "type": 1,
+      "lines": 224,
+      "file": "analysis\\vba_export_20260603_130857\\modAtualizarTudoDSU.bas"
+    }
+  ],
+  "error": null
+}
