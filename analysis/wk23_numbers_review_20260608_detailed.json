@@ -1,0 +1,454 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+  "source_modified": "2026-06-08T08:33:15",
+  "active_week": 23,
+  "selected_port": "Vila do Conde",
+  "named_status": {
+    "DSU_LastUpdateStatus": [],
+    "DSU_LastUpdateEtapa": [],
+    "DSU_LastUpdateMessage": [],
+    "DSU_LastUpdateAt": []
+  },
+  "formula_error_scan": {
+    "Din": [
+      {
+        "cell": "AI12",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AM12",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AI13",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AM13",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AI14",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AM14",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AI15",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AM15",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AI16",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AM16",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AI17",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AM17",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AI18",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AM18",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AI19",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AM19",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AI20",
+        "value": "#DIV/0!"
+      },
+      {
+        "cell": "AM20",
+        "value": "#DIV/0!"
+      }
+    ]
+  },
+  "formula_coverage": {
+    "Week_Overview": 607,
+    "Volume_DS": 171,
+    "Volume_Graph": 177,
+    "Volume_MAO": 186,
+    "Region errors": 42,
+    "Top_Offenders_Customers": 7702,
+    "Top_Offenders_Vendors": 81
+  },
+  "base_summary": {
+    "total_week_rows_volume_ok": 4289,
+    "cab_rows": 3310,
+    "ds_rows": 979,
+    "unique_os": 4289,
+    "duplicate_unique_os": 0,
+    "duplicate_extra_rows": 0,
+    "blank_port": 0,
+    "blank_region": 0,
+    "blank_day_week": 0,
+    "missing_in_sil": 128,
+    "missing_in_rao": 0,
+    "sem_preenchimento_oto_n": 401,
+    "delayed_oto_n": 262,
+    "delayed_oto_n_non_special": 239,
+    "special_rows": 592,
+    "by_region": {
+      "North": 1260,
+      "Northeast": 1058,
+      "Southeast": 1325,
+      "South": 646
+    },
+    "by_port_top": [
+      [
+        "Manaus",
+        1183
+      ],
+      [
+        "Santos",
+        1100
+      ],
+      [
+        "Suape",
+        514
+      ],
+      [
+        "Itapoa",
+        391
+      ],
+      [
+        "Pecem",
+        310
+      ],
+      [
+        "Salvador",
+        234
+      ],
+      [
+        "Rio",
+        214
+      ],
+      [
+        "Rio Grande",
+        81
+      ],
+      [
+        "Imbituba",
+        80
+      ],
+      [
+        "Vila do Conde",
+        77
+      ],
+      [
+        "Itajai",
+        73
+      ],
+      [
+        "Paranagua",
+        21
+      ],
+      [
+        "Vitoria",
+        11
+      ]
+    ],
+    "sem_by_region": {
+      "North": 195,
+      "South": 51,
+      "Southeast": 133,
+      "Northeast": 22
+    },
+    "delayed_by_region": {
+      "Northeast": 43,
+      "Southeast": 99,
+      "South": 37,
+      "North": 83
+    },
+    "special_by_region": {
+      "Northeast": 52,
+      "North": 214,
+      "Southeast": 126,
+      "South": 200
+    },
+    "ports_not_in_dashboard": {}
+  },
+  "week_overview_mismatches": [],
+  "amb_forecast_mismatches": [],
+  "selected_panel_mismatches": [],
+  "region_errors_all_weeks": {
+    "total": 408,
+    "by_region": {
+      "North": 195,
+      "South": 51,
+      "Southeast": 133,
+      "Northeast": 22,
+      "Sem Porto/Region": 7
+    }
+  },
+  "region_errors_active_week": {
+    "total": 401,
+    "by_region": {
+      "North": 195,
+      "South": 51,
+      "Southeast": 133,
+      "Northeast": 22
+    }
+  },
+  "special_denominator_impact": {
+    "Total BR": {
+      "current_formula": 0.9381149663386846,
+      "if_denominator_excludes_special": 0.9301373867290266,
+      "difference_pp": 0.7977579609658059
+    },
+    "CAB": {
+      "current_formula": 0.9424736337488016,
+      "if_denominator_excludes_special": 0.9362380446333688,
+      "difference_pp": 0.623558911543276
+    },
+    "DS": {
+      "current_formula": 0.9195088676671215,
+      "if_denominator_excludes_special": 0.9013377926421404,
+      "difference_pp": 1.8171075024981054
+    }
+  },
+  "total_metrics_recomputed": {
+    "D": 3310,
+    "H": 979,
+    "K": 4289,
+    "N": 0.9424736337488016,
+    "P": 0.9195088676671215,
+    "Q": 0.9381149663386846,
+    "R": 0.8788519637462235,
+    "S": 6.0,
+    "W": 3,
+    "X": 16,
+    "Y": 0,
+    "Z": 10,
+    "AA": 1,
+    "AB": 69,
+    "AC": 28,
+    "AD": 0,
+    "AE": 0,
+    "AF": 131,
+    "U": 216,
+    "V": 3329,
+    "D_all": 3310,
+    "H_all": 979,
+    "K_all": 4289
+  },
+  "week_overview_total_sheet": {
+    "D": 3310,
+    "H": 979,
+    "K": 4289,
+    "N": 0.94,
+    "P": 0.92,
+    "Q": 0.9381149663386846,
+    "R": 0.8788519637462235,
+    "S": 6,
+    "T": 89,
+    "U": 216,
+    "V": 3329,
+    "W": 3,
+    "X": 16,
+    "Y": 0,
+    "Z": 10,
+    "AA": 1,
+    "AB": 69,
+    "AC": 28,
+    "AD": 0,
+    "AE": 0,
+    "AF": 131
+  },
+  "selected_port_panel": {
+    "M2": 23,
+    "M3": "Vila do Conde",
+    "M9": 77,
+    "M10": 186,
+    "M11": 77,
+    "M12": 0,
+    "M13": 0,
+    "M16": null,
+    "M17": null,
+    "M18": 0,
+    "M19": 0
+  },
+  "region_errors_sheet_check": {
+    "sheet_filter_weeknum": "(Tudo)",
+    "note": "C:H formulas use B4. With B4=(Tudo), expected_all_weeks is the matching comparison.",
+    "rows": {
+      "North": {
+        "sheet_C_to_H": [
+          36,
+          34,
+          33,
+          0,
+          26,
+          27
+        ],
+        "expected_all_weeks_C_to_H": [
+          36,
+          34,
+          33,
+          0,
+          26,
+          27
+        ],
+        "expected_active_week_C_to_H": [
+          36,
+          34,
+          33,
+          0,
+          26,
+          27
+        ],
+        "formula_flags": {
+          "uses_blank_region_literal": false,
+          "uses_label_cell": true
+        }
+      },
+      "Southeast": {
+        "sheet_C_to_H": [
+          31,
+          13,
+          28,
+          24,
+          24,
+          13
+        ],
+        "expected_all_weeks_C_to_H": [
+          31,
+          13,
+          28,
+          24,
+          24,
+          13
+        ],
+        "expected_active_week_C_to_H": [
+          31,
+          13,
+          28,
+          24,
+          24,
+          13
+        ],
+        "formula_flags": {
+          "uses_blank_region_literal": false,
+          "uses_label_cell": true
+        }
+      },
+      "South": {
+        "sheet_C_to_H": [
+          19,
+          6,
+          6,
+          1,
+          3,
+          16
+        ],
+        "expected_all_weeks_C_to_H": [
+          19,
+          6,
+          6,
+          1,
+          3,
+          16
+        ],
+        "expected_active_week_C_to_H": [
+          19,
+          6,
+          6,
+          1,
+          3,
+          16
+        ],
+        "formula_flags": {
+          "uses_blank_region_literal": false,
+          "uses_label_cell": true
+        }
+      },
+      "Northeast": {
+        "sheet_C_to_H": [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected_all_weeks_C_to_H": [
+          0,
+          0,
+          17,
+          0,
+          2,
+          3
+        ],
+        "expected_active_week_C_to_H": [
+          0,
+          0,
+          17,
+          0,
+          2,
+          3
+        ],
+        "formula_flags": {
+          "uses_blank_region_literal": true,
+          "uses_label_cell": false
+        }
+      },
+      "Sem Porto/Region": {
+        "sheet_C_to_H": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected_all_weeks_C_to_H": [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "expected_active_week_C_to_H": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "formula_flags": {
+          "uses_blank_region_literal": false,
+          "uses_label_cell": true
+        }
+      }
+    },
+    "current_C_to_H_total": 347,
+    "expected_all_weeks_C_to_H_total": 369,
+    "expected_active_week_C_to_H_total": 362,
+    "sheet_B12": 315,
+    "sheet_I12": 315
+  }
+}

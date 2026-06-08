@@ -1,0 +1,3676 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+  "sheets": {
+    "Top_Offenders_Customers": {
+      "pivot_count": 5,
+      "pivots": [
+        {
+          "name": "PivotTable2_KPI_Helper",
+          "cache_index": 6,
+          "source_data": "ROE_wk",
+          "table_range1_address": "$AF$20:$AH$222",
+          "table_range2_address": "$AF$13:$AH$222",
+          "row_grand": true,
+          "column_grand": true,
+          "fields": [
+            {
+              "name": "Cliente Proposta",
+              "orientation": "row",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "ACUMULADORES MOURA SA",
+                "ADAR IND COM IMP EXP LTDA",
+                "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+                "AMBEV S A",
+                "AMCOR EMBALAGENS DA AMAZONIA SA",
+                "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+                "ARCOR DO BRASIL LTDA",
+                "ASSOCIACAO RECICLANIP",
+                "BALL EMBALAGENS LTDA",
+                "BMW DO BRASIL LTDA",
+                "BRACELL PAPEIS NORDESTE LTDA",
+                "BRASKEM S.A",
+                "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+                "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+                "CATERPILLAR BRASIL LTDA",
+                "CERAMICA BRASILEIRA CERBRAS LTDA",
+                "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+                "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+                "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+                "COOPERATIVA JURITI"
+              ],
+              "visible_items_count": ">=100_sampled_of_465"
+            },
+            {
+              "name": "Weeknum",
+              "orientation": "page",
+              "position": 4.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            },
+            {
+              "name": "Volume",
+              "orientation": "page",
+              "position": 6.0,
+              "current_page": "Ok",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Ok",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Porto",
+              "orientation": "page",
+              "position": 3.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "",
+                "Imbituba",
+                "Itajai",
+                "Itapoa",
+                "Manaus",
+                "Paranagua",
+                "Pecem",
+                "Rio",
+                "Rio Grande",
+                "Salvador",
+                "Santos",
+                "Suape",
+                "Vila do Conde",
+                "Vitoria",
+                "(blank)"
+              ],
+              "visible_items_count": 15
+            },
+            {
+              "name": "OTD ajustado",
+              "orientation": "page",
+              "position": 2.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Atrasado",
+                "No Prazo",
+                "(blank)"
+              ],
+              "visible_items_count": 3
+            },
+            {
+              "name": "OTO Out",
+              "orientation": "page",
+              "position": 5.0,
+              "current_page": "N",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "N",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Especiais",
+              "orientation": "page",
+              "position": 1.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Valores",
+              "orientation": "column",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": null,
+              "visible_items_sample": [
+                "Count of OS",
+                "Sum of Atrasado?"
+              ],
+              "visible_items_count": 2
+            }
+          ],
+          "data_fields_error": "TypeError(\"'PivotFields' object is not callable\")",
+          "data_fields": [],
+          "table_values": [
+            [
+              "Volume",
+              "Ok",
+              null
+            ],
+            [
+              "OTO Out",
+              "N",
+              null
+            ],
+            [
+              "Weeknum",
+              "(Tudo)",
+              null
+            ],
+            [
+              "Porto",
+              "(Tudo)",
+              null
+            ],
+            [
+              "OTD ajustado",
+              "(Vários itens)",
+              null
+            ],
+            [
+              "Especiais",
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null
+            ],
+            [
+              "Rótulos de Linha",
+              "Count of OS",
+              "Sum of Atrasado?"
+            ],
+            [
+              "ACUMULADORES MOURA SA",
+              1.0,
+              0.0
+            ],
+            [
+              "ADAR IND COM IMP EXP LTDA",
+              6.0,
+              0.0
+            ],
+            [
+              "AMBEV S A",
+              15.0,
+              1.0
+            ],
+            [
+              "AMCOR EMBALAGENS DA AMAZONIA SA",
+              7.0,
+              0.0
+            ],
+            [
+              "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+              8.0,
+              0.0
+            ],
+            [
+              "ASSOCIACAO RECICLANIP",
+              3.0,
+              0.0
+            ],
+            [
+              "BALL EMBALAGENS LTDA",
+              28.0,
+              1.0
+            ],
+            [
+              "BRASKEM S.A",
+              16.0,
+              3.0
+            ],
+            [
+              "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+              8.0,
+              0.0
+            ],
+            [
+              "CATERPILLAR BRASIL LTDA",
+              8.0,
+              1.0
+            ],
+            [
+              "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+              1.0,
+              0.0
+            ],
+            [
+              "COPOBRAS DA AMAZONIA INDUSTRIAL DE EMBAL",
+              2.0,
+              0.0
+            ],
+            [
+              "CREMER S.A.",
+              9.0,
+              0.0
+            ],
+            [
+              "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+              3.0,
+              0.0
+            ],
+            [
+              "CRUSOE FOODS INDUSTRIA IMPORTACAO E",
+              1.0,
+              0.0
+            ],
+            [
+              "D.D. WILLIAMSON DO BRASIL LTDA",
+              1.0,
+              0.0
+            ],
+            [
+              "DAXIA DOCE AROMA INDUSTRIA E COMERCIO LT",
+              1.0,
+              0.0
+            ],
+            [
+              "DEXCO SA",
+              7.0,
+              0.0
+            ],
+            [
+              "DURAMETAL LTDA",
+              5.0,
+              0.0
+            ],
+            [
+              "E P A EMPRESA DE PLASTICO DA AMAZONIA LT",
+              10.0,
+              0.0
+            ],
+            [
+              "FERREIRA COSTA E CIA LTDA",
+              3.0,
+              0.0
+            ],
+            [
+              "FOUR DISTRIBUICAO LTDA",
+              2.0,
+              0.0
+            ],
+            [
+              "FRESENIUS KABI BRASIL LTDA",
+              9.0,
+              0.0
+            ],
+            [
+              "GENERAL MOTORS DO BRASIL LTDA",
+              9.0,
+              1.0
+            ],
+            [
+              "GRANDFOOD INDUSTRIA E COMERCIO LTDA",
+              5.0,
+              0.0
+            ],
+            [
+              "HNK BR INDUSTRIA DE BEBIDAS LTDA.",
+              5.0,
+              0.0
+            ],
+            [
+              "INCEPA REVESTIMENTOS CERAMICOS LTDA",
+              9.0,
+              3.0
+            ],
+            [
+              "INDORAMA VENTURES POLIMEROS S.A.",
+              6.0,
+              1.0
+            ],
+            [
+              "JABIL INDUSTRIAL DO BRASIL LTDA",
+              3.0,
+              0.0
+            ],
+            [
+              "JAKS INDUSTRIA E COMERCIO DE PAPEL LTDA",
+              1.0,
+              0.0
+            ],
+            [
+              "KARINA PLASTICOS LTDA",
+              1.0,
+              0.0
+            ],
+            [
+              "KLABIN SA",
+              21.0,
+              1.0
+            ],
+            [
+              "LIOTECNICA TECNOLOGIA EM ALIMENTOS",
+              3.0,
+              0.0
+            ],
+            [
+              "MAERSK LNS PARANAGUA",
+              1.0,
+              0.0
+            ],
+            [
+              "MENEGOTTI INDUSTRIAS METALURGICAS LTDA",
+              3.0,
+              1.0
+            ],
+            [
+              "MILLENA COMERCIO VAREJISTA DE MOVEIS E.",
+              1.0,
+              0.0
+            ],
+            [
+              "MOTO HONDA DA AMAZONIA",
+              18.0,
+              0.0
+            ],
+            [
+              "MULTILIT FIBROCIMENTO LTDA",
+              3.0,
+              2.0
+            ],
+            [
+              "NEOVIA NUTRICAO E SAUDE ANIMAL LTDA.",
+              3.0,
+              0.0
+            ],
+            [
+              "NISSIN FOODS DO BRASIL LTDA",
+              1.0,
+              0.0
+            ],
+            [
+              "NOVELIS DO BRASIL LTDA",
+              25.0,
+              2.0
+            ],
+            [
+              "NT INDUSTRIA E COMERCIO DE PANIFICACAO L",
+              1.0,
+              0.0
+            ],
+            [
+              "PIRELLI PNEUS LTDA",
+              15.0,
+              0.0
+            ],
+            [
+              "PLACIBRAS DA AMAZONIA LTDA",
+              8.0,
+              1.0
+            ],
+            [
+              "PLACO DO BRASIL LTDA",
+              1.0,
+              0.0
+            ],
+            [
+              "PLAMAZ LTDA",
+              10.0,
+              2.0
+            ],
+            [
+              "PLASTIMIL INDUSTRIA E COMERCIO DE PLASTI",
+              1.0,
+              0.0
+            ],
+            [
+              "POLO DO ELETRO COMERCIAL DE MOVEIS LTDA",
+              4.0,
+              0.0
+            ],
+            [
+              "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+              21.0,
+              1.0
+            ],
+            [
+              "QUIMICA AMPARO LTDA",
+              12.0,
+              2.0
+            ],
+            [
+              "RAIZEN ENERGIA S.A",
+              4.0,
+              0.0
+            ],
+            [
+              "SEARA ALIMENTOS LTDA",
+              7.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "PivotTable1",
+          "cache_index": 6,
+          "source_data": "ROE_wk",
+          "table_range1_address": "$A$7:$F$231",
+          "table_range2_address": "$A$2:$F$231",
+          "row_grand": true,
+          "column_grand": true,
+          "fields": [
+            {
+              "name": "Provedor",
+              "orientation": "row",
+              "position": 2.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "A DA SILVA DINIZ ME",
+                "ADUKARGO TRANSPORTES LOGISTICA ESERVICOS",
+                "ALIANCA MANAUS",
+                "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+                "BCR LOGISTICA LTDA",
+                "BETEL TRANSPORTES DE CONTAINERS LTDA",
+                "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+                "CONTRAIL LOGISTICA S A TIJU",
+                "COOPERCARGA FROTA DEDICADA",
+                "COOPERCARGA S A",
+                "DOMINGUES E GODINHO TRANSPORTE DECARGAS",
+                "EXPRESSO VALE REAL LTDA",
+                "FLUXOR TRANSPORTES LTDA",
+                "FTI LOGISTICA LTDA",
+                "GAFOR S A",
+                "INTALOG LOGISTICA TRANSPORTES LTDA",
+                "IRB LOGISTICA LTDA",
+                "J RIVELINO MOREIRA LTDA",
+                "KAIROS LOGISTICA INTEGRADA LTDA",
+                "KRONOS LOGISTICA INTEGRADA LTDA"
+              ],
+              "visible_items_count": ">=100_sampled_of_119"
+            },
+            {
+              "name": "Cliente Proposta",
+              "orientation": "row",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "ACUMULADORES MOURA SA",
+                "ADAR IND COM IMP EXP LTDA",
+                "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+                "AMCOR EMBALAGENS DA AMAZONIA SA",
+                "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+                "ARCOR DO BRASIL LTDA",
+                "ASSOCIACAO RECICLANIP",
+                "BMW DO BRASIL LTDA",
+                "BRACELL PAPEIS NORDESTE LTDA",
+                "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+                "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+                "CATERPILLAR BRASIL LTDA",
+                "CERAMICA BRASILEIRA CERBRAS LTDA",
+                "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+                "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+                "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+                "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+                "Diversos",
+                "DOMESTILAR LTDA",
+                "DURAMETAL LTDA"
+              ],
+              "visible_items_count": ">=100_sampled_of_465"
+            },
+            {
+              "name": "Centro de Custo",
+              "orientation": "page",
+              "position": 3.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "Aliança",
+                "Maersk",
+                "Maersk-Outros",
+                "(blank)"
+              ],
+              "visible_items_count": 4
+            },
+            {
+              "name": "Volume",
+              "orientation": "page",
+              "position": 4.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Ok",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": "page",
+              "position": 1.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "0",
+                "1",
+                "(blank)"
+              ],
+              "visible_items_count": 3
+            },
+            {
+              "name": "OTO Out",
+              "orientation": "page",
+              "position": 2.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "N",
+                "S",
+                "(blank)"
+              ],
+              "visible_items_count": 3
+            },
+            {
+              "name": "Values",
+              "orientation": "column",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": null,
+              "visible_items_sample": [
+                "Count of OS",
+                "Sum of AtrasoRev",
+                "OTO WK",
+                "Avg Em horas",
+                "Avg % SLA agend"
+              ],
+              "visible_items_count": 5
+            }
+          ],
+          "data_fields_error": "TypeError(\"'PivotFields' object is not callable\")",
+          "data_fields": [],
+          "table_values": [
+            [
+              "Volume",
+              "Ok",
+              "Ok",
+              null,
+              null,
+              null
+            ],
+            [
+              "Centro de Custo",
+              "(Tudo)",
+              "All",
+              null,
+              null,
+              null
+            ],
+            [
+              "OTO Out",
+              "(Tudo)",
+              "All",
+              null,
+              null,
+              null
+            ],
+            [
+              "Atrasado?",
+              "(Tudo)",
+              "All",
+              null,
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "Rótulos de Linha",
+              "Count of OS",
+              "Sum of AtrasoRev",
+              "OTO WK",
+              "Avg Em horas",
+              "Avg % SLA agend"
+            ],
+            [
+              "QUEVEKS DO BRASIL IND E COM DE PRODUTOS",
+              1.0,
+              1.0,
+              0.0,
+              9.233333333333334,
+              1.0
+            ],
+            [
+              "ALLBRANDS INDUSTRIA DE ALIMENTOS LTD",
+              1.0,
+              1.0,
+              0.0,
+              5.2,
+              1.0
+            ],
+            [
+              "ALVOAR LACTEOS NORDESTE S/A",
+              2.0,
+              1.0,
+              0.5,
+              13.458333333333334,
+              1.0
+            ],
+            [
+              "TK ELEVADORES BRASIL LTDA",
+              2.0,
+              1.0,
+              0.5,
+              17.833333333333332,
+              1.0
+            ],
+            [
+              "ABB WOOD BRAZIL LTDA",
+              2.0,
+              0.0,
+              0.5,
+              5.633333333333333,
+              1.0
+            ],
+            [
+              "BACARDI MARTINI DO BRASIL INDUSTRIA E CO",
+              2.0,
+              1.0,
+              0.5,
+              7.225,
+              1.0
+            ],
+            [
+              "ARDAGH INDUSTRIA DE EMBALAGENS METALICAS",
+              2.0,
+              1.0,
+              0.5,
+              1.9333333333333333,
+              1.0
+            ],
+            [
+              "A M QUIMICA INDUSTRIA E COMERCIO DEPRODU",
+              2.0,
+              2.0,
+              0.5714285714285714,
+              1.5500000000000003,
+              1.0
+            ],
+            [
+              "SALINOR SALINAS DO NORDESTE SA",
+              2.0,
+              1.0,
+              0.6,
+              4.175,
+              1.0
+            ],
+            [
+              "TRAMONTINA MULTI SA",
+              3.0,
+              1.0,
+              0.6666666666666666,
+              7.338888888888889,
+              1.0
+            ],
+            [
+              "VOLKSWAGEN DO BRASIL IND DE VEICULOS",
+              10.0,
+              3.0,
+              0.6799999999999998,
+              4.445,
+              0.0
+            ],
+            [
+              "GDC ALIMENTOS SA",
+              2.0,
+              1.0,
+              0.75,
+              1.9,
+              1.0
+            ],
+            [
+              "H J SANTA FE COMERCIAL E AGRICOLA LTDA",
+              3.0,
+              0.0,
+              0.75,
+              14.555555555555557,
+              1.0
+            ],
+            [
+              "MINERACAO OURO BRANCO LTDA",
+              2.0,
+              1.0,
+              0.75,
+              7.6499999999999995,
+              1.0
+            ],
+            [
+              "ALCAST DO BRASIL S/A",
+              4.0,
+              1.0,
+              0.75,
+              5.7333333333333325,
+              1.0
+            ],
+            [
+              "PENHA PAPEIS E EMBALAGENS LTDA",
+              4.0,
+              1.0,
+              0.75,
+              2.183333333333333,
+              1.0
+            ],
+            [
+              "UNILEVER BRASIL ALIMENTOS LTDA",
+              3.0,
+              1.0,
+              0.753968253968254,
+              6.3388888888888895,
+              1.0
+            ],
+            [
+              "RISADINHA LTDA",
+              2.0,
+              0.0,
+              0.7777777777777778,
+              0.0,
+              1.0
+            ],
+            [
+              "INCEPA REVESTIMENTOS CERAMICOS LTDA",
+              9.0,
+              3.0,
+              0.7777777777777778,
+              8.285185185185185,
+              1.0
+            ],
+            [
+              "MENEGOTTI INDUSTRIAS METALURGICAS LTDA",
+              3.0,
+              1.0,
+              0.7777777777777778,
+              2.566666666666667,
+              1.0
+            ],
+            [
+              "LANXESS INDUSTRIA DE PRODUTOS QUIMICOS E",
+              2.0,
+              2.0,
+              0.7777777777777778,
+              17.016666666666666,
+              0.0
+            ],
+            [
+              "MULTILIT FIBROCIMENTO LTDA",
+              6.0,
+              2.0,
+              0.7999999999999999,
+              2.4055555555555554,
+              0.7000000000000001
+            ],
+            [
+              "BLUEWAY TRADING IMPORTACAO E EXPORTACAO",
+              6.0,
+              2.0,
+              0.7999999999999999,
+              4.316666666666666,
+              1.0
+            ],
+            [
+              "VELDPLAST INDUSTRIA E COMERCIO DE PLASTI",
+              2.0,
+              0.0,
+              0.8,
+              3.7916666666666665,
+              1.0
+            ],
+            [
+              "PLACO DO BRASIL LTDA",
+              1.0,
+              0.0,
+              0.8,
+              26.066666666666663,
+              1.0
+            ],
+            [
+              "FITAS FLAX DA AMAZONIA LTDA",
+              1.0,
+              0.0,
+              0.8,
+              0.016666666666666666,
+              0.8
+            ],
+            [
+              "FOUR DISTRIBUICAO LTDA",
+              2.0,
+              0.0,
+              0.8,
+              45.73333333333333,
+              1.0
+            ],
+            [
+              "M DIAS BRANCO SA INDUSTRIA E COMERCIO DE",
+              4.0,
+              1.0,
+              0.8125,
+              18.87083333333333,
+              1.0
+            ],
+            [
+              "PLACIBRAS DA AMAZONIA LTDA",
+              8.0,
+              1.0,
+              0.8132440476190476,
+              6.95,
+              1.0
+            ],
+            [
+              "THYSSENKRUPP METALURGICA CAMPO LIMPO",
+              30.0,
+              2.0,
+              0.8243243243243239,
+              3.8055555555555554,
+              0.34666666666666685
+            ],
+            [
+              "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+              17.0,
+              2.0,
+              0.8309555496406704,
+              7.207843137254901,
+              0.9215686274509804
+            ],
+            [
+              "VIDEPLAST INDUSTRIA DE EMBALAGENS LA",
+              2.0,
+              0.0,
+              0.8333333333333334,
+              8.516666666666666,
+              1.0
+            ],
+            [
+              "BENDO & CIA LTDA",
+              2.0,
+              0.0,
+              0.8333333333333334,
+              6.233333333333333,
+              1.0
+            ],
+            [
+              "RHODIA BRASIL SA",
+              1.0,
+              0.0,
+              0.8333333333333334,
+              21.883333333333333,
+              0.8333333333333334
+            ],
+            [
+              "GRUPO MULTI S.A",
+              5.0,
+              1.0,
+              0.8435897435897436,
+              3.046666666666667,
+              0.9384615384615385
+            ],
+            [
+              "DURAMETAL LTDA",
+              5.0,
+              0.0,
+              0.8461538461538461,
+              5.43,
+              1.0
+            ],
+            [
+              "INDORAMA VENTURES POLIMEROS S.A.",
+              11.0,
+              1.0,
+              0.8461538461538461,
+              0.6136363636363635,
+              1.0
+            ],
+            [
+              "BRASKEM S.A",
+              16.0,
+              3.0,
+              0.8552631578947368,
+              3.6583333333333337,
+              0.7254901960784315
+            ],
+            [
+              "ASSOCIACAO RECICLANIP",
+              3.0,
+              0.0,
+              0.8666666666666667,
+              11.894444444444444,
+              0.8666666666666667
+            ],
+            [
+              "QUIMICA AMPARO LTDA",
+              15.0,
+              2.0,
+              0.8730158730158731,
+              9.775555555555558,
+              0.85
+            ],
+            [
+              "MISSIATO INDUSTRIA E COMERCIO LTDA",
+              6.0,
+              0.0,
+              0.875,
+              17.558333333333334,
+              0.9166666666666666
+            ],
+            [
+              "NT INDUSTRIA E COMERCIO DE PANIFICACAO L",
+              1.0,
+              0.0,
+              0.875,
+              24.366666666666667,
+              1.0
+            ],
+            [
+              "BERCOSUL LTDA",
+              2.0,
+              1.0,
+              0.875,
+              5.116666666666667,
+              0.5
+            ],
+            [
+              "COLOROBBIA BRASIL PRODUTOS CERAMICA",
+              4.0,
+              1.0,
+              0.8888888888888888,
+              4.625,
+              0.8888888888888888
+            ],
+            [
+              "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+              1.0,
+              0.0,
+              0.8888888888888888,
+              2.45,
+              0.5555555555555556
+            ],
+            [
+              "NEOVIA NUTRICAO E SAUDE ANIMAL LTDA.",
+              3.0,
+              0.0,
+              0.8888888888888888,
+              3.5500000000000003,
+              1.0
+            ],
+            [
+              "M D MOVEIS LTDA",
+              5.0,
+              2.0,
+              0.888888888888889,
+              9.28,
+              0.888888888888889
+            ],
+            [
+              "GENERAL MOTORS DO BRASIL LTDA",
+              9.0,
+              1.0,
+              0.8893298059964726,
+              3.5518518518518523,
+              0.2059082892416226
+            ],
+            [
+              "VIDEOLAR-INNOVA S/A",
+              5.0,
+              0.0,
+              0.8894736842105264,
+              6.31,
+              1.0
+            ],
+            [
+              "SEARA ALIMENTOS LTDA",
+              8.0,
+              1.0,
+              0.8941798941798942,
+              8.738095238095239,
+              0.8551267281105991
+            ],
+            [
+              "JABIL INDUSTRIAL DO BRASIL LTDA",
+              3.0,
+              0.0,
+              0.9,
+              0.0,
+              1.0
+            ],
+            [
+              "AMBEV S A",
+              15.0,
+              1.0,
+              0.9,
+              16.63888888888889,
+              0.9833333333333333
+            ],
+            [
+              "CATERPILLAR BRASIL LTDA",
+              9.0,
+              1.0,
+              0.9166666666666666,
+              8.507407407407406,
+              0.5
+            ],
+            [
+              "POLO DO ELETRO COMERCIAL DE MOVEIS LTDA",
+              4.0,
+              0.0,
+              0.9166666666666667,
+              4.291666666666667,
+              0.9166666666666667
+            ]
+          ]
+        },
+        {
+          "name": "PivotTable2",
+          "cache_index": 6,
+          "source_data": "ROE_wk",
+          "table_range1_address": "$AK$24:$AN$31",
+          "table_range2_address": "$AK$20:$AN$31",
+          "row_grand": true,
+          "column_grand": true,
+          "fields": [
+            {
+              "name": "Provedor",
+              "orientation": "row",
+              "position": 2.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "A DA SILVA DINIZ ME",
+                "ADUKARGO TRANSPORTES LOGISTICA ESERVICOS",
+                "ALIANCA MANAUS",
+                "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+                "BCR LOGISTICA LTDA",
+                "BETEL TRANSPORTES DE CONTAINERS LTDA",
+                "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+                "CONTRAIL LOGISTICA S A TIJU",
+                "COOPERCARGA FROTA DEDICADA",
+                "COOPERCARGA S A",
+                "DOMINGUES E GODINHO TRANSPORTE DECARGAS",
+                "EXPRESSO VALE REAL LTDA",
+                "FLUXOR TRANSPORTES LTDA",
+                "FTI LOGISTICA LTDA",
+                "GAFOR S A",
+                "INTALOG LOGISTICA TRANSPORTES LTDA",
+                "IRB LOGISTICA LTDA",
+                "J RIVELINO MOREIRA LTDA",
+                "KAIROS LOGISTICA INTEGRADA LTDA",
+                "KRONOS LOGISTICA INTEGRADA LTDA"
+              ],
+              "visible_items_count": ">=100_sampled_of_119"
+            },
+            {
+              "name": "Cliente Proposta",
+              "orientation": "row",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+                "AMBEV S A",
+                "ASSOCIACAO RECICLANIP",
+                "MADEM SA INDUSTRIA E COMERCIO DEMADEIRAS",
+                "NOVELIS DO BRASIL LTDA",
+                "SEARA ALIMENTOS LTDA",
+                "UNILEVER BRASIL ALIMENTOS LTDA",
+                "VIDEPLAST INDUSTRIA DE EMBALAGENS LA",
+                "(blank)"
+              ],
+              "visible_items_count": ">=9_sampled_of_465"
+            },
+            {
+              "name": "Centro de Custo",
+              "orientation": "page",
+              "position": 2.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            },
+            {
+              "name": "Weeknum",
+              "orientation": "page",
+              "position": 1.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            },
+            {
+              "name": "Volume",
+              "orientation": "page",
+              "position": 3.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Ok",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Justificativa",
+              "orientation": "row",
+              "position": 3.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "",
+                "Atraso do motorista",
+                "Divergência de endereço",
+                "Indisponibilidade de janelas no porto",
+                "Morosidade no carregamento",
+                "Operação especial",
+                "OS de ajuste",
+                "Problemas na via (trânsito/acidente/obras)",
+                "Problemas no depot",
+                "Problemas no porto",
+                "Problemas no veículo (mecânico/elétrico)",
+                "Troca de motorista",
+                "Veículo retido na OS anterior",
+                "(blank)",
+                "Dificuldades na liberação da SEFAZ",
+                "Reagendamento da coleta/entrega",
+                "Problema no equipamento (TEREX/RTG)",
+                "Operação de Carga Refeer",
+                "Operação do navio",
+                "Unidade retida no posto fiscal"
+              ],
+              "visible_items_count": 33
+            },
+            {
+              "name": "Values",
+              "orientation": "column",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": null,
+              "visible_items_sample": [
+                "Count of OS",
+                "OTO WK",
+                "Sum of Atrasado?"
+              ],
+              "visible_items_count": 3
+            }
+          ],
+          "data_fields_error": "TypeError(\"'PivotFields' object is not callable\")",
+          "data_fields": [],
+          "table_values": [
+            [
+              "Volume",
+              "Ok",
+              "Ok",
+              null
+            ],
+            [
+              "Centro de Custo",
+              "(Tudo)",
+              "All",
+              null
+            ],
+            [
+              "Weeknum",
+              "(Tudo)",
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "Rótulos de Linha",
+              "Count of OS",
+              "OTO WK",
+              "Sum of Atrasado?"
+            ],
+            [
+              "NOVELIS DO BRASIL LTDA",
+              27.0,
+              0.9458112874779535,
+              2.0
+            ],
+            [
+              "AMBEV S A",
+              15.0,
+              0.9,
+              1.0
+            ],
+            [
+              "SEARA ALIMENTOS LTDA",
+              8.0,
+              0.8941798941798942,
+              1.0
+            ],
+            [
+              "ASSOCIACAO RECICLANIP",
+              3.0,
+              0.8666666666666667,
+              0.0
+            ],
+            [
+              "VIDEPLAST INDUSTRIA DE EMBALAGENS LA",
+              2.0,
+              0.8333333333333334,
+              0.0
+            ],
+            [
+              "UNILEVER BRASIL ALIMENTOS LTDA",
+              3.0,
+              0.753968253968254,
+              1.0
+            ],
+            [
+              "Total Geral",
+              58.0,
+              0.9092058850830783,
+              5.0
+            ]
+          ]
+        },
+        {
+          "name": "PivotTable5",
+          "cache_index": 6,
+          "source_data": "ROE_wk",
+          "table_range1_address": "$N$7:$R$51",
+          "table_range2_address": "$N$2:$R$51",
+          "row_grand": true,
+          "column_grand": true,
+          "fields": [
+            {
+              "name": "Provedor",
+              "orientation": "row",
+              "position": 2.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "A DA SILVA DINIZ ME",
+                "ADUKARGO TRANSPORTES LOGISTICA ESERVICOS",
+                "ALIANCA MANAUS",
+                "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+                "BCR LOGISTICA LTDA",
+                "BETEL TRANSPORTES DE CONTAINERS LTDA",
+                "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+                "CONTRAIL LOGISTICA S A TIJU",
+                "COOPERCARGA FROTA DEDICADA",
+                "COOPERCARGA S A",
+                "DOMINGUES E GODINHO TRANSPORTE DECARGAS",
+                "EXPRESSO VALE REAL LTDA",
+                "FLUXOR TRANSPORTES LTDA",
+                "FTI LOGISTICA LTDA",
+                "GAFOR S A",
+                "INTALOG LOGISTICA TRANSPORTES LTDA",
+                "IRB LOGISTICA LTDA",
+                "J RIVELINO MOREIRA LTDA",
+                "KAIROS LOGISTICA INTEGRADA LTDA",
+                "KRONOS LOGISTICA INTEGRADA LTDA"
+              ],
+              "visible_items_count": ">=100_sampled_of_119"
+            },
+            {
+              "name": "Cliente Proposta",
+              "orientation": "row",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "ACUMULADORES MOURA SA",
+                "ADAR IND COM IMP EXP LTDA",
+                "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+                "AMCOR EMBALAGENS DA AMAZONIA SA",
+                "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+                "ARCOR DO BRASIL LTDA",
+                "ASSOCIACAO RECICLANIP",
+                "BMW DO BRASIL LTDA",
+                "BRACELL PAPEIS NORDESTE LTDA",
+                "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+                "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+                "CATERPILLAR BRASIL LTDA",
+                "CERAMICA BRASILEIRA CERBRAS LTDA",
+                "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+                "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+                "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+                "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+                "Diversos",
+                "DOMESTILAR LTDA",
+                "DURAMETAL LTDA"
+              ],
+              "visible_items_count": ">=100_sampled_of_465"
+            },
+            {
+              "name": "Centro de Custo",
+              "orientation": "page",
+              "position": 3.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            },
+            {
+              "name": "Volume",
+              "orientation": "page",
+              "position": 4.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Ok",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Justificativa",
+              "orientation": "row",
+              "position": 3.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "",
+                "Atraso do motorista",
+                "Divergência de endereço",
+                "Indisponibilidade de janelas no porto",
+                "Morosidade no carregamento",
+                "Operação especial",
+                "OS de ajuste",
+                "Problemas na via (trânsito/acidente/obras)",
+                "Problemas no depot",
+                "Problemas no porto",
+                "Problemas no veículo (mecânico/elétrico)",
+                "Troca de motorista",
+                "Veículo retido na OS anterior",
+                "(blank)",
+                "Dificuldades na liberação da SEFAZ",
+                "Reagendamento da coleta/entrega",
+                "Problema no equipamento (TEREX/RTG)",
+                "Operação de Carga Refeer",
+                "Operação do navio",
+                "Unidade retida no posto fiscal"
+              ],
+              "visible_items_count": 33
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": "page",
+              "position": 2.0,
+              "current_page": "1",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "1",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "OTO Out",
+              "orientation": "page",
+              "position": 1.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "N",
+                "S",
+                "(blank)"
+              ],
+              "visible_items_count": 3
+            },
+            {
+              "name": "Values",
+              "orientation": "column",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": null,
+              "visible_items_sample": [
+                "Count of OS",
+                "OTO WK",
+                "Avg Em horas",
+                "Avg % SLA agend"
+              ],
+              "visible_items_count": 4
+            }
+          ],
+          "data_fields_error": "TypeError(\"'PivotFields' object is not callable\")",
+          "data_fields": [],
+          "table_values": [
+            [
+              "Volume",
+              "Ok",
+              "Ok",
+              null,
+              null
+            ],
+            [
+              "Centro de Custo",
+              "(Tudo)",
+              "All",
+              null,
+              null
+            ],
+            [
+              "Atrasado?",
+              1.0,
+              1.0,
+              null,
+              null
+            ],
+            [
+              "OTO Out",
+              "(Tudo)",
+              "All",
+              null,
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "Rótulos de Linha",
+              "Count of OS",
+              "OTO WK",
+              "Avg Em horas",
+              "Avg % SLA agend"
+            ],
+            [
+              "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+              1.0,
+              0.0,
+              26.0,
+              1.0
+            ],
+            [
+              "QUEVEKS DO BRASIL IND E COM DE PRODUTOS",
+              1.0,
+              0.0,
+              9.233333333333334,
+              1.0
+            ],
+            [
+              "ALVOAR LACTEOS NORDESTE S/A",
+              1.0,
+              0.0,
+              2.9,
+              1.0
+            ],
+            [
+              "TRAMONTINA MULTI SA",
+              1.0,
+              0.0,
+              6.066666666666666,
+              1.0
+            ],
+            [
+              "ALLBRANDS INDUSTRIA DE ALIMENTOS LTD",
+              1.0,
+              0.0,
+              5.2,
+              1.0
+            ],
+            [
+              "ARDAGH INDUSTRIA DE EMBALAGENS METALICAS",
+              1.0,
+              0.5,
+              1.85,
+              1.0
+            ],
+            [
+              "TK ELEVADORES BRASIL LTDA",
+              1.0,
+              0.5,
+              29.65,
+              1.0
+            ],
+            [
+              "BACARDI MARTINI DO BRASIL INDUSTRIA E CO",
+              1.0,
+              0.5,
+              1.4833333333333334,
+              1.0
+            ],
+            [
+              "BRASKEM S.A",
+              3.0,
+              0.5,
+              2.0222222222222226,
+              0.16666666666666663
+            ],
+            [
+              "PLACIBRAS DA AMAZONIA LTDA",
+              1.0,
+              0.5714285714285714,
+              8.083333333333334,
+              1.0
+            ],
+            [
+              "A M QUIMICA INDUSTRIA E COMERCIO DEPRODU",
+              2.0,
+              0.5714285714285714,
+              1.5500000000000003,
+              1.0
+            ],
+            [
+              "SALINOR SALINAS DO NORDESTE SA",
+              1.0,
+              0.6,
+              4.333333333333333,
+              1.0
+            ],
+            [
+              "BLUEWAY TRADING IMPORTACAO E EXPORTACAO",
+              2.0,
+              0.6,
+              5.566666666666666,
+              1.0
+            ],
+            [
+              "MENEGOTTI INDUSTRIAS METALURGICAS LTDA",
+              1.0,
+              0.6666666666666667,
+              0.0,
+              1.0
+            ],
+            [
+              "VOLKSWAGEN DO BRASIL IND DE VEICULOS",
+              3.0,
+              0.68,
+              6.922222222222222,
+              0.0
+            ],
+            [
+              "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+              2.0,
+              0.7,
+              1.4,
+              1.0
+            ],
+            [
+              "UNILEVER BRASIL ALIMENTOS LTDA",
+              1.0,
+              0.7142857142857143,
+              8.216666666666667,
+              1.0
+            ],
+            [
+              "MINERACAO OURO BRANCO LTDA",
+              1.0,
+              0.75,
+              7.666666666666666,
+              1.0
+            ],
+            [
+              "M DIAS BRANCO SA INDUSTRIA E COMERCIO DE",
+              1.0,
+              0.75,
+              7.816666666666666,
+              1.0
+            ],
+            [
+              "ALCAST DO BRASIL S/A",
+              1.0,
+              0.75,
+              0.8666666666666666,
+              1.0
+            ],
+            [
+              "AMBEV S A",
+              1.0,
+              0.75,
+              11.399999999999999,
+              1.0
+            ],
+            [
+              "PENHA PAPEIS E EMBALAGENS LTDA",
+              1.0,
+              0.75,
+              0.016666666666666666,
+              1.0
+            ],
+            [
+              "INCEPA REVESTIMENTOS CERAMICOS LTDA",
+              3.0,
+              0.75,
+              3.238888888888889,
+              1.0
+            ],
+            [
+              "GDC ALIMENTOS SA",
+              1.0,
+              0.75,
+              1.6500000000000001,
+              1.0
+            ],
+            [
+              "LANXESS INDUSTRIA DE PRODUTOS QUIMICOS E",
+              2.0,
+              0.7777777777777778,
+              17.016666666666666,
+              0.0
+            ],
+            [
+              "GENERAL MOTORS DO BRASIL LTDA",
+              1.0,
+              0.7857142857142857,
+              2.05,
+              0.4285714285714286
+            ],
+            [
+              "MULTILIT FIBROCIMENTO LTDA",
+              2.0,
+              0.8,
+              3.8,
+              0.7
+            ],
+            [
+              "QUIMICA AMPARO LTDA",
+              2.0,
+              0.8095238095238095,
+              7.45,
+              1.0
+            ],
+            [
+              "SEARA ALIMENTOS LTDA",
+              1.0,
+              0.8148148148148149,
+              7.299999999999999,
+              0.8709677419354839
+            ],
+            [
+              "THYSSENKRUPP METALURGICA CAMPO LIMPO",
+              2.0,
+              0.8243243243243243,
+              2.2333333333333334,
+              0.3466666666666667
+            ],
+            [
+              "GRUPO MULTI S.A",
+              1.0,
+              0.8461538461538461,
+              2.2333333333333334,
+              0.9230769230769231
+            ],
+            [
+              "INDORAMA VENTURES POLIMEROS S.A.",
+              1.0,
+              0.8461538461538461,
+              1.0833333333333333,
+              1.0
+            ],
+            [
+              "BERCOSUL LTDA",
+              1.0,
+              0.875,
+              3.633333333333333,
+              0.5
+            ],
+            [
+              "M D MOVEIS LTDA",
+              2.0,
+              0.8888888888888888,
+              9.108333333333334,
+              0.8888888888888888
+            ],
+            [
+              "COLOROBBIA BRASIL PRODUTOS CERAMICA",
+              1.0,
+              0.8888888888888888,
+              3.1833333333333336,
+              0.8888888888888888
+            ],
+            [
+              "NORTE SALINEIRA S/A INDUSTRIA E COMERCIO",
+              1.0,
+              0.9,
+              8.95,
+              1.0
+            ],
+            [
+              "CATERPILLAR BRASIL LTDA",
+              1.0,
+              0.9166666666666666,
+              2.9499999999999997,
+              0.5
+            ],
+            [
+              "PLAMAZ LTDA",
+              2.0,
+              0.9270833333333333,
+              3.1666666666666665,
+              1.0
+            ],
+            [
+              "VERDE BRASIL INDUSTRIA DE PRODUTOS PLAST",
+              1.0,
+              0.9285714285714286,
+              2.9,
+              0.4
+            ],
+            [
+              "NOVELIS DO BRASIL LTDA",
+              2.0,
+              0.9454365079365079,
+              31.416666666666664,
+              0.8947368421052632
+            ],
+            [
+              "KLABIN SA",
+              1.0,
+              0.972972972972973,
+              5.0,
+              0.8648648648648649
+            ],
+            [
+              "SUZANO PAPEL E CELULOSE S A",
+              1.0,
+              0.9772727272727273,
+              9.116666666666667,
+              0.9318181818181819
+            ],
+            [
+              "BALL EMBALAGENS LTDA",
+              1.0,
+              0.9838709677419355,
+              1.5166666666666666,
+              0.6923076923076923
+            ],
+            [
+              "Total Geral",
+              59.0,
+              0.6909726749789626,
+              6.513841807909605,
+              0.7823911951997476
+            ]
+          ]
+        },
+        {
+          "name": "Tabela dinâmica1",
+          "cache_index": 6,
+          "source_data": "ROE_wk",
+          "table_range1_address": "$Y$6:$AA$50",
+          "table_range2_address": "$Y$2:$AA$50",
+          "row_grand": true,
+          "column_grand": true,
+          "fields": [
+            {
+              "name": "Provedor",
+              "orientation": "row",
+              "position": 3.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "A DA SILVA DINIZ ME",
+                "ADUKARGO TRANSPORTES LOGISTICA ESERVICOS",
+                "ALIANCA MANAUS",
+                "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+                "BCR LOGISTICA LTDA",
+                "BETEL TRANSPORTES DE CONTAINERS LTDA",
+                "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+                "CONTRAIL LOGISTICA S A TIJU",
+                "COOPERCARGA FROTA DEDICADA",
+                "COOPERCARGA S A",
+                "DOMINGUES E GODINHO TRANSPORTE DECARGAS",
+                "EXPRESSO VALE REAL LTDA",
+                "FLUXOR TRANSPORTES LTDA",
+                "FTI LOGISTICA LTDA",
+                "GAFOR S A",
+                "INTALOG LOGISTICA TRANSPORTES LTDA",
+                "IRB LOGISTICA LTDA",
+                "J RIVELINO MOREIRA LTDA",
+                "KAIROS LOGISTICA INTEGRADA LTDA",
+                "KRONOS LOGISTICA INTEGRADA LTDA"
+              ],
+              "visible_items_count": ">=100_sampled_of_119"
+            },
+            {
+              "name": "Cliente Proposta",
+              "orientation": "row",
+              "position": 2.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENT",
+                "A C S RASORI",
+                "A CARVALHO DA SILVA & CIA LTDA",
+                "A M QUIMICA INDUSTRIA E COMERCIO DEPRODU",
+                "ABB WOOD BRAZIL LTDA",
+                "ACUMULADORES MOURA SA",
+                "ADAR IND COM IMP EXP LTDA",
+                "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+                "ADITEX INDUSTRIA E COMERCIO DE ADITIVOS",
+                "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENT",
+                "AIFA INDUSTRIA DE LONAS LTDA",
+                "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO",
+                "ALCAST DO BRASIL S/A",
+                "ALEXANDRE PEREIRA COMERCIO DE MOVEIS UNI",
+                "ALLBRANDS INDUSTRIA DE ALIMENTOS LTD",
+                "ALLTAPE INDUSTRIA E COMERCIO IMPORTACAO",
+                "ALPEK POLYESTER BRASIL S.A.",
+                "ALQUIMIA PRODUTOS QUIMICOS PARA INDUSTRI",
+                "ALVOAR LACTEOS NORDESTE S/A",
+                "ALVOAR LACTEOS S A"
+              ],
+              "visible_items_count": ">=100_sampled_of_465"
+            },
+            {
+              "name": "Centro de Custo",
+              "orientation": "page",
+              "position": 2.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            },
+            {
+              "name": "Volume",
+              "orientation": "page",
+              "position": 3.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Ok",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Justificativa",
+              "orientation": "row",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "",
+                "Atraso do motorista",
+                "Divergência de endereço",
+                "Indisponibilidade de janelas no porto",
+                "Morosidade no carregamento",
+                "Operação especial",
+                "OS de ajuste",
+                "Problemas na via (trânsito/acidente/obras)",
+                "Problemas no depot",
+                "Problemas no porto",
+                "Problemas no veículo (mecânico/elétrico)",
+                "Troca de motorista",
+                "Veículo retido na OS anterior",
+                "(blank)",
+                "Dificuldades na liberação da SEFAZ",
+                "Reagendamento da coleta/entrega",
+                "Problema no equipamento (TEREX/RTG)",
+                "Operação de Carga Refeer",
+                "Operação do navio",
+                "Unidade retida no posto fiscal"
+              ],
+              "visible_items_count": 33
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": "page",
+              "position": 1.0,
+              "current_page": "1",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "1",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Values",
+              "orientation": "column",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": null,
+              "visible_items_sample": [
+                "Count of OS",
+                "OTO WK"
+              ],
+              "visible_items_count": 2
+            }
+          ],
+          "data_fields_error": "TypeError(\"'PivotFields' object is not callable\")",
+          "data_fields": [],
+          "table_values": [
+            [
+              "Volume",
+              "Ok",
+              "Ok"
+            ],
+            [
+              "Centro de Custo",
+              "(Tudo)",
+              "All"
+            ],
+            [
+              "Atrasado?",
+              1.0,
+              1.0
+            ],
+            [
+              null,
+              null,
+              null
+            ],
+            [
+              "Rótulos de Linha",
+              "Count of OS",
+              "OTO WK"
+            ],
+            [
+              "Atraso do motorista",
+              2.0,
+              0.40740740740740744
+            ],
+            [
+              "Morosidade no carregamento",
+              5.0,
+              0.757142857142857
+            ],
+            [
+              "Problemas na via (trânsito/acidente/obras)",
+              7.0,
+              0.7218995290423862
+            ],
+            [
+              "Problemas no depot",
+              2.0,
+              0.25
+            ],
+            [
+              "Problemas no porto",
+              9.0,
+              0.839724401821176
+            ],
+            [
+              "Problemas no veículo (mecânico/elétrico)",
+              9.0,
+              0.7774250440917108
+            ],
+            [
+              "Troca de motorista",
+              3.0,
+              0.7296428571428571
+            ],
+            [
+              "Veículo retido na OS anterior",
+              6.0,
+              0.7554954954954956
+            ],
+            [
+              "Reagendamento da coleta/entrega",
+              2.0,
+              0.8775252525252526
+            ],
+            [
+              "LANXESS INDUSTRIA DE PRODUTOS QUIMICOS E",
+              1.0,
+              0.7777777777777778
+            ],
+            [
+              "LUARA MEL VIEIRA TRANSPORTES",
+              1.0,
+              0.7777777777777778
+            ],
+            [
+              "SUZANO PAPEL E CELULOSE S A",
+              1.0,
+              0.9772727272727273
+            ],
+            [
+              "LUARA MEL VIEIRA TRANSPORTES",
+              1.0,
+              0.9772727272727273
+            ],
+            [
+              "Problema no equipamento (TEREX/RTG)",
+              3.0,
+              0.5
+            ],
+            [
+              "BRASKEM S.A",
+              3.0,
+              0.5
+            ],
+            [
+              "T S SERVICOS TRANSPORTE E LOGISTICALTDA",
+              3.0,
+              0.5
+            ],
+            [
+              "Erro operacional do provedor",
+              1.0,
+              0.75
+            ],
+            [
+              "PENHA PAPEIS E EMBALAGENS LTDA",
+              1.0,
+              0.75
+            ],
+            [
+              "MAERSK LNS SAO BERNARDO DO CAMPO",
+              1.0,
+              0.75
+            ],
+            [
+              "Interjornada do motorista",
+              3.0,
+              0.25
+            ],
+            [
+              "ALLBRANDS INDUSTRIA DE ALIMENTOS LTD",
+              1.0,
+              0.0
+            ],
+            [
+              "MAERSK LNS ITAPOA",
+              1.0,
+              0.0
+            ],
+            [
+              "ALVOAR LACTEOS NORDESTE S/A",
+              1.0,
+              0.0
+            ],
+            [
+              "MAERSK LNS ITAPOA",
+              1.0,
+              0.0
+            ],
+            [
+              "INCEPA REVESTIMENTOS CERAMICOS LTDA",
+              1.0,
+              0.75
+            ],
+            [
+              "Indisponibilidade de janelas no depot",
+              2.0,
+              0.7916666666666667
+            ],
+            [
+              "CATERPILLAR BRASIL LTDA",
+              1.0,
+              0.9166666666666666
+            ],
+            [
+              "MENEGOTTI INDUSTRIAS METALURGICAS LTDA",
+              1.0,
+              0.6666666666666667
+            ],
+            [
+              "LOG20 LOGISTICA S A",
+              1.0,
+              0.6666666666666667
+            ],
+            [
+              "Aguardando liberação do vazio",
+              1.0,
+              0.0
+            ],
+            [
+              "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+              1.0,
+              0.0
+            ],
+            [
+              "Problema de regra (GR)",
+              1.0,
+              0.875
+            ],
+            [
+              "BERCOSUL LTDA",
+              1.0,
+              0.875
+            ],
+            [
+              "MAERSK LNS SAO BERNARDO DO CAMPO",
+              1.0,
+              0.875
+            ],
+            [
+              "Aguardando liberação do booking",
+              1.0,
+              0.8461538461538461
+            ],
+            [
+              "GRUPO MULTI S.A",
+              1.0,
+              0.8461538461538461
+            ],
+            [
+              "J RIVELINO MOREIRA LTDA",
+              1.0,
+              0.8461538461538461
+            ],
+            [
+              "Erro de agendamento ",
+              1.0,
+              0.7777777777777778
+            ],
+            [
+              "LANXESS INDUSTRIA DE PRODUTOS QUIMICOS E",
+              1.0,
+              0.7777777777777778
+            ],
+            [
+              "LUARA MEL VIEIRA TRANSPORTES",
+              1.0,
+              0.7777777777777778
+            ],
+            [
+              "TC - OS integrou tardiamente",
+              1.0,
+              0.5
+            ],
+            [
+              "BACARDI MARTINI DO BRASIL INDUSTRIA E CO",
+              1.0,
+              0.5
+            ],
+            [
+              "MAERSK LNS SAO BERNARDO DO CAMPO",
+              1.0,
+              0.5
+            ],
+            [
+              "Total Geral",
+              59.0,
+              0.6909726749789625
+            ]
+          ]
+        }
+      ]
+    },
+    "Top_Offenders_Vendors": {
+      "pivot_count": 4,
+      "pivots": [
+        {
+          "name": "PivotTable4",
+          "cache_index": 6,
+          "source_data": "ROE_wk",
+          "table_range1_address": "$O$7:$P$32",
+          "table_range2_address": "$O$2:$P$32",
+          "row_grand": true,
+          "column_grand": true,
+          "fields": [
+            {
+              "name": "Provedor",
+              "orientation": "row",
+              "position": 2.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "A DA SILVA DINIZ ME",
+                "ALIANCA MANAUS",
+                "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+                "BCR LOGISTICA LTDA",
+                "BETEL TRANSPORTES DE CONTAINERS LTDA",
+                "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+                "CONTRAIL LOGISTICA S A TIJU",
+                "COOPERCARGA FROTA DEDICADA",
+                "COOPERCARGA S A",
+                "DOMINGUES E GODINHO TRANSPORTE DECARGAS",
+                "EXPRESSO VALE REAL LTDA",
+                "FLUXOR TRANSPORTES LTDA",
+                "FTI LOGISTICA LTDA",
+                "GAFOR S A",
+                "INTALOG LOGISTICA TRANSPORTES LTDA",
+                "IRB LOGISTICA LTDA",
+                "J RIVELINO MOREIRA LTDA",
+                "KAIROS LOGISTICA INTEGRADA LTDA",
+                "KRONOS LOGISTICA INTEGRADA LTDA",
+                "LEV CARGA FROTA DEDICADA"
+              ],
+              "visible_items_count": ">=100_sampled_of_119"
+            },
+            {
+              "name": "Data Prog.",
+              "orientation": "page",
+              "position": 3.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)",
+                "5/31/2026 23:00",
+                "5/31/2026 10:00",
+                "5/31/2026 23:59",
+                "5/31/2026 23:40",
+                "5/31/2026 20:00",
+                "6/1/2026",
+                "5/31/2026 11:00",
+                "5/31/2026 8:00",
+                "5/31/2026 9:00",
+                "5/31/2026 22:00",
+                "5/31/2026 2:00",
+                "6/1/2026 6:00",
+                "6/1/2026 7:00",
+                "6/1/2026 7:30",
+                "6/1/2026 8:00",
+                "6/1/2026 17:00",
+                "6/1/2026 9:00",
+                "6/1/2026 10:00",
+                "6/1/2026 10:30"
+              ],
+              "visible_items_count": ">=100_sampled_of_285"
+            },
+            {
+              "name": "Cliente Proposta",
+              "orientation": "row",
+              "position": 3.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "ACUMULADORES MOURA SA",
+                "ADAR IND COM IMP EXP LTDA",
+                "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+                "AMCOR EMBALAGENS DA AMAZONIA SA",
+                "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+                "ARCOR DO BRASIL LTDA",
+                "ASSOCIACAO RECICLANIP",
+                "BMW DO BRASIL LTDA",
+                "BRACELL PAPEIS NORDESTE LTDA",
+                "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+                "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+                "CATERPILLAR BRASIL LTDA",
+                "CERAMICA BRASILEIRA CERBRAS LTDA",
+                "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+                "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+                "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+                "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+                "CRUSOE FOODS INDUSTRIA IMPORTACAO E",
+                "D.D. WILLIAMSON DO BRASIL LTDA",
+                "DAXIA DOCE AROMA INDUSTRIA E COMERCIO LT"
+              ],
+              "visible_items_count": ">=100_sampled_of_465"
+            },
+            {
+              "name": "Volume",
+              "orientation": "page",
+              "position": 4.0,
+              "current_page": "Ok",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Ok",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Justificativa",
+              "orientation": "row",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "",
+                "Atraso do motorista",
+                "Divergência de endereço",
+                "Indisponibilidade de janelas no porto",
+                "Morosidade no carregamento",
+                "Operação especial",
+                "OS de ajuste",
+                "Problemas na via (trânsito/acidente/obras)",
+                "Problemas no depot",
+                "Problemas no porto",
+                "Problemas no veículo (mecânico/elétrico)",
+                "Troca de motorista",
+                "Veículo retido na OS anterior",
+                "(blank)",
+                "Dificuldades na liberação da SEFAZ",
+                "Reagendamento da coleta/entrega",
+                "Problema no equipamento (TEREX/RTG)",
+                "Operação de Carga Refeer",
+                "Operação do navio",
+                "Unidade retida no posto fiscal"
+              ],
+              "visible_items_count": 33
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": "page",
+              "position": 2.0,
+              "current_page": "1",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "1",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "OTO Out",
+              "orientation": "page",
+              "position": 1.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            }
+          ],
+          "data_fields_error": "TypeError(\"'PivotFields' object is not callable\")",
+          "data_fields": [],
+          "table_values": [
+            [
+              "Volume",
+              "Ok"
+            ],
+            [
+              "Data Prog.",
+              "(Tudo)"
+            ],
+            [
+              "Atrasado?",
+              1.0
+            ],
+            [
+              "OTO Out",
+              "(Tudo)"
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              "Rótulos de Linha",
+              "Count of OS"
+            ],
+            [
+              "Problemas na via (trânsito/acidente/obras)",
+              15.0
+            ],
+            [
+              "Problemas no porto",
+              14.0
+            ],
+            [
+              "Morosidade no carregamento",
+              14.0
+            ],
+            [
+              "Problemas no veículo (mecânico/elétrico)",
+              14.0
+            ],
+            [
+              "Veículo retido na OS anterior",
+              10.0
+            ],
+            [
+              "Troca de motorista",
+              9.0
+            ],
+            [
+              "Problemas no depot",
+              6.0
+            ],
+            [
+              "Atraso do motorista",
+              5.0
+            ],
+            [
+              "Interjornada do motorista",
+              4.0
+            ],
+            [
+              "Problema no equipamento (TEREX/RTG)",
+              3.0
+            ],
+            [
+              "Divergência de endereço",
+              2.0
+            ],
+            [
+              "Erro operacional do provedor",
+              2.0
+            ],
+            [
+              "Indisponibilidade de janelas no depot",
+              2.0
+            ],
+            [
+              "Operação do navio",
+              2.0
+            ],
+            [
+              "Reagendamento da coleta/entrega",
+              2.0
+            ],
+            [
+              "Erro de agendamento ",
+              1.0
+            ],
+            [
+              "Problema de regra (GR)",
+              1.0
+            ],
+            [
+              "Unidade retida no posto fiscal",
+              1.0
+            ],
+            [
+              "Dificuldades na liberação da SEFAZ",
+              1.0
+            ],
+            [
+              "Aguardando liberação do booking",
+              1.0
+            ],
+            [
+              "Operação de Carga Refeer",
+              1.0
+            ],
+            [
+              "TC - OS integrou tardiamente",
+              1.0
+            ],
+            [
+              "Indisponibilidade de janelas no porto",
+              1.0
+            ],
+            [
+              "Aguardando liberação do vazio",
+              1.0
+            ],
+            [
+              "Total Geral",
+              113.0
+            ]
+          ]
+        },
+        {
+          "name": "PivotTable2",
+          "cache_index": 6,
+          "source_data": "ROE_wk",
+          "table_range1_address": "$R$7:$S$46",
+          "table_range2_address": "$R$2:$S$46",
+          "row_grand": true,
+          "column_grand": true,
+          "fields": [
+            {
+              "name": "Provedor",
+              "orientation": "row",
+              "position": 3.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "A DA SILVA DINIZ ME",
+                "ALIANCA MANAUS",
+                "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+                "BCR LOGISTICA LTDA",
+                "BETEL TRANSPORTES DE CONTAINERS LTDA",
+                "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+                "CONTRAIL LOGISTICA S A TIJU",
+                "COOPERCARGA FROTA DEDICADA",
+                "COOPERCARGA S A",
+                "DOMINGUES E GODINHO TRANSPORTE DECARGAS",
+                "EXPRESSO VALE REAL LTDA",
+                "FLUXOR TRANSPORTES LTDA",
+                "FTI LOGISTICA LTDA",
+                "GAFOR S A",
+                "INTALOG LOGISTICA TRANSPORTES LTDA",
+                "IRB LOGISTICA LTDA",
+                "J RIVELINO MOREIRA LTDA",
+                "KAIROS LOGISTICA INTEGRADA LTDA",
+                "KRONOS LOGISTICA INTEGRADA LTDA",
+                "LEV CARGA FROTA DEDICADA"
+              ],
+              "visible_items_count": ">=100_sampled_of_119"
+            },
+            {
+              "name": "Data Prog.",
+              "orientation": "page",
+              "position": 3.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)",
+                "5/31/2026 23:00",
+                "5/31/2026 10:00",
+                "5/31/2026 23:59",
+                "5/31/2026 23:40",
+                "5/31/2026 20:00",
+                "6/1/2026",
+                "5/31/2026 11:00",
+                "5/31/2026 8:00",
+                "5/31/2026 9:00",
+                "5/31/2026 22:00",
+                "5/31/2026 2:00",
+                "6/1/2026 6:00",
+                "6/1/2026 7:00",
+                "6/1/2026 7:30",
+                "6/1/2026 8:00",
+                "6/1/2026 17:00",
+                "6/1/2026 9:00",
+                "6/1/2026 10:00",
+                "6/1/2026 10:30"
+              ],
+              "visible_items_count": ">=100_sampled_of_285"
+            },
+            {
+              "name": "Volume",
+              "orientation": "page",
+              "position": 4.0,
+              "current_page": "Ok",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Ok",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Justificativa",
+              "orientation": "row",
+              "position": 2.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "",
+                "Atraso do motorista",
+                "Divergência de endereço",
+                "Indisponibilidade de janelas no porto",
+                "Morosidade no carregamento",
+                "Operação especial",
+                "OS de ajuste",
+                "Problemas na via (trânsito/acidente/obras)",
+                "Problemas no depot",
+                "Problemas no porto",
+                "Problemas no veículo (mecânico/elétrico)",
+                "Troca de motorista",
+                "Veículo retido na OS anterior",
+                "(blank)",
+                "Dificuldades na liberação da SEFAZ",
+                "Reagendamento da coleta/entrega",
+                "Problema no equipamento (TEREX/RTG)",
+                "Operação de Carga Refeer",
+                "Operação do navio",
+                "Unidade retida no posto fiscal"
+              ],
+              "visible_items_count": 33
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": "page",
+              "position": 2.0,
+              "current_page": "1",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "1",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "OTO Out",
+              "orientation": "page",
+              "position": 1.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            },
+            {
+              "name": "Tipo Atraso",
+              "orientation": "row",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            }
+          ],
+          "data_fields_error": "TypeError(\"'PivotFields' object is not callable\")",
+          "data_fields": [],
+          "table_values": [
+            [
+              "Volume",
+              "Ok"
+            ],
+            [
+              "Data Prog.",
+              "(Tudo)"
+            ],
+            [
+              "Atrasado?",
+              1.0
+            ],
+            [
+              "OTO Out",
+              "(Tudo)"
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              "Rótulos de Linha",
+              "Count of OS"
+            ],
+            [
+              "(vazio)",
+              63.0
+            ],
+            [
+              "Problemas no veículo (mecânico/elétrico)",
+              9.0
+            ],
+            [
+              "Problemas no porto",
+              9.0
+            ],
+            [
+              "Morosidade no carregamento",
+              7.0
+            ],
+            [
+              "Troca de motorista",
+              6.0
+            ],
+            [
+              "Problemas na via (trânsito/acidente/obras)",
+              6.0
+            ],
+            [
+              "Problemas no depot",
+              5.0
+            ],
+            [
+              "Veículo retido na OS anterior",
+              3.0
+            ],
+            [
+              "Atraso do motorista",
+              3.0
+            ],
+            [
+              "Problema no equipamento (TEREX/RTG)",
+              3.0
+            ],
+            [
+              "Reagendamento da coleta/entrega",
+              2.0
+            ],
+            [
+              "Problema de regra (GR)",
+              1.0
+            ],
+            [
+              "Indisponibilidade de janelas no depot",
+              1.0
+            ],
+            [
+              "Erro de agendamento ",
+              1.0
+            ],
+            [
+              "Operação de Carga Refeer",
+              1.0
+            ],
+            [
+              "Aguardando liberação do vazio",
+              1.0
+            ],
+            [
+              "Unidade retida no posto fiscal",
+              1.0
+            ],
+            [
+              "Aguardando liberação do booking",
+              1.0
+            ],
+            [
+              "Erro operacional do provedor",
+              1.0
+            ],
+            [
+              "Divergência de endereço",
+              1.0
+            ],
+            [
+              "Interjornada do motorista",
+              1.0
+            ],
+            [
+              "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+              50.0
+            ],
+            [
+              "Problemas na via (trânsito/acidente/obras)",
+              9.0
+            ],
+            [
+              "Veículo retido na OS anterior",
+              7.0
+            ],
+            [
+              "Morosidade no carregamento",
+              7.0
+            ],
+            [
+              "Problemas no porto",
+              5.0
+            ],
+            [
+              "Problemas no veículo (mecânico/elétrico)",
+              5.0
+            ],
+            [
+              "Interjornada do motorista",
+              3.0
+            ],
+            [
+              "Troca de motorista",
+              3.0
+            ],
+            [
+              "Operação do navio",
+              2.0
+            ],
+            [
+              "Atraso do motorista",
+              2.0
+            ],
+            [
+              "Erro operacional do provedor",
+              1.0
+            ],
+            [
+              "Divergência de endereço",
+              1.0
+            ],
+            [
+              "Problemas no depot",
+              1.0
+            ],
+            [
+              "Indisponibilidade de janelas no depot",
+              1.0
+            ],
+            [
+              "TC - OS integrou tardiamente",
+              1.0
+            ],
+            [
+              "Indisponibilidade de janelas no porto",
+              1.0
+            ],
+            [
+              "Dificuldades na liberação da SEFAZ",
+              1.0
+            ],
+            [
+              "Total Geral",
+              113.0
+            ]
+          ]
+        },
+        {
+          "name": "PivotTable3",
+          "cache_index": 6,
+          "source_data": "ROE_wk",
+          "table_range1_address": "$L$7:$M$41",
+          "table_range2_address": "$L$2:$M$41",
+          "row_grand": true,
+          "column_grand": true,
+          "fields": [
+            {
+              "name": "Provedor",
+              "orientation": "row",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "A DA SILVA DINIZ ME",
+                "ALIANCA MANAUS",
+                "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+                "BCR LOGISTICA LTDA",
+                "BETEL TRANSPORTES DE CONTAINERS LTDA",
+                "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+                "CONTRAIL LOGISTICA S A TIJU",
+                "COOPERCARGA FROTA DEDICADA",
+                "COOPERCARGA S A",
+                "DOMINGUES E GODINHO TRANSPORTE DECARGAS",
+                "EXPRESSO VALE REAL LTDA",
+                "FLUXOR TRANSPORTES LTDA",
+                "FTI LOGISTICA LTDA",
+                "GAFOR S A",
+                "INTALOG LOGISTICA TRANSPORTES LTDA",
+                "IRB LOGISTICA LTDA",
+                "J RIVELINO MOREIRA LTDA",
+                "KAIROS LOGISTICA INTEGRADA LTDA",
+                "KRONOS LOGISTICA INTEGRADA LTDA",
+                "LEV CARGA FROTA DEDICADA"
+              ],
+              "visible_items_count": ">=100_sampled_of_119"
+            },
+            {
+              "name": "Data Prog.",
+              "orientation": "page",
+              "position": 3.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)",
+                "5/31/2026 23:00",
+                "5/31/2026 10:00",
+                "5/31/2026 23:59",
+                "5/31/2026 23:40",
+                "5/31/2026 20:00",
+                "6/1/2026",
+                "5/31/2026 11:00",
+                "5/31/2026 8:00",
+                "5/31/2026 9:00",
+                "5/31/2026 22:00",
+                "5/31/2026 2:00",
+                "6/1/2026 6:00",
+                "6/1/2026 7:00",
+                "6/1/2026 7:30",
+                "6/1/2026 8:00",
+                "6/1/2026 17:00",
+                "6/1/2026 9:00",
+                "6/1/2026 10:00",
+                "6/1/2026 10:30"
+              ],
+              "visible_items_count": ">=100_sampled_of_285"
+            },
+            {
+              "name": "Cliente Proposta",
+              "orientation": "row",
+              "position": 3.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "ACUMULADORES MOURA SA",
+                "ADAR IND COM IMP EXP LTDA",
+                "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+                "AMCOR EMBALAGENS DA AMAZONIA SA",
+                "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+                "ARCOR DO BRASIL LTDA",
+                "ASSOCIACAO RECICLANIP",
+                "BMW DO BRASIL LTDA",
+                "BRACELL PAPEIS NORDESTE LTDA",
+                "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+                "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+                "CATERPILLAR BRASIL LTDA",
+                "CERAMICA BRASILEIRA CERBRAS LTDA",
+                "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+                "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+                "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+                "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+                "CRUSOE FOODS INDUSTRIA IMPORTACAO E",
+                "D.D. WILLIAMSON DO BRASIL LTDA",
+                "DAXIA DOCE AROMA INDUSTRIA E COMERCIO LT"
+              ],
+              "visible_items_count": ">=100_sampled_of_465"
+            },
+            {
+              "name": "Volume",
+              "orientation": "page",
+              "position": 4.0,
+              "current_page": "Ok",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Ok",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Justificativa",
+              "orientation": "row",
+              "position": 2.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "",
+                "Atraso do motorista",
+                "Divergência de endereço",
+                "Indisponibilidade de janelas no porto",
+                "Morosidade no carregamento",
+                "Operação especial",
+                "OS de ajuste",
+                "Problemas na via (trânsito/acidente/obras)",
+                "Problemas no depot",
+                "Problemas no porto",
+                "Problemas no veículo (mecânico/elétrico)",
+                "Troca de motorista",
+                "Veículo retido na OS anterior",
+                "(blank)",
+                "Dificuldades na liberação da SEFAZ",
+                "Reagendamento da coleta/entrega",
+                "Problema no equipamento (TEREX/RTG)",
+                "Operação de Carga Refeer",
+                "Operação do navio",
+                "Unidade retida no posto fiscal"
+              ],
+              "visible_items_count": 33
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": "page",
+              "position": 2.0,
+              "current_page": "1",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "1",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "OTO Out",
+              "orientation": "page",
+              "position": 1.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            }
+          ],
+          "data_fields_error": "TypeError(\"'PivotFields' object is not callable\")",
+          "data_fields": [],
+          "table_values": [
+            [
+              "Volume",
+              "Ok"
+            ],
+            [
+              "Data Prog.",
+              "(Tudo)"
+            ],
+            [
+              "Atrasado?",
+              1.0
+            ],
+            [
+              "OTO Out",
+              "(Tudo)"
+            ],
+            [
+              null,
+              null
+            ],
+            [
+              "Rótulos de Linha",
+              "Count of OS"
+            ],
+            [
+              "MAERSK LNS SAO BERNARDO DO CAMPO",
+              25.0
+            ],
+            [
+              "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+              14.0
+            ],
+            [
+              "MAERSK LNS ITAPOA",
+              12.0
+            ],
+            [
+              "LUARA MEL VIEIRA TRANSPORTES",
+              6.0
+            ],
+            [
+              "J RIVELINO MOREIRA LTDA",
+              4.0
+            ],
+            [
+              "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+              4.0
+            ],
+            [
+              "LUARA MEL VIEIRA TRANSPORTES LTDA",
+              4.0
+            ],
+            [
+              "LEV CARGA FROTA DEDICADA",
+              4.0
+            ],
+            [
+              "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+              4.0
+            ],
+            [
+              "FRETADOR TRANSPORTES LTDA",
+              3.0
+            ],
+            [
+              "C.L.A TRANSPORTES LTDA",
+              3.0
+            ],
+            [
+              "LUBS TRANSPORTES E LOCACOES LTDA",
+              3.0
+            ],
+            [
+              "T S SERVICOS TRANSPORTE E LOGISTICALTDA",
+              3.0
+            ],
+            [
+              "EXPRESSO 3300 TRANSPORTE LOGISTICAE ARMA",
+              2.0
+            ],
+            [
+              "STARTMED DISTRIBUIDORA ETRANSPORTADORA L",
+              2.0
+            ],
+            [
+              "POLO NORTE TRANSPORTES LTDA EPP",
+              2.0
+            ],
+            [
+              "TORONTOLOG TRANSPORTES E LOGISTICALTDA",
+              2.0
+            ],
+            [
+              "UNILINK TRANSPORTES INTEGRADOS LTDA",
+              1.0
+            ],
+            [
+              "MAERSK LNS CABO DE SANTO AGOSTINHO",
+              1.0
+            ],
+            [
+              "IRB LOGISTICA S.A.",
+              1.0
+            ],
+            [
+              "KRONOS LOGISTICA INTEGRADA LTDA",
+              1.0
+            ],
+            [
+              "VBR LOGISTICA LTDA.",
+              1.0
+            ],
+            [
+              "LOG20 LOGISTICA S A",
+              1.0
+            ],
+            [
+              "COOPERCARGA S/A",
+              1.0
+            ],
+            [
+              "COOPERCARGA S A",
+              1.0
+            ],
+            [
+              "GAFOR S A",
+              1.0
+            ],
+            [
+              "FLUXOR TRANSPORTES LTDA",
+              1.0
+            ],
+            [
+              "WINGS TRANSPORTES BRASIL LTDA",
+              1.0
+            ],
+            [
+              "MULTIMODAL TRANSPORTE E LOGISTICA EIRELI",
+              1.0
+            ],
+            [
+              "BCR LOGISTICA LTDA",
+              1.0
+            ],
+            [
+              "FTI LOGISTICA LTDA",
+              1.0
+            ],
+            [
+              "GROUP ABA OPERADOR LOGISTICO LTDA",
+              1.0
+            ],
+            [
+              "THIBA TRANSPORTES E SERVICOS LTDA",
+              1.0
+            ],
+            [
+              "Total Geral",
+              113.0
+            ]
+          ]
+        },
+        {
+          "name": "PivotTable1",
+          "cache_index": 6,
+          "source_data": "ROE_wk",
+          "table_range1_address": "$A$7:$D$106",
+          "table_range2_address": "$A$2:$D$106",
+          "row_grand": true,
+          "column_grand": true,
+          "fields": [
+            {
+              "name": "Provedor",
+              "orientation": "row",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "A DA SILVA DINIZ ME",
+                "ALIANCA MANAUS",
+                "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+                "BCR LOGISTICA LTDA",
+                "BETEL TRANSPORTES DE CONTAINERS LTDA",
+                "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+                "CONTRAIL LOGISTICA S A TIJU",
+                "COOPERCARGA FROTA DEDICADA",
+                "COOPERCARGA S A",
+                "DOMINGUES E GODINHO TRANSPORTE DECARGAS",
+                "EXPRESSO VALE REAL LTDA",
+                "FLUXOR TRANSPORTES LTDA",
+                "FTI LOGISTICA LTDA",
+                "GAFOR S A",
+                "INTALOG LOGISTICA TRANSPORTES LTDA",
+                "IRB LOGISTICA LTDA",
+                "J RIVELINO MOREIRA LTDA",
+                "KAIROS LOGISTICA INTEGRADA LTDA",
+                "KRONOS LOGISTICA INTEGRADA LTDA",
+                "LEV CARGA FROTA DEDICADA"
+              ],
+              "visible_items_count": ">=100_sampled_of_119"
+            },
+            {
+              "name": "Data Prog.",
+              "orientation": "page",
+              "position": 3.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)",
+                "5/31/2026 23:00",
+                "5/31/2026 10:00",
+                "5/31/2026 23:59",
+                "5/31/2026 23:40",
+                "5/31/2026 20:00",
+                "6/1/2026",
+                "5/31/2026 11:00",
+                "5/31/2026 8:00",
+                "5/31/2026 9:00",
+                "5/31/2026 22:00",
+                "5/31/2026 2:00",
+                "6/1/2026 6:00",
+                "6/1/2026 7:00",
+                "6/1/2026 7:30",
+                "6/1/2026 8:00",
+                "6/1/2026 17:00",
+                "6/1/2026 9:00",
+                "6/1/2026 10:00",
+                "6/1/2026 10:30"
+              ],
+              "visible_items_count": ">=100_sampled_of_285"
+            },
+            {
+              "name": "Cliente Proposta",
+              "orientation": "row",
+              "position": 2.0,
+              "current_page": null,
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "ACUMULADORES MOURA SA",
+                "ADAR IND COM IMP EXP LTDA",
+                "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+                "AMCOR EMBALAGENS DA AMAZONIA SA",
+                "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+                "ARCOR DO BRASIL LTDA",
+                "ASSOCIACAO RECICLANIP",
+                "BMW DO BRASIL LTDA",
+                "BRACELL PAPEIS NORDESTE LTDA",
+                "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+                "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+                "CATERPILLAR BRASIL LTDA",
+                "CERAMICA BRASILEIRA CERBRAS LTDA",
+                "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+                "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+                "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+                "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+                "CRUSOE FOODS INDUSTRIA IMPORTACAO E",
+                "D.D. WILLIAMSON DO BRASIL LTDA",
+                "DAXIA DOCE AROMA INDUSTRIA E COMERCIO LT"
+              ],
+              "visible_items_count": ">=100_sampled_of_465"
+            },
+            {
+              "name": "Volume",
+              "orientation": "page",
+              "position": 4.0,
+              "current_page": "Ok",
+              "all_items_visible": false,
+              "visible_items_sample": [
+                "Ok",
+                "(blank)"
+              ],
+              "visible_items_count": 2
+            },
+            {
+              "name": "Atrasado?",
+              "orientation": "page",
+              "position": 1.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            },
+            {
+              "name": "OTO Out",
+              "orientation": "page",
+              "position": 2.0,
+              "current_page": "(Tudo)",
+              "all_items_visible": true,
+              "visible_items_sample": [
+                "(blank)"
+              ],
+              "visible_items_count": 1
+            },
+            {
+              "name": "Values",
+              "orientation": "column",
+              "position": 1.0,
+              "current_page": null,
+              "all_items_visible": null,
+              "visible_items_sample": [
+                "Count of OS",
+                "Sum of AtrasoRev",
+                "OTO WK"
+              ],
+              "visible_items_count": 3
+            }
+          ],
+          "data_fields_error": "TypeError(\"'PivotFields' object is not callable\")",
+          "data_fields": [],
+          "table_values": [
+            [
+              "Volume",
+              "Ok",
+              "Ok",
+              null
+            ],
+            [
+              "Data Prog.",
+              "(Tudo)",
+              "All",
+              null
+            ],
+            [
+              "OTO Out",
+              "(Tudo)",
+              "All",
+              null
+            ],
+            [
+              "Atrasado?",
+              "(Tudo)",
+              "All",
+              null
+            ],
+            [
+              null,
+              null,
+              null,
+              null
+            ],
+            [
+              "Rótulos de Linha",
+              "Count of OS",
+              "Sum of AtrasoRev",
+              "OTO WK"
+            ],
+            [
+              "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+              279.0,
+              14.0,
+              0.9161290322580612
+            ],
+            [
+              "MAERSK LNS SAO BERNARDO DO CAMPO",
+              213.0,
+              25.0,
+              0.9114877589453846
+            ],
+            [
+              "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+              116.0,
+              4.0,
+              0.9719409809181734
+            ],
+            [
+              "MAERSK LNS ITAPOA",
+              95.0,
+              12.0,
+              0.9039208760155409
+            ],
+            [
+              "LUARA MEL VIEIRA TRANSPORTES LTDA",
+              85.0,
+              4.0,
+              0.9530999015904249
+            ],
+            [
+              "BETEL TRANSPORTES DE CONTAINERS LTDA",
+              70.0,
+              0.0,
+              0.9814471243042683
+            ],
+            [
+              "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+              60.0,
+              4.0,
+              0.9069767441860465
+            ],
+            [
+              "LUARA MEL VIEIRA TRANSPORTES",
+              53.0,
+              6.0,
+              0.8921568627450972
+            ],
+            [
+              "COOPERCARGA S A",
+              48.0,
+              1.0,
+              0.9595836645469001
+            ],
+            [
+              "CONTRAIL LOGISTICA S A TIJU",
+              41.0,
+              0.0,
+              1.0
+            ],
+            [
+              "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+              33.0,
+              0.0,
+              0.9845916795069332
+            ],
+            [
+              "J RIVELINO MOREIRA LTDA",
+              33.0,
+              4.0,
+              0.8932038834951461
+            ],
+            [
+              "COOPERCARGA S/A",
+              31.0,
+              1.0,
+              0.9725465697410265
+            ],
+            [
+              "POLO NORTE TRANSPORTES LTDA EPP",
+              30.0,
+              2.0,
+              0.9411764705882354
+            ],
+            [
+              "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+              29.0,
+              0.0,
+              0.8783783783783787
+            ],
+            [
+              "TERMINAL INTERMODAL SUL SA",
+              26.0,
+              0.0,
+              1.0
+            ],
+            [
+              "EXPRESSO VALE REAL LTDA",
+              26.0,
+              0.0,
+              1.0
+            ],
+            [
+              "IRB LOGISTICA S.A.",
+              23.0,
+              1.0,
+              0.977272727272727
+            ],
+            [
+              "GAFOR S A",
+              23.0,
+              1.0,
+              0.9800000000000003
+            ],
+            [
+              "MAERSK LNS CABO DE SANTO AGOSTINHO",
+              22.0,
+              1.0,
+              0.9600000000000005
+            ],
+            [
+              "MAERSK LNS CAMACARI",
+              22.0,
+              0.0,
+              1.0
+            ],
+            [
+              "COOPERCARGA FROTA DEDICADA",
+              20.0,
+              0.0,
+              0.8378378378378383
+            ],
+            [
+              "MULTIMODAL TRANSPORTE E LOGISTICA EIRELI",
+              19.0,
+              1.0,
+              0.9811320754716985
+            ],
+            [
+              "GROUP ABA OPERADOR LOGISTICO LTDA",
+              19.0,
+              1.0,
+              0.9666666666666665
+            ],
+            [
+              "S T A TRANSPORTES LTDA EPP",
+              18.0,
+              0.0,
+              1.0
+            ],
+            [
+              "FLUXOR TRANSPORTES LTDA",
+              18.0,
+              1.0,
+              0.9310344827586208
+            ],
+            [
+              "NORTE LOG LTDA - ACARA",
+              18.0,
+              0.0,
+              null
+            ],
+            [
+              "LEV CARGA FROTA DEDICADA",
+              15.0,
+              4.0,
+              0.8484848484848482
+            ],
+            [
+              "TORONTOLOG TRANSPORTES E LOGISTICALTDA",
+              15.0,
+              2.0,
+              0.9459459459459457
+            ],
+            [
+              "C.L.A TRANSPORTES LTDA",
+              15.0,
+              3.0,
+              0.8421052631578945
+            ],
+            [
+              "TRANSPOSERVS TRANSPORTES LTDA",
+              15.0,
+              0.0,
+              0.9375
+            ],
+            [
+              "MAERSK LOGISTICS & SERVICES BRASIL LTDA",
+              14.0,
+              0.0,
+              null
+            ],
+            [
+              "MUCURIPE LOGISTICA E TRANSPORTES DE CARG",
+              13.0,
+              0.0,
+              0.9736842105263156
+            ],
+            [
+              "ADUKARGO TRANSPORTES LOGISTICA ESERVICOS",
+              13.0,
+              0.0,
+              1.0
+            ],
+            [
+              "UNILINK TRANSPORTES INTEGRADOS LTDA",
+              13.0,
+              1.0,
+              0.9705882352941176
+            ],
+            [
+              "FRETADOR TRANSPORTES LTDA",
+              12.0,
+              3.0,
+              0.6956521739130433
+            ],
+            [
+              "VBR LOGISTICA LTDA",
+              12.0,
+              0.0,
+              1.0
+            ],
+            [
+              "WINGS TRANSPORTES BRASIL LTDA",
+              12.0,
+              1.0,
+              0.8800000000000002
+            ],
+            [
+              "THYSSENKRUPP METALURGICA CAMPO LIMPO",
+              11.0,
+              1.0,
+              0.8800000000000001
+            ],
+            [
+              "SYLVAMO DO BRASIL LTDA",
+              1.0,
+              0.0,
+              0.88
+            ],
+            [
+              "DOMINGUES E GODINHO TRANSPORTE DECARGAS",
+              10.0,
+              0.0,
+              0.9230769230769231
+            ],
+            [
+              "GUARUJA TERMINAIS ARMAZENS GERAIS LOGIST",
+              9.0,
+              0.0,
+              null
+            ],
+            [
+              "FLEX INDUSTRIA DE FIOS E CABOS ELETRICOS",
+              8.0,
+              0.0,
+              null
+            ],
+            [
+              "CORPRINT DA AMAZONIA GRAFICA E EDITORA L",
+              1.0,
+              0.0,
+              null
+            ],
+            [
+              "IRB LOGISTICA LTDA",
+              9.0,
+              0.0,
+              1.0
+            ],
+            [
+              "SIMETRIA TRANSPORTES E ARMAZENAGENS GERA",
+              9.0,
+              0.0,
+              1.0
+            ],
+            [
+              "EXPRESSO VALE REAL",
+              9.0,
+              0.0,
+              1.0
+            ],
+            [
+              "M D MOVEIS LTDA",
+              4.0,
+              0.0,
+              1.0
+            ],
+            [
+              "VIDEOLAR-INNOVA S/A",
+              2.0,
+              0.0,
+              1.0
+            ],
+            [
+              "NORTE SALINEIRA S/A INDUSTRIA E COMERCIO",
+              2.0,
+              0.0,
+              1.0
+            ],
+            [
+              "CDP MADEIRAS LTDA",
+              1.0,
+              0.0,
+              1.0
+            ],
+            [
+              "MAFRO TRANSPORTES LTDA",
+              9.0,
+              0.0,
+              1.0
+            ],
+            [
+              "T S SERVICOS TRANSPORTE E LOGISTICALTDA",
+              9.0,
+              3.0,
+              0.9677419354838711
+            ],
+            [
+              "LOG20 LOGISTICA S A",
+              8.0,
+              1.0,
+              0.9000000000000001
+            ]
+          ]
+        }
+      ]
+    }
+  },
+  "opened_readonly": true,
+  "workbook_readonly": true
+}

@@ -1,0 +1,449 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\work\\Base_DSU2026_WK23_top_offenders_weeknum_test_20260608_093708.xlsm",
+  "targets": [
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable1",
+      "before_total": {
+        "row": 231,
+        "value": 966.0
+      },
+      "before_fields": [
+        {
+          "field": "Data Prog.",
+          "orientation": 0.0,
+          "current_page_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "all_items_visible": true,
+          "visible": [
+            "5/31/2026 2:00",
+            "5/31/2026 8:00",
+            "5/31/2026 9:00",
+            "5/31/2026 10:00",
+            "5/31/2026 11:00",
+            "5/31/2026 20:00",
+            "5/31/2026 22:00",
+            "5/31/2026 23:00",
+            "5/31/2026 23:40",
+            "5/31/2026 23:59",
+            "6/1/2026",
+            "6/1/2026 1:00",
+            "6/1/2026 2:00",
+            "6/1/2026 3:00",
+            "6/1/2026 4:00",
+            "6/1/2026 4:30",
+            "6/1/2026 6:00",
+            "6/1/2026 6:30",
+            "6/1/2026 7:00",
+            "6/1/2026 7:30"
+          ],
+          "hidden": [],
+          "filters": [
+            {
+              "FilterType": 29,
+              "Value1": "2026-06-02 00:00:00+00:00",
+              "Value2": null
+            }
+          ]
+        },
+        {
+          "field": "Weeknum",
+          "orientation": 0.0,
+          "current_page_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "all_items_visible": true,
+          "visible": [
+            "23",
+            "24",
+            "(blank)"
+          ],
+          "hidden": [],
+          "filters": []
+        },
+        {
+          "field": "Volume",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": false,
+          "visible": [
+            "Ok",
+            "(blank)"
+          ],
+          "hidden": [
+            "N"
+          ],
+          "filters": []
+        },
+        {
+          "field": "Atrasado?",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "0",
+            "1",
+            "(blank)"
+          ],
+          "hidden": [],
+          "filters": []
+        },
+        {
+          "field": "OTO Out",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "N",
+            "S",
+            "(blank)"
+          ],
+          "hidden": [],
+          "filters": []
+        }
+      ],
+      "actions": [
+        {
+          "Data Prog. clear": [
+            "ClearAllFilters ok"
+          ]
+        },
+        {
+          "Weeknum filter 23": [
+            "ClearAllFilters ok",
+            {
+              "week_items": [
+                "23",
+                "24",
+                "(blank)"
+              ]
+            },
+            "Weeknum item '23' visible true ok",
+            "Weeknum 23 visible=True ok",
+            "Weeknum 24 visible=False ok",
+            "Weeknum (blank) visible=False ok"
+          ]
+        },
+        {
+          "Volume Ok": [
+            "Volume orientation page ok",
+            "ClearAllFilters ok",
+            "Volume CurrentPage Ok ok"
+          ]
+        },
+        "RefreshTable ok"
+      ],
+      "after_total": {
+        "row": 526,
+        "value": 4303.0
+      },
+      "after_fields": [
+        {
+          "field": "Data Prog.",
+          "orientation": 0.0,
+          "current_page_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "all_items_visible": true,
+          "visible": [
+            "5/31/2026 2:00",
+            "5/31/2026 8:00",
+            "5/31/2026 9:00",
+            "5/31/2026 10:00",
+            "5/31/2026 11:00",
+            "5/31/2026 20:00",
+            "5/31/2026 22:00",
+            "5/31/2026 23:00",
+            "5/31/2026 23:40",
+            "5/31/2026 23:59",
+            "6/1/2026",
+            "6/1/2026 1:00",
+            "6/1/2026 2:00",
+            "6/1/2026 3:00",
+            "6/1/2026 4:00",
+            "6/1/2026 4:30",
+            "6/1/2026 6:00",
+            "6/1/2026 6:30",
+            "6/1/2026 7:00",
+            "6/1/2026 7:30"
+          ],
+          "hidden": [],
+          "filters": []
+        },
+        {
+          "field": "Weeknum",
+          "orientation": 0.0,
+          "current_page_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "all_items_visible": true,
+          "visible": [
+            "23",
+            "24",
+            "(blank)"
+          ],
+          "hidden": [],
+          "filters": []
+        },
+        {
+          "field": "Volume",
+          "orientation": 3.0,
+          "current_page": "Ok",
+          "all_items_visible": false,
+          "visible": [
+            "Ok",
+            "(blank)"
+          ],
+          "hidden": [
+            "N"
+          ],
+          "filters": []
+        },
+        {
+          "field": "Atrasado?",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "0",
+            "1",
+            "(blank)"
+          ],
+          "hidden": [],
+          "filters": []
+        },
+        {
+          "field": "OTO Out",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "N",
+            "S",
+            "(blank)"
+          ],
+          "hidden": [],
+          "filters": []
+        }
+      ]
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable1",
+      "before_total": {
+        "row": 106,
+        "value": 1800.0
+      },
+      "before_fields": [
+        {
+          "field": "Data Prog.",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "(blank)",
+            "5/31/2026 23:00",
+            "5/31/2026 10:00",
+            "5/31/2026 23:59",
+            "5/31/2026 23:40",
+            "5/31/2026 20:00",
+            "6/1/2026",
+            "5/31/2026 11:00",
+            "5/31/2026 8:00",
+            "5/31/2026 9:00",
+            "5/31/2026 22:00",
+            "5/31/2026 2:00",
+            "6/1/2026 6:00",
+            "6/1/2026 7:00",
+            "6/1/2026 7:30",
+            "6/1/2026 8:00",
+            "6/1/2026 17:00",
+            "6/1/2026 9:00",
+            "6/1/2026 10:00",
+            "6/1/2026 10:30"
+          ],
+          "hidden": [],
+          "filters": [
+            {
+              "FilterType": 35,
+              "Value1": "2026-06-01 00:00:00+00:00",
+              "Value2": "2026-06-02 00:00:00+00:00"
+            }
+          ]
+        },
+        {
+          "field": "Weeknum",
+          "orientation": 0.0,
+          "current_page_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "all_items_visible": true,
+          "visible": [
+            "23",
+            "24",
+            "(blank)"
+          ],
+          "hidden": [],
+          "filters": []
+        },
+        {
+          "field": "Volume",
+          "orientation": 3.0,
+          "current_page": "Ok",
+          "all_items_visible": false,
+          "visible": [
+            "Ok",
+            "(blank)"
+          ],
+          "hidden": [
+            "N"
+          ],
+          "filters": []
+        },
+        {
+          "field": "Atrasado?",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "(blank)"
+          ],
+          "hidden": [
+            "0",
+            "1"
+          ],
+          "filters": []
+        },
+        {
+          "field": "OTO Out",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "(blank)"
+          ],
+          "hidden": [
+            "N",
+            "S"
+          ],
+          "filters": []
+        }
+      ],
+      "actions": [
+        {
+          "Data Prog. clear": [
+            "ClearAllFilters ok"
+          ]
+        },
+        {
+          "Weeknum filter 23": [
+            "ClearAllFilters ok",
+            {
+              "week_items": [
+                "23",
+                "24",
+                "(blank)"
+              ]
+            },
+            "Weeknum item '23' visible true ok",
+            "Weeknum 23 visible=True ok",
+            "Weeknum 24 visible=False ok",
+            "Weeknum (blank) visible=False ok"
+          ]
+        },
+        {
+          "Volume Ok": [
+            "Volume orientation page ok",
+            "ClearAllFilters ok",
+            "Volume CurrentPage Ok ok"
+          ]
+        },
+        "RefreshTable ok"
+      ],
+      "after_total": {
+        "row": 167,
+        "value": 4303.0
+      },
+      "after_fields": [
+        {
+          "field": "Data Prog.",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "(blank)",
+            "5/31/2026 23:00",
+            "5/31/2026 10:00",
+            "5/31/2026 23:59",
+            "5/31/2026 23:40",
+            "5/31/2026 20:00",
+            "6/1/2026",
+            "5/31/2026 11:00",
+            "5/31/2026 8:00",
+            "5/31/2026 9:00",
+            "5/31/2026 22:00",
+            "5/31/2026 2:00",
+            "6/1/2026 6:00",
+            "6/1/2026 7:00",
+            "6/1/2026 7:30",
+            "6/1/2026 8:00",
+            "6/1/2026 17:00",
+            "6/1/2026 9:00",
+            "6/1/2026 10:00",
+            "6/1/2026 10:30"
+          ],
+          "hidden": [],
+          "filters": []
+        },
+        {
+          "field": "Weeknum",
+          "orientation": 0.0,
+          "current_page_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "all_items_visible": true,
+          "visible": [
+            "23",
+            "24",
+            "(blank)"
+          ],
+          "hidden": [],
+          "filters": []
+        },
+        {
+          "field": "Volume",
+          "orientation": 3.0,
+          "current_page": "Ok",
+          "all_items_visible": false,
+          "visible": [
+            "Ok",
+            "(blank)"
+          ],
+          "hidden": [
+            "N"
+          ],
+          "filters": []
+        },
+        {
+          "field": "Atrasado?",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "(blank)"
+          ],
+          "hidden": [
+            "0",
+            "1"
+          ],
+          "filters": []
+        },
+        {
+          "field": "OTO Out",
+          "orientation": 3.0,
+          "current_page": "(Tudo)",
+          "all_items_visible": true,
+          "visible": [
+            "(blank)"
+          ],
+          "hidden": [
+            "N",
+            "S"
+          ],
+          "filters": []
+        }
+      ]
+    }
+  ],
+  "opened_readonly": false,
+  "saved": true
+}

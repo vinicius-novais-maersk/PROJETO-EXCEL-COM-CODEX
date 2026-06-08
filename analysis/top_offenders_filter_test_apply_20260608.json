@@ -1,0 +1,236 @@
+{
+  "workbook": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\work\\Base_DSU2026_WK23_top_offenders_filter_test_20260608_093050.xlsm",
+  "targets": [
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable1",
+      "before_total": {
+        "row": 231,
+        "value": 966.0
+      },
+      "before_fields": [
+        {
+          "field": "Data Prog.",
+          "Orientation": 0.0,
+          "CurrentPage_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "AllItemsVisible": true,
+          "pivot_filters": [
+            {
+              "FilterType": 29,
+              "Value1": "2026-06-02 00:00:00+00:00",
+              "Value2": null,
+              "Name": "Data Prog.",
+              "Description": ""
+            }
+          ]
+        },
+        {
+          "field": "Weeknum",
+          "Orientation": 0.0,
+          "CurrentPage_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        },
+        {
+          "field": "Volume",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": false,
+          "pivot_filters": []
+        },
+        {
+          "field": "Atrasado?",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        },
+        {
+          "field": "OTO Out",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        }
+      ],
+      "actions": [
+        {
+          "Data Prog.": [
+            "ClearAllFilters ok",
+            "Add2 date between ok"
+          ]
+        },
+        {
+          "Volume": [
+            "Volume orientation page ok",
+            "ClearAllFilters ok",
+            "Volume CurrentPage Ok ok"
+          ]
+        },
+        "RefreshTable ok"
+      ],
+      "after_total": {
+        "row": 526,
+        "value": 4237.0
+      },
+      "after_fields": [
+        {
+          "field": "Data Prog.",
+          "Orientation": 0.0,
+          "CurrentPage_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "AllItemsVisible": true,
+          "pivot_filters": [
+            {
+              "FilterType": 35,
+              "Value1": "2026-05-31 03:00:00+00:00",
+              "Value2": "2026-06-06 03:00:00+00:00",
+              "Name": "Data Prog.",
+              "Description": ""
+            }
+          ]
+        },
+        {
+          "field": "Weeknum",
+          "Orientation": 0.0,
+          "CurrentPage_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        },
+        {
+          "field": "Volume",
+          "Orientation": 3.0,
+          "CurrentPage": "Ok",
+          "AllItemsVisible": false,
+          "pivot_filters": []
+        },
+        {
+          "field": "Atrasado?",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        },
+        {
+          "field": "OTO Out",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        }
+      ]
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable1",
+      "before_total": {
+        "row": 106,
+        "value": 1800.0
+      },
+      "before_fields": [
+        {
+          "field": "Data Prog.",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": [
+            {
+              "FilterType": 35,
+              "Value1": "2026-06-01 00:00:00+00:00",
+              "Value2": "2026-06-02 00:00:00+00:00",
+              "Name": "Data Prog.",
+              "Description": ""
+            }
+          ]
+        },
+        {
+          "field": "Weeknum",
+          "Orientation": 0.0,
+          "CurrentPage_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        },
+        {
+          "field": "Volume",
+          "Orientation": 3.0,
+          "CurrentPage": "Ok",
+          "AllItemsVisible": false,
+          "pivot_filters": []
+        },
+        {
+          "field": "Atrasado?",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        },
+        {
+          "field": "OTO Out",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        }
+      ],
+      "actions": [
+        {
+          "Data Prog.": [
+            "ClearAllFilters ok",
+            "Add2 date between failed: com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)",
+            "Add date between failed: com_error(-2147352567, 'Exceção.', (0, None, None, None, 0, -2146827284), None)"
+          ]
+        },
+        {
+          "Volume": [
+            "Volume orientation page ok",
+            "ClearAllFilters ok",
+            "Volume CurrentPage Ok ok"
+          ]
+        },
+        "RefreshTable ok"
+      ],
+      "after_total": {
+        "row": 167,
+        "value": 4303.0
+      },
+      "after_fields": [
+        {
+          "field": "Data Prog.",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        },
+        {
+          "field": "Weeknum",
+          "Orientation": 0.0,
+          "CurrentPage_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível obter a propriedade CurrentPage da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        },
+        {
+          "field": "Volume",
+          "Orientation": 3.0,
+          "CurrentPage": "Ok",
+          "AllItemsVisible": false,
+          "pivot_filters": []
+        },
+        {
+          "field": "Atrasado?",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        },
+        {
+          "field": "OTO Out",
+          "Orientation": 3.0,
+          "CurrentPage": "(Tudo)",
+          "AllItemsVisible": true,
+          "pivot_filters": []
+        }
+      ]
+    }
+  ],
+  "opened_readonly": false,
+  "saved": true
+}
