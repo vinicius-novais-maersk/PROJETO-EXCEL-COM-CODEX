@@ -1,0 +1,1886 @@
+{
+  "used_range": "A1:I18",
+  "values_A1_J14": [
+    [
+      "OTO Out",
+      "N",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "OTD ajustado",
+      "Sem Preenchimento",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Volume",
+      "Ok",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Weeknum",
+      "(Tudo)",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Region",
+      "Qtd OS sem preenchimento",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Total",
+      null
+    ],
+    [
+      "North",
+      "149.0",
+      "36.0",
+      "34.0",
+      "33.0",
+      "0.0",
+      "26.0",
+      "27.0",
+      "149.0",
+      null
+    ],
+    [
+      "Southeast",
+      "113.0",
+      "31.0",
+      "13.0",
+      "28.0",
+      "24.0",
+      "24.0",
+      "13.0",
+      "113.0",
+      null
+    ],
+    [
+      "South",
+      "33.0",
+      "19.0",
+      "6.0",
+      "6.0",
+      "1.0",
+      "3.0",
+      "16.0",
+      "33.0",
+      null
+    ],
+    [
+      "Northeast",
+      "17.0",
+      "7.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "17.0",
+      null
+    ],
+    [
+      "Sem Porto/Region",
+      "3.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "0.0",
+      "3.0",
+      null
+    ],
+    [
+      "Total Geral",
+      "315.0",
+      "93.0",
+      "53.0",
+      "67.0",
+      "25.0",
+      "53.0",
+      "56.0",
+      "315.0",
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "MAPA - Region errors",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  ],
+  "formulas_A1_J14": [
+    [
+      "OTO Out",
+      "N",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "OTD ajustado",
+      "Sem Preenchimento",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Volume",
+      "Ok",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Weeknum",
+      "(Tudo)",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Region",
+      "Qtd OS sem preenchimento",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Total",
+      ""
+    ],
+    [
+      "North",
+      "149",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],C$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],D$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],E$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],F$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],G$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],H$6))",
+      "=B7",
+      ""
+    ],
+    [
+      "Southeast",
+      "113",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],C$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],D$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],E$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],F$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],G$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],H$6))",
+      "=B8",
+      ""
+    ],
+    [
+      "South",
+      "33",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],C$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],D$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],E$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],F$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],G$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],H$6))",
+      "=B9",
+      ""
+    ],
+    [
+      "Northeast",
+      "17",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],C$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],D$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],E$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],F$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],G$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],H$6))",
+      "=B10",
+      ""
+    ],
+    [
+      "Sem Porto/Region",
+      "3",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A11,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A11,ROE_wk[day week],C$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A11,ROE_wk[day week],D$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A11,ROE_wk[day week],D$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A11,ROE_wk[day week],E$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A11,ROE_wk[day week],E$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A11,ROE_wk[day week],F$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A11,ROE_wk[day week],F$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A11,ROE_wk[day week],G$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A11,ROE_wk[day week],G$6))",
+      "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A11,ROE_wk[day week],H$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A11,ROE_wk[day week],H$6))",
+      "=B11",
+      ""
+    ],
+    [
+      "Total Geral",
+      "315",
+      "=SUM(C7:C11)",
+      "=SUM(D7:D11)",
+      "=SUM(E7:E11)",
+      "=SUM(F7:F11)",
+      "=SUM(G7:G11)",
+      "=SUM(H7:H11)",
+      "=SUM(I7:I11)",
+      ""
+    ],
+    [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ],
+    [
+      "MAPA - Region errors",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      ""
+    ]
+  ],
+  "pivots": [
+    {
+      "name": "ptSemPreenchRegiaoPS",
+      "range": "A1:B12",
+      "source_data": "'ROE_wk'!L1C1:L9847C84",
+      "fields": {
+        "Nº OS": {
+          "orientation": 0,
+          "visible_sample": [
+            "6AFO31908A",
+            "6AFO31908B",
+            "6AFO31908C",
+            "6AFO31909A",
+            "6AFO31909B",
+            "6AFO31909C",
+            "6AFO31910A",
+            "6AFO31911A",
+            "6AFO31912A",
+            "6AFO31913A",
+            "6AFO31914A",
+            "6AFO31915A",
+            "6AFO31916A",
+            "6AFO31917A",
+            "6AFO31918A",
+            "6AFO31919A",
+            "6AFO31920A",
+            "6AFO31920B",
+            "6AFO31921A",
+            "6AFO31921B"
+          ]
+        },
+        "ST": {
+          "orientation": 0,
+          "visible_sample": [
+            "A",
+            "E",
+            "F",
+            "L",
+            "(blank)"
+          ]
+        },
+        "Tipo OS": {
+          "orientation": 0,
+          "visible_sample": [
+            "C",
+            "E",
+            "I",
+            "M",
+            "P",
+            "X",
+            "(blank)"
+          ]
+        },
+        "Provedor": {
+          "orientation": 0,
+          "visible_sample": [
+            "A DA SILVA DINIZ ME",
+            "ADUKARGO TRANSPORTES LOGISTICA ESERVICOS",
+            "ALIANCA FORTALEZA",
+            "ALIANCA MANAUS",
+            "ALIANCA SANTOS",
+            "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "APM TERMINALS PECEM OPERACOES PORTUARIAS",
+            "BASE TRANSPORTES LTDA",
+            "BCR LOGISTICA LTDA",
+            "BETEL TRANSPORTES DE CONTAINERS LTDA",
+            "C.L.A TRANSPORTES LTDA",
+            "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+            "CLOG CENTRO LOGISTICO LTDA",
+            "CONTRAIL LOGISTICA S A TIJU",
+            "CONVICON CONTEINERES DE VILA DO COND",
+            "COOP TRANSP AUT R CARGAS RG COOTRACA",
+            "COOPERATIVA DE TRANSPORTE DE CARGAS DO E",
+            "COOPERCARGA FROTA DEDICADA"
+          ]
+        },
+        "Tipo Serviço": {
+          "orientation": 0,
+          "visible_sample": [
+            "Abertura sinal do satélite",
+            "Acoplagem GENSET",
+            "Adicional de Entregas Atacadão",
+            "ADICIONAL DE MAO DE OBRA",
+            "ADICIONAL DTA",
+            "AJUDANTE",
+            "Ajudante - Abrir a porta Cont.",
+            "Aluguel de equipamento",
+            "Armazenagem",
+            "Armazenagem manual",
+            "Calços de travamento",
+            "Carreta Rebaixada",
+            "Colet. refle laranja",
+            "Conferente",
+            "Conferente coletor",
+            "Crossdocking",
+            "Crossdocking Sem Transp Princ",
+            "Deslocamento",
+            "Desova",
+            "DESOVA ADICIONAL"
+          ]
+        },
+        "Valor": {
+          "orientation": 0,
+          "visible_sample": [
+            "0.01",
+            "0.08",
+            "0.1",
+            "0.11",
+            "0.16",
+            "0.2",
+            "0.4",
+            "1",
+            "8",
+            "11",
+            "16",
+            "25",
+            "29.91",
+            "30",
+            "40",
+            "47.37",
+            "50",
+            "52.63",
+            "57.89",
+            "58.17"
+          ]
+        },
+        "Qtde": {
+          "orientation": 0,
+          "visible_sample": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "10",
+            "11",
+            "12",
+            "16",
+            "30",
+            "34",
+            "40",
+            "(blank)"
+          ]
+        },
+        "Booking": {
+          "orientation": 0,
+          "visible_sample": [
+            "108472",
+            "2188570",
+            "2189578",
+            "2190400",
+            "16778266",
+            "17898102",
+            "21450563",
+            "22198609",
+            "26960619",
+            "28488939",
+            "32506086",
+            "32773952",
+            "33034498",
+            "33168603",
+            "35602480",
+            "35952668",
+            "40369844",
+            "41371893",
+            "90613243",
+            "266263410"
+          ]
+        },
+        "Emissão": {
+          "orientation": 0,
+          "visible_sample": [
+            "5/8/2026 10:22",
+            "5/8/2026 10:24",
+            "5/8/2026 10:27",
+            "5/8/2026 10:30",
+            "5/8/2026 10:33",
+            "5/8/2026 10:40",
+            "5/8/2026 10:43",
+            "5/8/2026 10:46",
+            "5/8/2026 10:57",
+            "5/8/2026 11:00",
+            "5/8/2026 11:21",
+            "5/8/2026 11:24",
+            "5/8/2026 11:31",
+            "5/8/2026 11:35",
+            "5/8/2026 11:43",
+            "5/8/2026 12:07",
+            "5/8/2026 12:41",
+            "5/25/2026 19:34",
+            "5/25/2026 19:35",
+            "5/25/2026 19:37"
+          ]
+        },
+        "Data Prog.": {
+          "orientation": 0,
+          "visible_sample": [
+            "5/31/2026 2:00",
+            "5/31/2026 8:00",
+            "5/31/2026 9:00",
+            "5/31/2026 10:00",
+            "5/31/2026 11:00",
+            "5/31/2026 20:00",
+            "5/31/2026 22:00",
+            "5/31/2026 23:00",
+            "5/31/2026 23:40",
+            "5/31/2026 23:59",
+            "6/1/2026",
+            "6/1/2026 1:00",
+            "6/1/2026 2:00",
+            "6/1/2026 3:00",
+            "6/1/2026 4:00",
+            "6/1/2026 4:30",
+            "6/1/2026 6:00",
+            "6/1/2026 6:30",
+            "6/1/2026 7:00",
+            "6/1/2026 7:30"
+          ]
+        },
+        "Embarcador": {
+          "orientation": 0,
+          "visible_sample": [
+            "ABB WOOD BRAZIL LTDA",
+            "ADAR IND COM IMP EXP LTDA",
+            "ADAR INDUSTRIA COMERCIO IMPORTACAO E EXPORTACAO LT",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOS",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOS QUIMICOS L",
+            "AGROBRAS AGRICOLA TROPICAL DO BRASIL LTD",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO",
+            "Albras Aluminio Brasileiro S.A",
+            "ALCAST DO BRASIL S/A",
+            "ALIANCA MANAUS",
+            "ALJAVA INDUSTRIA E COMERCIO DE EMBALAGEN",
+            "ALLBRANDS INDUSTRIA DE ALIMENTOS LTD",
+            "ALPEK POLYESTER PERNAMBUCO S.A.",
+            "ALQUIMIA PRODUTOS QUIMICOS PARA IND. LTDA",
+            "ALQUIMIA PRODUTOS QUIMICOS PARA INDUSTRI",
+            "ALTO VALE CELULOSE INDUSTRIA COMERCIO E",
+            "ALVOAR LACTEOS S/A",
+            "AMAZON TAPE INDUSTRIA E COMERCIO DEFITAS",
+            "AMAZON TAPE INDUSTRIA E COMERCIO LTDA"
+          ]
+        },
+        "Destinatário": {
+          "orientation": 0,
+          "visible_sample": [
+            "2 Entregas",
+            "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENT",
+            "3M MANAUS INDUSTRIA DE PRODUTOS QUIMICOS",
+            "A CARVALHO DA SILVA & CIA LTDA",
+            "A L GOMES DISTRIBUICAO LTDA",
+            "A M A DE LIMA INDUSTRIA E COMERCIO DE PR",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODU",
+            "A R FILHO & CIA LTDA",
+            "A T P INDUSTRIA E COMERCIO DE PLASTICOS",
+            "AB MAURI BRASIL LTDA",
+            "ABB WOOD BRAZIL LTDA",
+            "ACXE IMPORTACAO, EXPORTACAO, INDUSTRIA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADRIANA DISTRIBUIDORA DE PRODUTOS AL",
+            "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENT",
+            "AGNUS PLAST IND E COM DE EMBALAGENS",
+            "AGROBRAS AGRICOLA TROPICAL DO BRASIL LTD",
+            "ALDAIR LOBATO GOMES",
+            "ALFPACK INDUSTRIA E COMERCIO DE EMBALAGE",
+            "ALLTAPE INDUSTRIA E COMERCIO IMPORTACAO"
+          ]
+        },
+        "Cliente Proposta": {
+          "orientation": 0,
+          "visible_sample": [
+            "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENT",
+            "A C S RASORI",
+            "A CARVALHO DA SILVA & CIA LTDA",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODU",
+            "ABB WOOD BRAZIL LTDA",
+            "ACUMULADORES MOURA SA",
+            "ADAR IND COM IMP EXP LTDA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOS",
+            "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENT",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO",
+            "ALCAST DO BRASIL S/A",
+            "ALEXANDRE PEREIRA COMERCIO DE MOVEIS UNI",
+            "ALLBRANDS INDUSTRIA DE ALIMENTOS LTD",
+            "ALLTAPE INDUSTRIA E COMERCIO IMPORTACAO",
+            "ALPEK POLYESTER BRASIL S.A.",
+            "ALQUIMIA PRODUTOS QUIMICOS PARA INDUSTRI",
+            "ALVOAR LACTEOS NORDESTE S/A",
+            "ALVOAR LACTEOS S A",
+            "AMAZON SERVICOS DE VAREJO DO BRASILLTDA"
+          ]
+        },
+        "Aut. de Coleta/Entrega": {
+          "orientation": 0,
+          "visible_sample": [
+            "812",
+            "815",
+            "1219",
+            "1404",
+            "1423",
+            "1498",
+            "1499",
+            "1501",
+            "1502",
+            "1504",
+            "1508",
+            "3001",
+            "3002",
+            "3003",
+            "3004",
+            "3005",
+            "3006",
+            "3007",
+            "3008",
+            "3009"
+          ]
+        },
+        "Nota Fiscal": {
+          "orientation": 0,
+          "visible_sample": [
+            "6",
+            "15",
+            "93",
+            "95",
+            "109",
+            "128",
+            "144",
+            "171",
+            "173",
+            "176",
+            "197",
+            "198",
+            "199",
+            "276",
+            "281",
+            "284",
+            "318",
+            "427",
+            "430",
+            "435"
+          ]
+        },
+        "Navio": {
+          "orientation": 0,
+          "visible_sample": [
+            "ALIANCA ANDES/10E",
+            "ALIANCA LEBLON/614N",
+            "ALIANCA LEBLON/615N",
+            "ALIANCA LEBLON/617N",
+            "ALIANCA LEBLON/618N",
+            "ALIANCA LEBLON/619N",
+            "ALIANCA LEBLON/620N",
+            "ALIANCA LEBLON/620S",
+            "ALIANCA LEBLON/621N",
+            "ALIANCA LEBLON/621S",
+            "ALIANCA LEBLON/624N",
+            "ALIANCA LEBLON/625S",
+            "ALIANCA SAN MARTIN/10E",
+            "ALIANCA SAN MARTIN/11N",
+            "ALIANCA SAN MARTIN/12E",
+            "ALIANCA SAN MARTIN/12N",
+            "ALIANCA SANTA FE/100N",
+            "AMERICO VESPUCIO/603N",
+            "AMERICO VESPUCIO/614S",
+            "AMERICO VESPUCIO/615N"
+          ]
+        },
+        "Origem/Destino": {
+          "orientation": 0,
+          "visible_sample": [
+            "2 Entregas",
+            "ABREU E LIMA - PE",
+            "ACARA - PA",
+            "ACARAPE - CE",
+            "ALAGOINHAS - BA",
+            "ALHANDRA - PB",
+            "AMERICANA - SP",
+            "AMPARO - SP",
+            "ANANINDEUA - PA",
+            "ANTONIO PRADO - RS",
+            "AQUIRAZ - CE",
+            "ARAPIRACA - AL",
+            "ARAPONGAS - PR",
+            "ARAQUARI - SC",
+            "ARAUCARIA - PR",
+            "ARCOVERDE - PE",
+            "ARMAZEM - SC",
+            "ARROIO DOS RATOS - RS",
+            "ATIBAIA - SP",
+            "BARCARENA - PA"
+          ]
+        },
+        "Container": {
+          "orientation": 0,
+          "visible_sample": [
+            "ALMU4913631",
+            "ALMU4914730",
+            "AMFU8660766",
+            "AMFU8830040",
+            "APZU3709811",
+            "APZU4358080",
+            "AXIU1463500",
+            "BEAU2186226",
+            "BEAU2796173",
+            "BEAU5217640",
+            "BEAU5337959",
+            "BEAU5680459",
+            "BEAU5687303",
+            "BEAU5732125",
+            "BEAU5742740",
+            "BEAU5745626",
+            "BEAU5756066",
+            "BEAU5814199",
+            "BEAU5834106",
+            "BEAU5915980"
+          ]
+        },
+        "Tipo": {
+          "orientation": 0,
+          "visible_sample": [
+            "20 DC",
+            "20 OT",
+            "20 TK",
+            "40 DC",
+            "40 HC",
+            "40 OH",
+            "40 OT",
+            "40 RH",
+            "Diversos",
+            "(blank)"
+          ]
+        },
+        "Tara": {
+          "orientation": 0,
+          "visible_sample": [
+            "28",
+            "2000",
+            "2100",
+            "2120",
+            "2170",
+            "2180",
+            "2200",
+            "2220",
+            "2222",
+            "2230",
+            "2250",
+            "2280",
+            "2300",
+            "2900",
+            "3220",
+            "3500",
+            "3600",
+            "3620",
+            "3650",
+            "3660"
+          ]
+        },
+        "Lacre 1": {
+          "orientation": 0,
+          "visible_sample": [
+            "1",
+            "123",
+            "1234",
+            "12345",
+            "22280",
+            "23647",
+            "23648",
+            "79023",
+            "86793",
+            "86797",
+            "86800",
+            "123456",
+            "123874",
+            "130578",
+            "184220",
+            "184381",
+            "184385",
+            "184387",
+            "184398",
+            "351785"
+          ]
+        },
+        "Lacre 2": {
+          "orientation": 0,
+          "visible_sample": [
+            "2163",
+            "6314",
+            "28750",
+            "37017",
+            "37581",
+            "37590",
+            "42715",
+            "76981",
+            "78360",
+            "89579",
+            "342519",
+            "343408",
+            "343409",
+            "343470",
+            "343488",
+            "351822",
+            "353332",
+            "353355",
+            "353395",
+            "353484"
+          ]
+        },
+        "Lacre 3": {
+          "orientation": 0,
+          "visible_sample": [
+            "23650",
+            "42738",
+            "78349",
+            "Diversos",
+            "MLBR0393815",
+            "mlbr0804967",
+            "MLBR0962350.",
+            "(blank)"
+          ]
+        },
+        "Faturamento": {
+          "orientation": 0,
+          "visible_sample": [
+            "(blank)"
+          ]
+        },
+        "Peso da carga (sem a tara)": {
+          "orientation": 0,
+          "visible_sample": [
+            "13.64",
+            "25.73",
+            "26.97",
+            "42.98",
+            "66.08",
+            "88.16",
+            "192",
+            "238",
+            "279.08",
+            "288",
+            "316.53",
+            "567.53",
+            "576",
+            "630",
+            "640",
+            "646",
+            "714",
+            "720",
+            "777",
+            "840"
+          ]
+        },
+        "Nº Agendamento": {
+          "orientation": 0,
+          "visible_sample": [
+            "3071584",
+            "3112977",
+            "3114689",
+            "3115165",
+            "3115690",
+            "3116021",
+            "3120930",
+            "3121453",
+            "3122297",
+            "3123520",
+            "3124019",
+            "3124021",
+            "3124022",
+            "3124026",
+            "3125388",
+            "3125869",
+            "3125870",
+            "3126485",
+            "3126980",
+            "3127264"
+          ]
+        },
+        "Nro. Apólice": {
+          "orientation": 0,
+          "visible_sample": [
+            "54001304",
+            "54001558",
+            "54005345",
+            "EM EMISSAO",
+            "Transportador",
+            "(blank)"
+          ]
+        },
+        "Status Averbação": {
+          "orientation": 0,
+          "visible_sample": [
+            "Averbação do transportador",
+            "Averbação OS - Provisória pendente",
+            "Averbação pendente – com Cte autorizado",
+            "Averbação pendente – sem Cte autorizado",
+            "Averbação rejeitada",
+            "Averbada pela OS - definitiva",
+            "Averbada pela OS - provisória",
+            "Averbada pelo Cte",
+            "OS não enviada",
+            "(blank)"
+          ]
+        },
+        "Número Averbação": {
+          "orientation": 0,
+          "visible_sample": [
+            "6.23806270242702E+38",
+            "6.23806270359852E+38",
+            "0623806270242702600081257004000536464115/0623806270242702600081257004000536465103/0623806270242702600081257004000536466183/0623806270242702600081257004000536467162/0623806270242702600081257004000536468141",
+            "0623806270242702600081257004000536678149/0623806270242702600081257004000536679128",
+            "0623806270242702600081257004000536890162/0623806270242702600081257004000536891141",
+            "0623806270242702600081257004000537005162/0623806270242702600081257004000537006141",
+            "0623806270242702600081257004000537007120/0623806270242702600081257004000537008100",
+            "0623806270242702600081257004000537028158/0623806270242702600081257004000537029137/0623806270242702600081257004000537030174",
+            "0623806270242702600081257004000537052180/0623806270242702600081257004000537053160",
+            "0623806270242702600081257004000537148165/0623806270242702600081257004000537149144",
+            "0623806270242702600081257004000537256135/0623806270242702600081257004000537257114/0623806270242702600081257004000537258102/0623806270242702600081257004000537259182/0623806270242702600081257004000537260110/0623806270242702600081257004000537261108/0623806270242702600081257004000537262188/0623806270242702600081257004000537263167/0623806270242702600081257004000537264146",
+            "0623806270242702600081257004000537265125/0623806270242702600081257004000537266104/0623806270242702600081257004000537268172/0623806270242702600081257004000537269151/0623806270242702600081257004000537274115/0623806270242702600081257004000537276183",
+            "0623806270242702600081257004000537277162/0623806270242702600081257004000537278141/0623806270242702600081257004000537279120/0623806270242702600081257004000537280168/0623806270242702600081257004000537281147/0623806270242702600081257004000537282126/0623806270242702600081257004000537283105",
+            "0623806270242702600081257004000537474143/0623806270242702600081257004000537475122/0623806270242702600081257004000537476101/0623806270242702600081257004000537477190/0623806270242702600081257004000537478170/0623806270242702600081257004000537479159/0623806270242702600081257004000537480196",
+            "0623806270242702600081257004000537638101/0623806270242702600081257004000537639190/0623806270242702600081257004000537640128/0623806270242702600081257004000537641107/0623806270242702600081257004000537642196/0623806270242702600081257004000537643175/0623806270242702600081257004000537644154",
+            "0623806270242702600081257004000538274174/0623806270242702600081257004000538275153/0623806270242702600081257004000538276132/0623806270242702600081257004000538277111/0623806270242702600081257004000538278100/0623806270242702600081257004000538279180/0623806270242702600081257004000538280117/0623806270242702600081257004000538281105/0623806270242702600081257004000538282185/0623806270242702600081257004000538283164/0623806270242702600081257004000538284143/0623806270242702600081257004000538285122/0623806270242702600081257004000538286101/0623806270242702600081257004000538287190/0623806270242702600081257004000538288170/0623806270242702600081257004000538289159",
+            "0623806270242702600081257004000538290196/0623806270242702600081257004000538291175/0623806270242702600081257004000538292154/0623806270242702600081257004000538293133/0623806270242702600081257004000538294112/0623806270242702600081257004000538295100/0623806270242702600081257004000538296180/0623806270242702600081257004000538297160/0623806270242702600081257004000538298149/0623806270242702600081257004000538299128/0623806270242702600081257004000538300102/0623806270242702600081257004000538301182/0623806270242702600081257004000538302161/0623806270242702600081257004000538303140/0623806270242702600081257004000538304120/0623806270242702600081257004000538305109/0623806270242702600081257004000538306198/0623806270242702600081257004000538307177/0623806270242702600081257004000538308156/0623806270242702600081257004000538309135/0623806270242702600081257004000538310172/0623806270242702600081257004000538311151/062380...",
+            "0623806270242702600081257004000538514127/0623806270242702600081257004000538515106",
+            "0623806270242702600081257004000538729130/0623806270242702600081257004000538730177/0623806270242702600081257004000538731156/0623806270242702600081257004000538732135/0623806270242702600081257004000538733114/0623806270242702600081257004000538734102/0623806270242702600081257004000538735182/0623806270242702600081257004000538736161/0623806270242702600081257004000538737140/0623806270242702600081257004000538738120/0623806270242702600081257004000538739109/0623806270242702600081257004000538740146/0623806270242702600081257004000538741125/0623806270242702600081257004000538742104/0623806270242702600081257004000538743193",
+            "0623806270242702600081257004000539910106/0623806270242702600081257004000539916100"
+          ]
+        },
+        "Data Averbação": {
+          "orientation": 0,
+          "visible_sample": [
+            "2/20/2026 22:04",
+            "3/23/2026 11:29",
+            "3/27/2026 17:29",
+            "4/2/2026 21:38",
+            "4/4/2026 17:34",
+            "4/8/2026 17:10",
+            "4/9/2026 9:26",
+            "4/10/2026 10:50",
+            "4/10/2026 10:58",
+            "4/10/2026 11:23",
+            "4/10/2026 12:50",
+            "4/10/2026 14:54",
+            "4/13/2026 13:26",
+            "4/14/2026 19:06",
+            "4/15/2026 14:03",
+            "4/15/2026 14:43",
+            "4/15/2026 14:45",
+            "4/16/2026 11:43",
+            "4/16/2026 11:49",
+            "4/16/2026 11:58"
+          ]
+        },
+        "EDI": {
+          "orientation": 0,
+          "visible_sample": [
+            "(blank)"
+          ]
+        },
+        "Data EDI": {
+          "orientation": 0,
+          "visible_sample": [
+            "(blank)"
+          ]
+        },
+        "Val. EDI Alt. Usuário": {
+          "orientation": 0,
+          "visible_sample": [
+            "(blank)"
+          ]
+        },
+        "Empresa": {
+          "orientation": 0,
+          "visible_sample": [
+            "Aliança",
+            "Maersk Line A/S",
+            "Maersk LnS",
+            "(blank)"
+          ]
+        },
+        "Centro de Custo": {
+          "orientation": 0,
+          "visible_sample": [
+            "Aliança",
+            "Maersk",
+            "Maersk-Outros",
+            "(blank)"
+          ]
+        },
+        "Diferenciador Proposta": {
+          "orientation": 0,
+          "visible_sample": [
+            "#SWR // PO X PA // SSA X MANAUS-AM // 01172-25I00017 e 01172-25I00014 // adv 0,16 LOGIN",
+            "00178-25I00020",
+            "00419-25I00041",
+            "00419-25I00202",
+            "00419-25I00204",
+            "00419-25I00207",
+            "00419-25I00213",
+            "00419-25I00216",
+            "00419-25I00221",
+            "00419-25I00225",
+            "00419-25I00298",
+            "00419-26I00005",
+            "00674-24I00029",
+            "00846-25I00008",
+            "01113-25I00003",
+            "01256-24I00008",
+            "01266-24I00011 / SOMENTE BUG 20",
+            "01266-24I00013",
+            "01266-24I00017",
+            "01667-24E00035 / 01667-24E00036"
+          ]
+        },
+        "Cliente Proposta2": {
+          "orientation": 0,
+          "visible_sample": [
+            "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENT",
+            "A C S RASORI",
+            "A CARVALHO DA SILVA & CIA LTDA",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODU",
+            "ABB WOOD BRAZIL LTDA",
+            "ACUMULADORES MOURA SA",
+            "ADAR IND COM IMP EXP LTDA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOS",
+            "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENT",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO",
+            "ALCAST DO BRASIL S/A",
+            "ALEXANDRE PEREIRA COMERCIO DE MOVEIS UNI",
+            "ALLBRANDS INDUSTRIA DE ALIMENTOS LTD",
+            "ALLTAPE INDUSTRIA E COMERCIO IMPORTACAO",
+            "ALPEK POLYESTER BRASIL S.A.",
+            "ALQUIMIA PRODUTOS QUIMICOS PARA INDUSTRI",
+            "ALVOAR LACTEOS NORDESTE S/A",
+            "ALVOAR LACTEOS S A",
+            "AMAZON SERVICOS DE VAREJO DO BRASILLTDA"
+          ]
+        },
+        "Terminal Cheio": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "AEROIMEX DESPACHOS ADUANEIROS E TRANSPOR",
+            "APM TERMINALS ITAJAI S A",
+            "BANDEIRANTES DEICMAR LOGISTICA INTEGRADA",
+            "BANDEIRANTES DEICMAR LOGISTICAINTEGRADA",
+            "BRASIL TERMINAL PORTUARIO SA",
+            "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+            "CIPP COMPANHIA DE INTEGRACAO PORTUARIA",
+            "CONTRAIL LOGISTICA S A TIJU",
+            "CONVICON CONTEINERES DE VILA DO COND",
+            "CRAGEA  SJC",
+            "EMBRAPORT EMPRESA BRASILEIRA DETERMINAIS",
+            "IRB LOGISTICA S.A.",
+            "ITAPOA TERMINAIS PORTUARIOS S/A",
+            "LOCALFRIO S/A ARM GERAIS FRIG T ALF",
+            "MULTI-RIO",
+            "MULTITERMINAIS RIO",
+            "NORTE LOG LTDA - ACARA",
+            "PORTONAVE SA TERMINAIS PORT DE NAVEG",
+            "SANTOS BRASIL LOGISTICA SA"
+          ]
+        },
+        "Cliente + Porto": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENTManaus",
+            "A C S RASORISantos",
+            "A CARVALHO DA SILVA & CIA LTDAManaus",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODUItapoa",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODUManaus",
+            "ABB WOOD BRAZIL LTDAItapoa",
+            "ACUMULADORES MOURA SAImbituba",
+            "ACUMULADORES MOURA SARio Grande",
+            "ADAR IND COM IMP EXP LTDAItapoa",
+            "ADAR IND COM IMP EXP LTDAPecem",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDASuape",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOSRio Grande",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOSSantos",
+            "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENTPecem",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIOSantos",
+            "ALCAST DO BRASIL S/AItapoa",
+            "ALEXANDRE PEREIRA COMERCIO DE MOVEIS UNIRio",
+            "ALLBRANDS INDUSTRIA DE ALIMENTOS LTDItapoa"
+          ]
+        },
+        "Tipo ajustado": {
+          "orientation": 0,
+          "visible_sample": [
+            "Outros",
+            "Rodo",
+            "(blank)"
+          ]
+        },
+        "Dia": {
+          "orientation": 0,
+          "visible_sample": [
+            "5/31/2026",
+            "6/1/2026",
+            "6/2/2026",
+            "6/3/2026",
+            "6/4/2026",
+            "6/5/2026",
+            "(blank)"
+          ]
+        },
+        "day week": {
+          "orientation": 0,
+          "visible_sample": [
+            "Fri",
+            "Mon",
+            "Sun",
+            "Thu",
+            "Tue",
+            "Wed",
+            "(blank)"
+          ]
+        },
+        "Weekday": {
+          "orientation": 0,
+          "visible_sample": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "(blank)"
+          ]
+        },
+        "Weeknum": {
+          "orientation": 3,
+          "current_page": "(Tudo)",
+          "visible_sample": [
+            "(blank)",
+            "23"
+          ]
+        },
+        "Data Ag": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "12:00:00 AM",
+            "2/19/2026 9:52",
+            "4/14/2026 16:35",
+            "4/16/2026 15:59",
+            "4/17/2026 10:25",
+            "4/17/2026 15:06",
+            "4/17/2026 17:02",
+            "4/24/2026 21:29",
+            "4/27/2026 12:03",
+            "4/28/2026 8:23",
+            "4/29/2026 8:30",
+            "4/29/2026 14:31",
+            "4/29/2026 14:32",
+            "4/29/2026 14:33",
+            "4/30/2026 15:37",
+            "5/4/2026 8:39",
+            "5/4/2026 8:40",
+            "5/4/2026 14:20",
+            "5/4/2026 19:06"
+          ]
+        },
+        "SLA Ag": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "N",
+            "On time",
+            "(blank)"
+          ]
+        },
+        "Special": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "Sp",
+            "(blank)"
+          ]
+        },
+        "Volume": {
+          "orientation": 3,
+          "current_page": "Ok",
+          "visible_sample": [
+            "Ok",
+            "(blank)"
+          ]
+        },
+        "POL": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "Imbituba",
+            "Itajai",
+            "Itapoa",
+            "Manaus",
+            "Paranagua",
+            "Pecem",
+            "Rio",
+            "Rio Grande",
+            "Salvador",
+            "Santos",
+            "Suape",
+            "Vila do Conde",
+            "Vitoria",
+            "(blank)"
+          ]
+        },
+        "POD": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "Imbituba",
+            "Itajai",
+            "Itapoa",
+            "Manaus",
+            "Paranagua",
+            "Pecem",
+            "Rio",
+            "Rio Grande",
+            "Salvador",
+            "Santos",
+            "Suape",
+            "Vila do Conde",
+            "(blank)"
+          ]
+        },
+        "Porto": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "Imbituba",
+            "Itajai",
+            "Itapoa",
+            "Manaus",
+            "Paranagua",
+            "Pecem",
+            "Rio",
+            "Rio Grande",
+            "Salvador",
+            "Santos",
+            "Suape",
+            "Vila do Conde",
+            "Vitoria",
+            "(blank)"
+          ]
+        },
+        "Region": {
+          "orientation": 1,
+          "visible_sample": [
+            "Sem Porto/Region",
+            "North",
+            "Northeast",
+            "South",
+            "Southeast",
+            "(blank)"
+          ]
+        },
+        "OTD SIL": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "Atrasado",
+            "No prazo",
+            "(blank)"
+          ]
+        },
+        "OTD ajustado": {
+          "orientation": 3,
+          "current_page": "Sem Preenchimento",
+          "visible_sample": [
+            "Sem Preenchimento",
+            "(blank)"
+          ]
+        },
+        "Justificativa": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "Aguardando liberação do booking",
+            "Aguardando liberação do vazio",
+            "Atraso do motorista",
+            "Dificuldades na liberação da SEFAZ",
+            "Divergência de endereço",
+            "Erro de agendamento ",
+            "Erro operacional do provedor",
+            "Indisponibilidade de janelas no depot",
+            "Indisponibilidade de janelas no porto",
+            "Interjornada do motorista",
+            "Mau tempo",
+            "Morosidade no carregamento",
+            "Operação de Carga Refeer",
+            "Operação do navio",
+            "Operação especial",
+            "OS de ajuste",
+            "Perda de agendamento no porto",
+            "Problema de regra (GR)",
+            "Problema no equipamento (TEREX/RTG)"
+          ]
+        },
+        "Atrasado?": {
+          "orientation": 0,
+          "visible_sample": [
+            "0",
+            "1",
+            "(blank)"
+          ]
+        },
+        "Wtime": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "N",
+            "Ok",
+            "(blank)"
+          ]
+        },
+        "Em horas": {
+          "orientation": 0,
+          "visible_sample": [
+            "0",
+            "0.0166666666666667",
+            "0.0333333333333333",
+            "0.05",
+            "0.0666666666666667",
+            "0.1",
+            "0.116666666666667",
+            "0.133333333333333",
+            "0.15",
+            "0.166666666666667",
+            "0.183333333333333",
+            "0.2",
+            "0.216666666666667",
+            "0.233333333333333",
+            "0.25",
+            "0.266666666666667",
+            "0.283333333333333",
+            "0.3",
+            "0.316666666666667",
+            "0.333333333333333"
+          ]
+        },
+        "W8ngTime": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "00:00",
+            "00:01",
+            "00:02",
+            "00:03",
+            "00:04",
+            "00:06",
+            "00:07",
+            "00:08",
+            "00:09",
+            "00:10",
+            "00:11",
+            "00:12",
+            "00:13",
+            "00:14",
+            "00:15",
+            "00:16",
+            "00:17",
+            "00:18",
+            "00:19"
+          ]
+        },
+        "W8ngMinute": {
+          "orientation": 0,
+          "visible_sample": [
+            "0",
+            "1",
+            "2",
+            "3",
+            "4",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20"
+          ]
+        },
+        "% OTO Provider": {
+          "orientation": 0,
+          "visible_sample": [
+            "0.5",
+            "0.6",
+            "0.625",
+            "0.666666666666667",
+            "0.684210526315789",
+            "0.8",
+            "0.8125",
+            "0.846153846153846",
+            "0.85",
+            "0.857142857142857",
+            "0.869565217391304",
+            "0.875",
+            "0.876923076923077",
+            "0.878787878787879",
+            "0.881188118811881",
+            "0.884615384615385",
+            "0.888888888888889",
+            "0.9",
+            "0.909090909090909",
+            "0.923076923076923"
+          ]
+        },
+        "% OTO Client": {
+          "orientation": 0,
+          "visible_sample": [
+            "0",
+            "0.25",
+            "0.333333333333333",
+            "0.4",
+            "0.5",
+            "0.571428571428571",
+            "0.6",
+            "0.642857142857143",
+            "0.666666666666667",
+            "0.68",
+            "0.7",
+            "0.714285714285714",
+            "0.75",
+            "0.769230769230769",
+            "0.777777777777778",
+            "0.785714285714286",
+            "0.8",
+            "0.80952380952381",
+            "0.818181818181818",
+            "0.833333333333333"
+          ]
+        },
+        "% SLA agend": {
+          "orientation": 0,
+          "visible_sample": [
+            "0",
+            "0.0277777777777778",
+            "0.0625",
+            "0.142857142857143",
+            "0.166666666666667",
+            "0.2",
+            "0.214285714285714",
+            "0.217391304347826",
+            "0.25",
+            "0.285714285714286",
+            "0.3125",
+            "0.318181818181818",
+            "0.324675324675325",
+            "0.327272727272727",
+            "0.333333333333333",
+            "0.416666666666667",
+            "0.428571428571429",
+            "0.5",
+            "0.56",
+            "0.5625"
+          ]
+        },
+        "OTO Out": {
+          "orientation": 3,
+          "current_page": "N",
+          "visible_sample": [
+            "N",
+            "(blank)"
+          ]
+        },
+        "24h+ on Client": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "25:15",
+            "26:03",
+            "29:44",
+            "34:20",
+            "39:45",
+            "39:50",
+            "40:41",
+            "43:03",
+            "44:07",
+            "44:30",
+            "45:39",
+            "66:12",
+            "67:22",
+            "67:35",
+            "67:37",
+            "69:34",
+            "69:40",
+            "78:05",
+            "78:16"
+          ]
+        },
+        "ClientePropostaRes": {
+          "orientation": 0,
+          "visible_sample": [
+            "3 ELEMENTUS SERVICOS",
+            "A C S RASORI",
+            "A CARVALHO & CIA",
+            "A M QUIMICA",
+            "ABB WOOD BRAZIL LTDA",
+            "ACUMULADORES MOURA",
+            "ADAR IMP EXP",
+            "ADF BEBIDAS",
+            "ADITEX ADITIVOS",
+            "AERIS EQUIPAMENTOS",
+            "AJINOMOTO DO BRASIL ",
+            "ALCAST DO BRASIL S/A",
+            "ALEX PEREIRA MOVEIS",
+            "ALLBRANDS INDUSTRIA ",
+            "ALLTAPE INDUSTRIA E ",
+            "ALPEK POLYESTER BRAS",
+            "ALQUIMIA QUIMICOS",
+            "ALVOAR LACTEOS NORDE",
+            "ALVOAR LACTEOS S A",
+            "AMAZON SERVICOS DE V"
+          ]
+        },
+        "Especiais": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "Especial",
+            "(blank)"
+          ]
+        },
+        "AtrasoRev": {
+          "orientation": 0,
+          "visible_sample": [
+            "0",
+            "1",
+            "(blank)"
+          ]
+        },
+        "Tipo Atraso": {
+          "orientation": 0,
+          "visible_sample": [
+            "=IF([@[OTD ajustado]]=\"Atrasado\",VLOOKUP([@Justificativa],Table3,2,FALSE),\"\")",
+            "(blank)"
+          ]
+        },
+        "Produto": {
+          "orientation": 0,
+          "visible_sample": [
+            "Cab",
+            "DS",
+            "(blank)"
+          ]
+        },
+        "Nome local de atendimento": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENT",
+            "3M MANAUS INDUSTRIA DE PRODUTOS QUIMICOS",
+            "57497539003050 - BRIDGESTON - 09370800",
+            "A CARVALHO DA SILVA & CIA LTDA",
+            "A M A DE LIMA FRIOS - ME",
+            "A M QUIMICA INDUSTRIA E COMERCIO DE PROD",
+            "A.T.P. IND.COM.DE PLASTICOS LTDA",
+            "AB MAURI BRASIL LTDA",
+            "ABB WOOD",
+            "ACXE IMPORTACAO, EXPORTACAO, INDUSTRIA",
+            "ADAR IND COM IMP EXP LTDA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOS ",
+            "ADRIANA DISTRIBUIDORA DE PRODUTOS ALIMEN",
+            "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENTOS PARA GERACAO DE ENERGIA S.A",
+            "AGNUS PLAST INDUSTRIA E COMERCIO DE EMBA",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO",
+            "ALCAST DO BRASIL S/A",
+            "ALDAIR LOBATO GOMES EPP"
+          ]
+        },
+        "JustificativaExc": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "Aguardando liberação do booking",
+            "Aguardando liberação do vazio",
+            "Atraso do motorista",
+            "Dificuldades na liberação da SEFAZ",
+            "Divergência de endereço",
+            "Erro de agendamento ",
+            "Erro operacional do provedor",
+            "Indisponibilidade de janelas no depot",
+            "Indisponibilidade de janelas no porto",
+            "Interjornada do motorista",
+            "Mau tempo",
+            "Morosidade no carregamento",
+            "Operação de Carga Refeer",
+            "Operação do navio",
+            "Operação especial",
+            "OS de ajuste",
+            "Perda de agendamento no porto",
+            "Problema de regra (GR)",
+            "Problema no equipamento (TEREX/RTG)"
+          ]
+        },
+        "Cliente PropostaExc": {
+          "orientation": 0,
+          "visible_sample": [
+            "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENT",
+            "A C S RASORI",
+            "A CARVALHO DA SILVA & CIA LTDA",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODU",
+            "ABB WOOD BRAZIL LTDA",
+            "ACUMULADORES MOURA SA",
+            "ADAR IND COM IMP EXP LTDA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOS",
+            "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENT",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO",
+            "ALCAST DO BRASIL S/A",
+            "ALEXANDRE PEREIRA COMERCIO DE MOVEIS UNI",
+            "ALLBRANDS INDUSTRIA DE ALIMENTOS LTD",
+            "ALLTAPE INDUSTRIA E COMERCIO IMPORTACAO",
+            "ALPEK POLYESTER BRASIL S.A.",
+            "ALQUIMIA PRODUTOS QUIMICOS PARA INDUSTRI",
+            "ALVOAR LACTEOS NORDESTE S/A",
+            "ALVOAR LACTEOS S A",
+            "AMAZON SERVICOS DE VAREJO DO BRASILLTDA"
+          ]
+        },
+        "Cliente Proposta+BrandExc": {
+          "orientation": 0,
+          "visible_sample": [
+            "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENTAliança",
+            "A C S RASORIAliança",
+            "A CARVALHO DA SILVA & CIA LTDAAliança",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODUAliança",
+            "ABB WOOD BRAZIL LTDAMaersk",
+            "ACUMULADORES MOURA SAAliança",
+            "ADAR IND COM IMP EXP LTDAAliança",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAAliança",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOSAliança",
+            "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENTAliança",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIOAliança",
+            "ALCAST DO BRASIL S/AAliança",
+            "ALEXANDRE PEREIRA COMERCIO DE MOVEIS UNIAliança",
+            "ALLBRANDS INDUSTRIA DE ALIMENTOS LTDAliança",
+            "ALLTAPE INDUSTRIA E COMERCIO IMPORTACAOAliança",
+            "ALPEK POLYESTER BRASIL S.A.Aliança",
+            "ALQUIMIA PRODUTOS QUIMICOS PARA INDUSTRIAliança",
+            "ALVOAR LACTEOS NORDESTE S/AAliança",
+            "ALVOAR LACTEOS S AMaersk",
+            "AMAZON SERVICOS DE VAREJO DO BRASILLTDAMaersk"
+          ]
+        },
+        "Cliente Proposta+PortoExc": {
+          "orientation": 0,
+          "visible_sample": [
+            "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENTManaus",
+            "A C S RASORISantos",
+            "A CARVALHO DA SILVA & CIA LTDAManaus",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODUItapoa",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODUManaus",
+            "ABB WOOD BRAZIL LTDAItapoa",
+            "ACUMULADORES MOURA SAImbituba",
+            "ACUMULADORES MOURA SARio Grande",
+            "ADAR IND COM IMP EXP LTDAItapoa",
+            "ADAR IND COM IMP EXP LTDAPecem",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDASuape",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOSRio Grande",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOSSantos",
+            "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENTPecem",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIOSantos",
+            "ALCAST DO BRASIL S/AItapoa",
+            "ALEXANDRE PEREIRA COMERCIO DE MOVEIS UNIRio",
+            "ALLBRANDS INDUSTRIA DE ALIMENTOS LTDItapoa",
+            "ALLTAPE INDUSTRIA E COMERCIO IMPORTACAOManaus"
+          ]
+        },
+        "Embarcador+Cliente Proposta+ProvedorExc": {
+          "orientation": 0,
+          "visible_sample": [
+            "ABB WOOD BRAZIL LTDAABB WOOD BRAZIL LTDABETEL TRANSPORTES DE CONTAINERS LTDA",
+            "ADAR IND COM IMP EXP LTDAADAR IND COM IMP EXP LTDALOG20 LOGISTICA S A",
+            "ADAR INDUSTRIA COMERCIO IMPORTACAO E EXPORTACAO LTADAR IND COM IMP EXP LTDACOOPERCARGA S A",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAAPG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDALUARA MEL VIEIRA TRANSPORTES LTDA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAMAERSK LNS CABO DE SANTO AGOSTINHO",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAMULTIMODAL TRANSPORTE E LOGISTICA EIRELI",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAUNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAVBR LOGISTICA LTDA",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOS QUIMICOS LADITEX INDUSTRIA E COMERCIO DE ADITIVOSVBR LOGISTICA LTDA.",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOSADITEX INDUSTRIA E COMERCIO DE ADITIVOSMAERSK LNS SAO BERNARDO DO CAMPO",
+            "AGROBRAS AGRICOLA TROPICAL DO BRASIL LTDUPA UMBUZEIRO PRODUCOES AGRICOLAS LTDABASE TRANSPORTES LTDA",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIOAJINOMOTO DO BRASIL INDUSTRIA E COMERCIOUNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIOAJINOMOTO DO BRASIL INDUSTRIA E COMERCIOVELOSTER OPERACOES LOGISTICAS LTDA",
+            "Albras Aluminio Brasileiro S.AMITSUI & CO BRASIL S.AGUARUJA TERMINAIS ARMAZENS GERAIS LOGIST",
+            "Albras Aluminio Brasileiro S.AMITSUI & CO BRASIL S.ATOBEMA TRANSPORTADORA LTDA",
+            "ALCAST DO BRASIL S/AALCAST DO BRASIL S/AGROUP ABA OPERADOR LOGISTICO LTDA",
+            "ALCAST DO BRASIL S/AALCAST DO BRASIL S/AMEU CHAPA",
+            "ALIANCA MANAUSTRAMONTINA DELTA S/AALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "ALJAVA INDUSTRIA E COMERCIO DE EMBALAGENPONTES INDUSTRIA DE CERA LTDAMAERSK LNS SAO BERNARDO DO CAMPO"
+          ]
+        },
+        "Embarcador+Nome local de atendimentoExc": {
+          "orientation": 0,
+          "visible_sample": [
+            "3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENT3 ELEMENTUS SERVICOS DE SOLUCOES AMBIENT",
+            "A C S RASORI",
+            "A C S RASORISUL MINAS VALLE - IND. E COM. DE ALIMENTOS LTDA",
+            "A CARVALHO DA SILVA & CIA LTDAA CARVALHO DA SILVA & CIA LTDA",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODUA M QUIMICA INDUSTRIA E COMERCIO DE PROD",
+            "A M QUIMICA INDUSTRIA E COMERCIO DEPRODUINDEMIL INDUSTRIA E COMERCIO LTDA",
+            "ABB WOOD BRAZIL LTDAABB WOOD",
+            "ACUMULADORES MOURA SA",
+            "ACUMULADORES MOURA SACAXIAS DO SUL DISTRIBUIDORA DE BATERIAS LTDA",
+            "ACUMULADORES MOURA SACRICIUMA DISTRIBUIDORA DE BATERIAS LTDA.",
+            "ACUMULADORES MOURA SASANTA MARIA DIST DE BATERIAS LTDA",
+            "ADAR IND COM IMP EXP LTDAADAR IND COM IMP EXP LTDA",
+            "ADAR IND COM IMP EXP LTDAB W INDUSTRIA E DISTRIBUIDORA DE CONFECC",
+            "ADAR IND COM IMP EXP LTDADMK LOG LTDA",
+            "ADAR IND COM IMP EXP LTDAFENIX LOGISTICA LTDA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOSADITEX INDUSTRIA E COMERCIO DE ADITIVOS ",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOSCOLFIX INDUSTRIA E COMERCIO LTDA",
+            "AERIS INDUSTRIA E COMERCIO DE EQUIPAMENTAERIS INDUSTRIA E COMERCIO DE EQUIPAMENTOS PARA GERACAO DE ENERGIA S.A"
+          ]
+        },
+        "ProvedorExc": {
+          "orientation": 0,
+          "visible_sample": [
+            "A DA SILVA DINIZ ME",
+            "ADUKARGO TRANSPORTES LOGISTICA ESERVICOS",
+            "ALIANCA FORTALEZA",
+            "ALIANCA MANAUS",
+            "ALIANCA SANTOS",
+            "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "APM TERMINALS PECEM OPERACOES PORTUARIAS",
+            "BASE TRANSPORTES LTDA",
+            "BCR LOGISTICA LTDA",
+            "BETEL TRANSPORTES DE CONTAINERS LTDA",
+            "C.L.A TRANSPORTES LTDA",
+            "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+            "CLOG CENTRO LOGISTICO LTDA",
+            "CONTRAIL LOGISTICA S A TIJU",
+            "CONVICON CONTEINERES DE VILA DO COND",
+            "COOP TRANSP AUT R CARGAS RG COOTRACA",
+            "COOPERATIVA DE TRANSPORTE DE CARGAS DO E",
+            "COOPERCARGA FROTA DEDICADA"
+          ]
+        },
+        "Is_OTOException": {
+          "orientation": 0,
+          "visible_sample": [
+            "FALSE",
+            "TRUE",
+            "(blank)"
+          ]
+        },
+        "Is_MoveException": {
+          "orientation": 0,
+          "visible_sample": [
+            "FALSE",
+            "(blank)"
+          ]
+        },
+        "Embarcador+Cliente Proposta+Provedor+PortoExc": {
+          "orientation": 0,
+          "visible_sample": [
+            "ABB WOOD BRAZIL LTDAABB WOOD BRAZIL LTDABETEL TRANSPORTES DE CONTAINERS LTDAItapoa",
+            "ADAR IND COM IMP EXP LTDAADAR IND COM IMP EXP LTDALOG20 LOGISTICA S AItapoa",
+            "ADAR INDUSTRIA COMERCIO IMPORTACAO E EXPORTACAO LTADAR IND COM IMP EXP LTDACOOPERCARGA S APecem",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAAPG TRANSP LOGISTICA REPRESENTACAO LREPRSuape",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDALUARA MEL VIEIRA TRANSPORTES LTDASuape",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAMAERSK LNS CABO DE SANTO AGOSTINHO",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAMAERSK LNS CABO DE SANTO AGOSTINHOSuape",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAMULTIMODAL TRANSPORTE E LOGISTICA EIRELISuape",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAUNITRADING LOGISTICA IMPORTACAO E EXPORTSuape",
+            "ADF DISTRIBUIDORA DE BEBIDAS LTDAADF DISTRIBUIDORA DE BEBIDAS LTDAVBR LOGISTICA LTDASuape",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOS QUIMICOS LADITEX INDUSTRIA E COMERCIO DE ADITIVOSVBR LOGISTICA LTDA.Rio Grande",
+            "ADITEX INDUSTRIA E COMERCIO DE ADITIVOSADITEX INDUSTRIA E COMERCIO DE ADITIVOSMAERSK LNS SAO BERNARDO DO CAMPOSantos",
+            "AGROBRAS AGRICOLA TROPICAL DO BRASIL LTDUPA UMBUZEIRO PRODUCOES AGRICOLAS LTDABASE TRANSPORTES LTDAPecem",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIOAJINOMOTO DO BRASIL INDUSTRIA E COMERCIOUNITRADING LOGISTICA IMPORTACAO E EXPORTSantos",
+            "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIOAJINOMOTO DO BRASIL INDUSTRIA E COMERCIOVELOSTER OPERACOES LOGISTICAS LTDASantos",
+            "Albras Aluminio Brasileiro S.AMITSUI & CO BRASIL S.AGUARUJA TERMINAIS ARMAZENS GERAIS LOGISTSantos",
+            "Albras Aluminio Brasileiro S.AMITSUI & CO BRASIL S.ATOBEMA TRANSPORTADORA LTDASantos",
+            "ALCAST DO BRASIL S/AALCAST DO BRASIL S/AGROUP ABA OPERADOR LOGISTICO LTDAItapoa",
+            "ALCAST DO BRASIL S/AALCAST DO BRASIL S/AMEU CHAPAItapoa",
+            "ALIANCA MANAUSTRAMONTINA DELTA S/AALIANCA TRANSPORTE MULTIMODAL LTDAManaus"
+          ]
+        },
+        "BU_SIL": {
+          "orientation": 0,
+          "visible_sample": [
+            "0",
+            "",
+            "FOR",
+            "ITJ",
+            "MAO",
+            "POA",
+            "REC",
+            "RIO",
+            "SSA",
+            "SSZ",
+            "(blank)"
+          ]
+        },
+        "Tipo_Programacao_SIL": {
+          "orientation": 0,
+          "visible_sample": [
+            "",
+            "Coleta cabotagem",
+            "Entrega cabotagem",
+            "Exportação",
+            "Importação",
+            "(blank)"
+          ]
+        },
+        "% agend on time": {
+          "orientation": 0,
+          "visible_sample": [
+            "0.901012373453318",
+            "(blank)"
+          ]
+        }
+      }
+    }
+  ]
+}

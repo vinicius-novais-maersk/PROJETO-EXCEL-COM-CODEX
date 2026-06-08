@@ -1,0 +1,12 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+  "started_at": "2026-06-08T16:09:22",
+  "target_sheet": "Region errors",
+  "changed_ranges": [
+    "B4",
+    "A6:J12"
+  ],
+  "opened_read_only": false,
+  "fatal_error": "com_error(-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível inserir uma fórmula para um item ou nome de campo em um relatório de tabela dinâmica.', 'xlmain11.chm', 0, -2146827284), None)",
+  "traceback": "Traceback (most recent call last):\n  File \"<stdin>\", line 130, in main\n  File \"C:\\Users\\VNO024\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\win32com\\client\\__init__.py\", line 599, in __setattr__\n    self._oleobj_.Invoke(*(args + (value,) + defArgs))\n    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\npywintypes.com_error: (-2147352567, 'Exceção.', (0, 'Microsoft Excel', 'Não é possível inserir uma fórmula para um item ou nome de campo em um relatório de tabela dinâmica.', 'xlmain11.chm', 0, -2146827284), None)\n"
+}

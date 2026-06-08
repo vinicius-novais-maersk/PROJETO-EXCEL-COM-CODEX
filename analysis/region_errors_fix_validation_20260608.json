@@ -1,0 +1,316 @@
+{
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+  "started_at": "2026-06-08 16:20:27",
+  "com_opened_read_only": true,
+  "com_calculation_state_after": 0,
+  "com_region_values_A1_J12": [
+    [
+      "OTO Out",
+      "N",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "OTD ajustado",
+      "Sem Preenchimento",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Volume",
+      "Ok",
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Weeknum",
+      23.0,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    [
+      "Region",
+      "Qtd OS sem preenchimento",
+      "Sun",
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Total"
+    ],
+    [
+      "North",
+      195.0,
+      39.0,
+      36.0,
+      34.0,
+      33.0,
+      0.0,
+      26.0,
+      27.0,
+      195.0
+    ],
+    [
+      "Southeast",
+      133.0,
+      0.0,
+      31.0,
+      13.0,
+      28.0,
+      24.0,
+      24.0,
+      13.0,
+      133.0
+    ],
+    [
+      "South",
+      51.0,
+      0.0,
+      19.0,
+      6.0,
+      6.0,
+      1.0,
+      3.0,
+      16.0,
+      51.0
+    ],
+    [
+      "Northeast",
+      22.0,
+      0.0,
+      0.0,
+      0.0,
+      17.0,
+      0.0,
+      2.0,
+      3.0,
+      22.0
+    ],
+    [
+      "Sem Porto/Region",
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      "Total Geral",
+      401.0,
+      39.0,
+      86.0,
+      53.0,
+      84.0,
+      25.0,
+      55.0,
+      59.0,
+      401.0
+    ]
+  ],
+  "com_region_pivot_count": 0,
+  "com_error_summary": [],
+  "active_week": 23,
+  "expected_region_errors": {
+    "North": {
+      "total": 195,
+      "days": {
+        "Sun": 39,
+        "Mon": 36,
+        "Tue": 34,
+        "Wed": 33,
+        "Fri": 26,
+        "Sat": 27
+      }
+    },
+    "Southeast": {
+      "total": 133,
+      "days": {
+        "Wed": 28,
+        "Mon": 31,
+        "Tue": 13,
+        "Fri": 24,
+        "Thu": 24,
+        "Sat": 13
+      }
+    },
+    "South": {
+      "total": 51,
+      "days": {
+        "Mon": 19,
+        "Tue": 6,
+        "Wed": 6,
+        "Thu": 1,
+        "Sat": 16,
+        "Fri": 3
+      }
+    },
+    "Northeast": {
+      "total": 22,
+      "days": {
+        "Fri": 2,
+        "Sat": 3,
+        "Wed": 17
+      }
+    },
+    "Sem Porto/Region": {
+      "total": 0,
+      "days": {}
+    }
+  },
+  "expected_total": 401,
+  "actual_region_errors": {
+    "North": {
+      "sheet_total_B": 195,
+      "sheet_days": {
+        "Sun": 39,
+        "Mon": 36,
+        "Tue": 34,
+        "Wed": 33,
+        "Thu": 0,
+        "Fri": 26,
+        "Sat": 27
+      },
+      "sheet_total_J": 195,
+      "formula_B": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7))",
+      "formula_J": "=SUM(C7:I7)"
+    },
+    "Southeast": {
+      "sheet_total_B": 133,
+      "sheet_days": {
+        "Sun": 0,
+        "Mon": 31,
+        "Tue": 13,
+        "Wed": 28,
+        "Thu": 24,
+        "Fri": 24,
+        "Sat": 13
+      },
+      "sheet_total_J": 133,
+      "formula_B": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8))",
+      "formula_J": "=SUM(C8:I8)"
+    },
+    "South": {
+      "sheet_total_B": 51,
+      "sheet_days": {
+        "Sun": 0,
+        "Mon": 19,
+        "Tue": 6,
+        "Wed": 6,
+        "Thu": 1,
+        "Fri": 3,
+        "Sat": 16
+      },
+      "sheet_total_J": 51,
+      "formula_B": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9))",
+      "formula_J": "=SUM(C9:I9)"
+    },
+    "Northeast": {
+      "sheet_total_B": 22,
+      "sheet_days": {
+        "Sun": 0,
+        "Mon": 0,
+        "Tue": 0,
+        "Wed": 17,
+        "Thu": 0,
+        "Fri": 2,
+        "Sat": 3
+      },
+      "sheet_total_J": 22,
+      "formula_B": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A10),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A10))",
+      "formula_J": "=SUM(C10:I10)"
+    },
+    "Sem Porto/Region": {
+      "sheet_total_B": 0,
+      "sheet_days": {
+        "Sun": 0,
+        "Mon": 0,
+        "Tue": 0,
+        "Wed": 0,
+        "Thu": 0,
+        "Fri": 0,
+        "Sat": 0
+      },
+      "sheet_total_J": 0,
+      "formula_B": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\")+COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Porto],\"\")-COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[Porto],\"\"),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\")+COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Porto],\"\")-COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[Porto],\"\"))",
+      "formula_J": "=SUM(C11:I11)"
+    }
+  },
+  "region_error_mismatches": [],
+  "sheet_total_B12": 401,
+  "sheet_total_J12": 401,
+  "week_overview_totals": {
+    "D23": 3310,
+    "H23": 979,
+    "K23": 4289,
+    "N23": 0.94,
+    "P23": 0.92,
+    "Q23": 0.9381149663386846
+  },
+  "volume_panel_checks": [
+    {
+      "sheet": "Volume_DS",
+      "port": "Salvador",
+      "sheet_M9": 234,
+      "base_total": 234,
+      "diff": 0
+    },
+    {
+      "sheet": "Volume_Graph",
+      "port": "Salvador",
+      "sheet_M9": 234,
+      "base_total": 234,
+      "diff": 0
+    },
+    {
+      "sheet": "Volume_MAO",
+      "port": "Salvador",
+      "sheet_M9": 234,
+      "base_total": 234,
+      "diff": 0
+    }
+  ],
+  "saved_error_values": [],
+  "finished_at": "2026-06-08 16:22:28"
+}

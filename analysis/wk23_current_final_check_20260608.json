@@ -1,0 +1,900 @@
+{
+  "summary": {
+    "workbook": "analysis\\work\\Base_DSU2026_WK23_readonly_audit_20260608_154231.xlsm",
+    "active_week_cell": "Week_Overview!AI1",
+    "active_week": 23,
+    "d_minus_1": "2026-06-05T00:00:00",
+    "calc_cell": "Week_Overview!AK1",
+    "calc_week": 23,
+    "rows_volume_ok_week": 4289,
+    "unique_os": 4289,
+    "duplicate_extra_rows": 0,
+    "cab_rows": 3310,
+    "ds_rows": 979,
+    "blank_port": 0,
+    "blank_region": 0,
+    "blank_day_week": 0,
+    "sem_preenchimento_oto_n": 401,
+    "atrasado_oto_n": 262,
+    "atrasado_oto_n_not_special": 239,
+    "especial_rows": 592,
+    "region_counts": {
+      "North": 1260,
+      "Northeast": 1058,
+      "Southeast": 1325,
+      "South": 646
+    },
+    "port_counts": {
+      "Manaus": 1183,
+      "Suape": 514,
+      "Pecem": 310,
+      "Vitoria": 11,
+      "Santos": 1100,
+      "Rio": 214,
+      "Rio Grande": 81,
+      "Itapoa": 391,
+      "Vila do Conde": 77,
+      "Itajai": 73,
+      "Salvador": 234,
+      "Imbituba": 80,
+      "Paranagua": 21
+    },
+    "day_counts": {
+      "Sun": 52,
+      "Mon": 834,
+      "Tue": 966,
+      "Wed": 1066,
+      "Fri": 875,
+      "Thu": 241,
+      "Sat": 255
+    },
+    "center_counts": {
+      "Aliança": 3310,
+      "Maersk": 679,
+      "Maersk-Outros": 300
+    }
+  },
+  "week_overview_comparisons": [
+    {
+      "row": 2,
+      "label": "MAO",
+      "scope": "port",
+      "scope_value": "Manaus",
+      "sheet": {
+        "moves_cab": 989,
+        "moves_ds": 194,
+        "moves_total": 1183,
+        "oto_cab": 0.9267515923566879,
+        "oto_ds": 0.9285714285714286,
+        "oto_total": 0.9269005847953217
+      },
+      "calc": {
+        "moves_cab": 989,
+        "moves_ds": 194,
+        "moves_total": 1183,
+        "oto_cab_exact": 0.9267515923566879,
+        "oto_ds_exact": 0.9285714285714286,
+        "oto_total_exact": 0.9269005847953217,
+        "oto_den_cab": 942,
+        "oto_den_ds": 84,
+        "oto_den_total": 1026,
+        "late_cab": 69,
+        "late_ds": 6,
+        "late_total": 75
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": -0.0032484076433121345,
+        "oto_ds_vs_rounded_formula": -0.0014285714285714457,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 3,
+      "label": "VDC",
+      "scope": "port",
+      "scope_value": "Vila do Conde",
+      "sheet": {
+        "moves_cab": 77,
+        "moves_ds": 0,
+        "moves_total": 77,
+        "oto_cab": 0.8648648648648649,
+        "oto_ds": null,
+        "oto_total": 0.8648648648648649
+      },
+      "calc": {
+        "moves_cab": 77,
+        "moves_ds": 0,
+        "moves_total": 77,
+        "oto_cab_exact": 0.8648648648648649,
+        "oto_ds_exact": null,
+        "oto_total_exact": 0.8648648648648649,
+        "oto_den_cab": 37,
+        "oto_den_ds": 0,
+        "oto_den_total": 37,
+        "late_cab": 5,
+        "late_ds": 0,
+        "late_total": 5
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.004864864864864926,
+        "oto_ds_vs_rounded_formula": null,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 4,
+      "label": "North",
+      "scope": "region",
+      "scope_value": "North",
+      "sheet": {
+        "moves_cab": 1066,
+        "moves_ds": 194,
+        "moves_total": 1260,
+        "oto_cab": 0.9244126659856997,
+        "oto_ds": 0.9285714285714286,
+        "oto_total": 0.9247412982126059
+      },
+      "calc": {
+        "moves_cab": 1066,
+        "moves_ds": 194,
+        "moves_total": 1260,
+        "oto_cab_exact": 0.9244126659856997,
+        "oto_ds_exact": 0.9285714285714286,
+        "oto_total_exact": 0.9247412982126059,
+        "oto_den_cab": 979,
+        "oto_den_ds": 84,
+        "oto_den_total": 1063,
+        "late_cab": 74,
+        "late_ds": 6,
+        "late_total": 80
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.004412665985699671,
+        "oto_ds_vs_rounded_formula": -0.0014285714285714457,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 6,
+      "label": "PEC",
+      "scope": "port",
+      "scope_value": "Pecem",
+      "sheet": {
+        "moves_cab": 283,
+        "moves_ds": 27,
+        "moves_total": 310,
+        "oto_cab": 0.9645390070921985,
+        "oto_ds": 1,
+        "oto_total": 0.9657534246575342
+      },
+      "calc": {
+        "moves_cab": 283,
+        "moves_ds": 27,
+        "moves_total": 310,
+        "oto_cab_exact": 0.9645390070921985,
+        "oto_ds_exact": 1.0,
+        "oto_total_exact": 0.9657534246575342,
+        "oto_den_cab": 282,
+        "oto_den_ds": 10,
+        "oto_den_total": 292,
+        "late_cab": 10,
+        "late_ds": 0,
+        "late_total": 10
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.004539007092198566,
+        "oto_ds_vs_rounded_formula": 0.0,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 7,
+      "label": "SUA",
+      "scope": "port",
+      "scope_value": "Suape",
+      "sheet": {
+        "moves_cab": 505,
+        "moves_ds": 9,
+        "moves_total": 514,
+        "oto_cab": 0.9520958083832335,
+        "oto_ds": 0.7777777777777778,
+        "oto_total": 0.9490196078431372
+      },
+      "calc": {
+        "moves_cab": 505,
+        "moves_ds": 9,
+        "moves_total": 514,
+        "oto_cab_exact": 0.9520958083832335,
+        "oto_ds_exact": 0.7777777777777778,
+        "oto_total_exact": 0.9490196078431372,
+        "oto_den_cab": 501,
+        "oto_den_ds": 9,
+        "oto_den_total": 510,
+        "late_cab": 24,
+        "late_ds": 2,
+        "late_total": 26
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.002095808383233533,
+        "oto_ds_vs_rounded_formula": -0.0022222222222222365,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 8,
+      "label": "SSA",
+      "scope": "port",
+      "scope_value": "Salvador",
+      "sheet": {
+        "moves_cab": 224,
+        "moves_ds": 10,
+        "moves_total": 234,
+        "oto_cab": 0.9776785714285714,
+        "oto_ds": 0.9,
+        "oto_total": 0.9743589743589743
+      },
+      "calc": {
+        "moves_cab": 224,
+        "moves_ds": 10,
+        "moves_total": 234,
+        "oto_cab_exact": 0.9776785714285714,
+        "oto_ds_exact": 0.9,
+        "oto_total_exact": 0.9743589743589743,
+        "oto_den_cab": 224,
+        "oto_den_ds": 10,
+        "oto_den_total": 234,
+        "late_cab": 5,
+        "late_ds": 1,
+        "late_total": 6
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": -0.0023214285714285854,
+        "oto_ds_vs_rounded_formula": 0.0,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 9,
+      "label": "Northeast",
+      "scope": "region",
+      "scope_value": "Northeast",
+      "sheet": {
+        "moves_cab": 1012,
+        "moves_ds": 46,
+        "moves_total": 1058,
+        "oto_cab": 0.9612711022840119,
+        "oto_ds": 0.896551724137931,
+        "oto_total": 0.9594594594594594
+      },
+      "calc": {
+        "moves_cab": 1012,
+        "moves_ds": 46,
+        "moves_total": 1058,
+        "oto_cab_exact": 0.9612711022840119,
+        "oto_ds_exact": 0.896551724137931,
+        "oto_total_exact": 0.9594594594594594,
+        "oto_den_cab": 1007,
+        "oto_den_ds": 29,
+        "oto_den_total": 1036,
+        "late_cab": 39,
+        "late_ds": 3,
+        "late_total": 42
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.001271102284011949,
+        "oto_ds_vs_rounded_formula": -0.0034482758620689724,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 11,
+      "label": "VIX",
+      "scope": "port",
+      "scope_value": "Vitoria",
+      "sheet": {
+        "moves_cab": 11,
+        "moves_ds": 0,
+        "moves_total": 11,
+        "oto_cab": 0.9090909090909091,
+        "oto_ds": null,
+        "oto_total": 0.9090909090909091
+      },
+      "calc": {
+        "moves_cab": 11,
+        "moves_ds": 0,
+        "moves_total": 11,
+        "oto_cab_exact": 0.9090909090909091,
+        "oto_ds_exact": null,
+        "oto_total_exact": 0.9090909090909091,
+        "oto_den_cab": 11,
+        "oto_den_ds": 0,
+        "oto_den_total": 11,
+        "late_cab": 1,
+        "late_ds": 0,
+        "late_total": 1
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": -0.0009090909090909705,
+        "oto_ds_vs_rounded_formula": null,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 12,
+      "label": "RIO",
+      "scope": "port",
+      "scope_value": "Rio",
+      "sheet": {
+        "moves_cab": 183,
+        "moves_ds": 31,
+        "moves_total": 214,
+        "oto_cab": 0.9502762430939227,
+        "oto_ds": 1,
+        "oto_total": 0.957345971563981
+      },
+      "calc": {
+        "moves_cab": 183,
+        "moves_ds": 31,
+        "moves_total": 214,
+        "oto_cab_exact": 0.9502762430939227,
+        "oto_ds_exact": 1.0,
+        "oto_total_exact": 0.957345971563981,
+        "oto_den_cab": 181,
+        "oto_den_ds": 30,
+        "oto_den_total": 211,
+        "late_cab": 9,
+        "late_ds": 0,
+        "late_total": 9
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.0002762430939227123,
+        "oto_ds_vs_rounded_formula": 0.0,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 13,
+      "label": "SSZ",
+      "scope": "port",
+      "scope_value": "Santos",
+      "sheet": {
+        "moves_cab": 588,
+        "moves_ds": 512,
+        "moves_total": 1100,
+        "oto_cab": 0.9408396946564885,
+        "oto_ds": 0.8936170212765957,
+        "oto_total": 0.9197465681098205
+      },
+      "calc": {
+        "moves_cab": 588,
+        "moves_ds": 512,
+        "moves_total": 1100,
+        "oto_cab_exact": 0.9408396946564885,
+        "oto_ds_exact": 0.8936170212765957,
+        "oto_total_exact": 0.9197465681098205,
+        "oto_den_cab": 524,
+        "oto_den_ds": 423,
+        "oto_den_total": 947,
+        "late_cab": 31,
+        "late_ds": 45,
+        "late_total": 76
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.0008396946564885877,
+        "oto_ds_vs_rounded_formula": 0.003617021276595689,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 14,
+      "label": "Southeast",
+      "scope": "region",
+      "scope_value": "Southeast",
+      "sheet": {
+        "moves_cab": 782,
+        "moves_ds": 543,
+        "moves_total": 1325,
+        "oto_cab": 0.9427374301675978,
+        "oto_ds": 0.9006622516556292,
+        "oto_total": 0.9264328485885372
+      },
+      "calc": {
+        "moves_cab": 782,
+        "moves_ds": 543,
+        "moves_total": 1325,
+        "oto_cab_exact": 0.9427374301675978,
+        "oto_ds_exact": 0.9006622516556292,
+        "oto_total_exact": 0.9264328485885372,
+        "oto_den_cab": 716,
+        "oto_den_ds": 453,
+        "oto_den_total": 1169,
+        "late_cab": 41,
+        "late_ds": 45,
+        "late_total": 86
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.002737430167597865,
+        "oto_ds_vs_rounded_formula": 0.0006622516556291647,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 16,
+      "label": "IOA",
+      "scope": "port",
+      "scope_value": "Itapoa",
+      "sheet": {
+        "moves_cab": 273,
+        "moves_ds": 118,
+        "moves_total": 391,
+        "oto_cab": 0.9144981412639406,
+        "oto_ds": 0.9732142857142857,
+        "oto_total": 0.931758530183727
+      },
+      "calc": {
+        "moves_cab": 273,
+        "moves_ds": 118,
+        "moves_total": 391,
+        "oto_cab_exact": 0.9144981412639406,
+        "oto_ds_exact": 0.9732142857142857,
+        "oto_total_exact": 0.931758530183727,
+        "oto_den_cab": 269,
+        "oto_den_ds": 112,
+        "oto_den_total": 381,
+        "late_cab": 23,
+        "late_ds": 3,
+        "late_total": 26
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.004498141263940547,
+        "oto_ds_vs_rounded_formula": 0.003214285714285725,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 17,
+      "label": "ITJ",
+      "scope": "port",
+      "scope_value": "Itajai",
+      "sheet": {
+        "moves_cab": 17,
+        "moves_ds": 56,
+        "moves_total": 73,
+        "oto_cab": null,
+        "oto_ds": 1,
+        "oto_total": 1
+      },
+      "calc": {
+        "moves_cab": 17,
+        "moves_ds": 56,
+        "moves_total": 73,
+        "oto_cab_exact": null,
+        "oto_ds_exact": 1.0,
+        "oto_total_exact": 1.0,
+        "oto_den_cab": 0,
+        "oto_den_ds": 37,
+        "oto_den_total": 37,
+        "late_cab": 0,
+        "late_ds": 0,
+        "late_total": 0
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": null,
+        "oto_ds_vs_rounded_formula": 0.0,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 18,
+      "label": "PNG",
+      "scope": "port",
+      "scope_value": "Paranagua",
+      "sheet": {
+        "moves_cab": 0,
+        "moves_ds": 21,
+        "moves_total": 21,
+        "oto_cab": null,
+        "oto_ds": 0.8823529411764706,
+        "oto_total": 0.8823529411764706
+      },
+      "calc": {
+        "moves_cab": 0,
+        "moves_ds": 21,
+        "moves_total": 21,
+        "oto_cab_exact": null,
+        "oto_ds_exact": 0.8823529411764706,
+        "oto_total_exact": 0.8823529411764706,
+        "oto_den_cab": 0,
+        "oto_den_ds": 17,
+        "oto_den_total": 17,
+        "late_cab": 0,
+        "late_ds": 2,
+        "late_total": 2
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": null,
+        "oto_ds_vs_rounded_formula": 0.0023529411764705577,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 19,
+      "label": "IBB",
+      "scope": "port",
+      "scope_value": "Imbituba",
+      "sheet": {
+        "moves_cab": 80,
+        "moves_ds": 0,
+        "moves_total": 80,
+        "oto_cab": 1,
+        "oto_ds": null,
+        "oto_total": 1
+      },
+      "calc": {
+        "moves_cab": 80,
+        "moves_ds": 0,
+        "moves_total": 80,
+        "oto_cab_exact": 1.0,
+        "oto_ds_exact": null,
+        "oto_total_exact": 1.0,
+        "oto_den_cab": 80,
+        "oto_den_ds": 0,
+        "oto_den_total": 80,
+        "late_cab": 0,
+        "late_ds": 0,
+        "late_total": 0
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.0,
+        "oto_ds_vs_rounded_formula": null,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 20,
+      "label": "RIG",
+      "scope": "port",
+      "scope_value": "Rio Grande",
+      "sheet": {
+        "moves_cab": 80,
+        "moves_ds": 1,
+        "moves_total": 81,
+        "oto_cab": 0.9615384615384616,
+        "oto_ds": 1,
+        "oto_total": 0.9620253164556962
+      },
+      "calc": {
+        "moves_cab": 80,
+        "moves_ds": 1,
+        "moves_total": 81,
+        "oto_cab_exact": 0.9615384615384616,
+        "oto_ds_exact": 1.0,
+        "oto_total_exact": 0.9620253164556962,
+        "oto_den_cab": 78,
+        "oto_den_ds": 1,
+        "oto_den_total": 79,
+        "late_cab": 3,
+        "late_ds": 0,
+        "late_total": 3
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.0015384615384615996,
+        "oto_ds_vs_rounded_formula": 0.0,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 21,
+      "label": "South",
+      "scope": "region",
+      "scope_value": "South",
+      "sheet": {
+        "moves_cab": 450,
+        "moves_ds": 196,
+        "moves_total": 646,
+        "oto_cab": 0.9391100702576113,
+        "oto_ds": 0.9700598802395209,
+        "oto_total": 0.9478114478114478
+      },
+      "calc": {
+        "moves_cab": 450,
+        "moves_ds": 196,
+        "moves_total": 646,
+        "oto_cab_exact": 0.9391100702576113,
+        "oto_ds_exact": 0.9700598802395209,
+        "oto_total_exact": 0.9478114478114478,
+        "oto_den_cab": 427,
+        "oto_den_ds": 167,
+        "oto_den_total": 594,
+        "late_cab": 26,
+        "late_ds": 5,
+        "late_total": 31
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": -0.0008899297423886621,
+        "oto_ds_vs_rounded_formula": 5.988023952097077e-05,
+        "oto_total_exact": 0.0
+      }
+    },
+    {
+      "row": 23,
+      "label": "Total BR",
+      "scope": "total",
+      "scope_value": null,
+      "sheet": {
+        "moves_cab": 3310,
+        "moves_ds": 979,
+        "moves_total": 4289,
+        "oto_cab": 0.94,
+        "oto_ds": 0.92,
+        "oto_total": 0.9381149663386846
+      },
+      "calc": {
+        "moves_cab": 3310,
+        "moves_ds": 979,
+        "moves_total": 4289,
+        "oto_cab_exact": 0.9424736337488016,
+        "oto_ds_exact": 0.9195088676671215,
+        "oto_total_exact": 0.9381149663386846,
+        "oto_den_cab": 3129,
+        "oto_den_ds": 733,
+        "oto_den_total": 3862,
+        "late_cab": 180,
+        "late_ds": 59,
+        "late_total": 239
+      },
+      "diffs": {
+        "moves_cab": 0.0,
+        "moves_ds": 0.0,
+        "moves_total": 0.0,
+        "oto_cab_vs_rounded_formula": 0.0,
+        "oto_ds_vs_rounded_formula": 0.0,
+        "oto_total_exact": 0.0
+      }
+    }
+  ],
+  "week_overview_material_diffs": [],
+  "volume_panels": [
+    {
+      "sheet": "Volume_DS",
+      "week": 23,
+      "port": "Salvador",
+      "sheet_M9": 234,
+      "base_total_port": 234,
+      "diff": 0,
+      "base_by_day": {
+        "Mon": 41,
+        "Tue": 63,
+        "Wed": 64,
+        "Thu": 15,
+        "Fri": 39,
+        "Sat": 12
+      }
+    },
+    {
+      "sheet": "Volume_Graph",
+      "week": 23,
+      "port": "Salvador",
+      "sheet_M9": 234,
+      "base_total_port": 234,
+      "diff": 0,
+      "base_by_day": {
+        "Mon": 41,
+        "Tue": 63,
+        "Wed": 64,
+        "Thu": 15,
+        "Fri": 39,
+        "Sat": 12
+      }
+    },
+    {
+      "sheet": "Volume_MAO",
+      "week": 23,
+      "port": "Salvador",
+      "sheet_M9": 234,
+      "base_total_port": 234,
+      "diff": 0,
+      "base_by_day": {
+        "Mon": 41,
+        "Tue": 63,
+        "Wed": 64,
+        "Thu": 15,
+        "Fri": 39,
+        "Sat": 12
+      }
+    }
+  ],
+  "region_errors": {
+    "cell_B4": "(Tudo)",
+    "rows": [
+      {
+        "row": 7,
+        "label": "North",
+        "sheet_B": 149,
+        "sheet_I": 149,
+        "calc_week_sem": 195,
+        "diff_B": -46,
+        "diff_I": -46,
+        "sheet_C_H": [
+          36,
+          34,
+          33,
+          0,
+          26,
+          27
+        ],
+        "calc_day_counts": {
+          "Sun": 39,
+          "Mon": 36,
+          "Tue": 34,
+          "Wed": 33,
+          "Fri": 26,
+          "Sat": 27
+        },
+        "formula_B": 149,
+        "formula_C": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A7,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A7,ROE_wk[day week],C$6))"
+      },
+      {
+        "row": 8,
+        "label": "Southeast",
+        "sheet_B": 113,
+        "sheet_I": 113,
+        "calc_week_sem": 133,
+        "diff_B": -20,
+        "diff_I": -20,
+        "sheet_C_H": [
+          31,
+          13,
+          28,
+          24,
+          24,
+          13
+        ],
+        "calc_day_counts": {
+          "Wed": 28,
+          "Mon": 31,
+          "Tue": 13,
+          "Fri": 24,
+          "Thu": 24,
+          "Sat": 13
+        },
+        "formula_B": 113,
+        "formula_C": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A8,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A8,ROE_wk[day week],C$6))"
+      },
+      {
+        "row": 9,
+        "label": "South",
+        "sheet_B": 33,
+        "sheet_I": 33,
+        "calc_week_sem": 51,
+        "diff_B": -18,
+        "diff_I": -18,
+        "sheet_C_H": [
+          19,
+          6,
+          6,
+          1,
+          3,
+          16
+        ],
+        "calc_day_counts": {
+          "Mon": 19,
+          "Tue": 6,
+          "Wed": 6,
+          "Thu": 1,
+          "Sat": 16,
+          "Fri": 3
+        },
+        "formula_B": 33,
+        "formula_C": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A9,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A9,ROE_wk[day week],C$6))"
+      },
+      {
+        "row": 10,
+        "label": "Northeast",
+        "sheet_B": 17,
+        "sheet_I": 17,
+        "calc_week_sem": 22,
+        "diff_B": -5,
+        "diff_I": -5,
+        "sheet_C_H": [
+          7,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "calc_day_counts": {
+          "Fri": 2,
+          "Sat": 3,
+          "Wed": 17
+        },
+        "formula_B": 17,
+        "formula_C": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],\"\",ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],\"\",ROE_wk[day week],C$6))"
+      },
+      {
+        "row": 11,
+        "label": "Sem Porto/Region",
+        "sheet_B": 3,
+        "sheet_I": 3,
+        "calc_week_sem": 0,
+        "diff_B": 3,
+        "diff_I": 3,
+        "sheet_C_H": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "calc_day_counts": {},
+        "formula_B": 3,
+        "formula_C": "=IF($B$4=\"(Tudo)\",COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Region],$A11,ROE_wk[day week],C$6),COUNTIFS(ROE_wk[Volume],$B$3,ROE_wk[OTD ajustado],$B$2,ROE_wk[OTO Out],$B$1,ROE_wk[Weeknum],$B$4,ROE_wk[Region],$A11,ROE_wk[day week],C$6))"
+      }
+    ],
+    "sheet_total_B12": 315,
+    "sheet_total_I12": 315,
+    "calc_total_week_sem": 401
+  },
+  "top_offenders": {
+    "customers_main_total_B10": 65,
+    "customers_delay_total_O126": 239,
+    "customers_helper_total_U434": 3421,
+    "vendors_main_total_B167": 4289,
+    "vendors_delay_total_M52": 239
+  },
+  "error_values": [],
+  "connections_from_com_note": "See analysis/wk23_current_com_audit_20260608.json; Query - Sheet1 has RefreshWithRefreshAll=False; COM recalculation completed with state 0 and no formula/constant errors reported."
+}
