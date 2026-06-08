@@ -1,0 +1,22 @@
+{
+  "validated_at": "2026-06-08T10:03:06",
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+  "file_length": 42382272,
+  "file_last_write_time": "2026-06-08T10:02:22",
+  "overview_week": 23,
+  "overview_total_k23": 4289,
+  "top_offenders_customers_total": {
+    "row": 526,
+    "label": "Total Geral",
+    "value": 4289
+  },
+  "top_offenders_vendors_total": {
+    "row": 167,
+    "label": "Total Geral",
+    "value": 4289
+  },
+  "matches": {
+    "customers_vs_overview": true,
+    "vendors_vs_overview": true
+  }
+}

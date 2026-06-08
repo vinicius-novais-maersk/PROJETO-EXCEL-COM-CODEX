@@ -1,0 +1,71 @@
+{
+  "ok": true,
+  "workbook": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+  "expected_total": 4289,
+  "start_date_filter": "2026-05-30T00:00:00",
+  "end_date_filter": "2026-06-06T00:00:00",
+  "started_at": "2026-06-08T09:58:57",
+  "targets": [
+    {
+      "sheet": "Top_Offenders_Customers",
+      "pivot": "PivotTable1",
+      "log": [
+        "Data Prog. orientation hidden failed: (-2147352567, 'Exce\u00e7\u00e3o.', (0, 'Microsoft Excel', 'N\u00e3o \u00e9 poss\u00edvel definir a propriedade Orientation da classe PivotField', 'xlmain11.chm', 0, -2146827284), None)",
+        "ClearAllFilters ok",
+        "PivotFilters delete attempted: 0",
+        "DateBetween Add2 ok",
+        "Volume orientation page ok",
+        "ClearAllFilters ok",
+        "PivotFilters delete attempted: 0",
+        "Volume CurrentPage Ok",
+        "RefreshTable returned True"
+      ],
+      "before_total": {
+        "row": 231,
+        "label": "Total Geral",
+        "value": 966.0
+      },
+      "date_filter_added": true,
+      "volume_filter": "Ok",
+      "after_total": {
+        "row": 526,
+        "label": "Total Geral",
+        "value": 4289.0
+      },
+      "matches_expected": true
+    },
+    {
+      "sheet": "Top_Offenders_Vendors",
+      "pivot": "PivotTable1",
+      "log": [
+        "Data Prog. orientation hidden ok",
+        "ClearAllFilters ok",
+        "PivotFilters delete attempted: 0",
+        "DateBetween Add2 ok",
+        "Volume orientation page ok",
+        "ClearAllFilters ok",
+        "PivotFilters delete attempted: 0",
+        "Volume CurrentPage Ok",
+        "RefreshTable returned True"
+      ],
+      "before_total": {
+        "row": 106,
+        "label": "Total Geral",
+        "value": 1800.0
+      },
+      "date_filter_added": true,
+      "volume_filter": "Ok",
+      "after_total": {
+        "row": 167,
+        "label": "Total Geral",
+        "value": 4289.0
+      },
+      "matches_expected": true
+    }
+  ],
+  "opened_readonly": false,
+  "all_targets_match_expected_before_save": true,
+  "saved": true,
+  "saved_at": "2026-06-08T10:02:22",
+  "finished_at": "2026-06-08T10:02:27"
+}
