@@ -1,0 +1,86 @@
+{
+  "excel_pid": 15976,
+  "opened_read_only": true,
+  "path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+  "week_overview": {
+    "active_week": 23,
+    "row_used": 23,
+    "cab": 3310.0,
+    "ds": 979.0,
+    "total": 4289.0,
+    "oto_out": 0.94,
+    "otd_ajustado": 0.92,
+    "performance": 0.9381149663386846
+  },
+  "top_offenders_customers": {
+    "PivotTable1": {
+      "address": "$A$2:$F$82",
+      "customer_counts": {
+        "items": 465,
+        "visible": 465,
+        "hidden": 0,
+        "visible_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D"
+        ],
+        "hidden_samples": [],
+        "errors": []
+      },
+      "total": {
+        "relative_row": 81,
+        "label": "Total Geral",
+        "numbers": [
+          979.0,
+          59.0,
+          0.9261889892365714,
+          7.213257983494795,
+          0.5108069053293786
+        ],
+        "total": 979.0,
+        "volume_total": 979.0,
+        "last_numeric_metric": 0.5108069053293786
+      }
+    },
+    "PivotTable5_delays": {
+      "address": "$N$2:$R$126",
+      "total": {
+        "relative_row": 125,
+        "label": "Total Geral",
+        "numbers": [
+          239.0,
+          0.6776590928655817,
+          6.34846582984658,
+          0.8039516140187042
+        ],
+        "total": 239.0,
+        "volume_total": 239.0,
+        "last_numeric_metric": 0.8039516140187042
+      }
+    }
+  },
+  "top_offenders_vendors": {
+    "B167": 4289.0
+  },
+  "region_errors": {
+    "B12": 401.0,
+    "J12": 401.0
+  },
+  "checks": {
+    "workbook_opened_read_only": true,
+    "week_total_4289": true,
+    "week_ds_979": true,
+    "customers_pivot1_total_979": true,
+    "customers_client_filter_cleared": true,
+    "customers_delay_total_239": true,
+    "vendors_total_4289": true,
+    "region_errors_401": true
+  }
+}

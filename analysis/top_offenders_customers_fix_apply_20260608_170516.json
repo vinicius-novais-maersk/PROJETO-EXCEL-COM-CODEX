@@ -1,0 +1,923 @@
+{
+  "timestamp": "20260608_170516",
+  "official_path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+  "test_copy": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026 - TbM - WK23_top_offenders_customers_test_20260608_170516.xlsm",
+  "backup_path": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\backups\\Base_DSU2026 - TbM - WK23_before_top_offenders_customers_fix_20260608_170516.xlsm",
+  "scope": {
+    "sheet": "Top_Offenders_Customers",
+    "pivot": "PivotTable1",
+    "field_cleared": "Cliente Proposta",
+    "not_changed": [
+      "PivotTable5",
+      "Tabela dinâmica1",
+      "PivotTable2_KPI_Helper",
+      "PivotTable2",
+      "Top_Offenders_Vendors",
+      "Week_Overview",
+      "Region errors"
+    ]
+  },
+  "baseline_official": {
+    "path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+    "excel_pid": 29140,
+    "read_only_requested": true,
+    "workbook_read_only": true,
+    "week_overview": {
+      "active_week": 23,
+      "row_used": 23,
+      "cab": 3310.0,
+      "ds": 979.0,
+      "total": 4289.0,
+      "oto_out": 0.94,
+      "otd_ajustado": 0.92,
+      "performance": 0.9381149663386846
+    },
+    "roe_expected": {
+      "sheet": "ROE_wk",
+      "status": "ok",
+      "header_row_1based": 1,
+      "rows_volume_ok": 4289,
+      "unique_os_volume_ok": null,
+      "cab_rows": null,
+      "ds_rows": null,
+      "used_rows": 9847,
+      "used_cols": 84,
+      "columns_found": {
+        "volume": 48,
+        "week": 44,
+        "os": null,
+        "modal": null
+      }
+    },
+    "pivot": {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable1",
+      "page_fields": [
+        {
+          "name": "Centro de Custo",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "Volume",
+          "current_page": "Ok",
+          "enable_multiple_page_items": false
+        },
+        {
+          "name": "Atrasado?",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "OTO Out",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        }
+      ],
+      "customer_field_counts": {
+        "items": 465,
+        "visible": 3,
+        "hidden": 462,
+        "visible_samples": [
+          "PIRELLI PNEUS LTDA",
+          "(blank)",
+          "PIRELLI PNEUS LTDA."
+        ],
+        "hidden_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+          "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+          "CATERPILLAR BRASIL LTDA",
+          "CERAMICA BRASILEIRA CERBRAS LTDA",
+          "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+          "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+          "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+          "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+          "Diversos",
+          "DOMESTILAR LTDA",
+          "DURAMETAL LTDA"
+        ],
+        "errors": []
+      },
+      "total_snapshot": {
+        "table_address": "$A$2:$F$10",
+        "rows": 9,
+        "columns": 6,
+        "total_candidates": [
+          {
+            "relative_row": 9,
+            "label": "Total Geral",
+            "numbers": [
+              65.0,
+              2.0,
+              0.9635327635327628,
+              21.085384615384623,
+              0.7538461538461538
+            ],
+            "total": 65.0,
+            "volume_total": 65.0,
+            "last_numeric_metric": 0.7538461538461538
+          }
+        ],
+        "chosen_total": {
+          "relative_row": 9,
+          "label": "Total Geral",
+          "numbers": [
+            65.0,
+            2.0,
+            0.9635327635327628,
+            21.085384615384623,
+            0.7538461538461538
+          ],
+          "total": 65.0,
+          "volume_total": 65.0,
+          "last_numeric_metric": 0.7538461538461538
+        }
+      }
+    }
+  },
+  "test_apply": {
+    "path": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026 - TbM - WK23_top_offenders_customers_test_20260608_170516.xlsm",
+    "excel_pid": 18944,
+    "steps": [
+      "ClearAllFilters em Cliente Proposta na PivotTable1",
+      "RefreshTable apenas da PivotTable1",
+      "Salvar workbook"
+    ],
+    "workbook_read_only": false,
+    "week_overview": {
+      "active_week": 23,
+      "row_used": 23,
+      "cab": 3310.0,
+      "ds": 979.0,
+      "total": 4289.0,
+      "oto_out": 0.94,
+      "otd_ajustado": 0.92,
+      "performance": 0.9381149663386846
+    },
+    "roe_expected": {
+      "sheet": "ROE_wk",
+      "status": "ok",
+      "header_row_1based": 1,
+      "rows_volume_ok": 4289,
+      "unique_os_volume_ok": null,
+      "cab_rows": null,
+      "ds_rows": null,
+      "used_rows": 9847,
+      "used_cols": 84,
+      "columns_found": {
+        "volume": 48,
+        "week": 44,
+        "os": null,
+        "modal": null
+      }
+    },
+    "before": {
+      "page_fields": [
+        {
+          "name": "Centro de Custo",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "Volume",
+          "current_page": "Ok",
+          "enable_multiple_page_items": false
+        },
+        {
+          "name": "Atrasado?",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "OTO Out",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        }
+      ],
+      "customer_field_counts": {
+        "items": 465,
+        "visible": 3,
+        "hidden": 462,
+        "visible_samples": [
+          "PIRELLI PNEUS LTDA",
+          "(blank)",
+          "PIRELLI PNEUS LTDA."
+        ],
+        "hidden_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+          "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+          "CATERPILLAR BRASIL LTDA",
+          "CERAMICA BRASILEIRA CERBRAS LTDA",
+          "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+          "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+          "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+          "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+          "Diversos",
+          "DOMESTILAR LTDA",
+          "DURAMETAL LTDA"
+        ],
+        "errors": []
+      },
+      "total_snapshot": {
+        "table_address": "$A$2:$F$10",
+        "rows": 9,
+        "columns": 6,
+        "total_candidates": [
+          {
+            "relative_row": 9,
+            "label": "Total Geral",
+            "numbers": [
+              65.0,
+              2.0,
+              0.9635327635327628,
+              21.085384615384623,
+              0.7538461538461538
+            ],
+            "total": 65.0,
+            "volume_total": 65.0,
+            "last_numeric_metric": 0.7538461538461538
+          }
+        ],
+        "chosen_total": {
+          "relative_row": 9,
+          "label": "Total Geral",
+          "numbers": [
+            65.0,
+            2.0,
+            0.9635327635327628,
+            21.085384615384623,
+            0.7538461538461538
+          ],
+          "total": 65.0,
+          "volume_total": 65.0,
+          "last_numeric_metric": 0.7538461538461538
+        }
+      }
+    },
+    "visibility_step": {
+      "after_clear_counts": {
+        "items": 465,
+        "visible": 465,
+        "hidden": 0,
+        "visible_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+          "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+          "CATERPILLAR BRASIL LTDA",
+          "CERAMICA BRASILEIRA CERBRAS LTDA",
+          "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+          "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+          "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+          "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+          "Diversos",
+          "DOMESTILAR LTDA",
+          "DURAMETAL LTDA"
+        ],
+        "hidden_samples": [],
+        "errors": []
+      }
+    },
+    "calculation_state": 0,
+    "after": {
+      "page_fields": [
+        {
+          "name": "Centro de Custo",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "Volume",
+          "current_page": "Ok",
+          "enable_multiple_page_items": false
+        },
+        {
+          "name": "Atrasado?",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "OTO Out",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        }
+      ],
+      "customer_field_counts": {
+        "items": 465,
+        "visible": 465,
+        "hidden": 0,
+        "visible_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+          "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+          "CATERPILLAR BRASIL LTDA",
+          "CERAMICA BRASILEIRA CERBRAS LTDA",
+          "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+          "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+          "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+          "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+          "Diversos",
+          "DOMESTILAR LTDA",
+          "DURAMETAL LTDA"
+        ],
+        "hidden_samples": [],
+        "errors": []
+      },
+      "total_snapshot": {
+        "table_address": "$A$2:$F$82",
+        "rows": 81,
+        "columns": 6,
+        "total_candidates": [
+          {
+            "relative_row": 81,
+            "label": "Total Geral",
+            "numbers": [
+              979.0,
+              59.0,
+              0.9261889892365714,
+              7.213257983494795,
+              0.5108069053293786
+            ],
+            "total": 979.0,
+            "volume_total": 979.0,
+            "last_numeric_metric": 0.5108069053293786
+          }
+        ],
+        "chosen_total": {
+          "relative_row": 81,
+          "label": "Total Geral",
+          "numbers": [
+            979.0,
+            59.0,
+            0.9261889892365714,
+            7.213257983494795,
+            0.5108069053293786
+          ],
+          "total": 979.0,
+          "volume_total": 979.0,
+          "last_numeric_metric": 0.5108069053293786
+        }
+      }
+    },
+    "validations": {
+      "customer_hidden_items_zero": true,
+      "customer_visible_equals_items": true,
+      "pivot_total": 979.0,
+      "expected_week_overview_ds": 979.0,
+      "week_overview_total_all": 4289.0,
+      "pivot_total_matches_week_overview_ds": true
+    },
+    "saved": true
+  },
+  "test_reopen_validation": {
+    "path": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026 - TbM - WK23_top_offenders_customers_test_20260608_170516.xlsm",
+    "excel_pid": 16260,
+    "read_only_requested": true,
+    "workbook_read_only": true,
+    "week_overview": {
+      "active_week": 23,
+      "row_used": 23,
+      "cab": 3310.0,
+      "ds": 979.0,
+      "total": 4289.0,
+      "oto_out": 0.94,
+      "otd_ajustado": 0.92,
+      "performance": 0.9381149663386846
+    },
+    "roe_expected": {
+      "sheet": "ROE_wk",
+      "status": "ok",
+      "header_row_1based": 1,
+      "rows_volume_ok": 4289,
+      "unique_os_volume_ok": null,
+      "cab_rows": null,
+      "ds_rows": null,
+      "used_rows": 9847,
+      "used_cols": 84,
+      "columns_found": {
+        "volume": 48,
+        "week": 44,
+        "os": null,
+        "modal": null
+      }
+    },
+    "pivot": {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable1",
+      "page_fields": [
+        {
+          "name": "Centro de Custo",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "Volume",
+          "current_page": "Ok",
+          "enable_multiple_page_items": false
+        },
+        {
+          "name": "Atrasado?",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "OTO Out",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        }
+      ],
+      "customer_field_counts": {
+        "items": 465,
+        "visible": 465,
+        "hidden": 0,
+        "visible_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+          "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+          "CATERPILLAR BRASIL LTDA",
+          "CERAMICA BRASILEIRA CERBRAS LTDA",
+          "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+          "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+          "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+          "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+          "Diversos",
+          "DOMESTILAR LTDA",
+          "DURAMETAL LTDA"
+        ],
+        "hidden_samples": [],
+        "errors": []
+      },
+      "total_snapshot": {
+        "table_address": "$A$2:$F$82",
+        "rows": 81,
+        "columns": 6,
+        "total_candidates": [
+          {
+            "relative_row": 81,
+            "label": "Total Geral",
+            "numbers": [
+              979.0,
+              59.0,
+              0.9261889892365714,
+              7.213257983494795,
+              0.5108069053293786
+            ],
+            "total": 979.0,
+            "volume_total": 979.0,
+            "last_numeric_metric": 0.5108069053293786
+          }
+        ],
+        "chosen_total": {
+          "relative_row": 81,
+          "label": "Total Geral",
+          "numbers": [
+            979.0,
+            59.0,
+            0.9261889892365714,
+            7.213257983494795,
+            0.5108069053293786
+          ],
+          "total": 979.0,
+          "volume_total": 979.0,
+          "last_numeric_metric": 0.5108069053293786
+        }
+      }
+    }
+  },
+  "backup_created": {
+    "path": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\backups\\Base_DSU2026 - TbM - WK23_before_top_offenders_customers_fix_20260608_170516.xlsm",
+    "size": 41989454
+  },
+  "official_apply": {
+    "path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+    "excel_pid": 26592,
+    "steps": [
+      "ClearAllFilters em Cliente Proposta na PivotTable1",
+      "RefreshTable apenas da PivotTable1",
+      "Salvar workbook"
+    ],
+    "workbook_read_only": false,
+    "week_overview": {
+      "active_week": 23,
+      "row_used": 23,
+      "cab": 3310.0,
+      "ds": 979.0,
+      "total": 4289.0,
+      "oto_out": 0.94,
+      "otd_ajustado": 0.92,
+      "performance": 0.9381149663386846
+    },
+    "roe_expected": {
+      "sheet": "ROE_wk",
+      "status": "ok",
+      "header_row_1based": 1,
+      "rows_volume_ok": 4289,
+      "unique_os_volume_ok": null,
+      "cab_rows": null,
+      "ds_rows": null,
+      "used_rows": 9847,
+      "used_cols": 84,
+      "columns_found": {
+        "volume": 48,
+        "week": 44,
+        "os": null,
+        "modal": null
+      }
+    },
+    "before": {
+      "page_fields": [
+        {
+          "name": "Centro de Custo",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "Volume",
+          "current_page": "Ok",
+          "enable_multiple_page_items": false
+        },
+        {
+          "name": "Atrasado?",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "OTO Out",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        }
+      ],
+      "customer_field_counts": {
+        "items": 465,
+        "visible": 3,
+        "hidden": 462,
+        "visible_samples": [
+          "PIRELLI PNEUS LTDA",
+          "(blank)",
+          "PIRELLI PNEUS LTDA."
+        ],
+        "hidden_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+          "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+          "CATERPILLAR BRASIL LTDA",
+          "CERAMICA BRASILEIRA CERBRAS LTDA",
+          "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+          "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+          "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+          "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+          "Diversos",
+          "DOMESTILAR LTDA",
+          "DURAMETAL LTDA"
+        ],
+        "errors": []
+      },
+      "total_snapshot": {
+        "table_address": "$A$2:$F$10",
+        "rows": 9,
+        "columns": 6,
+        "total_candidates": [
+          {
+            "relative_row": 9,
+            "label": "Total Geral",
+            "numbers": [
+              65.0,
+              2.0,
+              0.9635327635327628,
+              21.085384615384623,
+              0.7538461538461538
+            ],
+            "total": 65.0,
+            "volume_total": 65.0,
+            "last_numeric_metric": 0.7538461538461538
+          }
+        ],
+        "chosen_total": {
+          "relative_row": 9,
+          "label": "Total Geral",
+          "numbers": [
+            65.0,
+            2.0,
+            0.9635327635327628,
+            21.085384615384623,
+            0.7538461538461538
+          ],
+          "total": 65.0,
+          "volume_total": 65.0,
+          "last_numeric_metric": 0.7538461538461538
+        }
+      }
+    },
+    "visibility_step": {
+      "after_clear_counts": {
+        "items": 465,
+        "visible": 465,
+        "hidden": 0,
+        "visible_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+          "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+          "CATERPILLAR BRASIL LTDA",
+          "CERAMICA BRASILEIRA CERBRAS LTDA",
+          "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+          "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+          "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+          "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+          "Diversos",
+          "DOMESTILAR LTDA",
+          "DURAMETAL LTDA"
+        ],
+        "hidden_samples": [],
+        "errors": []
+      }
+    },
+    "calculation_state": 0,
+    "after": {
+      "page_fields": [
+        {
+          "name": "Centro de Custo",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "Volume",
+          "current_page": "Ok",
+          "enable_multiple_page_items": false
+        },
+        {
+          "name": "Atrasado?",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "OTO Out",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        }
+      ],
+      "customer_field_counts": {
+        "items": 465,
+        "visible": 465,
+        "hidden": 0,
+        "visible_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+          "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+          "CATERPILLAR BRASIL LTDA",
+          "CERAMICA BRASILEIRA CERBRAS LTDA",
+          "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+          "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+          "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+          "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+          "Diversos",
+          "DOMESTILAR LTDA",
+          "DURAMETAL LTDA"
+        ],
+        "hidden_samples": [],
+        "errors": []
+      },
+      "total_snapshot": {
+        "table_address": "$A$2:$F$82",
+        "rows": 81,
+        "columns": 6,
+        "total_candidates": [
+          {
+            "relative_row": 81,
+            "label": "Total Geral",
+            "numbers": [
+              979.0,
+              59.0,
+              0.9261889892365714,
+              7.213257983494795,
+              0.5108069053293786
+            ],
+            "total": 979.0,
+            "volume_total": 979.0,
+            "last_numeric_metric": 0.5108069053293786
+          }
+        ],
+        "chosen_total": {
+          "relative_row": 81,
+          "label": "Total Geral",
+          "numbers": [
+            979.0,
+            59.0,
+            0.9261889892365714,
+            7.213257983494795,
+            0.5108069053293786
+          ],
+          "total": 979.0,
+          "volume_total": 979.0,
+          "last_numeric_metric": 0.5108069053293786
+        }
+      }
+    },
+    "validations": {
+      "customer_hidden_items_zero": true,
+      "customer_visible_equals_items": true,
+      "pivot_total": 979.0,
+      "expected_week_overview_ds": 979.0,
+      "week_overview_total_all": 4289.0,
+      "pivot_total_matches_week_overview_ds": true
+    },
+    "saved": true
+  },
+  "official_reopen_validation": {
+    "path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK23.xlsm",
+    "excel_pid": 19160,
+    "read_only_requested": true,
+    "workbook_read_only": true,
+    "week_overview": {
+      "active_week": 23,
+      "row_used": 23,
+      "cab": 3310.0,
+      "ds": 979.0,
+      "total": 4289.0,
+      "oto_out": 0.94,
+      "otd_ajustado": 0.92,
+      "performance": 0.9381149663386846
+    },
+    "roe_expected": {
+      "sheet": "ROE_wk",
+      "status": "ok",
+      "header_row_1based": 1,
+      "rows_volume_ok": 4289,
+      "unique_os_volume_ok": null,
+      "cab_rows": null,
+      "ds_rows": null,
+      "used_rows": 9847,
+      "used_cols": 84,
+      "columns_found": {
+        "volume": 48,
+        "week": 44,
+        "os": null,
+        "modal": null
+      }
+    },
+    "pivot": {
+      "sheet": "Top_Offenders_Customers",
+      "name": "PivotTable1",
+      "page_fields": [
+        {
+          "name": "Centro de Custo",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "Volume",
+          "current_page": "Ok",
+          "enable_multiple_page_items": false
+        },
+        {
+          "name": "Atrasado?",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        },
+        {
+          "name": "OTO Out",
+          "current_page": "(All)",
+          "enable_multiple_page_items": true
+        }
+      ],
+      "customer_field_counts": {
+        "items": 465,
+        "visible": 465,
+        "hidden": 0,
+        "visible_samples": [
+          "ACUMULADORES MOURA SA",
+          "ADAR IND COM IMP EXP LTDA",
+          "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+          "AMCOR EMBALAGENS DA AMAZONIA SA",
+          "ARAUCO INDUSTRIA DE PAINEIS S.A.",
+          "ARCOR DO BRASIL LTDA",
+          "ASSOCIACAO RECICLANIP",
+          "BMW DO BRASIL LTDA",
+          "BRACELL PAPEIS NORDESTE LTDA",
+          "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+          "BRIDGESTONE DO BRASIL INDUSTRIA E COMERC",
+          "CATERPILLAR BRASIL LTDA",
+          "CERAMICA BRASILEIRA CERBRAS LTDA",
+          "COCIL CONSTRUCOES CIVIS E INDUSTRIAIS LT",
+          "COMPANHIA BRASILEIRA DE VIDROS PLANOS CB",
+          "COOPERATIVA CENTRAL AURORA ALIMENTOS",
+          "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA",
+          "Diversos",
+          "DOMESTILAR LTDA",
+          "DURAMETAL LTDA"
+        ],
+        "hidden_samples": [],
+        "errors": []
+      },
+      "total_snapshot": {
+        "table_address": "$A$2:$F$82",
+        "rows": 81,
+        "columns": 6,
+        "total_candidates": [
+          {
+            "relative_row": 81,
+            "label": "Total Geral",
+            "numbers": [
+              979.0,
+              59.0,
+              0.9261889892365714,
+              7.213257983494795,
+              0.5108069053293786
+            ],
+            "total": 979.0,
+            "volume_total": 979.0,
+            "last_numeric_metric": 0.5108069053293786
+          }
+        ],
+        "chosen_total": {
+          "relative_row": 81,
+          "label": "Total Geral",
+          "numbers": [
+            979.0,
+            59.0,
+            0.9261889892365714,
+            7.213257983494795,
+            0.5108069053293786
+          ],
+          "total": 979.0,
+          "volume_total": 979.0,
+          "last_numeric_metric": 0.5108069053293786
+        }
+      }
+    }
+  },
+  "final_validation": {
+    "official_total": 979.0,
+    "expected_week_overview_ds": 979.0,
+    "week_overview_total_all": 4289.0,
+    "matches_week_overview_ds": true,
+    "customer_items": 465,
+    "customer_visible": 465,
+    "customer_hidden": 0,
+    "hidden_zero": true
+  }
+}

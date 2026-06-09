@@ -1,0 +1,106 @@
+{
+  "workbook_read_only": true,
+  "week_overview": {
+    "active_week": 23,
+    "row_used": 23,
+    "cab": 3310.0,
+    "ds": 979.0,
+    "total": 4289.0,
+    "oto_out": 0.94,
+    "otd_ajustado": 0.92,
+    "performance": 0.9381149663386846
+  },
+  "top_offenders_customers_pivots": [
+    {
+      "name": "PivotTable2_KPI_Helper",
+      "address": "$AF$13:$AH$448",
+      "rows": 436,
+      "chosen_total": {
+        "relative_row": 436,
+        "label": "Total Geral",
+        "numbers": [
+          3421.0,
+          239.0
+        ],
+        "total": 3421.0,
+        "volume_total": 3421.0,
+        "last_numeric_metric": 239.0
+      }
+    },
+    {
+      "name": "PivotTable1",
+      "address": "$A$2:$F$82",
+      "rows": 81,
+      "chosen_total": {
+        "relative_row": 81,
+        "label": "Total Geral",
+        "numbers": [
+          979.0,
+          59.0,
+          0.9261889892365714,
+          7.213257983494795,
+          0.5108069053293786
+        ],
+        "total": 979.0,
+        "volume_total": 979.0,
+        "last_numeric_metric": 0.5108069053293786
+      }
+    },
+    {
+      "name": "PivotTable2",
+      "address": "$AK$20:$AN$33",
+      "rows": 14,
+      "chosen_total": {
+        "relative_row": 14,
+        "label": "Total Geral",
+        "numbers": [
+          307.0,
+          0.906691642300197,
+          27.0
+        ],
+        "total": 307.0,
+        "volume_total": 307.0,
+        "last_numeric_metric": 27.0
+      }
+    },
+    {
+      "name": "PivotTable5",
+      "address": "$N$2:$R$126",
+      "rows": 125,
+      "chosen_total": {
+        "relative_row": 125,
+        "label": "Total Geral",
+        "numbers": [
+          239.0,
+          0.6776590928655817,
+          6.34846582984658,
+          0.8039516140187042
+        ],
+        "total": 239.0,
+        "volume_total": 239.0,
+        "last_numeric_metric": 0.8039516140187042
+      }
+    },
+    {
+      "name": "Tabela dinâmica1",
+      "address": "$Y$2:$AA$109",
+      "rows": 108,
+      "chosen_total": {
+        "relative_row": 108,
+        "label": "Total Geral",
+        "numbers": [
+          239.0,
+          0.6776590928655815
+        ],
+        "total": 239.0,
+        "volume_total": 239.0,
+        "last_numeric_metric": 0.6776590928655815
+      }
+    }
+  ],
+  "region_errors": {
+    "B12": 401.0,
+    "J12": 401.0
+  },
+  "top_offenders_vendors_B167": 4289.0
+}
