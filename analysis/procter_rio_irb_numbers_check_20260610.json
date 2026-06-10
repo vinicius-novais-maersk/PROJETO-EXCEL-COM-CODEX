@@ -1,0 +1,447 @@
+{
+  "official": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK24.xlsm",
+  "backup": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\backups\\Base_DSU2026 - TbM - WK24_before_procter_rio_irb_special_20260610_093857.xlsm",
+  "integrity": {
+    "zip_bad_file": null,
+    "has_vba_project": true,
+    "formula_rule_count": 2627
+  },
+  "before_summary": {
+    "rows": 2627,
+    "volume_ok": 1822,
+    "especial": 453,
+    "atrasado_BD_sum": 97,
+    "atraso_rev_BP_sum": 97,
+    "otd_ajustado_atrasado_count": 110,
+    "target_count": 8,
+    "target_especial": 0,
+    "target_BD_sum": 2,
+    "target_BP_sum": 2,
+    "target_otd_atrasado": 2,
+    "by_region": {
+      "<blank>": {
+        "volume_ok": 3,
+        "especial": 4,
+        "BD": 0,
+        "BP": 0,
+        "otd_atrasado": 0
+      },
+      "North": {
+        "volume_ok": 450,
+        "especial": 168,
+        "BD": 23,
+        "BP": 23,
+        "otd_atrasado": 24
+      },
+      "Northeast": {
+        "volume_ok": 446,
+        "especial": 49,
+        "BD": 22,
+        "BP": 22,
+        "otd_atrasado": 23
+      },
+      "South": {
+        "volume_ok": 325,
+        "especial": 85,
+        "BD": 13,
+        "BP": 13,
+        "otd_atrasado": 13
+      },
+      "Southeast": {
+        "volume_ok": 598,
+        "especial": 147,
+        "BD": 39,
+        "BP": 39,
+        "otd_atrasado": 50
+      }
+    },
+    "by_port_Rio": {
+      "volume_ok": 113,
+      "especial": 30,
+      "BD": 12,
+      "BP": 12,
+      "otd_atrasado": 15
+    }
+  },
+  "after_summary": {
+    "rows": 2627,
+    "volume_ok": 1822,
+    "especial": 461,
+    "atrasado_BD_sum": 95,
+    "atraso_rev_BP_sum": 95,
+    "otd_ajustado_atrasado_count": 110,
+    "target_count": 8,
+    "target_especial": 8,
+    "target_BD_sum": 0,
+    "target_BP_sum": 0,
+    "target_otd_atrasado": 2,
+    "by_region": {
+      "<blank>": {
+        "volume_ok": 3,
+        "especial": 4,
+        "BD": 0,
+        "BP": 0,
+        "otd_atrasado": 0
+      },
+      "North": {
+        "volume_ok": 450,
+        "especial": 168,
+        "BD": 23,
+        "BP": 23,
+        "otd_atrasado": 24
+      },
+      "Northeast": {
+        "volume_ok": 446,
+        "especial": 49,
+        "BD": 22,
+        "BP": 22,
+        "otd_atrasado": 23
+      },
+      "South": {
+        "volume_ok": 325,
+        "especial": 85,
+        "BD": 13,
+        "BP": 13,
+        "otd_atrasado": 13
+      },
+      "Southeast": {
+        "volume_ok": 598,
+        "especial": 155,
+        "BD": 37,
+        "BP": 37,
+        "otd_atrasado": 50
+      }
+    },
+    "by_port_Rio": {
+      "volume_ok": 113,
+      "especial": 38,
+      "BD": 10,
+      "BP": 10,
+      "otd_atrasado": 15
+    }
+  },
+  "deltas": {
+    "especial": 8,
+    "atrasado_BD_sum": -2,
+    "atraso_rev_BP_sum": -2,
+    "target_especial": 8,
+    "target_BD_sum": -2,
+    "target_BP_sum": -2,
+    "southeast_BD": -2,
+    "southeast_BP": -2,
+    "rio_BD": -2,
+    "rio_BP": -2
+  },
+  "target_rows_after": [
+    {
+      "row": 280,
+      "provedor": "IRB LOGISTICA S.A.",
+      "booking": "6ARIK0466",
+      "embarcador": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+      "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+      "produto": "Aliança",
+      "weeknum": 24,
+      "volume": "Ok",
+      "porto": "Rio",
+      "region": "Southeast",
+      "otd": "Atrasado",
+      "atrasado": 0,
+      "oto_out": "N",
+      "especial": "Especial",
+      "atraso_rev": 0,
+      "is_target": true
+    },
+    {
+      "row": 545,
+      "provedor": "IRB LOGISTICA LTDA",
+      "booking": "6AIBK238V",
+      "embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+      "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+      "produto": "Aliança",
+      "weeknum": 24,
+      "volume": "Ok",
+      "porto": "Rio",
+      "region": "Southeast",
+      "otd": "Sem Preenchimento",
+      "atrasado": 0,
+      "oto_out": "N",
+      "especial": "Especial",
+      "atraso_rev": 0,
+      "is_target": true
+    },
+    {
+      "row": 546,
+      "provedor": "IRB LOGISTICA LTDA",
+      "booking": "6AIBK238V",
+      "embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+      "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+      "produto": "Aliança",
+      "weeknum": 24,
+      "volume": "Ok",
+      "porto": "Rio",
+      "region": "Southeast",
+      "otd": "No Prazo",
+      "atrasado": 0,
+      "oto_out": "N",
+      "especial": "Especial",
+      "atraso_rev": 0,
+      "is_target": true
+    },
+    {
+      "row": 548,
+      "provedor": "IRB LOGISTICA LTDA",
+      "booking": "6AIBK238V",
+      "embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+      "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+      "produto": "Aliança",
+      "weeknum": 24,
+      "volume": "Ok",
+      "porto": "Rio",
+      "region": "Southeast",
+      "otd": "No Prazo",
+      "atrasado": 0,
+      "oto_out": "N",
+      "especial": "Especial",
+      "atraso_rev": 0,
+      "is_target": true
+    },
+    {
+      "row": 1623,
+      "provedor": "IRB LOGISTICA S.A.",
+      "booking": "6ALCK3238",
+      "embarcador": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+      "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+      "produto": "Aliança",
+      "weeknum": 24,
+      "volume": "Ok",
+      "porto": "Rio",
+      "region": "Southeast",
+      "otd": "No Prazo",
+      "atrasado": 0,
+      "oto_out": "N",
+      "especial": "Especial",
+      "atraso_rev": 0,
+      "is_target": true
+    },
+    {
+      "row": 1624,
+      "provedor": "IRB LOGISTICA S.A.",
+      "booking": "6ALCK3238",
+      "embarcador": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+      "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+      "produto": "Aliança",
+      "weeknum": 24,
+      "volume": "Ok",
+      "porto": "Rio",
+      "region": "Southeast",
+      "otd": "Atrasado",
+      "atrasado": 0,
+      "oto_out": "N",
+      "especial": "Especial",
+      "atraso_rev": 0,
+      "is_target": true
+    },
+    {
+      "row": 1915,
+      "provedor": "IRB LOGISTICA LTDA",
+      "booking": "6AMAK3372",
+      "embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+      "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+      "produto": "Aliança",
+      "weeknum": 24,
+      "volume": "Ok",
+      "porto": "Rio",
+      "region": "Southeast",
+      "otd": "No Prazo",
+      "atrasado": 0,
+      "oto_out": "N",
+      "especial": "Especial",
+      "atraso_rev": 0,
+      "is_target": true
+    },
+    {
+      "row": 1916,
+      "provedor": "IRB LOGISTICA LTDA",
+      "booking": "6AMAK3372",
+      "embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+      "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+      "produto": "Aliança",
+      "weeknum": 24,
+      "volume": "Ok",
+      "porto": "Rio",
+      "region": "Southeast",
+      "otd": "No Prazo",
+      "atrasado": 0,
+      "oto_out": "N",
+      "especial": "Especial",
+      "atraso_rev": 0,
+      "is_target": true
+    }
+  ],
+  "changed_relevant_count": 8,
+  "changed_relevant_sample": [
+    {
+      "row": 280,
+      "is_target": true,
+      "diff": {
+        "atrasado": {
+          "before": 1,
+          "after": 0
+        },
+        "especial": {
+          "before": null,
+          "after": "Especial"
+        },
+        "atraso_rev": {
+          "before": 1,
+          "after": 0
+        }
+      }
+    },
+    {
+      "row": 545,
+      "is_target": true,
+      "diff": {
+        "especial": {
+          "before": null,
+          "after": "Especial"
+        }
+      }
+    },
+    {
+      "row": 546,
+      "is_target": true,
+      "diff": {
+        "especial": {
+          "before": null,
+          "after": "Especial"
+        }
+      }
+    },
+    {
+      "row": 548,
+      "is_target": true,
+      "diff": {
+        "especial": {
+          "before": null,
+          "after": "Especial"
+        }
+      }
+    },
+    {
+      "row": 1623,
+      "is_target": true,
+      "diff": {
+        "especial": {
+          "before": null,
+          "after": "Especial"
+        }
+      }
+    },
+    {
+      "row": 1624,
+      "is_target": true,
+      "diff": {
+        "atrasado": {
+          "before": 1,
+          "after": 0
+        },
+        "especial": {
+          "before": null,
+          "after": "Especial"
+        },
+        "atraso_rev": {
+          "before": 1,
+          "after": 0
+        }
+      }
+    },
+    {
+      "row": 1915,
+      "is_target": true,
+      "diff": {
+        "especial": {
+          "before": null,
+          "after": "Especial"
+        }
+      }
+    },
+    {
+      "row": 1916,
+      "is_target": true,
+      "diff": {
+        "especial": {
+          "before": null,
+          "after": "Especial"
+        }
+      }
+    }
+  ],
+  "formula_checks": [
+    {
+      "row": 280,
+      "booking": "6ARIK0466",
+      "bo_contains_procter_rule": true,
+      "bd_excludes_especial": true,
+      "bp_uses_bd_or_bl": true
+    },
+    {
+      "row": 545,
+      "booking": "6AIBK238V",
+      "bo_contains_procter_rule": true,
+      "bd_excludes_especial": true,
+      "bp_uses_bd_or_bl": true
+    },
+    {
+      "row": 546,
+      "booking": "6AIBK238V",
+      "bo_contains_procter_rule": true,
+      "bd_excludes_especial": true,
+      "bp_uses_bd_or_bl": true
+    },
+    {
+      "row": 548,
+      "booking": "6AIBK238V",
+      "bo_contains_procter_rule": true,
+      "bd_excludes_especial": true,
+      "bp_uses_bd_or_bl": true
+    },
+    {
+      "row": 1623,
+      "booking": "6ALCK3238",
+      "bo_contains_procter_rule": true,
+      "bd_excludes_especial": true,
+      "bp_uses_bd_or_bl": true
+    },
+    {
+      "row": 1624,
+      "booking": "6ALCK3238",
+      "bo_contains_procter_rule": true,
+      "bd_excludes_especial": true,
+      "bp_uses_bd_or_bl": true
+    },
+    {
+      "row": 1915,
+      "booking": "6AMAK3372",
+      "bo_contains_procter_rule": true,
+      "bd_excludes_especial": true,
+      "bp_uses_bd_or_bl": true
+    },
+    {
+      "row": 1916,
+      "booking": "6AMAK3372",
+      "bo_contains_procter_rule": true,
+      "bd_excludes_especial": true,
+      "bp_uses_bd_or_bl": true
+    }
+  ],
+  "verdict_checks": {
+    "target_all_special": true,
+    "target_no_late_flags": true,
+    "overall_late_decreased_by_2": true,
+    "special_increased_by_8": true,
+    "only_target_relevant_rows_changed": true,
+    "zip_ok_and_vba_present": true,
+    "formula_checks_ok": true
+  }
+}

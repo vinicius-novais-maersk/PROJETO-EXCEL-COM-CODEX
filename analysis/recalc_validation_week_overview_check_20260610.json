@@ -1,0 +1,71 @@
+{
+  "RIO": {
+    "cab": {
+      "expected": 0.9074074074074074,
+      "visible": 0.9074074074074074,
+      "den": 108,
+      "late": 10,
+      "match_rounded_4dp": true
+    },
+    "ds": {
+      "expected": 1.0,
+      "visible": 1,
+      "den": 1,
+      "late": 0,
+      "match_rounded_4dp": true
+    },
+    "ttl": {
+      "expected": 0.908256880733945,
+      "visible": 0.908256880733945,
+      "den": 109,
+      "late": 10,
+      "match_rounded_4dp": true
+    }
+  },
+  "Southeast": {
+    "cab": {
+      "expected": 0.9153605015673981,
+      "visible": 0.9153605015673981,
+      "den": 319,
+      "late": 27,
+      "match_rounded_4dp": true
+    },
+    "ds": {
+      "expected": 0.9523809523809523,
+      "visible": 0.9523809523809523,
+      "den": 210,
+      "late": 10,
+      "match_rounded_4dp": true
+    },
+    "ttl": {
+      "expected": 0.9300567107750473,
+      "visible": 0.9300567107750473,
+      "den": 529,
+      "late": 37,
+      "match_rounded_4dp": true
+    }
+  },
+  "Total BR": {
+    "cab": {
+      "expected": 0.9451510333863276,
+      "visible": 0.95,
+      "den": 1258,
+      "late": 69,
+      "match_rounded_4dp": false
+    },
+    "ds": {
+      "expected": 0.9275766016713092,
+      "visible": 0.93,
+      "den": 359,
+      "late": 26,
+      "match_rounded_4dp": false
+    },
+    "ttl": {
+      "expected": 0.9412492269635127,
+      "visible": 0.9412492269635127,
+      "den": 1617,
+      "late": 95,
+      "match_rounded_4dp": true
+    }
+  }
+}

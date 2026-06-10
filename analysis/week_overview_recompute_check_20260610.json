@@ -1,0 +1,242 @@
+{
+  "visible": {
+    "RIO": {
+      "cab": 0.8888888888888888,
+      "ds": 1,
+      "ttl": 0.8899082568807339,
+      "moves_cab": 112,
+      "moves_ds": 1,
+      "moves_ttl": 113
+    },
+    "Southeast": {
+      "cab": 0.9090909090909091,
+      "ds": 0.9523809523809523,
+      "ttl": 0.9262759924385633,
+      "moves_cab": 349,
+      "moves_ds": 249,
+      "moves_ttl": 598
+    },
+    "Total BR": {
+      "cab": 0.94,
+      "ds": 0.93,
+      "ttl": 0.9400123685837971,
+      "moves_cab": 1342,
+      "moves_ds": 480,
+      "moves_ttl": 1822
+    }
+  },
+  "recompute": {
+    "RIO": {
+      "cab": {
+        "before": {
+          "den": 108,
+          "late": 12,
+          "oto": 0.8888888888888888
+        },
+        "after": {
+          "den": 108,
+          "late": 10,
+          "oto": 0.9074074074074074
+        }
+      },
+      "ds": {
+        "before": {
+          "den": 1,
+          "late": 0,
+          "oto": 1.0
+        },
+        "after": {
+          "den": 1,
+          "late": 0,
+          "oto": 1.0
+        }
+      },
+      "ttl": {
+        "before": {
+          "den": 109,
+          "late": 12,
+          "oto": 0.8899082568807339
+        },
+        "after": {
+          "den": 109,
+          "late": 10,
+          "oto": 0.908256880733945
+        }
+      }
+    },
+    "Southeast": {
+      "cab": {
+        "before": {
+          "den": 319,
+          "late": 29,
+          "oto": 0.9090909090909091
+        },
+        "after": {
+          "den": 319,
+          "late": 27,
+          "oto": 0.9153605015673981
+        }
+      },
+      "ds": {
+        "before": {
+          "den": 210,
+          "late": 10,
+          "oto": 0.9523809523809523
+        },
+        "after": {
+          "den": 210,
+          "late": 10,
+          "oto": 0.9523809523809523
+        }
+      },
+      "ttl": {
+        "before": {
+          "den": 529,
+          "late": 39,
+          "oto": 0.9262759924385633
+        },
+        "after": {
+          "den": 529,
+          "late": 37,
+          "oto": 0.9300567107750473
+        }
+      }
+    },
+    "Total BR": {
+      "cab": {
+        "before": {
+          "den": 1258,
+          "late": 71,
+          "oto": 0.9435612082670907
+        },
+        "after": {
+          "den": 1258,
+          "late": 69,
+          "oto": 0.9451510333863276
+        }
+      },
+      "ds": {
+        "before": {
+          "den": 359,
+          "late": 26,
+          "oto": 0.9275766016713092
+        },
+        "after": {
+          "den": 359,
+          "late": 26,
+          "oto": 0.9275766016713092
+        }
+      },
+      "ttl": {
+        "before": {
+          "den": 1617,
+          "late": 97,
+          "oto": 0.9400123685837971
+        },
+        "after": {
+          "den": 1617,
+          "late": 95,
+          "oto": 0.9412492269635127
+        }
+      }
+    }
+  },
+  "comparison": {
+    "RIO": {
+      "cab": {
+        "expected_after": 0.9074074074074074,
+        "visible_cached": 0.8888888888888888,
+        "matches_rounded_4dp": false,
+        "den_after": 108,
+        "late_after": 10,
+        "den_before": 108,
+        "late_before": 12,
+        "delta_late": -2
+      },
+      "ds": {
+        "expected_after": 1.0,
+        "visible_cached": 1,
+        "matches_rounded_4dp": true,
+        "den_after": 1,
+        "late_after": 0,
+        "den_before": 1,
+        "late_before": 0,
+        "delta_late": 0
+      },
+      "ttl": {
+        "expected_after": 0.908256880733945,
+        "visible_cached": 0.8899082568807339,
+        "matches_rounded_4dp": false,
+        "den_after": 109,
+        "late_after": 10,
+        "den_before": 109,
+        "late_before": 12,
+        "delta_late": -2
+      }
+    },
+    "Southeast": {
+      "cab": {
+        "expected_after": 0.9153605015673981,
+        "visible_cached": 0.9090909090909091,
+        "matches_rounded_4dp": false,
+        "den_after": 319,
+        "late_after": 27,
+        "den_before": 319,
+        "late_before": 29,
+        "delta_late": -2
+      },
+      "ds": {
+        "expected_after": 0.9523809523809523,
+        "visible_cached": 0.9523809523809523,
+        "matches_rounded_4dp": true,
+        "den_after": 210,
+        "late_after": 10,
+        "den_before": 210,
+        "late_before": 10,
+        "delta_late": 0
+      },
+      "ttl": {
+        "expected_after": 0.9300567107750473,
+        "visible_cached": 0.9262759924385633,
+        "matches_rounded_4dp": false,
+        "den_after": 529,
+        "late_after": 37,
+        "den_before": 529,
+        "late_before": 39,
+        "delta_late": -2
+      }
+    },
+    "Total BR": {
+      "cab": {
+        "expected_after": 0.9451510333863276,
+        "visible_cached": 0.94,
+        "matches_rounded_4dp": false,
+        "den_after": 1258,
+        "late_after": 69,
+        "den_before": 1258,
+        "late_before": 71,
+        "delta_late": -2
+      },
+      "ds": {
+        "expected_after": 0.9275766016713092,
+        "visible_cached": 0.93,
+        "matches_rounded_4dp": false,
+        "den_after": 359,
+        "late_after": 26,
+        "den_before": 359,
+        "late_before": 26,
+        "delta_late": 0
+      },
+      "ttl": {
+        "expected_after": 0.9412492269635127,
+        "visible_cached": 0.9400123685837971,
+        "matches_rounded_4dp": false,
+        "den_after": 1617,
+        "late_after": 95,
+        "den_before": 1617,
+        "late_before": 97,
+        "delta_late": -2
+      }
+    }
+  }
+}

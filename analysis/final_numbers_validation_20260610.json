@@ -1,0 +1,115 @@
+{
+  "official": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK24.xlsm",
+  "backup": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\backups\\Base_DSU2026 - TbM - WK24_before_procter_rio_irb_special_20260610_093857.xlsm",
+  "integrity": {
+    "zip_bad_file": null,
+    "has_vba_project": true
+  },
+  "before_summary": {
+    "rows": 2627,
+    "volume_ok": 1822,
+    "especial": 453,
+    "BD_sum": 97,
+    "BP_sum": 97,
+    "target_count": 8,
+    "target_especial": 0,
+    "target_BD_sum": 2,
+    "target_BP_sum": 2
+  },
+  "after_summary": {
+    "rows": 2627,
+    "volume_ok": 1822,
+    "especial": 461,
+    "BD_sum": 95,
+    "BP_sum": 95,
+    "target_count": 8,
+    "target_especial": 8,
+    "target_BD_sum": 0,
+    "target_BP_sum": 0
+  },
+  "delta": {
+    "especial": 8,
+    "BD_sum": -2,
+    "BP_sum": -2,
+    "target_especial": 8,
+    "target_BD_sum": -2,
+    "target_BP_sum": -2
+  },
+  "week_overview_check": {
+    "RIO": {
+      "cab": {
+        "visible": 0.9074074074074074,
+        "expected": 0.9074074074074074,
+        "den": 108,
+        "late": 10,
+        "ok": true
+      },
+      "ds": {
+        "visible": 1,
+        "expected": 1.0,
+        "den": 1,
+        "late": 0,
+        "ok": true
+      },
+      "ttl": {
+        "visible": 0.908256880733945,
+        "expected": 0.908256880733945,
+        "den": 109,
+        "late": 10,
+        "ok": true
+      }
+    },
+    "Southeast": {
+      "cab": {
+        "visible": 0.9153605015673981,
+        "expected": 0.9153605015673981,
+        "den": 319,
+        "late": 27,
+        "ok": true
+      },
+      "ds": {
+        "visible": 0.9523809523809523,
+        "expected": 0.9523809523809523,
+        "den": 210,
+        "late": 10,
+        "ok": true
+      },
+      "ttl": {
+        "visible": 0.9300567107750473,
+        "expected": 0.9300567107750473,
+        "den": 529,
+        "late": 37,
+        "ok": true
+      }
+    },
+    "Total BR": {
+      "cab": {
+        "visible": 0.95,
+        "expected": 0.9451510333863276,
+        "den": 1258,
+        "late": 69,
+        "ok": true
+      },
+      "ds": {
+        "visible": 0.93,
+        "expected": 0.9275766016713092,
+        "den": 359,
+        "late": 26,
+        "ok": true
+      },
+      "ttl": {
+        "visible": 0.9412492269635127,
+        "expected": 0.9412492269635127,
+        "den": 1617,
+        "late": 95,
+        "ok": true
+      }
+    }
+  },
+  "verdict": {
+    "base_ok": true,
+    "expected_delta_ok": true,
+    "week_overview_ok": true,
+    "file_ok": true
+  }
+}

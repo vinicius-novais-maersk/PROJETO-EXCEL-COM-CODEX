@@ -1,0 +1,102 @@
+{
+  "source": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK24.xlsm",
+  "temp_copy": "C:\\Users\\VNO024\\Downloads\\Github\\PROJETO EXCEL COM CODEX\\analysis\\tmp_procter_rio_irb_recalc_20260610_090330.xlsm",
+  "results": [
+    {
+      "row": 280,
+      "Booking": "6ARIK0466",
+      "OTD_BB": "Atrasado",
+      "Atrasado_BD": 1.0,
+      "OTOOut_BL": "N",
+      "Especiais_BO": "",
+      "AtrasoRev_BP": 1.0,
+      "IsOTO_CA": false,
+      "IsMove_CB": false,
+      "Key_CC": "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+    },
+    {
+      "row": 545,
+      "Booking": "6AIBK238V",
+      "OTD_BB": "Sem Preenchimento",
+      "Atrasado_BD": 0.0,
+      "OTOOut_BL": "N",
+      "Especiais_BO": "",
+      "AtrasoRev_BP": 0.0,
+      "IsOTO_CA": false,
+      "IsMove_CB": false,
+      "Key_CC": "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+    },
+    {
+      "row": 546,
+      "Booking": "6AIBK238V",
+      "OTD_BB": "No Prazo",
+      "Atrasado_BD": 0.0,
+      "OTOOut_BL": "N",
+      "Especiais_BO": "",
+      "AtrasoRev_BP": 0.0,
+      "IsOTO_CA": false,
+      "IsMove_CB": false,
+      "Key_CC": "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+    },
+    {
+      "row": 548,
+      "Booking": "6AIBK238V",
+      "OTD_BB": "No Prazo",
+      "Atrasado_BD": 0.0,
+      "OTOOut_BL": "N",
+      "Especiais_BO": "",
+      "AtrasoRev_BP": 0.0,
+      "IsOTO_CA": false,
+      "IsMove_CB": false,
+      "Key_CC": "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+    },
+    {
+      "row": 1623,
+      "Booking": "6ALCK3238",
+      "OTD_BB": "No Prazo",
+      "Atrasado_BD": 0.0,
+      "OTOOut_BL": "N",
+      "Especiais_BO": "",
+      "AtrasoRev_BP": 0.0,
+      "IsOTO_CA": false,
+      "IsMove_CB": false,
+      "Key_CC": "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+    },
+    {
+      "row": 1624,
+      "Booking": "6ALCK3238",
+      "OTD_BB": "Atrasado",
+      "Atrasado_BD": 1.0,
+      "OTOOut_BL": "N",
+      "Especiais_BO": "",
+      "AtrasoRev_BP": 1.0,
+      "IsOTO_CA": false,
+      "IsMove_CB": false,
+      "Key_CC": "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+    },
+    {
+      "row": 1915,
+      "Booking": "6AMAK3372",
+      "OTD_BB": "No Prazo",
+      "Atrasado_BD": 0.0,
+      "OTOOut_BL": "N",
+      "Especiais_BO": "",
+      "AtrasoRev_BP": 0.0,
+      "IsOTO_CA": false,
+      "IsMove_CB": false,
+      "Key_CC": "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+    },
+    {
+      "row": 1916,
+      "Booking": "6AMAK3372",
+      "OTD_BB": "No Prazo",
+      "Atrasado_BD": 0.0,
+      "OTOOut_BL": "N",
+      "Especiais_BO": "",
+      "AtrasoRev_BP": 0.0,
+      "IsOTO_CA": false,
+      "IsMove_CB": false,
+      "Key_CC": "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+    }
+  ]
+}
