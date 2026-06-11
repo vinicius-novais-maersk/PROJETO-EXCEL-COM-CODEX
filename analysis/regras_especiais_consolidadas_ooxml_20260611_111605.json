@@ -1,0 +1,102 @@
+{
+  "ok": true,
+  "official_path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK24.xlsm",
+  "backup_path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Aplicativos\\Github - programas\\PROJETO EXCEL COM CODEX\\backups\\Base_DSU2026 - TbM - WK24_before_regras_especiais_ooxml_20260611_111605.xlsm",
+  "test_path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Aplicativos\\Github - programas\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026 - TbM - WK24_regras_especiais_ooxml_test_20260611_111605.xlsm",
+  "sheet_name": "Regras_Especiais",
+  "rules_count": 185,
+  "test_validation": {
+    "path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Aplicativos\\Github - programas\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026 - TbM - WK24_regras_especiais_ooxml_test_20260611_111605.xlsm",
+    "headers_ok": true,
+    "rows": 185,
+    "expected_rows": 185,
+    "added_sheets": [
+      "Regras_Especiais"
+    ],
+    "sheet_count": 39,
+    "sample": [
+      [
+        "Sim",
+        "Ajustar fórmula",
+        "OTO",
+        "Cliente+Marca/Transportador",
+        "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA"
+      ],
+      [
+        "Sim",
+        "Ajustar fórmula",
+        "OTO",
+        "Texto em Embarcador/Cliente+Transportador",
+        "CRISTAL MASTER"
+      ],
+      [
+        "Sim",
+        "Atual",
+        "OTO",
+        "Cliente Proposta",
+        "BMW DO BRASIL LTDA"
+      ],
+      [
+        "Sim",
+        "Atual",
+        "OTO",
+        "Cliente Proposta",
+        "CONSULADO GERAL AMERICANO NO RIO DE JANE"
+      ],
+      [
+        "Sim",
+        "Atual",
+        "OTO",
+        "Cliente Proposta",
+        "COOPAVEL COPERATIVA AGROINDUSTRIAL"
+      ]
+    ]
+  },
+  "final_validation": {
+    "path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK24.xlsm",
+    "headers_ok": true,
+    "rows": 185,
+    "expected_rows": 185,
+    "added_sheets": [
+      "Regras_Especiais"
+    ],
+    "sheet_count": 39,
+    "sample": [
+      [
+        "Sim",
+        "Ajustar fórmula",
+        "OTO",
+        "Cliente+Marca/Transportador",
+        "CRISTAL MASTER INDUSTRIA E COMERCIOLTDA"
+      ],
+      [
+        "Sim",
+        "Ajustar fórmula",
+        "OTO",
+        "Texto em Embarcador/Cliente+Transportador",
+        "CRISTAL MASTER"
+      ],
+      [
+        "Sim",
+        "Atual",
+        "OTO",
+        "Cliente Proposta",
+        "BMW DO BRASIL LTDA"
+      ],
+      [
+        "Sim",
+        "Atual",
+        "OTO",
+        "Cliente Proposta",
+        "CONSULADO GERAL AMERICANO NO RIO DE JANE"
+      ],
+      [
+        "Sim",
+        "Atual",
+        "OTO",
+        "Cliente Proposta",
+        "COOPAVEL COPERATIVA AGROINDUSTRIAL"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "official_path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Inland Execution Brazil - OPC - OPC (also BPS)\\2026 - Info\\DSU\\Base_DSU2026 - TbM - WK24.xlsm",
+  "backup_path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Aplicativos\\Github - programas\\PROJETO EXCEL COM CODEX\\backups\\Base_DSU2026 - TbM - WK24_before_transportador_todos_20260611_112908.xlsm",
+  "test_path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\Aplicativos\\Github - programas\\PROJETO EXCEL COM CODEX\\analysis\\Base_DSU2026 - TbM - WK24_transportador_todos_test_20260611_112908.xlsm",
+  "patch_test": {
+    "changed_cells": 89,
+    "changed_validation": 1,
+    "sheet_part": "xl/worksheets/sheet39.xml"
+  },
+  "patch_official": {
+    "changed_cells": 89,
+    "changed_validation": 1,
+    "sheet_part": "xl/worksheets/sheet39.xml"
+  },
+  "final_validation": {
+    "sheet_visible": true,
+    "rows": 185,
+    "transportador_diversas_count": 0,
+    "transportador_todos_count": 89,
+    "transportador_unique_values": [
+      "Específico",
+      "Maersk/Frota Própria",
+      "Todos"
+    ]
+  },
+  "zip_compare": {
+    "removed_entries": [],
+    "added_entries": [],
+    "backup_zip_test": null,
+    "official_zip_test": null
+  }
+}
