@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "source": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK24_BACKUP_SEGURO_antes_regras_especiais_20260611.xlsm",
+  "output": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK24_COM_REGRAS_ESPECIAIS_20260611_120404.xlsm",
+  "rules_count": 185,
+  "validation": {
+    "sheet_count": 39,
+    "sheet_visible": true,
+    "rows": 185,
+    "expected_rows": 185,
+    "headers": [
+      "Ativo",
+      "Status",
+      "Execução",
+      "Tipo_Regra",
+      "Nome",
+      "Embarcador",
+      "Cliente_Proposta",
+      "Porto",
+      "Modal",
+      "Transportador_Tipo",
+      "Transportador_Detalhe",
+      "Origem",
+      "Observação"
+    ],
+    "transportador_values": [
+      "Específico",
+      "Maersk/Frota Própria",
+      "Todos"
+    ],
+    "diversas_count": 0
+  }
+}

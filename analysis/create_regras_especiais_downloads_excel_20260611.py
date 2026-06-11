@@ -128,7 +128,6 @@ def main() -> int:
 
         header_range = ws.Range(ws.Cells(start_row, 1), ws.Cells(start_row, end_col))
         header_range.Font.Bold = True
-        header_range.AutoFilter()
 
         widths = [10, 18, 12, 34, 42, 42, 42, 16, 16, 24, 38, 34, 70]
         for idx, width in enumerate(widths, start=1):
