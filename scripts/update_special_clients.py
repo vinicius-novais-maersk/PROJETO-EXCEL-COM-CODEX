@@ -4,6 +4,7 @@ import os
 import shutil
 import sys
 import time
+import unicodedata
 from datetime import datetime
 from pathlib import Path
 
@@ -186,6 +187,146 @@ def update_special_formula(roe_ws) -> None:
     call_with_retry(setattr, data_body, "FormulaLocal", formula)
 
 
+REGRAS_SHEET = "Regras_Especiais"
+REGRAS_COLS = {
+    "ativo": 1,
+    "status": 2,
+    "execucao": 3,
+    "tipo": 4,
+    "cliente": 5,
+    "regiao": 6,
+    "porto": 7,
+    "modal": 8,
+    "transp": 9,
+    "origem": 10,
+    "obs": 11,
+}
+
+
+def _regras_last_row(ws) -> int:
+    return call_with_retry(
+        lambda: ws.Cells(ws.Rows.Count, REGRAS_COLS["cliente"]).End(-4162).Row
+    )
+
+
+def _norm_text(value) -> str:
+    text = "" if value is None else str(value)
+    text = "".join(
+        ch
+        for ch in unicodedata.normalize("NFKD", text)
+        if not unicodedata.combining(ch)
+    )
+    return text.strip().upper()
+
+
+def _find_regras_rows(ws, last_row, client_name, origin_contains=None) -> list[int]:
+    target = _norm_text(client_name)
+    rows: list[int] = []
+    for row in range(2, last_row + 1):
+        value = call_with_retry(lambda r=row: ws.Cells(r, REGRAS_COLS["cliente"]).Value)
+        if not value or _norm_text(value) != target:
+            continue
+        if origin_contains is None:
+            rows.append(row)
+            continue
+        origin = call_with_retry(lambda r=row: ws.Cells(r, REGRAS_COLS["origem"]).Value)
+        if origin and _norm_text(origin_contains) in _norm_text(origin):
+            rows.append(row)
+    return rows
+
+
+def _append_regras_row(ws, list_object, values: list[str]) -> int:
+    if list_object is not None:
+        new_row_range = call_with_retry(list_object.ListRows.Add).Range
+        for col, value in enumerate(values, start=1):
+            call_with_retry(setattr, new_row_range.Cells(1, col), "Value", value)
+        return new_row_range.Row
+    new_row = _regras_last_row(ws) + 1
+    for col, value in enumerate(values, start=1):
+        call_with_retry(setattr, ws.Cells(new_row, col), "Value", value)
+    return new_row
+
+
+def update_regras_especiais_sheet(workbook) -> dict:
+    """Reflete na aba de documentacao Regras_Especiais as regras de clientes especiais."""
+    try:
+        ws = workbook.Worksheets(REGRAS_SHEET)
+    except pywintypes.com_error:
+        log(f"Aba {REGRAS_SHEET} nao encontrada; etapa de documentacao ignorada.")
+        return {}
+
+    list_object = None
+    if call_with_retry(lambda: ws.ListObjects.Count) > 0:
+        list_object = call_with_retry(lambda: ws.ListObjects(1))
+
+    last_row = _regras_last_row(ws)
+    result: dict = {}
+
+    if not _find_regras_rows(ws, last_row, "CATERPILLAR BRASIL LTDA"):
+        added_row = _append_regras_row(
+            ws,
+            list_object,
+            [
+                "Sim",
+                "Atual",
+                "OTO",
+                "Cliente Proposta+Importacao",
+                "CATERPILLAR BRASIL LTDA",
+                "Todos",
+                "Todos",
+                "Todos",
+                "Todos",
+                "Formula Is_OTOException (BU SIL=SSZ)",
+                "Importacao Caterpillar tratada como excecao OTO; cliente nao exige pontualidade.",
+            ],
+        )
+        result["CATERPILLAR"] = f"adicionada linha {added_row}"
+        last_row = _regras_last_row(ws)
+    else:
+        result["CATERPILLAR"] = "ja existia"
+
+    lg_rows: list[int] = []
+    for name in (
+        "LG ELECTRONICS DO BRASIL LTDA",
+        "LG DISTRIBUIDORA DE UTILIDADES LTDA",
+    ):
+        for row in _find_regras_rows(
+            ws, last_row, name, origin_contains="Formula atual"
+        ):
+            call_with_retry(
+                setattr, ws.Cells(row, REGRAS_COLS["transp"]), "Value", "MAERSK*"
+            )
+            call_with_retry(
+                setattr,
+                ws.Cells(row, REGRAS_COLS["obs"]),
+                "Value",
+                "Regra atualizada: especial somente com frota Maersk.",
+            )
+            lg_rows.append(row)
+    result["LG"] = lg_rows or "nenhuma linha 'Formula atual' encontrada"
+
+    coop_rows = _find_regras_rows(
+        ws,
+        last_row,
+        "COOPAVEL COOPERATIVA AGROINDUSTRIAL",
+        origin_contains="Lista regional",
+    )
+    for row in coop_rows:
+        call_with_retry(setattr, ws.Cells(row, REGRAS_COLS["status"]), "Value", "Atual")
+        call_with_retry(
+            setattr, ws.Cells(row, REGRAS_COLS["origem"]), "Value", "Formula atual"
+        )
+        call_with_retry(
+            setattr,
+            ws.Cells(row, REGRAS_COLS["obs"]),
+            "Value",
+            "Adicionada a formula ROE_wk[Especiais] sem condicao (qualquer operacao).",
+        )
+    result["COOPAVEL"] = coop_rows or "nenhuma linha 'Lista regional' encontrada"
+
+    return result
+
+
 def main() -> int:
     workbook_path = Path(os.environ.get("DSU_WORKBOOK_PATH", str(WORKBOOK_PATH)))
     if not workbook_path.exists():
@@ -260,6 +401,10 @@ def main() -> int:
 
         log("Updating ROE_wk[Especiais] formula...")
         update_special_formula(roe_ws)
+
+        log("Atualizando aba Regras_Especiais (documentacao)...")
+        regras_result = update_regras_especiais_sheet(workbook)
+        log(f"Regras_Especiais: {regras_result}")
 
         call_with_retry(setattr, excel, "Calculation", -4105)
         call_with_retry(excel.CalculateFullRebuild)
