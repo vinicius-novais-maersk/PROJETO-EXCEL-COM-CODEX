@@ -1,0 +1,2386 @@
+[
+  {
+    "label": "Downloads",
+    "path": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK24.xlsm",
+    "metrics": {
+      "NEXA_all_ROE_wk": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "NEXA_Rio_expected": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "AJINOMOTO_all_ROE_wk": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "AJINOMOTO_UNITRADING_Santos_expected": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "AJINOMOTO_VELOSTER_Santos_should_not": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "PROCTER_all": {
+        "total": 59,
+        "especial": 14,
+        "blank": 45,
+        "late_penalty": 2,
+        "samples": [
+          {
+            "row": 140,
+            "N? OS": null,
+            "Booking": "6ALCK2586",
+            "Provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ARAPIRACA - AL",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 1
+          },
+          {
+            "row": 235,
+            "N? OS": null,
+            "Booking": "6ALCK2833",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "MARACANAU - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 343,
+            "N? OS": null,
+            "Booking": "6ARIK0466",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 363,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 364,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "PROCTER_IRB_Rio_expected": {
+        "total": 14,
+        "especial": 14,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 343,
+            "N? OS": null,
+            "Booking": "6ARIK0466",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 607,
+            "N? OS": null,
+            "Booking": "6AIBK238V",
+            "Provedor": "IRB LOGISTICA LTDA",
+            "Embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 608,
+            "N? OS": null,
+            "Booking": "6AIBK238V",
+            "Provedor": "IRB LOGISTICA LTDA",
+            "Embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 610,
+            "N? OS": null,
+            "Booking": "6AIBK238V",
+            "Provedor": "IRB LOGISTICA LTDA",
+            "Embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 1945,
+            "N? OS": null,
+            "Booking": "6ALCK3238",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "PROCTER_not_IRB_Rio_should_not": {
+        "total": 45,
+        "especial": 0,
+        "blank": 45,
+        "late_penalty": 2,
+        "samples": [
+          {
+            "row": 140,
+            "N? OS": null,
+            "Booking": "6ALCK2586",
+            "Provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ARAPIRACA - AL",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 1
+          },
+          {
+            "row": 235,
+            "N? OS": null,
+            "Booking": "6ALCK2833",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "MARACANAU - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 363,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 364,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 365,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "VOLKSWAGEN_TRUCK_all": {
+        "total": 63,
+        "especial": 37,
+        "blank": 26,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 4455,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4456,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4457,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4458,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4459,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "VOLKSWAGEN_TRUCK_IRB_Rio_expected": {
+        "total": 37,
+        "especial": 37,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 4455,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4458,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4461,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4464,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4467,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "VOLKSWAGEN_TRUCK_not_IRB_Rio_should_not": {
+        "total": 26,
+        "especial": 0,
+        "blank": 26,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 4456,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4457,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4459,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4460,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4462,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "SAMSUNG_all": {
+        "total": 373,
+        "especial": 373,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 232,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 233,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 234,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 461,
+            "N? OS": null,
+            "Booking": "6AMAK3286",
+            "Provedor": "COOPERCARGA S A",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "JABOATAO DOS GUARARAPES - PE",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 462,
+            "N? OS": null,
+            "Booking": "6AMAK3286",
+            "Provedor": "MEU CHAPA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "JABOATAO DOS GUARARAPES - PE",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "SAMSUNG_ELETRONICA_AMAZONIA_exact": {
+        "total": 247,
+        "especial": 247,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 232,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 233,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 234,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 461,
+            "N? OS": null,
+            "Booking": "6AMAK3286",
+            "Provedor": "COOPERCARGA S A",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "JABOATAO DOS GUARARAPES - PE",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 462,
+            "N? OS": null,
+            "Booking": "6AMAK3286",
+            "Provedor": "MEU CHAPA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "JABOATAO DOS GUARARAPES - PE",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "AMBEV_JACAREI_all": {
+        "total": 12,
+        "especial": 0,
+        "blank": 12,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 139,
+            "N? OS": null,
+            "Booking": "6ALCK1691",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 150,
+            "N? OS": null,
+            "Booking": "6ALCK2137",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 165,
+            "N? OS": null,
+            "Booking": "6AIBK143T",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 168,
+            "N? OS": null,
+            "Booking": "6ALCK2093",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 171,
+            "N? OS": null,
+            "Booking": "6AIBK143T",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "PIRELLI_all": {
+        "total": 71,
+        "especial": 0,
+        "blank": 71,
+        "late_penalty": 6,
+        "samples": [
+          {
+            "row": 451,
+            "N? OS": null,
+            "Booking": 270936975,
+            "Provedor": "MAERSK LNS CAMACARI",
+            "Embarcador": "PIRELLI PNEUS LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA.",
+            "Origem/Destino": "SALVADOR - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 452,
+            "N? OS": null,
+            "Booking": 270936975,
+            "Provedor": "MAERSK LNS CAMACARI",
+            "Embarcador": "PIRELLI PNEUS LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA.",
+            "Origem/Destino": "SALVADOR - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 453,
+            "N? OS": null,
+            "Booking": 270936975,
+            "Provedor": "MAERSK LNS CAMACARI",
+            "Embarcador": "PIRELLI PNEUS LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA.",
+            "Origem/Destino": "SALVADOR - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 454,
+            "N? OS": null,
+            "Booking": 270936975,
+            "Provedor": "MAERSK LNS CAMACARI",
+            "Embarcador": "PIRELLI PNEUS LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA.",
+            "Origem/Destino": "SALVADOR - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 943,
+            "N? OS": null,
+            "Booking": "LQDSSZ26031245",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": null,
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA",
+            "Origem/Destino": "SANTOS - SP",
+            "Porto": "Santos",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "QUIMICA_AMPARO_all": {
+        "total": 71,
+        "especial": 0,
+        "blank": 71,
+        "late_penalty": 1,
+        "samples": [
+          {
+            "row": 147,
+            "N? OS": null,
+            "Booking": "6AIBK225Y",
+            "Provedor": "LUARA MEL VIEIRA TRANSPORTES LTDA",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "BAYEUX - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 148,
+            "N? OS": null,
+            "Booking": "6AIBK225Y",
+            "Provedor": "MEU CHAPA",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "BAYEUX - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 347,
+            "N? OS": null,
+            "Booking": "6AIBK210A",
+            "Provedor": "LOGAR TRANSPORTES RODOVIARIOS LTDA ME",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "EUSEBIO - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 348,
+            "N? OS": null,
+            "Booking": "6AIBK210A",
+            "Provedor": "MEU CHAPA",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "EUSEBIO - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 349,
+            "N? OS": null,
+            "Booking": "6AIBK210A",
+            "Provedor": "LOGAR TRANSPORTES RODOVIARIOS LTDA ME",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "EUSEBIO - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "QUIMICA_AMPARO_MAFRO_OR_WINGS_rule_target": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "ENGEPACK_all": {
+        "total": 6,
+        "especial": 0,
+        "blank": 6,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 2223,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 2224,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 2225,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 2932,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "TRANSPOSERVS TRANSPORTES LTDA",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 2933,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "TRANSPOSERVS TRANSPORTES LTDA",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      }
+    },
+    "rule_presence": {
+      "NEXA": [],
+      "AJINOMOTO": [
+        [
+          "Regras_Especiais",
+          77
+        ],
+        [
+          "ROE_wk",
+          2
+        ],
+        [
+          "ROE_wk",
+          3
+        ]
+      ],
+      "PROCTER": [
+        [
+          "Regras_Especiais",
+          78
+        ],
+        [
+          "Exceptions_Mapping",
+          163
+        ],
+        [
+          "Exceptions_Mapping",
+          164
+        ],
+        [
+          "Exceptions_Mapping",
+          165
+        ],
+        [
+          "Exceptions_Mapping",
+          166
+        ],
+        [
+          "Exceptions_Mapping",
+          167
+        ],
+        [
+          "Exceptions_Mapping",
+          168
+        ],
+        [
+          "Exceptions_Mapping",
+          169
+        ],
+        [
+          "Exceptions_Mapping",
+          170
+        ],
+        [
+          "Exceptions_Mapping",
+          171
+        ],
+        [
+          "Exceptions_Mapping",
+          172
+        ],
+        [
+          "Exceptions_Mapping",
+          173
+        ],
+        [
+          "Exceptions_Mapping",
+          174
+        ],
+        [
+          "Exceptions_Mapping",
+          175
+        ],
+        [
+          "Exceptions_Mapping",
+          176
+        ],
+        [
+          "Exceptions_Mapping",
+          177
+        ],
+        [
+          "Exceptions_Mapping",
+          178
+        ],
+        [
+          "Exceptions_Mapping",
+          179
+        ],
+        [
+          "Exceptions_Mapping",
+          180
+        ],
+        [
+          "Exceptions_Mapping",
+          181
+        ],
+        [
+          "Exceptions_Mapping",
+          182
+        ],
+        [
+          "ROE_wk",
+          2
+        ],
+        [
+          "ROE_wk",
+          3
+        ]
+      ],
+      "VOLKSWAGEN_TRUCK": [
+        [
+          "Regras_Especiais",
+          30
+        ],
+        [
+          "Regras_Especiais",
+          79
+        ],
+        [
+          "Exceptions",
+          5
+        ],
+        [
+          "OTO Exceptions",
+          5
+        ],
+        [
+          "Exceptions_Mapping",
+          7
+        ],
+        [
+          "ROE_wk",
+          2
+        ],
+        [
+          "ROE_wk",
+          3
+        ]
+      ],
+      "SAMSUNG": [
+        [
+          "Regras_Especiais",
+          22
+        ],
+        [
+          "Regras_Especiais",
+          23
+        ],
+        [
+          "ROE_wk",
+          2
+        ],
+        [
+          "ROE_wk",
+          3
+        ]
+      ],
+      "QUIMICA_AMPARO": [
+        [
+          "Regras_Especiais",
+          117
+        ],
+        [
+          "Regras_Especiais",
+          118
+        ],
+        [
+          "Exceptions",
+          5
+        ],
+        [
+          "Exceptions",
+          44
+        ],
+        [
+          "Exceptions",
+          45
+        ],
+        [
+          "OTO Exceptions",
+          5
+        ],
+        [
+          "OTO Exceptions",
+          44
+        ],
+        [
+          "OTO Exceptions",
+          45
+        ],
+        [
+          "Exceptions_Mapping",
+          18
+        ],
+        [
+          "Exceptions_Mapping",
+          57
+        ],
+        [
+          "Exceptions_Mapping",
+          58
+        ]
+      ],
+      "AMBEV_JACAREI": [],
+      "PIRELLI": [],
+      "ENGEPPACK": []
+    }
+  },
+  {
+    "label": "Oficial OneDrive",
+    "path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK24.xlsm",
+    "metrics": {
+      "NEXA_all_ROE_wk": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "NEXA_Rio_expected": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "AJINOMOTO_all_ROE_wk": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "AJINOMOTO_UNITRADING_Santos_expected": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "AJINOMOTO_VELOSTER_Santos_should_not": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "PROCTER_all": {
+        "total": 59,
+        "especial": 14,
+        "blank": 45,
+        "late_penalty": 2,
+        "samples": [
+          {
+            "row": 140,
+            "N? OS": null,
+            "Booking": "6ALCK2586",
+            "Provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ARAPIRACA - AL",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 1
+          },
+          {
+            "row": 235,
+            "N? OS": null,
+            "Booking": "6ALCK2833",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "MARACANAU - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 343,
+            "N? OS": null,
+            "Booking": "6ARIK0466",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 363,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 364,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "PROCTER_IRB_Rio_expected": {
+        "total": 14,
+        "especial": 14,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 343,
+            "N? OS": null,
+            "Booking": "6ARIK0466",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 607,
+            "N? OS": null,
+            "Booking": "6AIBK238V",
+            "Provedor": "IRB LOGISTICA LTDA",
+            "Embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 608,
+            "N? OS": null,
+            "Booking": "6AIBK238V",
+            "Provedor": "IRB LOGISTICA LTDA",
+            "Embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 610,
+            "N? OS": null,
+            "Booking": "6AIBK238V",
+            "Provedor": "IRB LOGISTICA LTDA",
+            "Embarcador": "PROCTER  GAMBLE DO BRASIL LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 1945,
+            "N? OS": null,
+            "Booking": "6ALCK3238",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ITATIAIA - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "PROCTER_not_IRB_Rio_should_not": {
+        "total": 45,
+        "especial": 0,
+        "blank": 45,
+        "late_penalty": 2,
+        "samples": [
+          {
+            "row": 140,
+            "N? OS": null,
+            "Booking": "6ALCK2586",
+            "Provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "ARAPIRACA - AL",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 1
+          },
+          {
+            "row": 235,
+            "N? OS": null,
+            "Booking": "6ALCK2833",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "MARACANAU - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 363,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 364,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 365,
+            "N? OS": null,
+            "Booking": "6ALCK2831",
+            "Provedor": "EXPRESSO VALE REAL LTDA",
+            "Embarcador": "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "Origem/Destino": "FORTALEZA - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "VOLKSWAGEN_TRUCK_all": {
+        "total": 63,
+        "especial": 37,
+        "blank": 26,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 4455,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4456,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4457,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4458,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4459,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "VOLKSWAGEN_TRUCK_IRB_Rio_expected": {
+        "total": 37,
+        "especial": 37,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 4455,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4458,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4461,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4464,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 4467,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "IRB LOGISTICA S.A.",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "VOLKSWAGEN_TRUCK_not_IRB_Rio_should_not": {
+        "total": 26,
+        "especial": 0,
+        "blank": 26,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 4456,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4457,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4459,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4460,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 4462,
+            "N? OS": null,
+            "Booking": "SSZ1781681",
+            "Provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "Embarcador": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Destinat?rio": null,
+            "Cliente Proposta": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "Origem/Destino": "RIO DE JANEIRO - RJ",
+            "Porto": "Rio",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "SAMSUNG_all": {
+        "total": 373,
+        "especial": 373,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 232,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 233,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 234,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 461,
+            "N? OS": null,
+            "Booking": "6AMAK3286",
+            "Provedor": "COOPERCARGA S A",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "JABOATAO DOS GUARARAPES - PE",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 462,
+            "N? OS": null,
+            "Booking": "6AMAK3286",
+            "Provedor": "MEU CHAPA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "JABOATAO DOS GUARARAPES - PE",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "SAMSUNG_ELETRONICA_AMAZONIA_exact": {
+        "total": 247,
+        "especial": 247,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 232,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 233,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 234,
+            "N? OS": null,
+            "Booking": "6AMAK2949",
+            "Provedor": "MAERSK LNS ITAPOA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "LONDRINA - PR",
+            "Porto": "Itapoa",
+            "Region": "South",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 461,
+            "N? OS": null,
+            "Booking": "6AMAK3286",
+            "Provedor": "COOPERCARGA S A",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "JABOATAO DOS GUARARAPES - PE",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          },
+          {
+            "row": 462,
+            "N? OS": null,
+            "Booking": "6AMAK3286",
+            "Provedor": "MEU CHAPA",
+            "Embarcador": "SAMSUNG ELETRONICA DA AMAZONIA LTDA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "Origem/Destino": "JABOATAO DOS GUARARAPES - PE",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": "Especial",
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "AMBEV_JACAREI_all": {
+        "total": 12,
+        "especial": 0,
+        "blank": 12,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 139,
+            "N? OS": null,
+            "Booking": "6ALCK1691",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 150,
+            "N? OS": null,
+            "Booking": "6ALCK2137",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 165,
+            "N? OS": null,
+            "Booking": "6AIBK143T",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 168,
+            "N? OS": null,
+            "Booking": "6ALCK2093",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 171,
+            "N? OS": null,
+            "Booking": "6AIBK143T",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "Ambev S.A. Filial  Jacarei",
+            "Destinat?rio": null,
+            "Cliente Proposta": "AMBEV S A",
+            "Origem/Destino": "JOAO PESSOA - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "PIRELLI_all": {
+        "total": 71,
+        "especial": 0,
+        "blank": 71,
+        "late_penalty": 6,
+        "samples": [
+          {
+            "row": 451,
+            "N? OS": null,
+            "Booking": 270936975,
+            "Provedor": "MAERSK LNS CAMACARI",
+            "Embarcador": "PIRELLI PNEUS LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA.",
+            "Origem/Destino": "SALVADOR - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 452,
+            "N? OS": null,
+            "Booking": 270936975,
+            "Provedor": "MAERSK LNS CAMACARI",
+            "Embarcador": "PIRELLI PNEUS LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA.",
+            "Origem/Destino": "SALVADOR - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 453,
+            "N? OS": null,
+            "Booking": 270936975,
+            "Provedor": "MAERSK LNS CAMACARI",
+            "Embarcador": "PIRELLI PNEUS LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA.",
+            "Origem/Destino": "SALVADOR - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 454,
+            "N? OS": null,
+            "Booking": 270936975,
+            "Provedor": "MAERSK LNS CAMACARI",
+            "Embarcador": "PIRELLI PNEUS LTDA.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA.",
+            "Origem/Destino": "SALVADOR - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 943,
+            "N? OS": null,
+            "Booking": "LQDSSZ26031245",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": null,
+            "Destinat?rio": null,
+            "Cliente Proposta": "PIRELLI PNEUS LTDA",
+            "Origem/Destino": "SANTOS - SP",
+            "Porto": "Santos",
+            "Region": "Southeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "QUIMICA_AMPARO_all": {
+        "total": 71,
+        "especial": 0,
+        "blank": 71,
+        "late_penalty": 1,
+        "samples": [
+          {
+            "row": 147,
+            "N? OS": null,
+            "Booking": "6AIBK225Y",
+            "Provedor": "LUARA MEL VIEIRA TRANSPORTES LTDA",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "BAYEUX - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 148,
+            "N? OS": null,
+            "Booking": "6AIBK225Y",
+            "Provedor": "MEU CHAPA",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "BAYEUX - PB",
+            "Porto": "Suape",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 347,
+            "N? OS": null,
+            "Booking": "6AIBK210A",
+            "Provedor": "LOGAR TRANSPORTES RODOVIARIOS LTDA ME",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "EUSEBIO - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 348,
+            "N? OS": null,
+            "Booking": "6AIBK210A",
+            "Provedor": "MEU CHAPA",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "EUSEBIO - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 349,
+            "N? OS": null,
+            "Booking": "6AIBK210A",
+            "Provedor": "LOGAR TRANSPORTES RODOVIARIOS LTDA ME",
+            "Embarcador": "Quimica Amparo Ltda.",
+            "Destinat?rio": null,
+            "Cliente Proposta": "QUIMICA AMPARO LTDA",
+            "Origem/Destino": "EUSEBIO - CE",
+            "Porto": "Pecem",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      },
+      "QUIMICA_AMPARO_MAFRO_OR_WINGS_rule_target": {
+        "total": 0,
+        "especial": 0,
+        "blank": 0,
+        "late_penalty": 0,
+        "samples": []
+      },
+      "ENGEPACK_all": {
+        "total": 6,
+        "especial": 0,
+        "blank": 6,
+        "late_penalty": 0,
+        "samples": [
+          {
+            "row": 2223,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 2224,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 2225,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 2932,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "TRANSPOSERVS TRANSPORTES LTDA",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          },
+          {
+            "row": 2933,
+            "N? OS": null,
+            "Booking": "6ASAK1090",
+            "Provedor": "TRANSPOSERVS TRANSPORTES LTDA",
+            "Embarcador": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Destinat?rio": null,
+            "Cliente Proposta": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "Origem/Destino": "SIMOES FILHO - BA",
+            "Porto": "Salvador",
+            "Region": "Northeast",
+            "Especiais": null,
+            "Atrasado?": 0
+          }
+        ]
+      }
+    },
+    "rule_presence": {
+      "NEXA": [],
+      "AJINOMOTO": [
+        [
+          "Regras_Especiais",
+          77
+        ],
+        [
+          "ROE_wk",
+          2
+        ],
+        [
+          "ROE_wk",
+          3
+        ]
+      ],
+      "PROCTER": [
+        [
+          "Regras_Especiais",
+          78
+        ],
+        [
+          "Exceptions_Mapping",
+          163
+        ],
+        [
+          "Exceptions_Mapping",
+          164
+        ],
+        [
+          "Exceptions_Mapping",
+          165
+        ],
+        [
+          "Exceptions_Mapping",
+          166
+        ],
+        [
+          "Exceptions_Mapping",
+          167
+        ],
+        [
+          "Exceptions_Mapping",
+          168
+        ],
+        [
+          "Exceptions_Mapping",
+          169
+        ],
+        [
+          "Exceptions_Mapping",
+          170
+        ],
+        [
+          "Exceptions_Mapping",
+          171
+        ],
+        [
+          "Exceptions_Mapping",
+          172
+        ],
+        [
+          "Exceptions_Mapping",
+          173
+        ],
+        [
+          "Exceptions_Mapping",
+          174
+        ],
+        [
+          "Exceptions_Mapping",
+          175
+        ],
+        [
+          "Exceptions_Mapping",
+          176
+        ],
+        [
+          "Exceptions_Mapping",
+          177
+        ],
+        [
+          "Exceptions_Mapping",
+          178
+        ],
+        [
+          "Exceptions_Mapping",
+          179
+        ],
+        [
+          "Exceptions_Mapping",
+          180
+        ],
+        [
+          "Exceptions_Mapping",
+          181
+        ],
+        [
+          "Exceptions_Mapping",
+          182
+        ],
+        [
+          "ROE_wk",
+          2
+        ],
+        [
+          "ROE_wk",
+          3
+        ]
+      ],
+      "VOLKSWAGEN_TRUCK": [
+        [
+          "Regras_Especiais",
+          30
+        ],
+        [
+          "Regras_Especiais",
+          79
+        ],
+        [
+          "Exceptions",
+          5
+        ],
+        [
+          "OTO Exceptions",
+          5
+        ],
+        [
+          "Exceptions_Mapping",
+          7
+        ],
+        [
+          "ROE_wk",
+          2
+        ],
+        [
+          "ROE_wk",
+          3
+        ]
+      ],
+      "SAMSUNG": [
+        [
+          "Regras_Especiais",
+          22
+        ],
+        [
+          "Regras_Especiais",
+          23
+        ],
+        [
+          "ROE_wk",
+          2
+        ],
+        [
+          "ROE_wk",
+          3
+        ]
+      ],
+      "QUIMICA_AMPARO": [
+        [
+          "Regras_Especiais",
+          117
+        ],
+        [
+          "Regras_Especiais",
+          118
+        ],
+        [
+          "Exceptions",
+          5
+        ],
+        [
+          "Exceptions",
+          44
+        ],
+        [
+          "Exceptions",
+          45
+        ],
+        [
+          "OTO Exceptions",
+          5
+        ],
+        [
+          "OTO Exceptions",
+          44
+        ],
+        [
+          "OTO Exceptions",
+          45
+        ],
+        [
+          "Exceptions_Mapping",
+          18
+        ],
+        [
+          "Exceptions_Mapping",
+          57
+        ],
+        [
+          "Exceptions_Mapping",
+          58
+        ]
+      ],
+      "AMBEV_JACAREI": [],
+      "PIRELLI": [],
+      "ENGEPPACK": []
+    }
+  }
+]

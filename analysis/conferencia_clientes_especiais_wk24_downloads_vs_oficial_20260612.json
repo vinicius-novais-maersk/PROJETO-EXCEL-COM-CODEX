@@ -1,0 +1,5322 @@
+[
+  {
+    "path": "C:\\Users\\VNO024\\Downloads\\Base_DSU2026 - TbM - WK24.xlsm",
+    "exists": true,
+    "size": 41460888,
+    "mtime": 1781265159.9596832,
+    "rule_hits": [
+      {
+        "sheet": "Regras_Especiais",
+        "row": 22,
+        "terms": [
+          "SAMSUNG"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente Proposta",
+          "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+          "North; Northeast; Sem Region; South; Southeast",
+          "Todos",
+          "Todos",
+          "Todos",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 23,
+        "terms": [
+          "SAMSUNG"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente Proposta",
+          "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+          "North; Northeast; Southeast",
+          "Todos",
+          "Todos",
+          "Todos",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 30,
+        "terms": [
+          "VOLKSWAGEN_TRUCK"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente Proposta",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "Southeast",
+          "Todos",
+          "Todos",
+          "Todos",
+          "Exceptions!Y:Z; OTO Exceptions!D:E",
+          "Regra OTO existente por cliente.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 77,
+        "terms": [
+          "AJINOMOTO",
+          "UNITRADING"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente+Porto+Transportador",
+          "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO",
+          "Todos",
+          "Santos",
+          "Todos",
+          "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 78,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente+Porto+Transportador",
+          "PROCTER",
+          "Todos",
+          "Rio",
+          "Todos",
+          "IRB*",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 79,
+        "terms": [
+          "VOLKSWAGEN_TRUCK",
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente+Porto+Transportador",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "Southeast",
+          "Rio",
+          "Todos",
+          "IRB LOGISTICA S.A.",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 117,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "QUIMICA AMPARO LTDA",
+          "Todos",
+          "Todos",
+          "Todos",
+          "MAFRO TRANSPORTES LTDA",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 118,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "QUIMICA AMPARO LTDA",
+          "Todos",
+          "Todos",
+          "Todos",
+          "WINGS TRANSPORTES BRASIL LTDA",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 130,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEX",
+          "Todos",
+          "Todos",
+          "Todos",
+          "IRB LOGISTICA LTDA",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 131,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+          "Todos",
+          "Todos",
+          "Todos",
+          "IRB LOGISTICA S.A.",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 133,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "North; Northeast; Southeast",
+          "Todos",
+          "Todos",
+          "IRB LOGISTICA LTDA",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 134,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "North; Northeast; Southeast",
+          "Todos",
+          "Todos",
+          "IRB LOGISTICA S A",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 5,
+        "terms": [
+          "VOLKSWAGEN_TRUCK",
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "NORTE LOG",
+          "Sp",
+          "",
+          "BRADO RONDO LOGISTICA S.A.",
+          "Sp",
+          "",
+          "BRADO RONDONOPOLISSantos",
+          "Sp",
+          "",
+          "Programação cancelada",
+          "N",
+          "",
+          "NORTE LOG",
+          "S",
+          "",
+          "ARGOFRUTA COMERCIAL EXPORTADORA LTDA",
+          "S",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "MAFRO TRANSPORTES LTDA",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA",
+          "S",
+          "",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "RENAULT DO BRASIL S A",
+          "Santos",
+          "RENAULT DO BRASIL S ASantos",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 41,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "IRB LOGISTICA LTDA",
+          "=CONCATENATE(S41,T41,U41)",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 43,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEX",
+          "IRB LOGISTICA LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIRB LOGISTICA LTDA",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 44,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "WINGS TRANSPORTES BRASIL LTDA",
+          "=CONCATENATE(S44,T44,U44)",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 45,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "MAFRO TRANSPORTES LTDA",
+          "=CONCATENATE(S45,T45,U45)",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 68,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "IRB LOGISTICA S A",
+          "=_xlfn.CONCAT(S68,T68,U68)",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 69,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+          "IRB LOGISTICA S.A.",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENSFLEXIIRB LOGISTICA S.A.",
+          "S"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 5,
+        "terms": [
+          "VOLKSWAGEN_TRUCK",
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "Sim",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "MAFRO TRANSPORTES LTDA",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA",
+          "Sim",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "NORTE LOG",
+          "Sim",
+          "",
+          "ARGOFRUTA COMERCIAL EXPORTADORA LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 41,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "IRB LOGISTICA LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDAVALGROUP AM INDUSTRIA DE MASTERBATCH LTDIRB LOGISTICA LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 43,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEX",
+          "IRB LOGISTICA LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIRB LOGISTICA LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 44,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "WINGS TRANSPORTES BRASIL LTDA",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAWINGS TRANSPORTES BRASIL LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 45,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "MAFRO TRANSPORTES LTDA",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 66,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "IRB LOGISTICA S A",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDAVALGROUP AM INDUSTRIA DE MASTERBATCH LTDIRB LOGISTICA S A",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 67,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+          "IRB LOGISTICA S.A.",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENSFLEXIIRB LOGISTICA S.A.",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 7,
+        "terms": [
+          "VOLKSWAGEN_TRUCK"
+        ],
+        "values": [
+          "OTO",
+          "fCarrosselOTO",
+          "Cliente Proposta",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "",
+          "",
+          "Provedor"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 18,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA",
+          "",
+          "",
+          "Operação especial"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 54,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDAVALGROUP AM INDUSTRIA DE MASTERBATCH LTDIRB LOGISTICA LTDA"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 56,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIRB LOGISTICA LTDA"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 57,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAWINGS TRANSPORTES BRASIL LTDA"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 58,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 79,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDAVALGROUP AM INDUSTRIA DE MASTERBATCH LTDIRB LOGISTICA S A"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 80,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENSFLEXIIRB LOGISTICA S.A."
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 163,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 164,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 165,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 166,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 167,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDL COML LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 168,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDL COML LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 169,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDL COML LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 170,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDL COML LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 171,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 172,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 173,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 174,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 175,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE IND E COM LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 176,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE IND E COM LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 177,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE IND E COM LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 178,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE IND E COM LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 179,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 180,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 181,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 182,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "ROE_wk",
+        "row": 2,
+        "terms": [
+          "AJINOMOTO",
+          "PROCTER",
+          "SAMSUNG",
+          "VOLKSWAGEN_TRUCK",
+          "UNITRADING",
+          "IRB"
+        ],
+        "values": [
+          "6ALC581266A",
+          "F",
+          "M",
+          "LUARA MEL VIEIRA TRANSPORTES",
+          "Transporte Rodoviário",
+          "2257.43",
+          "1",
+          "CHN3120354",
+          "2026-05-13 10:46:00",
+          "2026-06-08 18:00:00",
+          "",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "MSKF000413",
+          "",
+          "Maersk Cap Carmel/697N",
+          "SANTOS - SP",
+          "TCLU4180790",
+          "40 HC",
+          "",
+          "M8812713",
+          "",
+          "",
+          "",
+          "12126.08",
+          "3129507",
+          "",
+          "Averbada pelo Cte",
+          "0623806270359852400011457003000019759116/0623806270359852400011457003000019881140",
+          "2026-05-14 14:59:00",
+          "",
+          "",
+          "",
+          "Maersk LnS",
+          "Maersk-Outros",
+          "DS - PROJETO RODO+FERRO - WHITE FLAG",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "=_xlfn.XLOOKUP(A2,RAO_wk!A:A,RAO_wk!B:B,\"\")",
+          "=AK2&AY2",
+          "=IF(OR(E2=\"Avulta Entrega\",E2=\"Avulsa Coleta\",E2=\"Transporte Rodoviário\"),\"Rodo\",\"Outros\")",
+          "=DATE(YEAR(J2),MONTH(J2),DAY(J2))",
+          "=IFERROR(_xlfn.XLOOKUP(AQ2,Aux!$A$1:$A$7,Aux!$B$1:$B$7,\"\"),\"\")",
+          "=WEEKDAY(AO2,1)",
+          "=IF(WEEKNUM(AO2,1)=53,\"1\",WEEKNUM(AO2,1))",
+          "=_xlfn.XLOOKUP(A2,RAO_wk!A:A,RAO_wk!E:E,\"\")"
+        ]
+      },
+      {
+        "sheet": "ROE_wk",
+        "row": 3,
+        "terms": [
+          "AJINOMOTO",
+          "PROCTER",
+          "SAMSUNG",
+          "VOLKSWAGEN_TRUCK",
+          "UNITRADING",
+          "IRB"
+        ],
+        "values": [
+          "6ALC581266B",
+          "E",
+          "M",
+          "MRS LOGISTICA S A SAO",
+          "Vazios",
+          "1150",
+          "1",
+          "CHN3120354",
+          "2026-05-13 10:46:00",
+          "2026-06-08 18:00:00",
+          "",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "MSKF000413",
+          "",
+          "Maersk Cap Carmel/697N",
+          "SANTOS - SP",
+          "TCLU4180790",
+          "40 HC",
+          "",
+          "M8812713",
+          "",
+          "",
+          "",
+          "12126.08",
+          "3129507",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Maersk LnS",
+          "Maersk-Outros",
+          "DS - PROJETO RODO+FERRO - WHITE FLAG",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "=_xlfn.XLOOKUP(A3,RAO_wk!A:A,RAO_wk!B:B,\"\")",
+          "=AK3&AY3",
+          "=IF(OR(E3=\"Avulta Entrega\",E3=\"Avulsa Coleta\",E3=\"Transporte Rodoviário\"),\"Rodo\",\"Outros\")",
+          "=DATE(YEAR(J3),MONTH(J3),DAY(J3))",
+          "=IFERROR(_xlfn.XLOOKUP(AQ3,Aux!$A$1:$A$7,Aux!$B$1:$B$7,\"\"),\"\")",
+          "=WEEKDAY(AO3,1)",
+          "=IF(WEEKNUM(AO3,1)=53,\"1\",WEEKNUM(AO3,1))",
+          "=_xlfn.XLOOKUP(A3,RAO_wk!A:A,RAO_wk!E:E,\"\")"
+        ]
+      }
+    ],
+    "summary": {
+      "NEXA": {
+        "total_rows": 0,
+        "groups": []
+      },
+      "AJINOMOTO": {
+        "total_rows": 0,
+        "groups": []
+      },
+      "PROCTER": {
+        "total_rows": 64,
+        "groups": [
+          {
+            "count": 20,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 9,
+            "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 6,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "EXPRESSO VALE REAL LTDA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "A L COMERCIO LTDA",
+            "provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "COOPERCARGA S/A",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "POLO NORTE TRANSPORTES LTDA EPP",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "MAFRO TRANSPORTES LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "SAMSUNG": {
+        "total_rows": 373,
+        "groups": [
+          {
+            "count": 184,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 53,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 44,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 16,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "",
+            "region": "",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 8,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 6,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MAERSK LNS ITAPOA",
+            "porto": "Itapoa",
+            "region": "South",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "S T A TRANSPORTES LTDA EPP",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "S T A TRANSPORTES LTDA EPP",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MAERSK LNS ITAPOA",
+            "porto": "Itapoa",
+            "region": "South",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MEU CHAPA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "S T A TRANSPORTES LTDA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "TORONTOLOG TRANSPORTES E LOGISTICALTDA",
+            "porto": "Rio Grande",
+            "region": "South",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "LEV CARGA FROTA DEDICADA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MAERSK LNS CAMACARI",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MEU CHAPA",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Rio Grande",
+            "region": "South",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "VOLKSWAGEN_TRUCK": {
+        "total_rows": 63,
+        "groups": [
+          {
+            "count": 37,
+            "cliente": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 26,
+            "cliente": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "AMBEV_JACAREI": {
+        "total_rows": 12,
+        "groups": [
+          {
+            "count": 6,
+            "cliente": "AMBEV S A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "AMBEV S A",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "AMBEV S A",
+            "provedor": "TRANSPOSERVS TRANSPORTES LTDA",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "AMBEV S A",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "AMBEV S A",
+            "provedor": "COOPERCARGA S/A",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "AMBEV S A",
+            "provedor": "VBR LOGISTICA LTDA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "PIRELLI": {
+        "total_rows": 80,
+        "groups": [
+          {
+            "count": 17,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 16,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 10,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 6,
+            "cliente": "PIRELLI PNEUS LTDA.",
+            "provedor": "MAERSK LNS CAMACARI",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "LUARA MEL VIEIRA TRANSPORTES",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "FTI LOGISTICA LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "CONTRAIL LOGISTICA S A TIJU",
+            "porto": "",
+            "region": "",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "",
+            "region": "",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PIRELLI PNEUS LTDA.",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "FTI LOGISTICA LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "GREEN ROAD SOLUCOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "QUIMICA_AMPARO": {
+        "total_rows": 71,
+        "groups": [
+          {
+            "count": 20,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "MEU CHAPA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 13,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "LOGAR TRANSPORTES RODOVIARIOS LTDA ME",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 10,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "MAERSK LNS CABO DE SANTO AGOSTINHO",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "MEU CHAPA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "VBR LOGISTICA LTDA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "UNILINK TRANSPORTES INTEGRADOS LTDA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "LUARA MEL VIEIRA TRANSPORTES LTDA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "POLO NORTE TRANSPORTES LTDA EPP",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "LUARA MEL VIEIRA TRANSPORTES LTDA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "EXPRESSO VALE REAL LTDA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "TECON SALVADOR S A",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "ENGEPPACK": {
+        "total_rows": 6,
+        "groups": [
+          {
+            "count": 2,
+            "cliente": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "provedor": "TRANSPOSERVS TRANSPORTES LTDA",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "UNITRADING": {
+        "total_rows": 272,
+        "groups": [
+          {
+            "count": 34,
+            "cliente": "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 20,
+            "cliente": "CSA DO BRASIL NEGOCIOS EM LOGISTICA LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 18,
+            "cliente": "SUZANO PAPEL E CELULOSE S A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 16,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "AMBEV S A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "RHODIA BRASIL SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "DSM PRODUTOS NUTRICIONAIS BRASIL SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "ZARAPLAST DA AMAZONIA LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "DEXCO SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 6,
+            "cliente": "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "CRUSOE FOODS INDUSTRIA IMPORTACAO E",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "DEXCO SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "SEARA ALIMENTOS LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "GDC ALIMENTOS SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "DAFRA DA AMAZONIA INDUSTRIA E COMERCIO D",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PQA PRODUTOS QUIMICOS ARACRUZ SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "CBMC EMPRESA DE MATERIAIS DE CONSTRUCAO",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "FRESENIUS KABI BRASIL LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "FORTLEV ENERGIA SOLAR LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "VINCO INDUSTRIA E DISTRIBUIDORA LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "GDC ALIMENTOS SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "MERCOFRICON SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "FORTLEV ENERGIA SOLAR LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "ERGOS DISTRIBUIDORA DE BEBIDAS LTDAEPP",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "AMBEV S A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "OESA COMERCIO E REPRESENTACOES S/A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "NOVELIS DO BRASIL LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "VELOSTER": {
+        "total_rows": 64,
+        "groups": [
+          {
+            "count": 30,
+            "cliente": "COLGATE-PALMOLIVE COMERCIAL LTDA.",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 14,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "FUTURA DISTRIBUIDORA E COMERCIO EM GERAL",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "CALOI NORTE SA",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "HNK BR INDUSTRIA DE BEBIDAS LTDA.",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PERNOD RICARD BRASIL INDUSTRIA E COMERCI",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "AMBEV S A",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "DELFA INDUSTRIA E COM.DE ACESSORIOSDO VE",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "UNILEVER BRASIL LTDA.",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PLASTIMIL INDUSTRIA E COMERCIO DE PLASTI",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "IRB": {
+        "total_rows": 103,
+        "groups": [
+          {
+            "count": 37,
+            "cliente": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 34,
+            "cliente": "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 9,
+            "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "BLUEWAY TRADING IMPORTACAO E EXPORTACAO",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "Diversos",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "",
+            "region": "",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "MERCEDES-BENZ DO BRASIL LTDA",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "ALPEK POLYESTER BRASIL S.A.",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "KORETECH EMBALAGENS DA AMAZONIA LTDA",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      }
+    },
+    "elapsed": 48.1
+  },
+  {
+    "path": "C:\\Users\\VNO024\\OneDrive - Maersk Group\\2025\\Py\\DSU 2025\\Base_DSU2026 - TbM - WK24.xlsm",
+    "exists": true,
+    "size": 41467371,
+    "mtime": 1781268471.2988563,
+    "rule_hits": [
+      {
+        "sheet": "Regras_Especiais",
+        "row": 22,
+        "terms": [
+          "SAMSUNG"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente Proposta",
+          "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+          "North; Northeast; Sem Region; South; Southeast",
+          "Todos",
+          "Todos",
+          "Todos",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 23,
+        "terms": [
+          "SAMSUNG"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente Proposta",
+          "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+          "North; Northeast; Southeast",
+          "Todos",
+          "Todos",
+          "Todos",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 30,
+        "terms": [
+          "VOLKSWAGEN_TRUCK"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente Proposta",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "Southeast",
+          "Todos",
+          "Todos",
+          "Todos",
+          "Exceptions!Y:Z; OTO Exceptions!D:E",
+          "Regra OTO existente por cliente.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 77,
+        "terms": [
+          "AJINOMOTO",
+          "UNITRADING"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente+Porto+Transportador",
+          "AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO",
+          "Todos",
+          "Santos",
+          "Todos",
+          "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 78,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente+Porto+Transportador",
+          "PROCTER",
+          "Todos",
+          "Rio",
+          "Todos",
+          "IRB*",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 79,
+        "terms": [
+          "VOLKSWAGEN_TRUCK",
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Cliente+Porto+Transportador",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "Southeast",
+          "Rio",
+          "Todos",
+          "IRB LOGISTICA S.A.",
+          "Fórmula atual",
+          "Vem da fórmula atual de ROE_wk[Especiais]"
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 117,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "QUIMICA AMPARO LTDA",
+          "Todos",
+          "Todos",
+          "Todos",
+          "MAFRO TRANSPORTES LTDA",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 118,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "QUIMICA AMPARO LTDA",
+          "Todos",
+          "Todos",
+          "Todos",
+          "WINGS TRANSPORTES BRASIL LTDA",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 130,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEX",
+          "Todos",
+          "Todos",
+          "Todos",
+          "IRB LOGISTICA LTDA",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 131,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+          "Todos",
+          "Todos",
+          "Todos",
+          "IRB LOGISTICA S.A.",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 133,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "North; Northeast; Southeast",
+          "Todos",
+          "Todos",
+          "IRB LOGISTICA LTDA",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Regras_Especiais",
+        "row": 134,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "Sim",
+          "Atual",
+          "OTO",
+          "Embarcador+Cliente+Transportador",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "North; Northeast; Southeast",
+          "Todos",
+          "Todos",
+          "IRB LOGISTICA S A",
+          "Exceptions!S:W; OTO Exceptions!Q:U",
+          "Regra OTO existente por embarcador + cliente + provedor.; Registro na aba oculta OTO Exceptions."
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 5,
+        "terms": [
+          "VOLKSWAGEN_TRUCK",
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "NORTE LOG",
+          "Sp",
+          "",
+          "BRADO RONDO LOGISTICA S.A.",
+          "Sp",
+          "",
+          "BRADO RONDONOPOLISSantos",
+          "Sp",
+          "",
+          "Programação cancelada",
+          "N",
+          "",
+          "NORTE LOG",
+          "S",
+          "",
+          "ARGOFRUTA COMERCIAL EXPORTADORA LTDA",
+          "S",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "MAFRO TRANSPORTES LTDA",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA",
+          "S",
+          "",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "S",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "RENAULT DO BRASIL S A",
+          "Santos",
+          "RENAULT DO BRASIL S ASantos",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 41,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "IRB LOGISTICA LTDA",
+          "=CONCATENATE(S41,T41,U41)",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 43,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEX",
+          "IRB LOGISTICA LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIRB LOGISTICA LTDA",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 44,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "WINGS TRANSPORTES BRASIL LTDA",
+          "=CONCATENATE(S44,T44,U44)",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 45,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "MAFRO TRANSPORTES LTDA",
+          "=CONCATENATE(S45,T45,U45)",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 68,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "IRB LOGISTICA S A",
+          "=_xlfn.CONCAT(S68,T68,U68)",
+          "S"
+        ]
+      },
+      {
+        "sheet": "Exceptions",
+        "row": 69,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+          "IRB LOGISTICA S.A.",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENSFLEXIIRB LOGISTICA S.A.",
+          "S"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 5,
+        "terms": [
+          "VOLKSWAGEN_TRUCK",
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "Sim",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "MAFRO TRANSPORTES LTDA",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA",
+          "Sim",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "NORTE LOG",
+          "Sim",
+          "",
+          "ARGOFRUTA COMERCIAL EXPORTADORA LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 41,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "IRB LOGISTICA LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDAVALGROUP AM INDUSTRIA DE MASTERBATCH LTDIRB LOGISTICA LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 43,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEX",
+          "IRB LOGISTICA LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIRB LOGISTICA LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 44,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "WINGS TRANSPORTES BRASIL LTDA",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAWINGS TRANSPORTES BRASIL LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 45,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "QUIMICA AMPARO LTDA",
+          "QUIMICA AMPARO LTDA",
+          "MAFRO TRANSPORTES LTDA",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 66,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDA",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+          "IRB LOGISTICA S A",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDAVALGROUP AM INDUSTRIA DE MASTERBATCH LTDIRB LOGISTICA S A",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "OTO Exceptions",
+        "row": 67,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+          "IRB LOGISTICA S.A.",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENSFLEXIIRB LOGISTICA S.A.",
+          "Sim"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 7,
+        "terms": [
+          "VOLKSWAGEN_TRUCK"
+        ],
+        "values": [
+          "OTO",
+          "fCarrosselOTO",
+          "Cliente Proposta",
+          "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+          "",
+          "",
+          "Provedor"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 18,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA",
+          "",
+          "",
+          "Operação especial"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 54,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDAVALGROUP AM INDUSTRIA DE MASTERBATCH LTDIRB LOGISTICA LTDA"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 56,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIRB LOGISTICA LTDA"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 57,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAWINGS TRANSPORTES BRASIL LTDA"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 58,
+        "terms": [
+          "QUIMICA_AMPARO"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "QUIMICA AMPARO LTDAQUIMICA AMPARO LTDAMAFRO TRANSPORTES LTDA"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 79,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "VALGROUP AM INDUSTRIA DE MASTERBATCH LTDAVALGROUP AM INDUSTRIA DE MASTERBATCH LTDIRB LOGISTICA S A"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 80,
+        "terms": [
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fEMB_CL_PR_OTO",
+          "Embarcador+Cliente Proposta+Provedor",
+          "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDAVALGROUP AM INDUSTRIA DE EMBALAGENSFLEXIIRB LOGISTICA S.A."
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 163,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 164,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 165,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 166,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE DO BRASIL LTDA.PROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 167,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDL COML LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 168,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDL COML LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 169,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDL COML LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 170,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDL COML LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 171,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 172,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 173,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 174,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER  GAMBLE INDUSTRIAL E COMERCIAL LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 175,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE IND E COM LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 176,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE IND E COM LTDAPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 177,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE IND E COM LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 178,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE IND E COM LTDAPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 179,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 180,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE DO BRASIL LTDA.IRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 181,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA LTDARio"
+        ]
+      },
+      {
+        "sheet": "Exceptions_Mapping",
+        "row": 182,
+        "terms": [
+          "PROCTER",
+          "IRB"
+        ],
+        "values": [
+          "OTO",
+          "fPROCTER_RIO_IRB_OTO",
+          "Embarcador+Cliente Proposta+Provedor+Porto",
+          "PROCTER & GAMBLE INDUSTRIAL E COMERCIALPROCTER & GAMBLE INDUSTRIAL E COMERCIALIRB LOGISTICA S.A.Rio"
+        ]
+      },
+      {
+        "sheet": "ROE_wk",
+        "row": 2,
+        "terms": [
+          "AJINOMOTO",
+          "PROCTER",
+          "SAMSUNG",
+          "VOLKSWAGEN_TRUCK",
+          "UNITRADING",
+          "IRB"
+        ],
+        "values": [
+          "6ALC581266A",
+          "F",
+          "M",
+          "LUARA MEL VIEIRA TRANSPORTES",
+          "Transporte Rodoviário",
+          "2257.43",
+          "1",
+          "CHN3120354",
+          "2026-05-13 10:46:00",
+          "2026-06-08 18:00:00",
+          "",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "MSKF000413",
+          "",
+          "Maersk Cap Carmel/697N",
+          "SANTOS - SP",
+          "TCLU4180790",
+          "40 HC",
+          "",
+          "M8812713",
+          "",
+          "",
+          "",
+          "12126.08",
+          "3129507",
+          "",
+          "Averbada pelo Cte",
+          "0623806270359852400011457003000019759116/0623806270359852400011457003000019881140",
+          "2026-05-14 14:59:00",
+          "",
+          "",
+          "",
+          "Maersk LnS",
+          "Maersk-Outros",
+          "DS - PROJETO RODO+FERRO - WHITE FLAG",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "=_xlfn.XLOOKUP(A2,RAO_wk!A:A,RAO_wk!B:B,\"\")",
+          "=AK2&AY2",
+          "=IF(OR(E2=\"Avulta Entrega\",E2=\"Avulsa Coleta\",E2=\"Transporte Rodoviário\"),\"Rodo\",\"Outros\")",
+          "=DATE(YEAR(J2),MONTH(J2),DAY(J2))",
+          "=IFERROR(_xlfn.XLOOKUP(AQ2,Aux!$A$1:$A$7,Aux!$B$1:$B$7,\"\"),\"\")",
+          "=WEEKDAY(AO2,1)",
+          "=IF(WEEKNUM(AO2,1)=53,\"1\",WEEKNUM(AO2,1))",
+          "=_xlfn.XLOOKUP(A2,RAO_wk!A:A,RAO_wk!E:E,\"\")"
+        ]
+      },
+      {
+        "sheet": "ROE_wk",
+        "row": 3,
+        "terms": [
+          "AJINOMOTO",
+          "PROCTER",
+          "SAMSUNG",
+          "VOLKSWAGEN_TRUCK",
+          "UNITRADING",
+          "IRB"
+        ],
+        "values": [
+          "6ALC581266B",
+          "E",
+          "M",
+          "MRS LOGISTICA S A SAO",
+          "Vazios",
+          "1150",
+          "1",
+          "CHN3120354",
+          "2026-05-13 10:46:00",
+          "2026-06-08 18:00:00",
+          "",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "MSKF000413",
+          "",
+          "Maersk Cap Carmel/697N",
+          "SANTOS - SP",
+          "TCLU4180790",
+          "40 HC",
+          "",
+          "M8812713",
+          "",
+          "",
+          "",
+          "12126.08",
+          "3129507",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "Maersk LnS",
+          "Maersk-Outros",
+          "DS - PROJETO RODO+FERRO - WHITE FLAG",
+          "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+          "=_xlfn.XLOOKUP(A3,RAO_wk!A:A,RAO_wk!B:B,\"\")",
+          "=AK3&AY3",
+          "=IF(OR(E3=\"Avulta Entrega\",E3=\"Avulsa Coleta\",E3=\"Transporte Rodoviário\"),\"Rodo\",\"Outros\")",
+          "=DATE(YEAR(J3),MONTH(J3),DAY(J3))",
+          "=IFERROR(_xlfn.XLOOKUP(AQ3,Aux!$A$1:$A$7,Aux!$B$1:$B$7,\"\"),\"\")",
+          "=WEEKDAY(AO3,1)",
+          "=IF(WEEKNUM(AO3,1)=53,\"1\",WEEKNUM(AO3,1))",
+          "=_xlfn.XLOOKUP(A3,RAO_wk!A:A,RAO_wk!E:E,\"\")"
+        ]
+      }
+    ],
+    "summary": {
+      "NEXA": {
+        "total_rows": 0,
+        "groups": []
+      },
+      "AJINOMOTO": {
+        "total_rows": 0,
+        "groups": []
+      },
+      "PROCTER": {
+        "total_rows": 64,
+        "groups": [
+          {
+            "count": 20,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 9,
+            "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 6,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "EXPRESSO VALE REAL LTDA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "A L COMERCIO LTDA",
+            "provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "COOPERCARGA S/A",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "APG TRANSP LOGISTICA REPRESENTACAO LREPR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "POLO NORTE TRANSPORTES LTDA EPP",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "MAFRO TRANSPORTES LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "SAMSUNG": {
+        "total_rows": 373,
+        "groups": [
+          {
+            "count": 184,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 53,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 44,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 16,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "",
+            "region": "",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 8,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 6,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MAERSK LNS ITAPOA",
+            "porto": "Itapoa",
+            "region": "South",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "S T A TRANSPORTES LTDA EPP",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "S T A TRANSPORTES LTDA EPP",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MAERSK LNS ITAPOA",
+            "porto": "Itapoa",
+            "region": "South",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MEU CHAPA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "S T A TRANSPORTES LTDA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "TORONTOLOG TRANSPORTES E LOGISTICALTDA",
+            "porto": "Rio Grande",
+            "region": "South",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "LEV CARGA FROTA DEDICADA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "CHIBATAO NAVEGACAO E COMERCIO LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MAERSK LNS CAMACARI",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "MEU CHAPA",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "MEU CHAPA",
+            "porto": "Rio Grande",
+            "region": "South",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "VOLKSWAGEN_TRUCK": {
+        "total_rows": 63,
+        "groups": [
+          {
+            "count": 37,
+            "cliente": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 26,
+            "cliente": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "provedor": "CADASTRO VALOR DE VENDA - NÃO UTILIZAR",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "AMBEV_JACAREI": {
+        "total_rows": 12,
+        "groups": [
+          {
+            "count": 6,
+            "cliente": "AMBEV S A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "AMBEV S A",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "AMBEV S A",
+            "provedor": "TRANSPOSERVS TRANSPORTES LTDA",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "AMBEV S A",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "AMBEV S A",
+            "provedor": "COOPERCARGA S/A",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "AMBEV S A",
+            "provedor": "VBR LOGISTICA LTDA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "PIRELLI": {
+        "total_rows": 80,
+        "groups": [
+          {
+            "count": 17,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 16,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 10,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 6,
+            "cliente": "PIRELLI PNEUS LTDA.",
+            "provedor": "MAERSK LNS CAMACARI",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "LUARA MEL VIEIRA TRANSPORTES",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "FTI LOGISTICA LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "CONTRAIL LOGISTICA S A TIJU",
+            "porto": "",
+            "region": "",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "MAERSK LNS SAO BERNARDO DO CAMPO",
+            "porto": "",
+            "region": "",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PIRELLI PNEUS LTDA.",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "FTI LOGISTICA LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "COOPERCARGA FROTA DEDICADA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "GREEN ROAD SOLUCOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "QUIMICA_AMPARO": {
+        "total_rows": 71,
+        "groups": [
+          {
+            "count": 20,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "MEU CHAPA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 13,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "LOGAR TRANSPORTES RODOVIARIOS LTDA ME",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 10,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "MAERSK LNS CABO DE SANTO AGOSTINHO",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "MEU CHAPA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "VBR LOGISTICA LTDA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "UNILINK TRANSPORTES INTEGRADOS LTDA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "LUARA MEL VIEIRA TRANSPORTES LTDA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "POLO NORTE TRANSPORTES LTDA EPP",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "LUARA MEL VIEIRA TRANSPORTES LTDA",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "EXPRESSO VALE REAL LTDA",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "COOPERCARGA S A",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "TECON SALVADOR S A",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "ENGEPPACK": {
+        "total_rows": 6,
+        "groups": [
+          {
+            "count": 2,
+            "cliente": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "provedor": "LOGISTEG LOGISTICA E TRANSPORTE DO BRASI",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "ENGEPACK EMBALAGENS SAO PAULO SA",
+            "provedor": "TRANSPOSERVS TRANSPORTES LTDA",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "UNITRADING": {
+        "total_rows": 272,
+        "groups": [
+          {
+            "count": 34,
+            "cliente": "VOLKSWAGEN DO BRASIL INDUSTRIA DE VEICUL",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 20,
+            "cliente": "CSA DO BRASIL NEGOCIOS EM LOGISTICA LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 18,
+            "cliente": "SUZANO PAPEL E CELULOSE S A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 16,
+            "cliente": "PIRELLI PNEUS LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "AMBEV S A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "RHODIA BRASIL SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "DSM PRODUTOS NUTRICIONAIS BRASIL SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "ZARAPLAST DA AMAZONIA LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 7,
+            "cliente": "DEXCO SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 6,
+            "cliente": "ADF DISTRIBUIDORA DE BEBIDAS LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "QUIMICA AMPARO LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "CRUSOE FOODS INDUSTRIA IMPORTACAO E",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Pecem",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "DEXCO SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "SEARA ALIMENTOS LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "GDC ALIMENTOS SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "DAFRA DA AMAZONIA INDUSTRIA E COMERCIO D",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "PQA PRODUTOS QUIMICOS ARACRUZ SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "CBMC EMPRESA DE MATERIAIS DE CONSTRUCAO",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "FRESENIUS KABI BRASIL LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "FORTLEV ENERGIA SOLAR LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "VINCO INDUSTRIA E DISTRIBUIDORA LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "BRIDGE INDUSTRIA DE PRODUTOS PLASTICOS D",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "GDC ALIMENTOS SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "MERCOFRICON SA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "FORTLEV ENERGIA SOLAR LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "ERGOS DISTRIBUIDORA DE BEBIDAS LTDAEPP",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "AMBEV S A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "OESA COMERCIO E REPRESENTACOES S/A",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Suape",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "NOVELIS DO BRASIL LTDA",
+            "provedor": "UNITRADING LOGISTICA IMPORTACAO E EXPORT",
+            "porto": "Salvador",
+            "region": "Northeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "VELOSTER": {
+        "total_rows": 64,
+        "groups": [
+          {
+            "count": 30,
+            "cliente": "COLGATE-PALMOLIVE COMERCIAL LTDA.",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 14,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "FUTURA DISTRIBUIDORA E COMERCIO EM GERAL",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "CALOI NORTE SA",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "HNK BR INDUSTRIA DE BEBIDAS LTDA.",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "PERNOD RICARD BRASIL INDUSTRIA E COMERCI",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "AMBEV S A",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "DELFA INDUSTRIA E COM.DE ACESSORIOSDO VE",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "UNILEVER BRASIL LTDA.",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "PLASTIMIL INDUSTRIA E COMERCIO DE PLASTI",
+            "provedor": "VELOSTER OPERACOES LOGISTICAS LTDA",
+            "porto": "Santos",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      },
+      "IRB": {
+        "total_rows": 103,
+        "groups": [
+          {
+            "count": 37,
+            "cliente": "VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 34,
+            "cliente": "VALGROUP AM INDUSTRIA DE MASTERBATCH LTD",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 9,
+            "cliente": "PROCTER & GAMBLE DO BRASIL LTDA.",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 5,
+            "cliente": "PROCTER & GAMBLE INDUSTRIAL E COMERCIAL",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "Especial",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "BLUEWAY TRADING IMPORTACAO E EXPORTACAO",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "Diversos",
+            "provedor": "IRB LOGISTICA S.A.",
+            "porto": "",
+            "region": "",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 4,
+            "cliente": "MERCEDES-BENZ DO BRASIL LTDA",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 3,
+            "cliente": "ALPEK POLYESTER BRASIL S.A.",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "1",
+            "is_otoexception": ""
+          },
+          {
+            "count": 2,
+            "cliente": "MOTO HONDA DA AMAZONIA",
+            "provedor": "ALIANCA TRANSPORTE MULTIMODAL LTDA",
+            "porto": "Manaus",
+            "region": "North",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          },
+          {
+            "count": 1,
+            "cliente": "KORETECH EMBALAGENS DA AMAZONIA LTDA",
+            "provedor": "IRB LOGISTICA LTDA",
+            "porto": "Rio",
+            "region": "Southeast",
+            "especiais": "",
+            "atrasado": "",
+            "is_otoexception": ""
+          }
+        ]
+      }
+    },
+    "elapsed": 42.9
+  }
+]
