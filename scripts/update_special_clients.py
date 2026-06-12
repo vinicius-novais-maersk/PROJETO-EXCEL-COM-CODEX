@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import re
 import shutil
 import sys
 import time
@@ -138,6 +139,9 @@ def update_special_formula(roe_ws) -> None:
     produto;[@Produto];
     clientePorto;[@[Cliente Proposta+PortoExc]];
     embCliProv;[@[Embarcador+Cliente Proposta+ProvedorExc]];
+    os;[@[Nº OS]];
+    buSil;SEERRO(PROCX(os;SIL_wk!B:B;SIL_wk!A:A;"");"");
+    tipoProgSil;SEERRO(PROCX(os;SIL_wk!B:B;SIL_wk!F:F;"");"");
     especialClientePorto;SEERRO(PROCX(clientePorto;Exceptions!AI:AI;Exceptions!AJ:AJ;"");"");
     especialEmbCliProv;SEERRO(PROCX(embCliProv;Exceptions!V:V;Exceptions!W:W;"");"");
     textoRegra;embarcador&"|"&cliente;
@@ -159,7 +163,8 @@ def update_special_formula(roe_ws) -> None:
         E(cliente="VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER";provedor="IRB LOGISTICA S.A.";porto="Rio");
         E(cliente="AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO";provedor="UNITRADING LOGISTICA IMPORTACAO E EXPORT";porto="Santos");
         E(cliente="LG ELECTRONICS DO BRASIL LTDA";ehFrotaMaersk);
-        E(cliente="LG DISTRIBUIDORA DE UTILIDADES LTDA";ehFrotaMaersk)
+        E(cliente="LG DISTRIBUIDORA DE UTILIDADES LTDA";ehFrotaMaersk);
+        E(cliente="CATERPILLAR BRASIL LTDA";buSil="SSZ";tipoProgSil="Importação")
     );
     especialLegado;OU(
         cliente="SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG";
@@ -185,6 +190,42 @@ def update_special_formula(roe_ws) -> None:
         lambda: roe_ws.ListObjects("ROE_wk").ListColumns("Especiais").DataBodyRange
     )
     call_with_retry(setattr, data_body, "FormulaLocal", formula)
+
+
+def remove_caterpillar_from_oto_exception(roe_ws) -> str:
+    """Remove a condicao hardcoded da Caterpillar da formula Is_OTOException.
+
+    A Caterpillar importacao passou a ser tratada como 'Especial' (coluna BO);
+    manter a condicao aqui duplicaria o tratamento. A remocao e cirurgica:
+    le a formula atual e tira apenas a condicao da Caterpillar (ultimo item do OU).
+    """
+    try:
+        column = roe_ws.ListObjects("ROE_wk").ListColumns("Is_OTOException")
+    except pywintypes.com_error:
+        log("Coluna Is_OTOException nao encontrada; remocao da Caterpillar ignorada.")
+        return "coluna ausente"
+
+    data_body = call_with_retry(lambda: column.DataBodyRange)
+    first_cell = call_with_retry(lambda: data_body.Cells(1, 1))
+    formula = call_with_retry(lambda: first_cell.FormulaLocal)
+
+    pattern = re.compile(
+        r'[;,]\s*(?:E|AND)\(\s*cliente\s*=\s*"CATERPILLAR BRASIL LTDA"\s*[;,]\s*'
+        r'buSil\s*=\s*"SSZ"\s*[;,]\s*tipoProgSil\s*=\s*"Importação"\s*\)'
+    )
+    new_formula, count = pattern.subn("", formula)
+
+    if count == 0:
+        log("Condicao Caterpillar nao encontrada na Is_OTOException (ja removida?).")
+        return "nao encontrada"
+    if new_formula.count("(") != new_formula.count(")"):
+        log(
+            "ERRO: parenteses desbalanceados apos remover Caterpillar; formula original mantida."
+        )
+        return "erro: parenteses desbalanceados"
+
+    call_with_retry(setattr, data_body, "FormulaLocal", new_formula)
+    return f"removida ({count} ocorrencia)"
 
 
 REGRAS_SHEET = "Regras_Especiais"
@@ -262,28 +303,29 @@ def update_regras_especiais_sheet(workbook) -> dict:
     last_row = _regras_last_row(ws)
     result: dict = {}
 
-    if not _find_regras_rows(ws, last_row, "CATERPILLAR BRASIL LTDA"):
-        added_row = _append_regras_row(
-            ws,
-            list_object,
-            [
-                "Sim",
-                "Atual",
-                "OTO",
-                "Cliente Proposta+Importacao",
-                "CATERPILLAR BRASIL LTDA",
-                "Todos",
-                "Todos",
-                "Todos",
-                "Todos",
-                "Formula Is_OTOException (BU SIL=SSZ)",
-                "Importacao Caterpillar tratada como excecao OTO; cliente nao exige pontualidade.",
-            ],
-        )
+    cat_values = [
+        "Sim",
+        "Atual",
+        "OTO",
+        "Cliente+Importacao",
+        "CATERPILLAR BRASIL LTDA",
+        "Todos",
+        "Todos",
+        "Todos",
+        "Todos",
+        "Formula atual (ROE_wk[Especiais])",
+        "Especial somente importacao (BU SIL=SSZ); migrado de Excecao OTO.",
+    ]
+    cat_rows = _find_regras_rows(ws, last_row, "CATERPILLAR BRASIL LTDA")
+    if cat_rows:
+        for row in cat_rows:
+            for col, value in enumerate(cat_values, start=1):
+                call_with_retry(setattr, ws.Cells(row, col), "Value", value)
+        result["CATERPILLAR"] = f"atualizada linha(s) {cat_rows}"
+    else:
+        added_row = _append_regras_row(ws, list_object, cat_values)
         result["CATERPILLAR"] = f"adicionada linha {added_row}"
         last_row = _regras_last_row(ws)
-    else:
-        result["CATERPILLAR"] = "ja existia"
 
     lg_rows: list[int] = []
     for name in (
@@ -401,6 +443,12 @@ def main() -> int:
 
         log("Updating ROE_wk[Especiais] formula...")
         update_special_formula(roe_ws)
+
+        log(
+            "Removendo Caterpillar da formula Is_OTOException (migracao para Especial)..."
+        )
+        oto_result = remove_caterpillar_from_oto_exception(roe_ws)
+        log(f"Is_OTOException: {oto_result}")
 
         log("Atualizando aba Regras_Especiais (documentacao)...")
         regras_result = update_regras_especiais_sheet(workbook)
