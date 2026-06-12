@@ -153,6 +153,7 @@ def update_special_formula(roe_ws) -> None:
         NÃO(ÉERROS(PROCURAR("CVALE COOPERATIVA AGROINDUSTRIAL";textoRegra)));
         NÃO(ÉERROS(PROCURAR("COPACOL";textoRegra)));
         NÃO(ÉERROS(PROCURAR("COOPAVEL COOPERATIVA AGROINDUSTRIAL";textoRegra)));
+        NÃO(ÉERROS(PROCURAR("VIDEOLAR";textoRegra)));
         E(NÃO(ÉERROS(PROCURAR("MULTILIT FIBROCIMENTO LTDA";textoRegra)));provedor="VALE DO TIBAGI TRANSPORTES E LOGISTICA L");
         E(NÃO(ÉERROS(PROCURAR("CRISTAL MASTER";textoRegra)));ehFrotaMaersk);
         E(NÃO(ÉERROS(PROCURAR("NIDEC GLOBAL APPLIANCE BRASIL LTDA";textoRegra)));ehFrotaMaersk);
@@ -160,6 +161,7 @@ def update_special_formula(roe_ws) -> None:
         E(NÃO(ÉERROS(PROCURAR("BMW DO BRASIL LTDA";textoRegra)));ehFrotaMaersk);
         E(NÃO(ÉERROS(PROCURAR("WESTROCK";textoRegra)));ehCabotagem);
         E(NÃO(ÉERROS(PROCURAR("MARIO JOSE WERNER & CIA LTDA";textoRegra)));porto="Itajai");
+        E(NÃO(ÉERROS(PROCURAR("PROCTER";cliente)));ESQUERDA(provedor;3)="IRB";porto="Rio");
         E(cliente="VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER";provedor="IRB LOGISTICA S.A.";porto="Rio");
         E(cliente="AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO";provedor="UNITRADING LOGISTICA IMPORTACAO E EXPORT";porto="Santos");
         E(cliente="LG ELECTRONICS DO BRASIL LTDA";ehFrotaMaersk);
@@ -173,9 +175,7 @@ def update_special_formula(roe_ws) -> None:
         E(cliente="NOVELIS DO BRASIL LTDA";destinatario="ADUKARGO TRANSPORTES LOGISTICA ESERVICOS");
         cliente="ELGIN SA";
         cliente="ELGIN INDUSTRIAL DA AMAZONIA LTDA";
-        cliente="VIDEOLAR SA";
-        cliente="VIDEOLAR INNOVA SA";
-        cliente="PHILCO ELETRONICOS SA";
+        NÃO(ÉERROS(PROCURAR("PHILCO ELETRONICOS";cliente)));
         cliente="VALGROUP AM INDUSTRIA DE MASTERBATCH LTD";
         cliente="VALGROUP AM INDUSTRIA DE EMBALAGENS FLEX";
         cliente="VALGROUP BRASIL III INDUSTRIA DE EMBALAG";
@@ -403,7 +403,7 @@ def main() -> int:
             ),
             "VIBRA_RIO": ensure_client_port_special(
                 exceptions_ws,
-                "VIBRA ENERGIA S.A",
+                "VIBRA ENERGIA SA",
                 "Rio",
             ),
             "NEXA_RIO": ensure_client_port_special(
@@ -440,6 +440,12 @@ def main() -> int:
                 "IRB LOGISTICA LTDA",
             )
         )
+        added_or_updated["ALBRAS_MITSUI_TOBEMA"] = ensure_emb_client_provider_special(
+            exceptions_ws,
+            "Albras Aluminio Brasileiro S.A",
+            "MITSUI & CO BRASIL S.A",
+            "TOBEMA TRANSPORTADORA LTDA",
+        )
 
         log("Updating ROE_wk[Especiais] formula...")
         update_special_formula(roe_ws)
@@ -457,7 +463,12 @@ def main() -> int:
         call_with_retry(setattr, excel, "Calculation", -4105)
         call_with_retry(excel.CalculateFullRebuild)
         call_with_retry(workbook.Save)
-        log("Workbook saved successfully.")
+        saved_flag = call_with_retry(lambda: workbook.Saved)
+        if not saved_flag:
+            raise RuntimeError(
+                "workbook.Saved=False apos Save; alteracoes podem nao ter persistido."
+            )
+        log("Workbook saved successfully (Saved=True).")
 
         checks = {
             "FRONERI_RIO_ROW_2576": call_with_retry(
@@ -477,8 +488,26 @@ def main() -> int:
             ),
             "FORMULA_SAMPLE": call_with_retry(lambda: roe_ws.Range("BO2").FormulaLocal),
         }
+        formula_bo = checks["FORMULA_SAMPLE"] or ""
+        oto_formula = call_with_retry(
+            lambda: (
+                roe_ws.ListObjects("ROE_wk")
+                .ListColumns("Is_OTOException")
+                .DataBodyRange.Cells(1, 1)
+                .FormulaLocal
+            )
+        )
+        persisted = {
+            "BO_tem_COOPAVEL": "COOPAVEL" in formula_bo,
+            "BO_tem_CATERPILLAR": "CATERPILLAR" in formula_bo,
+            "BO_tem_PROCTER": "PROCTER" in formula_bo,
+            "BO_tem_VIDEOLAR_substring": 'PROCURAR("VIDEOLAR"' in formula_bo,
+            "BO_LG_em_escopo_novo": formula_bo.count("LG ELECTRONICS") > 0,
+            "OTO_tem_CATERPILLAR": "CATERPILLAR" in (oto_formula or ""),
+        }
         log(f"Validation: {added_or_updated}")
         log(f"Checks: {checks}")
+        log(f"Persisted-in-memory: {persisted}")
 
         call_with_retry(workbook.Close, SaveChanges=False)
         workbook = None
