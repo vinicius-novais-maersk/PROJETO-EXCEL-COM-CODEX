@@ -27,7 +27,9 @@ def log(message: str) -> None:
 def backup_workbook(workbook_path: Path) -> Path:
     BACKUP_DIR.mkdir(parents=True, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    backup_path = BACKUP_DIR / f"{workbook_path.stem}_backup_{timestamp}{workbook_path.suffix}"
+    backup_path = (
+        BACKUP_DIR / f"{workbook_path.stem}_backup_{timestamp}{workbook_path.suffix}"
+    )
     shutil.copy2(workbook_path, backup_path)
     return backup_path
 
@@ -44,15 +46,21 @@ def call_with_retry(func, *args, retries: int = 30, delay: float = 0.4, **kwargs
     raise last_exc
 
 
-def ensure_client_port_special(exceptions_ws, client: str, port: str, status: str = "S") -> int:
+def ensure_client_port_special(
+    exceptions_ws, client: str, port: str, status: str = "S"
+) -> int:
     target_key = f"{client}{port}"
-    last_row = call_with_retry(lambda: exceptions_ws.Cells(exceptions_ws.Rows.Count, 33).End(-4162).Row)
+    last_row = call_with_retry(
+        lambda: exceptions_ws.Cells(exceptions_ws.Rows.Count, 33).End(-4162).Row
+    )
 
     for row in range(2, max(2, last_row) + 1):
         current_key = call_with_retry(lambda: exceptions_ws.Cells(row, 35).Value)
         current_client = call_with_retry(lambda: exceptions_ws.Cells(row, 33).Value)
         current_port = call_with_retry(lambda: exceptions_ws.Cells(row, 34).Value)
-        if current_key == target_key or (current_client == client and current_port == port):
+        if current_key == target_key or (
+            current_client == client and current_port == port
+        ):
             call_with_retry(setattr, exceptions_ws.Cells(row, 33), "Value", client)
             call_with_retry(setattr, exceptions_ws.Cells(row, 34), "Value", port)
             call_with_retry(setattr, exceptions_ws.Cells(row, 35), "Value", target_key)
@@ -75,7 +83,9 @@ def ensure_client_port_specials(
 ) -> list[int]:
     updated_rows: list[int] = []
     for port in ports:
-        updated_rows.append(ensure_client_port_special(exceptions_ws, client, port, status))
+        updated_rows.append(
+            ensure_client_port_special(exceptions_ws, client, port, status)
+        )
     return updated_rows
 
 
@@ -87,7 +97,9 @@ def ensure_emb_client_provider_special(
     status: str = "S",
 ) -> int:
     target_key = f"{shipper}{client}{provider}"
-    last_row = call_with_retry(lambda: exceptions_ws.Cells(exceptions_ws.Rows.Count, 19).End(-4162).Row)
+    last_row = call_with_retry(
+        lambda: exceptions_ws.Cells(exceptions_ws.Rows.Count, 19).End(-4162).Row
+    )
 
     for row in range(2, max(2, last_row) + 1):
         current_key = call_with_retry(lambda: exceptions_ws.Cells(row, 22).Value)
@@ -95,7 +107,9 @@ def ensure_emb_client_provider_special(
         current_client = call_with_retry(lambda: exceptions_ws.Cells(row, 20).Value)
         current_provider = call_with_retry(lambda: exceptions_ws.Cells(row, 21).Value)
         if current_key == target_key or (
-            current_shipper == shipper and current_client == client and current_provider == provider
+            current_shipper == shipper
+            and current_client == client
+            and current_provider == provider
         ):
             call_with_retry(setattr, exceptions_ws.Cells(row, 19), "Value", shipper)
             call_with_retry(setattr, exceptions_ws.Cells(row, 20), "Value", client)
@@ -133,6 +147,7 @@ def update_special_formula(roe_ws) -> None:
         NÃO(ÉERROS(PROCURAR("PLUSVAL AGROAVICOLA LTDA";textoRegra)));
         NÃO(ÉERROS(PROCURAR("CVALE COOPERATIVA AGROINDUSTRIAL";textoRegra)));
         NÃO(ÉERROS(PROCURAR("COPACOL";textoRegra)));
+        NÃO(ÉERROS(PROCURAR("COOPAVEL COOPERATIVA AGROINDUSTRIAL";textoRegra)));
         E(NÃO(ÉERROS(PROCURAR("MULTILIT FIBROCIMENTO LTDA";textoRegra)));provedor="VALE DO TIBAGI TRANSPORTES E LOGISTICA L");
         E(NÃO(ÉERROS(PROCURAR("CRISTAL MASTER";textoRegra)));ehFrotaMaersk);
         E(NÃO(ÉERROS(PROCURAR("NIDEC GLOBAL APPLIANCE BRASIL LTDA";textoRegra)));ehFrotaMaersk);
@@ -141,15 +156,15 @@ def update_special_formula(roe_ws) -> None:
         E(NÃO(ÉERROS(PROCURAR("WESTROCK";textoRegra)));ehCabotagem);
         E(NÃO(ÉERROS(PROCURAR("MARIO JOSE WERNER & CIA LTDA";textoRegra)));porto="Itajai");
         E(cliente="VOLKSWAGEN TRUCK E BUS INDUSTRIA E COMER";provedor="IRB LOGISTICA S.A.";porto="Rio");
-        E(cliente="AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO";provedor="UNITRADING LOGISTICA IMPORTACAO E EXPORT";porto="Santos")
+        E(cliente="AJINOMOTO DO BRASIL INDUSTRIA E COMERCIO";provedor="UNITRADING LOGISTICA IMPORTACAO E EXPORT";porto="Santos");
+        E(cliente="LG ELECTRONICS DO BRASIL LTDA";ehFrotaMaersk);
+        E(cliente="LG DISTRIBUIDORA DE UTILIDADES LTDA";ehFrotaMaersk)
     );
     especialLegado;OU(
         cliente="SAMSUNG SDS GLOBAL SCL LATIN AMERICA LOG";
         cliente="SAMSUNG SDS LATIN AMERICA TECNOLOGIA  E";
         E(cliente="NOVELIS DO BRASIL LTDA";OU(embarcador="BALL BEVERAGE CAN SOUTH AMERICA SA";embarcador="BALL BEVERAGE CAN SOUTH AMERICA LTDA"));
         E(cliente="NOVELIS DO BRASIL LTDA";destinatario="ADUKARGO TRANSPORTES LOGISTICA ESERVICOS");
-        cliente="LG ELECTRONICS DO BRASIL LTDA";
-        cliente="LG DISTRIBUIDORA DE UTILIDADES LTDA";
         cliente="ELGIN SA";
         cliente="ELGIN INDUSTRIAL DA AMAZONIA LTDA";
         cliente="VIDEOLAR SA";
@@ -165,7 +180,9 @@ def update_special_formula(roe_ws) -> None:
     SE(OU(especialClientePorto="S";especialEmbCliProv="S";especialEscopoNovo;especialLegado);"Especial";"")
 )"""
 
-    data_body = call_with_retry(lambda: roe_ws.ListObjects("ROE_wk").ListColumns("Especiais").DataBodyRange)
+    data_body = call_with_retry(
+        lambda: roe_ws.ListObjects("ROE_wk").ListColumns("Especiais").DataBodyRange
+    )
     call_with_retry(setattr, data_body, "FormulaLocal", formula)
 
 
@@ -224,17 +241,21 @@ def main() -> int:
         }
 
         log("Ensuring provider-specific special mappings...")
-        added_or_updated["VALGROUP_FLEX_IRB_SA_RIO"] = ensure_emb_client_provider_special(
-            exceptions_ws,
-            "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
-            "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
-            "IRB LOGISTICA S.A.",
+        added_or_updated["VALGROUP_FLEX_IRB_SA_RIO"] = (
+            ensure_emb_client_provider_special(
+                exceptions_ws,
+                "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+                "VALGROUP AM INDUSTRIA DE EMBALAGENSFLEXI",
+                "IRB LOGISTICA S.A.",
+            )
         )
-        added_or_updated["VALGROUP_FLEX_IRB_LTDA_RIO"] = ensure_emb_client_provider_special(
-            exceptions_ws,
-            "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
-            "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEX",
-            "IRB LOGISTICA LTDA",
+        added_or_updated["VALGROUP_FLEX_IRB_LTDA_RIO"] = (
+            ensure_emb_client_provider_special(
+                exceptions_ws,
+                "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEXIVEIS LTDA",
+                "VALGROUP AM INDUSTRIA DE EMBALAGENS FLEX",
+                "IRB LOGISTICA LTDA",
+            )
         )
 
         log("Updating ROE_wk[Especiais] formula...")
@@ -246,11 +267,21 @@ def main() -> int:
         log("Workbook saved successfully.")
 
         checks = {
-            "FRONERI_RIO_ROW_2576": call_with_retry(lambda: roe_ws.Range("BO2576").Value),
-            "VOLVO_SANTOS_ROW_2154": call_with_retry(lambda: roe_ws.Range("BO2154").Value),
-            "VALGROUP_MASTERBATCH_RIO_ROW_1784": call_with_retry(lambda: roe_ws.Range("BO1784").Value),
-            "VALGROUP_FLEX_RIO_NON_IRB_ROW_507": call_with_retry(lambda: roe_ws.Range("BO507").Value),
-            "VOLKSWAGEN_IRB_RIO_ROW_2508": call_with_retry(lambda: roe_ws.Range("BO2508").Value),
+            "FRONERI_RIO_ROW_2576": call_with_retry(
+                lambda: roe_ws.Range("BO2576").Value
+            ),
+            "VOLVO_SANTOS_ROW_2154": call_with_retry(
+                lambda: roe_ws.Range("BO2154").Value
+            ),
+            "VALGROUP_MASTERBATCH_RIO_ROW_1784": call_with_retry(
+                lambda: roe_ws.Range("BO1784").Value
+            ),
+            "VALGROUP_FLEX_RIO_NON_IRB_ROW_507": call_with_retry(
+                lambda: roe_ws.Range("BO507").Value
+            ),
+            "VOLKSWAGEN_IRB_RIO_ROW_2508": call_with_retry(
+                lambda: roe_ws.Range("BO2508").Value
+            ),
             "FORMULA_SAMPLE": call_with_retry(lambda: roe_ws.Range("BO2").FormulaLocal),
         }
         log(f"Validation: {added_or_updated}")
